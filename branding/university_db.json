@@ -1,0 +1,40 @@
+{
+  "universities": [
+    {
+      "name": "Buckinghamshire New University",
+      "aliases": ["Buckinghamshire", "BNU", "bucks.ac.uk", "bucks"]
+    },
+    {
+      "name": "University of Manchester",
+      "aliases": ["Manchester University", "UoM", "manchester.ac.uk"]
+    },
+    {
+      "name": "Harvard University",
+      "aliases": ["Harvard", "harvard.edu"]
+    },
+    {
+      "name": "Stanford University",
+      "aliases": ["Stanford", "stanford.edu"]
+    },
+    {
+      "name": "University of Oxford",
+      "aliases": ["Oxford", "Oxford University", "ox.ac.uk"]
+    },
+    {
+      "name": "Elizabeth School of London",
+      "aliases": ["Elizabeth School", "ESL", "elizabethschool.co.uk"]
+    },
+    {
+      "name": "NCG",
+      "aliases": ["NCG Group", "NCG logo", "ncg.ac.uk"]
+    },
+    {
+      "name": "Leeds Trinity University",
+      "aliases": ["Leeds Trinity", "LTU", "leedstrinity.ac.uk", "leedstrinity"]
+    },
+    {
+      "name": "Regent College London",
+      "aliases": ["Regent College", "RCL", "regentcollegelondon.ac.uk", "regentcollegelondon", "regents"]
+    }
+  ]
+}

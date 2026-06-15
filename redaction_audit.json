@@ -1,0 +1,1569 @@
+[
+  {
+    "candidate": "Academic Year",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "2026/27",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Brief Released",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "23rd March 2026",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Module Code",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: module code"
+    ]
+  },
+  {
+    "candidate": "FADM3004",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Final Submission Deadline",
+    "classification": "BUSINESS_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "business_removal_field_matched: submission area"
+    ]
+  },
+  {
+    "candidate": "Week 10, Sunday 14th June 26 on/before @5:00 pm",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Module Title",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: module title"
+    ]
+  },
+  {
+    "candidate": "Final Major Project",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Draft Submission (mandatory) Weighting: 0%",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: submission"
+    ]
+  },
+  {
+    "candidate": "Week 5, Sunday 10th May 2026 on/before @5:00 PM",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Assessment Task and Weighting",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: assessment"
+    ]
+  },
+  {
+    "candidate": "Creative Business Document (100%)",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Feedback Release Date",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: feedback"
+    ]
+  },
+  {
+    "candidate": "TBC",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Module Lead",
+    "classification": "BUSINESS_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "business_removal_field_matched: module leader"
+    ]
+  },
+  {
+    "candidate": "Tanzeela AnbreenTanzeela.anbreen@lcca.ac.uk",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Study Hours",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "45 Scheduled Teaching Hours \n75 Guided Study Hours\n180 Independent Study Hours",
+    "classification": "SECTION_HEADING",
+    "action": "KEEP",
+    "score": -30,
+    "reasons": [
+      "heading_detected",
+      "numbered_section_detected"
+    ]
+  },
+  {
+    "candidate": "Level (Credit Value)",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "30",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Date of approval of this version",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "March 2026",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Term",
+    "classification": "BUSINESS_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "business_removal_field_matched: submission system"
+    ]
+  },
+  {
+    "candidate": "3",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "No. Of words: 1200 (+/-10%)",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Term 3 (Oct 25) 10 weeks",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Learning Outcome Number",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: learning outcomes"
+    ]
+  },
+  {
+    "candidate": "Learning Outcome",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: learning outcomes"
+    ]
+  },
+  {
+    "candidate": "Alignment to UCA Generic Grading Descriptor",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: reading"
+    ]
+  },
+  {
+    "candidate": "LO1",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Recall basic research methods.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Research and analysis.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "LO2",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Demonstrate an understanding of concepts in business, design and basic research methods in developing an innovative project.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Experimentation and Innovation; Engaging with Practice",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: innovation"
+    ]
+  },
+  {
+    "candidate": "LO3",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Demonstrate the use of academic language and skills",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "Realisation and Communication; Research and Analysis.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Assessment Type",
+    "classification": "BUSINESS_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "business_removal_field_matched: assessment weighting"
+    ]
+  },
+  {
+    "candidate": "Portfolio Component",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Weight",
+    "classification": "BUSINESS_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "business_removal_field_matched: assessment weighting"
+    ]
+  },
+  {
+    "candidate": "Assesses LO",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Generic Grading Criteria",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: reading"
+    ]
+  },
+  {
+    "candidate": "Word Count",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: word count"
+    ]
+  },
+  {
+    "candidate": "100% Portfolio",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Creative Business Document",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "100%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO1, LO2, LO3",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Experimentation & innovation; Engaging with practice; Personal and professional connectivity; Research and Analysis",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: innovation"
+    ]
+  },
+  {
+    "candidate": "A maximum of 1200 words.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Assessment Type",
+    "classification": "BUSINESS_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "business_removal_field_matched: assessment weighting"
+    ]
+  },
+  {
+    "candidate": "Creative Business Document Breakdown (Portfolio)",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Weight",
+    "classification": "BUSINESS_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "business_removal_field_matched: assessment weighting"
+    ]
+  },
+  {
+    "candidate": "Assesses LO",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Idea, Trip & Concept",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Explain your business idea clearly.Show where your inspiration came from (e.g. trip to Harrods/museum).Demonstrate originality and relevance.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "10%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO2 and LO3",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Research & Analysis",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Carry out basic research, such as a short survey. (e.g., Provide a survey with 6 questions and present data (answers) from 10+ responses)\u00a0Use secondary research to understand markets and competitors.Apply the 4Ps to your business idea.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "15%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO1 and LO2",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "References/Bibliography",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: bibliography"
+    ]
+  },
+  {
+    "candidate": "Use reliable sources (peer-reviewed/reliable journals, news articles, statistical data)\u00a0Apply Harvard referencing correctly",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: reference"
+    ]
+  },
+  {
+    "candidate": "10%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO1, LO3",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Sustainability goals",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Link your idea to at least two UN Sustainable Development Goals.Explain practical sustainability strategies.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "10%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO2",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Develop Practical Skills",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Design a logo.Explain team roles and business planning tools.Show how your idea is different from existing businesses.Present a feasible final outcome, such as a website plan or business model canvas.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "20%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO2",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Technical & Digital Skills",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Use of Padlet for photos; create surveys; provide peer feedback\u00a0Include survey results in your design (Canva/PowerPoint)\u00a0Show digital design skills (logo, visuals, layouts)",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: feedback"
+    ]
+  },
+  {
+    "candidate": "15%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO2, and LO3",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Evaluation & Reflection",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Use a reflective model (e.g., Gibbs, Kolb)\u00a0Reflect on strengths, weaknesses, obstacles, and\u00a0future plans",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "10%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO3",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Communication",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Use appropriate academic language and coherence\u00a0Structure your document clearly and logically.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "10%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO3",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Need Help With\u2026",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Contact / Resource",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Understanding feedback",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: feedback"
+    ]
+  },
+  {
+    "candidate": "Book a 15-min slot with the Module Lead or support TutorModule Lead:tanzeela.anbreen@lcca.ac.ukSupport Tutor: (different tutors for different groups).",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: module"
+    ]
+  },
+  {
+    "candidate": "Academic Appeals",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "quality@lcca.ac.uk",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Academic writing & Referencing",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: reference"
+    ]
+  },
+  {
+    "candidate": "studentsuccess@lcca.ac.uk",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Reasonable adjustments (including disability adjustments)",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "disabilityservice@lcca.ac.uk",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: assessment brief"
+    ]
+  },
+  {
+    "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: assessment brief"
+    ]
+  },
+  {
+    "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: assessment brief"
+    ]
+  },
+  {
+    "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: assessment brief"
+    ]
+  },
+  {
+    "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: assessment brief"
+    ]
+  },
+  {
+    "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: assessment brief"
+    ]
+  },
+  {
+    "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: assessment brief"
+    ]
+  },
+  {
+    "candidate": "NOT PASSED",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "3rd Class",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "2nd Class Lower",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "2nd Class Upper",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "1st Class",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "1st Class",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 20,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "LO / Descriptor",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Not Passed = 0\u201339%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Pass = 40\u201349%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Good Pass = 50\u201359%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Very Good Pass = 60\u201369%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Excellent Pass = 70\u201389%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Outstanding Pass = 90\u2013100%",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Idea, Trip & Concept (10%)LO2, LO3 Experimentation and Innovation; Engaging with Practice; Realisation and Communication",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: innovation"
+    ]
+  },
+  {
+    "candidate": "There is little to no explanation of the business idea.Sources of inspiration was missing or unclear.There is little to no evidence of originality and relevance for the business idea.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Competently explained the business idea.Some sources of inspiration evident.The was a fair attempt to evidence originality and relevance for the business idea.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Good and clear explanation of the business idea. Good evidence demonstrated for sources of inspiration.Demonstrated some originality and relevance for the business idea.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Very good and confident explanation of the business idea. Clear evidence demonstrated for sources of inspiration. A very good attempt is made to evidence originality and relevance for the business idea.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Excellent and clearly persuasive explanation of the business idea. Strong and well-connected evidence demonstrated for sources of inspiration. Excellently evidenced originality and relevance for the business idea.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Outstanding explanation of the business idea with clarity and confidence. Outstanding and insightful evidence demonstrated for sources of inspiration. There is outstanding originality, relevance, and creative thinking evidenced for the business idea.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Research & Analysis (15%)LO1, LO2Research and Analysis; Engaging with Practice",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Little or no evidence of research or understanding of research methods.Primary or secondary research was missing or inappropriate. The 4Ps were not applied.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Competent use of basic research methods with limited range of sources.Some understanding of how  research informs the project.Attempted the 4Ps although applied in a simple manner.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Good and accurate application of basic research methods using relevant sources that begin to inform the development of the project.Demonstrated understanding through a clear application of the 4Ps.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Very good recall and application of basic research methods with a clear connection between research findings and project development.Demonstrated good understanding by linking research findings to the 4Ps.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Excellent and confident use of varied research methods demonstrating strong understanding and clear integration into project Effectively and strongly applied research findings to 4Ps.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "Exceptional and well-focused application of research methods with sophisticated analysis and integration of research informing a highly developed project. Demonstrated excellent understanding through insightful and integrated application of the 4Ps.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: research"
+    ]
+  },
+  {
+    "candidate": "References / Bibliography (10%)LO1, LO3\nResearch and Analysis; Realisation and Communication",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: bibliography"
+    ]
+  },
+  {
+    "candidate": "No use of sources to support a point.A reference list is not included or attempted with many errors.There is no attempt to use Harvard referencing.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: reference list"
+    ]
+  },
+  {
+    "candidate": "Some use of sources to support points. References are included but may be incomplete and may not follow standard Harvard format. The is an attempt to use Harvard referencing but there may be errors.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: reference"
+    ]
+  },
+  {
+    "candidate": "Good use of sources to support points. References appear in standard Harvard format but may contain errors.Attempted to use Harvard referencing throughout, though there may be some errors.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: reference"
+    ]
+  },
+  {
+    "candidate": "Very good range of reliable sources. References appear in standard Harvard format with little to no errors.Harvard referencing was used throughout with minor errors.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: reference"
+    ]
+  },
+  {
+    "candidate": "Excellent range of reliable sources. References appear in a reference list in standard Harvard format with no errors.  Harvard referencing was accurate and consistent with no errors.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: reference list"
+    ]
+  },
+  {
+    "candidate": "An outstanding and wide and range of reliable sources. References appear in a reference list in standard Harvard format.  Harvard referencing was consistently accurate and professional.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -50,
+    "reasons": [
+      "academic_exclusion_matched: reference list"
+    ]
+  },
+  {
+    "candidate": "Sustainability Goals (10%)LO2Engaging with Practice; Experimentation and Innovation",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: innovation"
+    ]
+  },
+  {
+    "candidate": "Sustainability strategies were unclear or missing.There is no attempt to link the business idea to the UN Sustainable Development Goals.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Sustainability strategies were explained but basic or descriptive.Consistent attempt linking the business idea to the UN Sustainable Development Goals.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Good understanding of practical sustainability strategies applied to the business.There is a good attempt when applying the business idea to the UN Sustainable Development Goals.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Very good understanding of realistic sustainability strategies applied to the business.Focused application of the business idea to the UN Sustainable Development Goals.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Strong understanding of practical and feasible sustainability strategies applied to the business. Excellent application of the business idea to the UN Sustainable Development Goals.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Outstanding understanding of sustainability with clear and practical impact to the business.Insightful application of the business idea to the UN Sustainable Development Goals.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Develop Practical Skills (20%)LO2\nExperimentation and Innovation; Engaging with Practice",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: innovation"
+    ]
+  },
+  {
+    "candidate": "Little or no attempt to demonstrate practical and professional skills. The final project outcome was not provided or feasible.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Competently demonstrated basic practical and professional skills when designing the business logo, website/business model.The final project outcome has limited feasibility.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Good practical and professional skills are evidenced when designing the business logo, website/business model.Demonstrated a good understanding of feasibility and distinctiveness.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Very good practical and professional skills evidenced when designing the business logo, website/business model.A very good understanding of feasibility and differentiation is evidenced.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Strong practical and professional skills are evident when designing the business logo, website/business model.There is a strong understanding of feasibility and competitive positioning.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Excellent practical and professional skills are evidenced when designing the business logo, website/business model.Outstanding feasibility and clear competitive distinction are highly evident.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Technical & Digital Skills (15%)LO2, LO3\nRealisation and Communication; Engaging with Practice",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Digital tools were not appropriately used. Little to no evidence of technical design skills.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Competent use of digital tools.Limited evidence of technical and digital design skills.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Appropriate use of digital tools.Good and clear demonstration of technical and digital design skills.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Confident use of digital tools. Very good integration of technical and digital design skills is evidenced.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Effective and create use of digital tools.Strong technical and digital design skills is evident.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Exhibited an outstanding application of digital tools with innovation and creativity.Outstanding integration of technical and digital design skills is evident.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: innovation"
+    ]
+  },
+  {
+    "candidate": "Evaluation & Reflection (10%)LO3\nRealisation and Communication",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Reflection was not attempted or descriptive. A reflective model was not used.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "A competent attempt to reflect on strengths and weaknesses using a reflective model.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Applied a reflective model effectively, evidencing a good understanding of strengths, challenges, and key learning.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: learning"
+    ]
+  },
+  {
+    "candidate": "A very good understanding of development, inclusivity, and future planning using a reflective model.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "A strong and effective application of a reflective model, with clear insight into strengths, challenges, and future learning.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: learning"
+    ]
+  },
+  {
+    "candidate": "Outstanding and insightfully application of the reflective model is evident with excellent personal and professional insight and clear future direction.",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Communication (10%)LO3\nRealisation and communication",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Little evidence of academic communication and analysis.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "Basic use of academic language.Completely used communication skills and analysis.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "Good use of academic language and appropriate analysis. The structure was logical and effectively presented the business idea.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "Confident application of academic language and effective analysis.The structured approach communicated the business idea clearly.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "Clear and fluent academic language and analysis. The structured approach significantly enhances the clarity and overall articulation of the business idea.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  },
+  {
+    "candidate": "Highly effective academic language and analysis. Excellent, professional structure with a high level of coherence, enhancing the business idea.",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: academic"
+    ]
+  }
+]
