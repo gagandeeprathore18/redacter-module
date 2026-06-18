@@ -1,0 +1,166 @@
+{
+  "document_id": "1781781582010_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+  "total_candidates": 23,
+  "escalated_candidates": 6,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 6,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 6,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781781582010_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "INCLUDING INTRODUCTION AND CONCLUSIONS",
+      "context": "ny research) \nFurther guidance on research sources will be provided in Week 8\u2019s class. \n \nWord count is 1,500 (+/- 10%) INCLUDING INTRODUCTION AND CONCLUSIONS. \n \n1. Clarify who your client is, and detail what it is they are seeking from the consultancy teams. \n2. Using researc",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.9e-05,
+      "response_time_ms": 516,
+      "token_usage": {
+        "prompt_tokens": 105,
+        "completion_tokens": 22,
+        "total_tokens": 127
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781781582010_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Additional Information",
+      "context": "alysis, what are the top three issues the client is facing with rationale to \nwhy you have chosen these three areas. \n \nAdditional Information \n \n\u2022 \nThis is an individual piece of work and must be undertaken on your own, based on your \nreading and your research.",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.9e-05,
+      "response_time_ms": 516,
+      "token_usage": {
+        "prompt_tokens": 105,
+        "completion_tokens": 22,
+        "total_tokens": 127
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781781582010_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Please DO NOT",
+      "context": " only is allowed for the Appendices (apart from the list of references). Appendices can \ninclude tables and charts. \n\u2022 \nPlease DO NOT contact your client regarding this assignment. \nIf you are registered with the Disability and Inclusion Services or hav",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.9e-05,
+      "response_time_ms": 516,
+      "token_usage": {
+        "prompt_tokens": 105,
+        "completion_tokens": 22,
+        "total_tokens": 127
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781781582010_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Cite Them Right",
+      "context": " process for submitting your work. \nPlease reference your work according to the Harvard Referencing style as defined in Cite Them Right \nOnline (http://www.citethemrightonline.com). This information is also available in book form: Pears, R. and \nShields, ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.9e-05,
+      "response_time_ms": 516,
+      "token_usage": {
+        "prompt_tokens": 105,
+        "completion_tokens": 22,
+        "total_tokens": 127
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781781582010_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Palgrave Macmillan",
+      "context": "e in book form: Pears, R. and \nShields, G. (2016) Cite them right: the essential reference guide. 10th ed. Basingstoke: Palgrave Macmillan. \nCopies are available via the university library. \nThe Cite them Right database can be accessed via the Library \u2013 A to",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.9e-05,
+      "response_time_ms": 516,
+      "token_usage": {
+        "prompt_tokens": 105,
+        "completion_tokens": 22,
+        "total_tokens": 127
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781781582010_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "The Cite",
+      "context": "essential reference guide. 10th ed. Basingstoke: Palgrave Macmillan. \nCopies are available via the university library. \nThe Cite them Right database can be accessed via the Library \u2013 A to Z list of e resources \nThis assignment should be submitted e",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.9e-05,
+      "response_time_ms": 516,
+      "token_usage": {
+        "prompt_tokens": 105,
+        "completion_tokens": 22,
+        "total_tokens": 127
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    }
+  ]
+}

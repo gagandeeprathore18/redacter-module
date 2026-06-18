@@ -11,7 +11,7 @@ def get_sensitivity_score(classification: str) -> int:
         "UNIVERSITY_BRANDING": 80,
         "UNIVERSITY_ENTITY": 80,
         "SUBMISSION_EVENT": 75,
-        "BUSINESS_FIELD": 50,
+        "BUSINESS_FIELD": 85,
         "ACADEMIC_TITLE": 0,
         "SECTION_HEADING": 0,
         "PROTECTED_SECTION": 0,

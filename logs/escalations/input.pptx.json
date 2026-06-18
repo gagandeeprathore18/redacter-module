@@ -1,18 +1,18 @@
 {
   "document_id": "input.pptx",
   "total_candidates": 96,
-  "escalated_candidates": 4,
+  "escalated_candidates": 10,
   "escalation_breakdown": {
     "LOW_CONFIDENCE": 0,
     "CLASSIFIER_CONFLICT": 3,
-    "UNKNOWN_PATTERN": 1,
+    "UNKNOWN_PATTERN": 7,
     "HIGH_IMPACT_ACTION": 0,
     "UNIVERSITY_BRANDING_VERIFICATION": 0
   },
   "top_escalation_reasons": {
     "LOW_CONFIDENCE": 0,
     "CLASSIFIER_CONFLICT": 3,
-    "UNKNOWN_PATTERN": 1,
+    "UNKNOWN_PATTERN": 7,
     "HIGH_IMPACT_ACTION": 0,
     "UNIVERSITY_BRANDING_VERIFICATION": 0
   },
@@ -20,7 +20,55 @@
   "candidates": [
     {
       "document_id": "input.pptx",
+      "candidate": "Oxford Orientation Slide",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "UNKNOWN",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "input.pptx",
       "candidate": "Enquiries: admin@ox.ac.uk or +44-1865-270000",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "UNKNOWN",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "input.pptx",
+      "candidate": "Name/Signed: Nargisa Simansone",
       "context": "",
       "python_prediction": "UNKNOWN",
       "python_confidence": 25,
@@ -113,6 +161,102 @@
       },
       "final_classification": "PERSON",
       "action": "REDACT"
+    },
+    {
+      "document_id": "input.pptx",
+      "candidate": "Second level",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "UNKNOWN",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "input.pptx",
+      "candidate": "Third level",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "UNKNOWN",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "input.pptx",
+      "candidate": "Fourth level",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "UNKNOWN",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "input.pptx",
+      "candidate": "Fifth level",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "UNKNOWN",
+      "action": "PRESERVE"
     }
   ]
 }

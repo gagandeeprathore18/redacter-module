@@ -1,10 +1,10 @@
 {
   "2026-06": {
     "month": "2026-06",
-    "documents_processed": 41,
-    "total_escalations": 971,
-    "prompt_tokens": 61329,
-    "completion_tokens": 46844,
-    "total_cost_usd": 0.037307
+    "documents_processed": 44,
+    "total_escalations": 995,
+    "prompt_tokens": 63664,
+    "completion_tokens": 47396,
+    "total_cost_usd": 0.037988
   }
 }

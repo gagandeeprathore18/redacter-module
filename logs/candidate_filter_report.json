@@ -1,22 +1,17 @@
 {
   "input.docx": {
     "total_extracted": 111,
-    "filtered_out": 6,
-    "remaining_candidates": 105,
+    "filtered_out": 5,
+    "remaining_candidates": 106,
     "rejection_breakdown": {
       "PARAGRAPH_CONTENT": 0,
       "LONG_TEXT": 3,
-      "MULTI_SENTENCE": 2,
+      "MULTI_SENTENCE": 1,
       "STRUCTURAL_CONTENT": 0,
       "INSTRUCTIONAL_CONTENT": 1,
       "FRAGMENT_CONTENT": 0
     },
     "rejected_candidates": [
-      {
-        "candidate": "Tutor Name: Prof. Green",
-        "reason": "MULTI_SENTENCE",
-        "word_count": 4
-      },
       {
         "candidate": "1. Tidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and Organisational Change. 7th edn. Hoboken: Wiley.",
         "reason": "LONG_TEXT",
@@ -59,329 +54,18 @@
     "rejected_candidates": []
   },
   "input.pptx": {
-    "total_extracted": 96,
-    "filtered_out": 62,
-    "remaining_candidates": 34,
+    "total_extracted": 64,
+    "filtered_out": 0,
+    "remaining_candidates": 64,
     "rejection_breakdown": {
       "PARAGRAPH_CONTENT": 0,
       "LONG_TEXT": 0,
       "MULTI_SENTENCE": 0,
       "STRUCTURAL_CONTENT": 0,
       "INSTRUCTIONAL_CONTENT": 0,
-      "FRAGMENT_CONTENT": 62
+      "FRAGMENT_CONTENT": 0
     },
-    "rejected_candidates": [
-      {
-        "candidate": "Oxford Orientation Slide",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 3
-      },
-      {
-        "candidate": "Name/Signed: Nargisa Simansone",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 3
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "Second level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Third level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fourth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "Fifth level",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 2
-      },
-      {
-        "candidate": "1/27/13",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      },
-      {
-        "candidate": "\u2039#\u203a",
-        "reason": "FRAGMENT_CONTENT",
-        "word_count": 1
-      }
-    ]
+    "rejected_candidates": []
   },
   "doc-123": {
     "total_extracted": 1,
@@ -1596,5 +1280,44 @@
         "word_count": 2
       }
     ]
+  },
+  "1781781526035_Brief_pdf_1382364278.pdf": {
+    "total_extracted": 58,
+    "filtered_out": 2,
+    "remaining_candidates": 56,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 2,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Canvas. All",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 2
+      },
+      {
+        "candidate": "Analysis. New York",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 3
+      }
+    ]
+  },
+  "1781781582010_BM561_CW1_Assignment_Brief_2025-26__1_.pdf": {
+    "total_extracted": 23,
+    "filtered_out": 0,
+    "remaining_candidates": 23,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0
+    },
+    "rejected_candidates": []
   }
 }

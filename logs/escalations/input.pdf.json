@@ -1,47 +1,23 @@
 {
   "document_id": "input.pdf",
   "total_candidates": 18,
-  "escalated_candidates": 2,
+  "escalated_candidates": 1,
   "escalation_breakdown": {
     "LOW_CONFIDENCE": 0,
-    "CLASSIFIER_CONFLICT": 2,
+    "CLASSIFIER_CONFLICT": 1,
     "UNKNOWN_PATTERN": 0,
     "HIGH_IMPACT_ACTION": 0,
     "UNIVERSITY_BRANDING_VERIFICATION": 0
   },
   "top_escalation_reasons": {
     "LOW_CONFIDENCE": 0,
-    "CLASSIFIER_CONFLICT": 2,
+    "CLASSIFIER_CONFLICT": 1,
     "UNKNOWN_PATTERN": 0,
     "HIGH_IMPACT_ACTION": 0,
     "UNIVERSITY_BRANDING_VERIFICATION": 0
   },
   "warnings": [],
   "candidates": [
-    {
-      "document_id": "input.pdf",
-      "candidate": "Research Methods",
-      "context": "June 2026\nName/Signed: Nargisa Simansone\nModule leader: Adeeba Ahmad\nProgramme: BSc Health and Social Care\nModule name: Research Methods in Social Sciences\nModule lead's name: John Connor\nModule Lead: Sarah Connor\nSubmission location: Turnitin VLE online p",
-      "python_prediction": "PERSON",
-      "python_confidence": 100,
-      "escalation_reasons": [
-        "CLASSIFIER_CONFLICT"
-      ],
-      "escalation_reason": "CLASSIFIER_CONFLICT",
-      "classifier_1": "PERSON",
-      "classifier_2": "ACADEMIC_TITLE",
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "PERSON",
-      "action": "REDACT"
-    },
     {
       "document_id": "input.pdf",
       "candidate": "Module Lead",

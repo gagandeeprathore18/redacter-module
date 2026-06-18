@@ -40,7 +40,7 @@ def get_blank_image_bytes() -> bytes:
     img.save(buf, format="PNG")
     return buf.getvalue()
 
-def process_paragraph(p, redact_all_dates=False, redact_all_names=False, blank_entire=False):
+def process_paragraph(p, redact_all_dates=False, redact_all_names=False, blank_entire=False, context=""):
     """Process a paragraph's runs. If blank_entire is True, wipe all run text."""
     runs = get_all_paragraph_runs(p)
     if not runs:
@@ -50,7 +50,7 @@ def process_paragraph(p, redact_all_dates=False, redact_all_names=False, blank_e
             run.text = " "
         return
     # Run structural run-combining analysis and redaction
-    redact_paragraph_runs(runs, redact_all_dates=redact_all_dates, redact_all_names=redact_all_names)
+    redact_paragraph_runs(runs, redact_all_dates=redact_all_dates, redact_all_names=redact_all_names, context=context)
 
 def process_table(table):
     # 1. Run Relationship-based Submission Location Redaction Engine
@@ -140,7 +140,7 @@ def process_table(table):
             redact_names_in_cell = row_has_name_keyword and (idx != label_cell_idx)
             for p in cell.paragraphs:
                 set_protected_zone(p.text)
-                process_paragraph(p, redact_all_dates=redact_dates_in_cell, redact_all_names=redact_names_in_cell)
+                process_paragraph(p, redact_all_dates=redact_dates_in_cell, redact_all_names=redact_names_in_cell, context=label_cell_text if label_cell_text else "Name")
 
             # Recursively process sub-tables
             for sub_table in cell.tables:

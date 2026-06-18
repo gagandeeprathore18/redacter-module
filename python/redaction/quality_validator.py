@@ -7,9 +7,17 @@ class CandidateQualityValidator:
     MAX_CHARS = 120
     MAX_SENTENCES = 1
 
-    @staticmethod
-    def count_sentences(text: str) -> int:
-        sentences = re.split(r'(?<=[.!?])\s+', text.strip())
+    # Common title/honorific abbreviations whose periods must not be treated as sentence boundaries
+    TITLE_ABBREVS = re.compile(
+        r'\b(Prof|Dr|Mr|Mrs|Ms|Rev|Sr|Jr|Lt|Capt|Col|Gen|Sgt|Cpl|Maj|St|Gov|Pres|Assoc|Adj)\.',
+        re.IGNORECASE
+    )
+
+    @classmethod
+    def count_sentences(cls, text: str) -> int:
+        # Replace title abbreviation periods with a placeholder to avoid false splits
+        sanitised = cls.TITLE_ABBREVS.sub(lambda m: m.group(0).replace('.', '\x00'), text.strip())
+        sentences = re.split(r'(?<=[.!?])\s+', sanitised)
         return len([s for s in sentences if s.strip()])
 
     @staticmethod

@@ -11,11 +11,10 @@
   {
     "candidate": "Detail",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission details",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission details"
     ]
   },
   {
@@ -57,11 +56,10 @@
   {
     "candidate": "Submission time and date:",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission point",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission point"
     ]
   },
   {
@@ -76,11 +74,10 @@
   {
     "candidate": "Target feedback time and date:",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: target feedback",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: target feedback"
     ]
   },
   {
@@ -113,21 +110,19 @@
   {
     "candidate": "Submission due dates/time",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission box",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission box"
     ]
   },
   {
     "candidate": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submit to",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submit to"
     ]
   },
   {
@@ -223,11 +218,10 @@
   {
     "candidate": "Formative Submission",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: e-submission",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: e-submission"
     ]
   },
   {
@@ -278,31 +272,28 @@
   {
     "candidate": "Submission Location",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission location",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission location"
     ]
   },
   {
     "candidate": "Turnitin Submission Portal",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission point",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission point"
     ]
   },
   {
     "candidate": "Submission Location",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission location",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission location"
     ]
   },
   {
@@ -317,11 +308,10 @@
   {
     "candidate": "Option B: Turnitin Submission",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: online submission",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: online submission"
     ]
   },
   {
@@ -345,31 +335,28 @@
   {
     "candidate": "Submission Location",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission location",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission location"
     ]
   },
   {
     "candidate": "Turnitin Submission Portal",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission point",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission point"
     ]
   },
   {
     "candidate": "Submission Location",
     "classification": "BUSINESS_FIELD",
-    "action": "KEEP",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission location",
-      "sensitivity_score_too_low"
+      "business_removal_field_matched: submission location"
     ]
   },
   {

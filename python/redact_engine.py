@@ -321,7 +321,7 @@ def is_logo_match(image_bytes: bytes, threshold: int = 12) -> bool:
         pass
     return False
 
-def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False) -> None:
+def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False, context="") -> None:
     """
     Smart redaction that handles search patterns split across multiple styled runs (DOCX and PPTX).
     Modifies runs in-place, preserving styling.
@@ -339,22 +339,23 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False) 
         end = len(full_text)
         run_ranges.append((start, end, run))
             
-    # 2. Find all matches
+    # 2. Find all matches  (pattern, replacement, classification_label)
     patterns = [
-        (STUDENT_ID_PATTERN, " "),
-        (EMAIL_PATTERN, " "),
-        (PHONE_PATTERN, " "),
-        (POSTAL_CODE_PATTERN, " "),
-        (SUBMISSION_FEEDBACK_DATE_PATTERN, " "),
-        (SUBMISSION_LOCATION_PATTERN, " "),
+        (STUDENT_ID_PATTERN, " ", "STUDENT_ID"),
+        (EMAIL_PATTERN, " ", "EMAIL"),
+        (PHONE_PATTERN, " ", "PHONE"),
+        (POSTAL_CODE_PATTERN, " ", "POSTAL_CODE"),
+        (SUBMISSION_FEEDBACK_DATE_PATTERN, " ", "SUBMISSION_EVENT"),
+        (SUBMISSION_LOCATION_PATTERN, " ", "BUSINESS_FIELD"),
     ]
     if redact_all_dates:
-        patterns.append((DATE_TIME_ONLY_PATTERN, " "))
+        patterns.append((DATE_TIME_ONLY_PATTERN, " ", "SUBMISSION_EVENT"))
     
+    # all_matches: (start, end, matched_text, replacement, classification)
     all_matches = []
-    for pattern, replacement in patterns:
+    for pattern, replacement, classification in patterns:
         for m in pattern.finditer(full_text):
-            all_matches.append((m.start(), m.end(), m.group(0), replacement))
+            all_matches.append((m.start(), m.end(), m.group(0), replacement, classification))
 
     # Redact Names via Proximity Pattern
     for m in NAME_PROXIMITY_PATTERN.finditer(full_text):
@@ -362,13 +363,13 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False) 
         if is_likely_human_name(name_str, context=m.group(0)):
             start_idx = m.start(1)
             end_idx = m.end(1)
-            all_matches.append((start_idx, end_idx, name_str, " "))
+            all_matches.append((start_idx, end_idx, name_str, " ", "PERSON"))
 
     if redact_all_names:
         for m in NAME_PATTERN.finditer(full_text):
             name_str = m.group(0)
-            if is_likely_human_name(name_str, context=full_text):
-                all_matches.append((m.start(), m.end(), name_str, " "))
+            if is_likely_human_name(name_str, context=context or full_text):
+                all_matches.append((m.start(), m.end(), name_str, " ", "PERSON"))
             
     # Redact educational URLs/domains ONLY if they belong to the ISSUING_UNIVERSITY
     for m in URL_OR_DOMAIN_PATTERN.finditer(full_text):
@@ -380,12 +381,12 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False) 
                 belongs_to_issuing = True
                 break
         if belongs_to_issuing:
-            all_matches.append((m.start(), m.end(), matched_str, " "))
+            all_matches.append((m.start(), m.end(), matched_str, " ", "UNIVERSITY_BRANDING"))
             
     from redaction.ownership_manager import get_active_patterns
     for pattern in get_active_patterns():
         for m in pattern.finditer(full_text):
-            all_matches.append((m.start(), m.end(), m.group(0), " "))
+            all_matches.append((m.start(), m.end(), m.group(0), " ", "UNIVERSITY_BRANDING"))
             
     if not all_matches:
         return
@@ -397,18 +398,25 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False) 
         if not merged_matches:
             merged_matches.append(current)
         else:
-            prev_start, prev_end, prev_text, prev_rep = merged_matches[-1]
-            curr_start, curr_end, curr_text, curr_rep = current
+            prev_start, prev_end, prev_text, prev_rep, prev_cls = merged_matches[-1]
+            curr_start, curr_end, curr_text, curr_rep, curr_cls = current
             if curr_start < prev_end:
                 new_end = max(prev_end, curr_end)
-                merged_matches[-1] = (prev_start, new_end, full_text[prev_start:new_end], prev_rep)
+                merged_matches[-1] = (prev_start, new_end, full_text[prev_start:new_end], prev_rep, prev_cls)
             else:
                 merged_matches.append(current)
                 
     # Process merged matches back-to-front (descending by start index)
     merged_matches.sort(key=lambda x: x[0], reverse=True)
+
+    # Import debug logger lazily to avoid circular imports
+    try:
+        from redaction.redaction_debug_logger import log_redaction
+        _debug_log = log_redaction
+    except ImportError:
+        _debug_log = None
     
-    for start, end, match_text, replacement in merged_matches:
+    for start, end, match_text, replacement, classification in merged_matches:
         # Find overlapping runs
         overlapping = []
         for r_start, r_end, run in run_ranges:
@@ -417,6 +425,16 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False) 
                 
         if not overlapping:
             continue
+
+        # Emit debug log entry before modifying the run
+        if _debug_log:
+            _debug_log(
+                candidate=match_text,
+                classification=classification,
+                page=None,          # DOCX/PPTX are not paginated at this level
+                bbox=None,
+                ocr_block_text=context or full_text,
+            )
             
         # Replace overlap in-place
         for i, (r_start, r_end, run) in enumerate(overlapping):
