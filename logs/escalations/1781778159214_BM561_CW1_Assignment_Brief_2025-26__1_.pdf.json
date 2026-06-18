@@ -1,0 +1,387 @@
+{
+  "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+  "total_candidates": 23,
+  "escalated_candidates": 15,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 6,
+    "UNKNOWN_PATTERN": 14,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 6,
+    "UNKNOWN_PATTERN": 14,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Assignment Brief",
+      "context": " \n \n \n \nAssignment Brief \nAcademic Year 2025-26 \n \n \n \nInternal approval: Umar Gondal \n1 \n \n \nAssignment task \nThe scenario is that you have bee",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Academic Year",
+      "context": " \n \n \n \nAssignment Brief \nAcademic Year 2025-26 \n \n \n \nInternal approval: Umar Gondal \n1 \n \n \nAssignment task \nThe scenario is that you have been instructed by",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "INCLUDING INTRODUCTION AND CONCLUSIONS",
+      "context": "ny research) \nFurther guidance on research sources will be provided in Week 8\u2019s class. \n \nWord count is 1,500 (+/- 10%) INCLUDING INTRODUCTION AND CONCLUSIONS. \n \n1. Clarify who your client is, and detail what it is they are seeking from the consultancy teams. \n2. Using researc",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Additional Information",
+      "context": "alysis, what are the top three issues the client is facing with rationale to \nwhy you have chosen these three areas. \n \nAdditional Information \n \n\u2022 \nThis is an individual piece of work and must be undertaken on your own, based on your \nreading and your research.",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Please DO NOT",
+      "context": " only is allowed for the Appendices (apart from the list of references). Appendices can \ninclude tables and charts. \n\u2022 \nPlease DO NOT contact your client regarding this assignment. \nIf you are registered with the Disability and Inclusion Services or hav",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Research Report",
+      "context": "ent \nModule code & \ntitle: \nBM561 Business Consulting \nModule leader: \nDr. Mahwish Noor \nAssignment \nNo. and type: \nCW1 Research Report \nAssessment \nweighting: \n60% \nSubmission \ntime and date: \nSaturday 20th June 2026 before \n2:00 pm \nTarget feedback \ntim",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Academic Integrity Guidance",
+      "context": "Student Academic Integrity Guidance",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Student Learning",
+      "context": ". \nIf you need more general support with your studies (e.g. academic writing, referencing, critical thinking) then \nthe Student Learning and Achievement Team can support development of your academic skills. \n \nThis assignment has been designed to provide y",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Harvard Referencing",
+      "context": " style, presentational \nrequirements and process for submitting your work. \nPlease reference your work according to the Harvard Referencing style as defined in Cite Them Right \nOnline (http://www.citethemrightonline.com). This information is also available in",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Cite Them Right",
+      "context": " process for submitting your work. \nPlease reference your work according to the Harvard Referencing style as defined in Cite Them Right \nOnline (http://www.citethemrightonline.com). This information is also available in book form: Pears, R. and \nShields, ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Palgrave Macmillan",
+      "context": "e in book form: Pears, R. and \nShields, G. (2016) Cite them right: the essential reference guide. 10th ed. Basingstoke: Palgrave Macmillan. \nCopies are available via the university library. \nThe Cite them Right database can be accessed via the Library \u2013 A to",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "The Cite",
+      "context": "essential reference guide. 10th ed. Basingstoke: Palgrave Macmillan. \nCopies are available via the university library. \nThe Cite them Right database can be accessed via the Library \u2013 A to Z list of e resources \nThis assignment should be submitted e",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "Artificial Intelligence",
+      "context": "This includes writing in your own words and acknowledging sources \nyou have used. It also covers the appropriate use of Artificial Intelligence. \nWhen you submit an assignment, you are making a declaration that it is your own work and that you have \nacknowledged ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "BNU Student Academic Integrity Guidance",
+      "context": " appropriately). \nFor further information, please see the following student facing guidance on the University website: \nBNU Student Academic Integrity Guidance \nBNU Artificial Intelligence Guidance for Students \n",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf",
+      "candidate": "BNU Artificial Intelligence Guidance",
+      "context": ", please see the following student facing guidance on the University website: \nBNU Student Academic Integrity Guidance \nBNU Artificial Intelligence Guidance for Students \n",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.5e-05,
+      "response_time_ms": 390,
+      "token_usage": {
+        "prompt_tokens": 82,
+        "completion_tokens": 21,
+        "total_tokens": 103
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    }
+  ]
+}

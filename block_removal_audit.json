@@ -1098,5 +1098,3225 @@
     "decision": "remove",
     "block_id": "block_0_2",
     "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Assessment Name",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Assessment Submission Date",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Draft Submission",
+    "start_paragraph": 10,
+    "end_paragraph": 10,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_10_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Draft Submission",
+    "start_paragraph": 10,
+    "end_paragraph": 10,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_10_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Date and Time of Submission",
+    "start_paragraph": 13,
+    "end_paragraph": 13,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_13_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Draft Submission",
+    "start_paragraph": 10,
+    "end_paragraph": 10,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_10_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Date and Time of Submission",
+    "start_paragraph": 13,
+    "end_paragraph": 13,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_13_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Draft Submission",
+    "start_paragraph": 10,
+    "end_paragraph": 10,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_10_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Date and Time of Submission",
+    "start_paragraph": 13,
+    "end_paragraph": 13,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_13_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Draft Submission",
+    "start_paragraph": 10,
+    "end_paragraph": 10,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_10_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Date and Time of Submission",
+    "start_paragraph": 13,
+    "end_paragraph": 13,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_13_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Draft Submission",
+    "start_paragraph": 10,
+    "end_paragraph": 10,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_10_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Date and Time of Submission",
+    "start_paragraph": 13,
+    "end_paragraph": 13,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_13_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Assessment weighting:",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Please ensure that your work is referenced in Harvard Referencing style. Guidance on using this style correctly is available at https://www.citethemrightonline.com/. Please see your programme handbook for information on the standard referencing style, presentational requirements and process for submitting your work.This assignment should be submitted electronically using the relevant Turnitin submission point in the Submit your work section of your Blackboard module shell.If you do submit your work more than once, your earlier submission will be replaced by the most recent version.Once you have submitted your work, you will receive a digital receipt as proof of submission, which will be sent to your forwarded e-mail address (provided you have set this up). Please keep this receipt for future reference, along with the original electronic copy of your assignment.",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Assessment weighting:",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Please ensure that your work is referenced in Harvard Referencing style. Guidance on using this style correctly is available at https://www.citethemrightonline.com/. Please see your programme handbook for information on the standard referencing style, presentational requirements and process for submitting your work.This assignment should be submitted electronically using the relevant Turnitin submission point in the Submit your work section of your Blackboard module shell.If you do submit your work more than once, your earlier submission will be replaced by the most recent version.Once you have submitted your work, you will receive a digital receipt as proof of submission, which will be sent to your forwarded e-mail address (provided you have set this up). Please keep this receipt for future reference, along with the original electronic copy of your assignment.",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Assessment weighting:",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Please ensure that your work is referenced in Harvard Referencing style. Guidance on using this style correctly is available at https://www.citethemrightonline.com/. Please see your programme handbook for information on the standard referencing style, presentational requirements and process for submitting your work.This assignment should be submitted electronically using the relevant Turnitin submission point in the Submit your work section of your Blackboard module shell.If you do submit your work more than once, your earlier submission will be replaced by the most recent version.Once you have submitted your work, you will receive a digital receipt as proof of submission, which will be sent to your forwarded e-mail address (provided you have set this up). Please keep this receipt for future reference, along with the original electronic copy of your assignment.",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Assessment weighting:",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Please ensure that your work is referenced in Harvard Referencing style. Guidance on using this style correctly is available at https://www.citethemrightonline.com/. Please see your programme handbook for information on the standard referencing style, presentational requirements and process for submitting your work.This assignment should be submitted electronically using the relevant Turnitin submission point in the Submit your work section of your Blackboard module shell.If you do submit your work more than once, your earlier submission will be replaced by the most recent version.Once you have submitted your work, you will receive a digital receipt as proof of submission, which will be sent to your forwarded e-mail address (provided you have set this up). Please keep this receipt for future reference, along with the original electronic copy of your assignment.",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Term",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Weight",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Weight",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "start_paragraph": 6,
+    "end_paragraph": 7,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Formative Submission",
+    "start_paragraph": 12,
+    "end_paragraph": 12,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_12_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Turnitin Submission Portal",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
   }
 ]

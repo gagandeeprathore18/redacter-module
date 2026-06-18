@@ -1,0 +1,233 @@
+[
+  {
+    "candidate": "Academic Year",
+    "escalations": 4,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 75,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Artificial Intelligence",
+    "escalations": 4,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "BNU Student Academic Integrity Guidance",
+    "escalations": 3,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 33,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Module Lead",
+    "escalations": 3,
+    "gpt_classification": "PERSON",
+    "consistency": 33,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Research Questions",
+    "escalations": 3,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Generic Grading Criteria",
+    "escalations": 3,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 67,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Mitigating Circumstances",
+    "escalations": 3,
+    "gpt_classification": "PROTECTED_SECTION",
+    "consistency": 67,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Assignment Brief",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "INCLUDING INTRODUCTION AND CONCLUSIONS",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Additional Information",
+    "escalations": 2,
+    "gpt_classification": "PROTECTED_SECTION",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Please DO NOT",
+    "escalations": 2,
+    "gpt_classification": "PROTECTED_SECTION",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Research Report",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Academic Integrity Guidance",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Student Learning",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Harvard Referencing",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Cite Them Right",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Palgrave Macmillan",
+    "escalations": 2,
+    "gpt_classification": "UNIVERSITY_BRANDING",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "The Cite",
+    "escalations": 2,
+    "gpt_classification": "UNKNOWN",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "BNU Artificial Intelligence Guidance",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Fail",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Brief Released",
+    "escalations": 2,
+    "gpt_classification": "SUBMISSION_EVENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Module Code",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Module Title",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Feedback Release Date",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Research Proposal",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "A Requirement",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Research Ethics",
+    "escalations": 2,
+    "gpt_classification": "PROTECTED_SECTION",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Portfolio Component",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Academic Appeals",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 50,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Research Methods",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Leading Innovation",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_TITLE",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "Reference List",
+    "escalations": 2,
+    "gpt_classification": "PROTECTED_SECTION",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  },
+  {
+    "candidate": "New York",
+    "escalations": 2,
+    "gpt_classification": "ACADEMIC_CONTENT",
+    "consistency": 100,
+    "recommended_action": "MONITOR_AND_REVIEW"
+  }
+]

@@ -1,0 +1,4058 @@
+{
+  "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+  "total_candidates": 492,
+  "escalated_candidates": 167,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 93,
+    "UNKNOWN_PATTERN": 97,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 93,
+    "UNKNOWN_PATTERN": 97,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [
+    {
+      "severity": "CRITICAL",
+      "message": "GPT is acting as a primary classifier instead of a fallback classifier."
+    }
+  ],
+  "candidates": [
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LCCA Assessment Brief Template (T1)",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Context & Purpose",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Learning Outcomes",
+      "context": "",
+      "python_prediction": "PROTECTED_SECTION",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Business Pathway",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Hospitality Pathway",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Fashion Management Pathway",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "To pass this assessment:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Assessment & Feedback",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "What went well?",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "What could be better?",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "What to take forward?",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Please see LCCA\u2019s Assessment and Feedback policy for further details and guidance.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Support & Resources Available ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Mitigating Circumstances and AI ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Mitigating Circumstances",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Further resources and support are available in the Module handbook and Canvas. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Below is the indicative list of readings and resources that you may find helpful in your studies.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Academic Year",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Brief Released",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "23rd March 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Module Code",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "FADM3004",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Final Submission Deadline",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Week 10, ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Module Title",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Final Major Project",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Draft Submission (mandatory) Weighting: 0%",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Draft Submission (mandatory) ",
+      "context": "",
+      "python_prediction": "SUBMISSION_EVENT",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Week 5, ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Assessment Task and Weighting",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": " Assessment Task and Weighting",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Creative Business Document (100%)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Feedback Release Date",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "TBC",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Module Lead",
+      "context": "",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Tanzeela AnbreenTanzeela.anbreen@lcca.ac.uk",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Tanzeela Anbreen",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Tanzeela.anbreen@lcca.ac.uk",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Study Hours",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "45 Scheduled Teaching Hours \n75 Guided Study Hours\n180 Independent Study Hours",
+      "context": "",
+      "python_prediction": "SECTION_HEADING",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Level (Credit Value)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "March 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Learning Outcome Number",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Learning Outcome",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Alignment to UCA Generic Grading Descriptor",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO1",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Recall basic research methods.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Research and analysis.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO2",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Demonstrate an understanding of concepts in business, design and basic research methods in developing an innovative project.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Experimentation and Innovation; Engaging with Practice",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO3",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Demonstrate the use of academic language and skills",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Realisation and Communication; Research and Analysis.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Realisation and Communication; Research and Analysis. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Assessment Type",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Portfolio Component",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Assesses LO",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Generic Grading Criteria",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Word Count",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "100% Portfolio",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Creative Business Document",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO1, LO2, LO3",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Experimentation & innovation; Engaging with practice; Personal and professional connectivity; Research and Analysis",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Idea, Trip & Concept",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Idea, Trip & Concept\u00a0",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Demonstrate originality and relevance.",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO2 and LO3",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Research & Analysis",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Research & Analysis\u00a0",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Use secondary research to understand markets and competitors.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO1 and LO2",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References/Bibliography",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References/Bibliography ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Use reliable sources (peer-reviewed/reliable journals, news articles, statistical data)\u00a0Apply Harvard referencing correctly",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Use reliable sources (peer-reviewed/reliable journals, news articles, statistical data)\u00a0",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Apply Harvard referencing correctly",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO1, LO3",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Sustainability goals",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Explain practical sustainability strategies.",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Develop Practical Skills",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Design a logo.",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Technical & Digital Skills",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Use of Padlet for photos; create surveys; provide peer feedback\u00a0",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO2, and LO3",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Evaluation & Reflection",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Communication",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Communication ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Use appropriate academic language and coherence\u00a0Structure your document clearly and logically.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Use appropriate academic language and coherence\u00a0",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO3 ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Need Help With\u2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Contact / Resource",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Understanding feedback",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Understanding feedback ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Book a 15-min slot with the Module Lead or support TutorModule Lead:tanzeela.anbreen@lcca.ac.ukSupport Tutor: (different tutors for different groups).",
+      "context": "",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Book a 15-min slot with the Module Lead or support Tutor",
+      "context": "",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Module Lead:",
+      "context": "",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Academic Appeals",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Academic writing & Referencing",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "NOT PASSED",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "3rd Class",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "3rd Class ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "2nd Class Lower",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "2nd Class Upper",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "1st Class",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "1st Class ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO / Descriptor",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Not Passed = 0\u201339%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Pass = 40\u201349%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Pass = 40\u201349% ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Good Pass = 50\u201359%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Excellent Pass = 70\u201389%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Outstanding Pass = 90\u2013100%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Idea, Trip & Concept (10%)LO2, LO3 Experimentation and Innovation; Engaging with Practice; Realisation and Communication",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO2, LO3 Experimentation and Innovation; Engaging with Practice; Realisation and Communication",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Research & Analysis (15%)LO1, LO2Research and Analysis; Engaging with Practice",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Research & Analysis (15%)",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO1, LO2",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Research and Analysis; Engaging with Practice",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Little or no evidence of research or understanding of research methods.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Primary or secondary research was missing or inappropriate. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Competent use of basic research methods with limited range of sources.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Some understanding of how  research informs the project.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Good and accurate application of basic research methods using relevant sources that begin to inform the development of the project.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Very good recall and application of basic research methods with a clear connection between research findings and project development.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Demonstrated good understanding by linking research findings to the 4Ps.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Excellent and confident use of varied research methods demonstrating strong understanding and clear integration into project ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Effectively and strongly applied research findings to 4Ps.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References / Bibliography (10%)LO1, LO3\nResearch and Analysis; Realisation and Communication",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References / Bibliography (10%)",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO1, LO3\nResearch and Analysis; Realisation and Communication",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "No use of sources to support a point.A reference list is not included or attempted with many errors.There is no attempt to use Harvard referencing.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "A reference list is not included or attempted with many errors.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "There is no attempt to use Harvard referencing.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References are included but may be incomplete and may not follow standard Harvard format. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "The is an attempt to use Harvard referencing but there may be errors.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References appear in standard Harvard format but may contain errors.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Attempted to use Harvard referencing throughout, though there may be some errors.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References appear in standard Harvard format with little to no errors.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Harvard referencing was used throughout with minor errors.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References appear in a reference list in standard Harvard format with no errors.  ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Harvard referencing was accurate and consistent with no errors.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "References appear in a reference list in standard Harvard format.  ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Harvard referencing was consistently accurate and professional.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Sustainability Goals (10%)LO2Engaging with Practice; Experimentation and Innovation",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Sustainability Goals (10%)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Engaging with Practice; Experimentation and Innovation",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Develop Practical Skills (20%)LO2\nExperimentation and Innovation; Engaging with Practice",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Develop Practical Skills (20%)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO2\nExperimentation and Innovation; Engaging with Practice",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Exhibited an outstanding application of digital tools with innovation and creativity.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Evaluation & Reflection (10%)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO3\nRealisation and Communication",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Applied a reflective model effectively, evidencing a good understanding of strengths, challenges, and key learning.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "A strong and effective application of a reflective model, with clear insight into strengths, challenges, and future learning.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Communication (10%)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "LO3\nRealisation and communication",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Little evidence of academic communication and analysis.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Basic use of academic language.Completely used communication skills and analysis.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Basic use of academic language.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Good use of academic language and appropriate analysis. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Confident application of academic language and effective analysis.The structured approach communicated the business idea clearly.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Confident application of academic language and effective analysis.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "The structured approach ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Clear and fluent academic language and analysis. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx",
+      "candidate": "Highly effective academic language and analysis. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 339,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 34,
+        "total_tokens": 74
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    }
+  ]
+}

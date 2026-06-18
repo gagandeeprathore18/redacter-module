@@ -1,0 +1,1600 @@
+{
+  "input.docx": {
+    "total_extracted": 111,
+    "filtered_out": 6,
+    "remaining_candidates": 105,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 3,
+      "MULTI_SENTENCE": 2,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 1,
+      "FRAGMENT_CONTENT": 0
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Tutor Name: Prof. Green",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 4
+      },
+      {
+        "candidate": "1. Tidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and Organisational Change. 7th edn. Hoboken: Wiley.",
+        "reason": "LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Students must maintain academic integrity at all times.",
+        "reason": "INSTRUCTIONAL_CONTENT",
+        "word_count": 8
+      },
+      {
+        "candidate": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+        "reason": "LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+        "reason": "LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Drafted by Harvard Admits. Postcode: SW1A 1AA",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 7
+      }
+    ]
+  },
+  "input.pdf": {
+    "total_extracted": 18,
+    "filtered_out": 0,
+    "remaining_candidates": 18,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0
+    },
+    "rejected_candidates": []
+  },
+  "input.pptx": {
+    "total_extracted": 96,
+    "filtered_out": 62,
+    "remaining_candidates": 34,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 62
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Oxford Orientation Slide",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 3
+      },
+      {
+        "candidate": "Name/Signed: Nargisa Simansone",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 3
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "Second level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Third level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fourth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fifth level",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "1/27/13",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      },
+      {
+        "candidate": "\u2039#\u203a",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 1
+      }
+    ]
+  },
+  "doc-123": {
+    "total_extracted": 1,
+    "filtered_out": 0,
+    "remaining_candidates": 1,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0
+    },
+    "rejected_candidates": []
+  },
+  "1781776621275_FMP_Assessment_Brief_Oct_2025_Updated__1___1_.docx": {
+    "total_extracted": 419,
+    "filtered_out": 87,
+    "remaining_candidates": 332,
+    "rejection_breakdown": {
+      "REJECTED_PARAGRAPH": 0,
+      "REJECTED_LONG_TEXT": 50,
+      "REJECTED_MULTI_SENTENCE": 22,
+      "STRUCTURAL_CONTENT": 15
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Your Final Major Project (FMP) is the final 10-week module of your Level 3 course. This project gives you the chance to plan and present your own small business idea based on the theme of sustainability. You will show that you can research useful information, use business and design ideas, and explain your plan clearly in a Creative Business Document using a Canva template. ",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 64
+      },
+      {
+        "candidate": "By completing this project, you will develop important skills such as enhanced familiarity with academic, technological, and practical skills, planning your time, meeting deadlines, and communicating professionally. These are skills that are needed in real jobs like marketing, hotel management, running your own business, or coordinating a fashion brand. These skills will also help you succeed in future university-level study.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 60
+      },
+      {
+        "candidate": "Overall, you should be able to demonstrate the following learning outcomes upon successful completion of the module:",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 17
+      },
+      {
+        "candidate": "You are asked to complete a Creative Business Document using a template selected from Canva. Please read the Creative Business Document guideline (available on Canvas) alongside this Assessment Brief.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "You are required to use Canva to develop and format your project. Canva is the preferred platform because it offers a wide range of features that support professional design, layout, and presentation. You may use Microsoft PowerPoint only as a formatting tool. However, your final submission must NOT be in PowerPoint slide format. PowerPoint slides should be used solely to help you structure your content before exporting it into PDF which is an appropriate/required format for this assignment.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 78
+      },
+      {
+        "candidate": "This document will present your sustainable business idea, related to your chosen pathway of either Business, Hospitality, or Fashion Management. Your idea should solve a real-world problem related to sustainability and show that you can plan, design, and communicate a creative business concept in a clear and professional way.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 49
+      },
+      {
+        "candidate": "You must develop your project week by week with the help of lecturer and support of academic mentor to ensure that you gradually learn the required skills.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 27
+      },
+      {
+        "candidate": "Important: To pass this assessment, you must have your laptop/tablet for ALL sessions in class as it requires various programs. Please note that it cannot be completed on a mobile phone and your class will not be timetabled in a computer lab. Sharing a laptop is not recommended as each student needs his/her own device for independent work.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 58
+      },
+      {
+        "candidate": "The table(s) below show every task that you must complete within the Creative Business Document. You can use it like a checklist to complete one step at a time. The sequence below also follows the same order as the Creative Business Document Guideline available on Canvas. You will also see that this guide gives you suggested word counts for more detailed sections. ",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 62
+      },
+      {
+        "candidate": "Please complete the \u2018LCCA Student Ethical Approval Form\u2019 by the end of Week 2 (maximum) before undertaking any primary research activity (e.g. surveys, interviews, data collection). This ensures your work can be reviewed and approved by the relevant academics in a timely manner. ",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 43
+      },
+      {
+        "candidate": "Where a student undertakes primary research without approval, this may be considered a breach of academic and professional conduct\u00a0and may be addressed in line with college policies. It may also impact the marks awarded\u00a0where ethical requirements have not been met. ",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 42
+      },
+      {
+        "candidate": "Assessment and feedback are aligned to UCA\u2019s Generic Grading Criteria for level 3 study. Formative assessment submission (draft submission/work in progress) is due in Week 5. Formative feedback is usually provided to students within ONE week after submission and is ready for students on Turnitin with grade 1, 2, 3 and detailed feedback using three key questions:",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 57
+      },
+      {
+        "candidate": "Your final feedback and grade will be available on Turnitin. To locate feedback, go to the same location where you submitted the file and you should see the \u2018feedback summary\u2019.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 30
+      },
+      {
+        "candidate": "Please refer to your module handbook for further information on mitigating circumstances, reasonable assessment adjustments, Turnitin similarity report, detailed AI-use policy, double marking, and moderation. ",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 25
+      },
+      {
+        "candidate": "Students with mitigating circumstances should submit their form to extensions@lcca.org.uk by 5pm on the assessment deadline day. Late forms will only be accepted in exceptional circumstances where a student can demonstrate that they were unable to submit the form before the deadline. For further details on mitigating circumstances, please see LCCA\u2019s assessment policy.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 53
+      },
+      {
+        "candidate": "Whilst AI tools can be helpful in assisting learning, when it comes to assessment, LCCA\u2019s AI policy is clear that this should be a student\u2019s own original work and not the work of other people or AI tools. Your submitted Creative Business Document must show your own thinking process, research, and design creativity. For this assessment, AI is:",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 58
+      },
+      {
+        "candidate": "Brooking.S.C. (2016) Creating a Brand Identity: A Guide for Designers. London: Laurence King Publishing. ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Burtonshaw-Gunn, S. (2010) Essential Tools for Management Consulting: Tools, Models and Approaches for Clients and Consultants. London: Wiley.  ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 18
+      },
+      {
+        "candidate": "Carter, P. (2004) Material thinking: the theory and practice of creative research. Melbourne: Melbourne University Press.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 16
+      },
+      {
+        "candidate": "Howes, P. (2012) Material matters: new materials in design. London: Black Dog Publishing.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 13
+      },
+      {
+        "candidate": "Jarman, D. (2010) Chroma: a book of colour. Minneapolis: University of Minnesota Press. ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 13
+      },
+      {
+        "candidate": "Liggett, S., Earnshaw, R. and Townsley, J. (2023) Creativity in Art, Design and Technology. Nottingham: Springer. ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 16
+      },
+      {
+        "candidate": "Malhotra, N., Birks, D. and Wills (2017) Marketing Research: An Applied Approach.  (5th Ed.) Harlow: Pearson.  ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 16
+      },
+      {
+        "candidate": "McGivern, Y. (2021) The Practice of Market Research: An Introduction (5th Ed.) Harlow: Pearson.  ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Sudjic, D. (2009) The language of things. London: Allen Lane.  ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 10
+      },
+      {
+        "candidate": "Saunders, M., Lewis, P. and Thornhill, A. (2015) Research Methods for Business Students. (7th Ed.) Harlow: Pearson.  ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 17
+      },
+      {
+        "candidate": "Wilson, J. (2021) Understanding Research for Business Students: A Complete Student's Guide. London: Sage. ",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "No. Of words: 1200 (+/-10%)",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 5
+      },
+      {
+        "candidate": "No. Of words: 1200 (+/-10%)",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 5
+      },
+      {
+        "candidate": "Explain your business idea clearly.Show where your inspiration came from (e.g. trip to Harrods/museum).Demonstrate originality and relevance.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 17
+      },
+      {
+        "candidate": "Show where your inspiration came from (e.g. trip to Harrods/museum).",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 10
+      },
+      {
+        "candidate": "Carry out basic research, such as a short survey. (e.g., Provide a survey with 6 questions and present data (answers) from 10+ responses)\u00a0Use secondary research to understand markets and competitors.Apply the 4Ps to your business idea.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 37
+      },
+      {
+        "candidate": "Carry out basic research, such as a short survey. (e.g., Provide a survey with 6 questions and present data (answers) from 10+ responses)\u00a0",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 23
+      },
+      {
+        "candidate": "Design a logo.Explain team roles and business planning tools.Show how your idea is different from existing businesses.Present a feasible final outcome, such as a website plan or business model canvas.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 30
+      },
+      {
+        "candidate": "Use of Padlet for photos; create surveys; provide peer feedback\u00a0Include survey results in your design (Canva/PowerPoint)\u00a0Show digital design skills (logo, visuals, layouts)",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Level 3 Module Assessment Rubric for FMP (business, hospitality, and fashion pathways)",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "There is little to no explanation of the business idea.Sources of inspiration was missing or unclear.There is little to no evidence of originality and relevance for the business idea.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Competently explained the business idea.Some sources of inspiration evident.The was a fair attempt to evidence originality and relevance for the business idea.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Good and clear explanation of the business idea. Good evidence demonstrated for sources of inspiration.Demonstrated some originality and relevance for the business idea.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "Very good and confident explanation of the business idea. Clear evidence demonstrated for sources of inspiration. A very good attempt is made to evidence originality and relevance for the business idea.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 31
+      },
+      {
+        "candidate": "Excellent and clearly persuasive explanation of the business idea. Strong and well-connected evidence demonstrated for sources of inspiration. Excellently evidenced originality and relevance for the business idea.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 27
+      },
+      {
+        "candidate": "Outstanding explanation of the business idea with clarity and confidence. Outstanding and insightful evidence demonstrated for sources of inspiration. There is outstanding originality, relevance, and creative thinking evidenced for the business idea.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 32
+      },
+      {
+        "candidate": "Little or no evidence of research or understanding of research methods.Primary or secondary research was missing or inappropriate. The 4Ps were not applied.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "Competent use of basic research methods with limited range of sources.Some understanding of how  research informs the project.Attempted the 4Ps although applied in a simple manner.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 26
+      },
+      {
+        "candidate": "Good and accurate application of basic research methods using relevant sources that begin to inform the development of the project.Demonstrated understanding through a clear application of the 4Ps.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 28
+      },
+      {
+        "candidate": "Very good recall and application of basic research methods with a clear connection between research findings and project development.Demonstrated good understanding by linking research findings to the 4Ps.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 28
+      },
+      {
+        "candidate": "Excellent and confident use of varied research methods demonstrating strong understanding and clear integration into project Effectively and strongly applied research findings to 4Ps.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Exceptional and well-focused application of research methods with sophisticated analysis and integration of research informing a highly developed project. Demonstrated excellent understanding through insightful and integrated application of the 4Ps.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 30
+      },
+      {
+        "candidate": "Exceptional and well-focused application of research methods with sophisticated analysis and integration of research informing a highly developed project. ",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Some use of sources to support points. References are included but may be incomplete and may not follow standard Harvard format. The is an attempt to use Harvard referencing but there may be errors.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 34
+      },
+      {
+        "candidate": "Good use of sources to support points. References appear in standard Harvard format but may contain errors.Attempted to use Harvard referencing throughout, though there may be some errors.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 28
+      },
+      {
+        "candidate": "Very good range of reliable sources. References appear in standard Harvard format with little to no errors.Harvard referencing was used throughout with minor errors.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Excellent range of reliable sources. References appear in a reference list in standard Harvard format with no errors.  Harvard referencing was accurate and consistent with no errors.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 27
+      },
+      {
+        "candidate": "An outstanding and wide and range of reliable sources. References appear in a reference list in standard Harvard format.  Harvard referencing was consistently accurate and professional.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 26
+      },
+      {
+        "candidate": "Sustainability strategies were explained but basic or descriptive.Consistent attempt linking the business idea to the UN Sustainable Development Goals.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Good understanding of practical sustainability strategies applied to the business.There is a good attempt when applying the business idea to the UN Sustainable Development Goals.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 25
+      },
+      {
+        "candidate": "Very good understanding of realistic sustainability strategies applied to the business.Focused application of the business idea to the UN Sustainable Development Goals.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Strong understanding of practical and feasible sustainability strategies applied to the business. Excellent application of the business idea to the UN Sustainable Development Goals.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Outstanding understanding of sustainability with clear and practical impact to the business.Insightful application of the business idea to the UN Sustainable Development Goals.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "Little or no attempt to demonstrate practical and professional skills. The final project outcome was not provided or feasible.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 19
+      },
+      {
+        "candidate": "Competently demonstrated basic practical and professional skills when designing the business logo, website/business model.The final project outcome has limited feasibility.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Good practical and professional skills are evidenced when designing the business logo, website/business model.Demonstrated a good understanding of feasibility and distinctiveness.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Very good practical and professional skills evidenced when designing the business logo, website/business model.A very good understanding of feasibility and differentiation is evidenced.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "Strong practical and professional skills are evident when designing the business logo, website/business model.There is a strong understanding of feasibility and competitive positioning.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "Excellent practical and professional skills are evidenced when designing the business logo, website/business model.Outstanding feasibility and clear competitive distinction are highly evident.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Digital tools were not appropriately used. Little to no evidence of technical design skills.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Confident use of digital tools. Very good integration of technical and digital design skills is evidenced.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 16
+      },
+      {
+        "candidate": "Exhibited an outstanding application of digital tools with innovation and creativity.Outstanding integration of technical and digital design skills is evident.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Reflection was not attempted or descriptive. A reflective model was not used.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 12
+      },
+      {
+        "candidate": "Outstanding and insightfully application of the reflective model is evident with excellent personal and professional insight and clear future direction.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Outstanding and insightfully application of the reflective model is evident with excellent personal and professional insight and clear future direction.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Good use of academic language and appropriate analysis. The structure was logical and effectively presented the business idea.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 18
+      },
+      {
+        "candidate": "Clear and fluent academic language and analysis. The structured approach significantly enhances the clarity and overall articulation of the business idea.",
+        "reason": "REJECTED_LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Highly effective academic language and analysis. Excellent, professional structure with a high level of coherence, enhancing the business idea.",
+        "reason": "REJECTED_MULTI_SENTENCE",
+        "word_count": 19
+      }
+    ]
+  },
+  "1781777977500_Assessment_Brief_bmp6035_AS1_brief_Jan_2026.docx": {
+    "total_extracted": 239,
+    "filtered_out": 101,
+    "remaining_candidates": 138,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 6,
+      "LONG_TEXT": 73,
+      "MULTI_SENTENCE": 11,
+      "STRUCTURAL_CONTENT": 9,
+      "INSTRUCTIONAL_CONTENT": 2
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "You are required to select a large UK-based organisation that operates in a competitive industry and has a well-established Learning and Development (L&D) team. This can be a public or private organisation. Suitable examples include UK Power Networks; Roadchef; People's Partnership; Blacklock, BT Group (British Telecom), British Airways, John Lewis & Partners. The following tasks needs to be completed and creativity is highly encouraged. ",
+        "reason": "INSTRUCTIONAL_CONTENT",
+        "word_count": 64
+      },
+      {
+        "candidate": "Prepare a comprehensive profile of your selected organisation. Go beyond basic facts and   provide analytical detail on the following areas:",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "The organisation\u2019s mission and vision statements, together with its core values.\nConclude this section with a focused description of the organisation\u2019s Learning & Development function \u2014 its role within the business, and how it supports the organisation\u2019s strategic objectives.",
+        "reason": "LONG_TEXT",
+        "word_count": 39
+      },
+      {
+        "candidate": "Investigate the firm\u2019s approach to learning and talent development. Your analysis should include:",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 13
+      },
+      {
+        "candidate": "How employees are trained and developed (delivery methods, platforms, on-the-job learning, apprenticeships, e-learning, partnerships, etc.).",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Principal programmes offered (for example: reskilling/upskilling, leadership development, graduate schemes, technical training) and the specific aims of those programmes (career progression, succession planning, capability building, retention).",
+        "reason": "LONG_TEXT",
+        "word_count": 26
+      },
+      {
+        "candidate": "Choose two established Learning & Development theories or models and critically evaluate them in the context of your chosen organisation. For each model:",
+        "reason": "LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "Critically assess the model\u2019s effectiveness in relation to employee wellbeing \u2014 consider effects on job satisfaction, motivation, productivity, psychological safety or stress reduction.\n",
+        "reason": "LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "Declaration: At the end of the assessment, you should also include a declaration of any software tools including Generative AI (GAI) applications that you used in developing and completing the assessment. ",
+        "reason": "INSTRUCTIONAL_CONTENT",
+        "word_count": 31
+      },
+      {
+        "candidate": "Level HE6 - It is expected that the Reference List will contain between fifteen to twenty sources. As a MINIMUM the Reference List should include three refereed academic journals and five academic books.",
+        "reason": "LONG_TEXT",
+        "word_count": 33
+      },
+      {
+        "candidate": "Excellent (70%+): Students will provide an excellent synthesis of the topic, demonstrating critical insight and excellent understanding of complex matters. ",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Focused and justified recommendations will be made as to how problems/weaknesses identified in the topic may be overcome, and sustainability improved. Extensive research demonstrating use of a wide range of well selected secondary research sources will be evident. Academic writing style, English and referencing will be excellent.  ",
+        "reason": "LONG_TEXT",
+        "word_count": 47
+      },
+      {
+        "candidate": "Very Good (60\u201369%): Students will provide a perceptive synthesis of the topic, demonstrating critical insight and clear understanding of complex matters. Well thought through and justified recommendations will be made as to how problems/weaknesses identified in the topic may be overcome, and sustainability improved. Research demonstrating use of a wide range of current and well selected secondary research sources will be evident. Academic writing style, English and referencing will be very good.  ",
+        "reason": "LONG_TEXT",
+        "word_count": 72
+      },
+      {
+        "candidate": "Good (50-59%): Students will provide a sound synthesis of the topic, demonstrating a clear and critical understanding of complex matters. Justified recommendations will be made as to how problems/weaknesses identified in the topic may be overcome, and sustainability improved. Research demonstrating use of a range of current and relevant secondary research sources will be evident. Academic writing style, English and referencing will be good.  ",
+        "reason": "LONG_TEXT",
+        "word_count": 64
+      },
+      {
+        "candidate": "Satisfactory (40-49%): Students will provide a satisfactory synthesis of the topic, demonstrating sufficient understanding of complex matters. Considered recommendations will be made as to how problems/weaknesses identified in the topic may be overcome, and sustainability improved. Research demonstrating use of a range of current secondary research sources will be evident. Academic writing style, English and referencing will be generally competent. ",
+        "reason": "LONG_TEXT",
+        "word_count": 60
+      },
+      {
+        "candidate": "Fail (39% and below): Students who do not meet the requirements of a third-class grade will not successfully complete the assessment activity.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "While grammar and spell checkers may be used to correct individual words and sentences, the use of GAI is not allowed. This is because the learning outcomes require you to produce original assessment work without any GAI assistance.Any GAI-generated content that is presented as your original work and is not acknowledged will be assessed for academic misconduct.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 57
+      },
+      {
+        "candidate": "While grammar and spell checkers may be used to correct individual words and sentences, the use of GAI is not allowed. This is because the learning outcomes require you to produce original assessment work without any GAI assistance.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 38
+      },
+      {
+        "candidate": "Any GAI-generated content that is presented as your original work and is not acknowledged will be assessed for academic misconduct.",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Work is directly relevant and expertly addresses the requirements of the brief.Learning outcomes are met.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Demonstrates an exceptional breadth and depth of knowledge and understanding of theory and practice beyond the threshold expectation for the level. Demonstrates mastery in conceptual understanding of a range of specialised areas.",
+        "reason": "LONG_TEXT",
+        "word_count": 32
+      },
+      {
+        "candidate": "Demonstrates an exceptional breadth and depth of knowledge and understanding of theory and practice beyond the threshold expectation for the level. ",
+        "reason": "LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Presents an exceptional synthesis and critical evaluation of findings from a broad range of relevant sources in order to draw clear, systematic, justified and insightful conclusions. Provides a sophisticated critical insight and expertly interprets complex matters and ideas.Demonstrates exceptional creative flair and a high level of originality.Demonstrates exceptional problem- solving skills and initiative.",
+        "reason": "LONG_TEXT",
+        "word_count": 53
+      },
+      {
+        "candidate": "Presents an exceptional synthesis and critical evaluation of findings from a broad range of relevant sources in order to draw clear, systematic, justified and insightful conclusions. ",
+        "reason": "LONG_TEXT",
+        "word_count": 26
+      },
+      {
+        "candidate": "Provides insightful reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Provides insightful reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility. ",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "An extensive range of contemporary and relevant reference sources selected and drawn upon. Sources cited accurately in both the body of text and in the Reference List/ Bibliography.",
+        "reason": "LONG_TEXT",
+        "word_count": 28
+      },
+      {
+        "candidate": "Writing style is clear, succinct and appropriate to the requirements of the assessment.  An exceptionally well written answer with competent spelling, grammar and punctuation. For example, paragraphs are well structured and include linking and signposting. Sentences are complete and different types are used.  A wide range of appropriate vocabulary is used.",
+        "reason": "LONG_TEXT",
+        "word_count": 51
+      },
+      {
+        "candidate": "Writing style is clear, succinct and appropriate to the requirements of the assessment.  An exceptionally well written answer with competent spelling, grammar and punctuation. For example, paragraphs are well structured and include linking and signposting. Sentences are complete and different types are used.  A wide range of appropriate vocabulary is used. ",
+        "reason": "LONG_TEXT",
+        "word_count": 51
+      },
+      {
+        "candidate": "The presentational style and layout are correct for the type of assignment. Evidence of planning and logically structured. Where relevant, there is effective inclusion of, and reference to, figures, tables and images.",
+        "reason": "LONG_TEXT",
+        "word_count": 32
+      },
+      {
+        "candidate": "Work is relevant and comprehensively addresses the requirements of the brief. Learning outcomes are met.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Demonstrates an excellent breadth and depth of knowledge and understanding of theory and practice for this level.Demonstrates an in-depth conceptual understanding of a range of specialised areas.",
+        "reason": "LONG_TEXT",
+        "word_count": 27
+      },
+      {
+        "candidate": "Demonstrates an excellent breadth and depth of knowledge and understanding of theory and practice for this level.",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Presents an excellent synthesis and critical evaluation of findings from a broad range of relevant sources in order to draw clear, systematic, justified and perceptive conclusions. Provides a critical insight and clearly interprets complex matters and ideas.\nDemonstrates creative flair and a high level of originality.Demonstrates excellent problem- solving skills and initiative.",
+        "reason": "LONG_TEXT",
+        "word_count": 52
+      },
+      {
+        "candidate": "Presents an excellent synthesis and critical evaluation of findings from a broad range of relevant sources in order to draw clear, systematic, justified and perceptive conclusions. ",
+        "reason": "LONG_TEXT",
+        "word_count": 26
+      },
+      {
+        "candidate": "matters and ideas.\nDemonstrates creative flair and a high level of originality.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 12
+      },
+      {
+        "candidate": "Provides excellent reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Provides excellent reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility. ",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "A wide range of contemporary and relevant reference sources selected and drawn upon. Sources cited accurately in both the body of text and in the Reference List/ Bibliography.",
+        "reason": "LONG_TEXT",
+        "word_count": 28
+      },
+      {
+        "candidate": "Writing style is clear, succinct and appropriate to the requirements of the assessment. An excellently well written answer with competent, spelling, grammar and punctuation. For example, paragraphs are well structured and include linking and signposting. Sentences are complete and different types are used.  A wide range of appropriate vocabulary is used.",
+        "reason": "LONG_TEXT",
+        "word_count": 51
+      },
+      {
+        "candidate": "Writing style is clear, succinct and appropriate to the requirements of the assessment. An excellently well written answer with competent, spelling, grammar and punctuation. For example, paragraphs are well structured and include linking and signposting. Sentences are complete and different types are used.  A wide range of appropriate vocabulary is used.",
+        "reason": "LONG_TEXT",
+        "word_count": 51
+      },
+      {
+        "candidate": "The presentational style and layout are correct for the type of assignment. Evidence of planning and logically structuredWhere relevant, there is effective inclusion of, and reference to, figures, tables and images.",
+        "reason": "LONG_TEXT",
+        "word_count": 31
+      },
+      {
+        "candidate": "Work is relevant and addresses most of the requirements of the brief well.Learning outcomes are met.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 16
+      },
+      {
+        "candidate": "Demonstrates a thorough breadth and depth of knowledge and understanding of theory and practice for this level.Demonstrates a sophisticated conceptual understanding of a range of specialised areas.",
+        "reason": "LONG_TEXT",
+        "word_count": 27
+      },
+      {
+        "candidate": "Demonstrates a thorough breadth and depth of knowledge and understanding of theory and practice for this level.",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Presents a perceptive synthesis and critical evaluation of findings from a range of relevant sources in order to draw clear, justified and thoughtful conclusions. Interprets complex matters and ideas well.\nDemonstrates a good level of creativity and originality.Demonstrates strong problem- solving skills.",
+        "reason": "LONG_TEXT",
+        "word_count": 42
+      },
+      {
+        "candidate": "Presents a perceptive synthesis and critical evaluation of findings from a range of relevant sources in order to draw clear, justified and thoughtful conclusions. ",
+        "reason": "LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Interprets complex matters and ideas well.\nDemonstrates a good level of creativity and originality.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Provides very good reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility, as required by the assessment.",
+        "reason": "LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "Provides very good reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility, as required by the assessment. ",
+        "reason": "LONG_TEXT",
+        "word_count": 23
+      },
+      {
+        "candidate": "A wide range of relevant  reference sources selected and drawn upon. Sources cited accurately in the main in both the body of text and in the Reference List/ Bibliography.",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Sources cited accurately in the main in both the body of text and in the Reference List/ Bibliography.",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Writing style is clear, succinct and appropriate to the requirements of the assessment. A very well written answer with competent spelling, grammar and punctuation. For example, paragraphs are well structured and include linking and signposting. Sentences are complete and different types are used. A range of appropriate vocabulary is used.",
+        "reason": "LONG_TEXT",
+        "word_count": 50
+      },
+      {
+        "candidate": "Writing style is clear, succinct and appropriate to the requirements of the assessment. A very well written answer with competent spelling, grammar and punctuation. For example, paragraphs are well structured and include linking and signposting. Sentences are complete and different types are used. A range of appropriate vocabulary is used.",
+        "reason": "LONG_TEXT",
+        "word_count": 50
+      },
+      {
+        "candidate": "The presentational style and layout are correct for the type of assignment. Evidence of planning and logically structured in the main. Where relevant, there is effective inclusion of, and reference to, figures, tables and images.",
+        "reason": "LONG_TEXT",
+        "word_count": 35
+      },
+      {
+        "candidate": "Work addresses key requirements of the brief. Some irrelevant content. Learning outcomes are met.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Work addresses key requirements of the brief. Some irrelevant content. ",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 10
+      },
+      {
+        "candidate": "Demonstrates a sound breadth and depth of knowledge and understanding of theory and practice for this level.Demonstrates a sound conceptual understanding of specialised areas.",
+        "reason": "LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Demonstrates a sound breadth and depth of knowledge and understanding of theory and practice for this level.",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Presents a logical evaluation of findings from a range of relevant sources in order to draw clear and justified conclusions. Interprets some complex matters and ideas.\nDemonstrates some creativity. Demonstrates effective problem-solving skills and initiative.",
+        "reason": "LONG_TEXT",
+        "word_count": 35
+      },
+      {
+        "candidate": "Presents a logical evaluation of findings from a range of relevant sources in order to draw clear and justified conclusions. ",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Interprets some complex matters and ideas.\nDemonstrates some creativity. ",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 9
+      },
+      {
+        "candidate": "Provides good reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility, as required by the assessment.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Provides good reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility, as required by the assessment.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "A range of relevant reference sources selected and drawn upon. Most sources accurately cited both the body of text and in the Reference List/Bibliography.",
+        "reason": "LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Writing style is mostly appropriate to the requirements of the assessment. Grammar, spelling and punctuation are generally competent and minor lapses do not pose difficulty for the reader. Paragraphs are structured and include some linking and signposting. Sentences are complete.A range of appropriate vocabulary is used.",
+        "reason": "LONG_TEXT",
+        "word_count": 46
+      },
+      {
+        "candidate": "Writing style is mostly appropriate to the requirements of the assessment. Grammar, spelling and punctuation are generally competent and minor lapses do not pose difficulty for the reader. Paragraphs are structured and include some linking and signposting. Sentences are complete.",
+        "reason": "LONG_TEXT",
+        "word_count": 40
+      },
+      {
+        "candidate": "The presentational style and layout are correct for the type of assignment. Logically structured in the most part. Inclusion of figures, tables and images but not all relevant or referred to.",
+        "reason": "LONG_TEXT",
+        "word_count": 31
+      },
+      {
+        "candidate": "Work addresses the requirements of the brief, although superficially in places. Some irrelevant content. Learning outcomes are met.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Work addresses the requirements of the brief, although superficially in places. Some irrelevant content. ",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Demonstrates a sufficient breadth and depth of knowledge and understanding of theory and practice for this level. Demonstrates a conceptual understanding of some specialised areas.",
+        "reason": "LONG_TEXT",
+        "word_count": 25
+      },
+      {
+        "candidate": "Demonstrates a sufficient breadth and depth of knowledge and understanding of theory and practice for this level. ",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Presents an evaluation of findings from a range of sources in order to draw some valid conclusions. Interprets some complex matters and ideas but with descriptive passages evident which lack clear purpose. Demonstrates creativity in places. Demonstrates sufficient problem- solving skills and initiative.",
+        "reason": "LONG_TEXT",
+        "word_count": 43
+      },
+      {
+        "candidate": "Presents an evaluation of findings from a range of sources in order to draw some valid conclusions. ",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Provides some reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility, as required by the assessment.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Provides some reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility, as required by the assessment.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Some relevant reference sources selected and drawn upon. Some weaknesses in referencing technique.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 13
+      },
+      {
+        "candidate": "Writing style is occasionally not appropriate for the assessment.Grammar, spelling and punctuation are generally competent, but may pose minor difficulties for the reader. Some paragraphs may lack structure, and there is limited linking and signposting. Some appropriate vocabulary is used",
+        "reason": "LONG_TEXT",
+        "word_count": 40
+      },
+      {
+        "candidate": "Grammar, spelling and punctuation are generally competent, but may pose minor difficulties for the reader. Some paragraphs may lack structure, and there is limited linking and signposting. Some appropriate vocabulary is used",
+        "reason": "LONG_TEXT",
+        "word_count": 32
+      },
+      {
+        "candidate": "The presentational style and layout are largely correct for the type of assignment.Adequately structured.Inclusion of some figures, tables and images but not all clear, relevant and/or referred to.",
+        "reason": "LONG_TEXT",
+        "word_count": 28
+      },
+      {
+        "candidate": "Work addresses some of the requirements of the brief. Irrelevant and superficial content. One or more learning outcomes have not been met.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Work addresses some of the requirements of the brief. Irrelevant and superficial content. ",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 13
+      },
+      {
+        "candidate": "Demonstrates a lack of knowledge and understanding of theory and practice for this level. Demonstrates Insufficient conceptual understanding of specialised areas.",
+        "reason": "LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Demonstrates a lack of knowledge and understanding of theory and practice for this level. Demonstrates Insufficient conceptual understanding of specialised areas.",
+        "reason": "LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Presents a limited evaluation of findings from set sources. Descriptive or narrative passages evident which lack clear purpose. Demonstrates little creativity. Demonstrates insufficient problem- solving skills and initiative.",
+        "reason": "LONG_TEXT",
+        "word_count": 28
+      },
+      {
+        "candidate": "Provides limited reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility, when required.",
+        "reason": "LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Provides limited reflection and critical self-awareness in relation to the outcomes of own work and personal responsibility, when required.",
+        "reason": "LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Sources selected are limited and lack validity/relevance.  Poor referencing technique employed.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Writing style is unclear and does not match the requirements of the assessment. Deficiencies in spelling, grammar and punctuation makes reading difficult and arguments unclear in places. Paragraphs are poorly structured.",
+        "reason": "LONG_TEXT",
+        "word_count": 31
+      },
+      {
+        "candidate": "Writing style is unclear and does not match the requirements of the assessment. Deficiencies in spelling, grammar and punctuation makes reading difficult and arguments unclear in places. Paragraphs are poorly structured. ",
+        "reason": "LONG_TEXT",
+        "word_count": 31
+      },
+      {
+        "candidate": "For the type of assignment the presentational style, layout and/or structure are lacking.Inclusion of figures, tables and images but not clear, relevant and/or referred to.",
+        "reason": "LONG_TEXT",
+        "word_count": 25
+      },
+      {
+        "candidate": "Work does not address the requirements of the brief. Irrelevant and superficial content. One or more learning outcomes have not been met.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Work does not address the requirements of the brief. Irrelevant and superficial content. ",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 13
+      },
+      {
+        "candidate": "Demonstrates inadequate knowledge and understanding of theory and practice for this level. Demonstrates Insufficient conceptual understanding of relevant areas.",
+        "reason": "LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Analysis is weak and poorly constructed with inadequate sources drawn upon.  Demonstrates little or no creativity.Demonstrates a lack of problem- solving skills and initiative.",
+        "reason": "LONG_TEXT",
+        "word_count": 24
+      },
+      {
+        "candidate": "Provides inadequate reflection and self-awareness in relation to the outcomes of own work and personal responsibility, when required.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Provides inadequate reflection and self-awareness in relation to the outcomes of own work and personal responsibility, when required.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "An absence of relevant sources selected and drawn upon. Poor referencing technique employed.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 13
+      },
+      {
+        "candidate": "Writing style is unclear and does not match the requirements of the assessment in question.Deficiencies in spelling, grammar and punctuation makes reading difficult and arguments unclear. Unstructured paragraphs.",
+        "reason": "LONG_TEXT",
+        "word_count": 28
+      },
+      {
+        "candidate": "Deficiencies in spelling, grammar and punctuation makes reading difficult and arguments unclear. Unstructured paragraphs.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "For the type of assignment the presentational style, layout and/or structure are lacking.Inclusion of figures, tables and images but not clear, relevant and/or referred to.",
+        "reason": "LONG_TEXT",
+        "word_count": 25
+      }
+    ]
+  },
+  "1781778159214_BM561_CW1_Assignment_Brief_2025-26__1_.pdf": {
+    "total_extracted": 23,
+    "filtered_out": 2,
+    "remaining_candidates": 21,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 2,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Dr. Mahwish Noor",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 3
+      },
+      {
+        "candidate": "Dr. Mahwish Noor",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 3
+      }
+    ]
+  },
+  "1781778231420_Brief_pdf_1382364278.pdf": {
+    "total_extracted": 58,
+    "filtered_out": 2,
+    "remaining_candidates": 56,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 2,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Canvas. All",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 2
+      },
+      {
+        "candidate": "Analysis. New York",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 3
+      }
+    ]
+  },
+  "1781779380532_Brief_pdf_1382364278.pdf": {
+    "total_extracted": 58,
+    "filtered_out": 17,
+    "remaining_candidates": 41,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 17
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Brief Released",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Use PowerPoint",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Accepted Formats",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Self-Recorded Presentation",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Portfolio Component",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Artificial Intelligence",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Whilst AI",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Artificial Intelligence",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "WHICH AI",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Canvas. All",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Mitigating Circumstances",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Mitigating Circumstances",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Applied Settings",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "An Integrated Approach",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 3
+      },
+      {
+        "candidate": "Analysis. New York",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 3
+      },
+      {
+        "candidate": "Anyone Undertaking",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Sector Recognised Standards",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 3
+      }
+    ]
+  },
+  "1781779429368_brief_docx_796560624_-_Google_Docs.pdf": {
+    "total_extracted": 33,
+    "filtered_out": 14,
+    "remaining_candidates": 19,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 14
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Company Background",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Tom Singh",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "New Look",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Brait SE",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "New Look",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Georgie Aldous",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "New Look",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "New Look",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "New Look",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "New Look",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Executive Summary",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Main Body",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Use Arial",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Artificial Intelligence",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      }
+    ]
+  }
+}

@@ -12,6 +12,12 @@ from python.docx_processor import process_docx
 from python.pdf_processor import process_pdf
 from python.pptx_processor import process_pptx
 
+# Disable real GPT calling during test_redactor run by clearing OPENAI_API_KEY
+import os
+os.environ["TESTING"] = "true"
+if "OPENAI_API_KEY" in os.environ:
+    del os.environ["OPENAI_API_KEY"]
+
 def create_test_docx(filename: str):
     doc = docx.Document()
     doc.add_heading("University Student Profile", level=1)
@@ -30,7 +36,7 @@ def create_test_docx(filename: str):
     p_split.add_run(" June 2026")
     
     # Table test
-    table = doc.add_table(rows=10, cols=2)
+    table = doc.add_table(rows=15, cols=2)
     table.cell(0, 0).paragraphs[0].text = "Field"
     table.cell(0, 1).paragraphs[0].text = "Detail"
     
@@ -80,7 +86,25 @@ def create_test_docx(filename: str):
     table.cell(9, 0).paragraphs[0].text = "Module name:"
     table.cell(9, 1).paragraphs[0].text = "Research Methods in Social Sciences"
 
-    # Paragraph tests for names
+    # Add Draft, Formative, and parenthetical submission rows
+    table.cell(10, 0).paragraphs[0].text = "Draft Submission"
+    table.cell(10, 1).paragraphs[0].text = "25th October 2026"
+
+    table.cell(11, 0).paragraphs[0].text = "Draft Submission (Mandatory)"
+    table.cell(11, 1).paragraphs[0].text = "26th October 2026"
+
+    table.cell(12, 0).paragraphs[0].text = "Formative Submission"
+    table.cell(12, 1).paragraphs[0].text = "27th October 2026"
+
+    table.cell(13, 0).paragraphs[0].text = "Date and Time of Submission"
+    table.cell(13, 1).paragraphs[0].text = "29th October 2026"
+
+    table.cell(14, 0).paragraphs[0].text = "Submission Date & Time"
+    table.cell(14, 1).paragraphs[0].text = "30th October 2026"
+
+    # Paragraph tests for names and parenthetical submission dates
+    doc.add_paragraph("Draft Submission (Mandatory): 28th October 2026")
+    doc.add_paragraph("Date and Time of Submission: 31st October 2026")
     doc.add_paragraph("Module leader: Adeeba Ahmad")
     doc.add_paragraph("Name/Signed: Nargisa Simansone")
     doc.add_paragraph("Module lead's name: John Connor")
@@ -291,6 +315,13 @@ def run_tests():
     assert "4:00pm" not in docx_text, "DOCX: military time 4:00pm not redacted"
     assert "1600hrs" not in docx_text, "DOCX: military time 1600hrs not redacted"
     assert "12 June" not in docx_text, "DOCX: military time date (12 June) not redacted"
+    assert "25th October 2026" not in docx_text, "DOCX: Draft Submission date not redacted"
+    assert "26th October 2026" not in docx_text, "DOCX: Draft Submission (Mandatory) date not redacted"
+    assert "27th October 2026" not in docx_text, "DOCX: Formative Submission date not redacted"
+    assert "28th October 2026" not in docx_text, "DOCX: Draft Submission (Mandatory) paragraph date not redacted"
+    assert "29th October 2026" not in docx_text, "DOCX: Date and Time of Submission date not redacted"
+    assert "30th October 2026" not in docx_text, "DOCX: Submission Date & Time date not redacted"
+    assert "31st October 2026" not in docx_text, "DOCX: Date and Time of Submission paragraph date not redacted"
     assert "Adeeba" not in docx_text, "DOCX: Adeeba not redacted"
     assert "Ahmad" not in docx_text, "DOCX: Ahmad not redacted"
     assert "Nargisa" not in docx_text, "DOCX: Nargisa not redacted"

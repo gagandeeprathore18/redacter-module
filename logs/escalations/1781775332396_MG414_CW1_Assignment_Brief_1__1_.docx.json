@@ -1,0 +1,2116 @@
+{
+  "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+  "total_candidates": 241,
+  "escalated_candidates": 100,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 73,
+    "UNKNOWN_PATTERN": 29,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "candidates": [
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Module code & title:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "MG414 Organisational Behaviour",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Module leader:",
+      "context": "",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Adeeba Ahmad",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Adeeba Ahmad  ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Assignment No. and type:",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "CW1: 2500-word Report",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "CW1: 2500-word Report ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Assessment weighting:",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Submission time and date:",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "14:00, 19th June 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Target feedback time and date:",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Target feedback time and date: ",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "14:00, 10th July 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "14:00, 10th July 2026 ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Assignment task",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "The purpose of this assignment is to apply key theories, models, and principles of organisational behaviour to a real-world business scenario.Task:Imagine that you are working as a Summer Associate during an internship at L.E.K. Consulting based in London, which describes itself as \u2018a global strategy consultancy working closely with business leaders to seize competitive advantage and amplify growth\u2019 https://www.lek.com/about-lek.  To get started, your line manager has asked you to provide a report that might be used as marketing material to attract new clients seeking business consultancy services.  You are required to select a business of your choice (make sure it has been approved by the module tutor) and produce a 2,500-word report (+/- 10%) that critically examines the role of culture in driving performance in your chosen organisation. Your analysis should address the following:1. Introduction (200 words)Provide an overview of your chosen organisation, including its background, industry, and business environment.Explain why key factors of organisational culture, motivation and team-work shape workplace behaviour and performance.Organisational Culture, Staff Motivation, and Teamwork (800 words) \u2013 LO1Explore the organisation\u2019s culture, focusing on values, norms, and beliefs.Apply relevant cultural, motivational and team-working theories, models, and concepts (e.g., Hofstede\u2019s Cultural Dimensions, Schein\u2019s Organisational Culture Model, Competing Values Framework, Vroom\u2019s Expectancy Theory, Maslow\u2019s Hierarchy of Needs, Herzberg\u2019s Two-Factor Theory  and Belbin\u2019s Team Roles) to explain the cultural framework within the organisation and human behaviour within its teams.Use research to support findings and provide examples illustrating the organisation\u2019s culture.3. Impact on Performance (900 words) \u2013 LO2Evaluate how organisational culture, methods of staff motivation and team-working as explained by the theories referred to above, affects performance at the individual, team, and organisational levels. Discuss both positive and negative impacts (e.g., employee motivation, collaboration, efficiency, resistance to change).Reference examples from the organisation to strengthen the analysis.4. Recommendations for Improving Organisational Culture (400 words) \u2013 LO3Propose strategies to enhance organisational culture, staff motivation and team-working and improve organisational performance.Justify recommendations by demonstrating an understanding of the link between culture and organisational success. 5. Conclusion (200 words)Summarise key insights from the analysis.Support your analysis with relevant academic literature, including a minimum of 10 references from credible sources such as academic journals, textbooks, and the company\u2019s official website.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Task:",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Imagine that you are working as a Summer Associate during an internship at L.E.K. Consulting based in London, which describes itself as \u2018a global strategy consultancy working closely with business leaders to seize competitive advantage and amplify growth\u2019 https://www.lek.com/about-lek.  To get started, your line manager has asked you to provide a report that might be used as marketing material to attract new clients seeking business consultancy services.  ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "You are required to select a business of your choice (make sure it has been approved by the module tutor) and produce a 2,500-word report (+/- 10%) that critically examines the role of culture in driving performance in your chosen organisation. Your analysis should address the following:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "1. Introduction (200 words)",
+      "context": "",
+      "python_prediction": "SECTION_HEADING",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Use research to support findings and provide examples illustrating the organisation\u2019s culture.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Reference examples from the organisation to strengthen the analysis.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "5. Conclusion (200 words)",
+      "context": "",
+      "python_prediction": "SECTION_HEADING",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Support your analysis with relevant academic literature, including a minimum of 10 references from credible sources such as academic journals, textbooks, and the company\u2019s official website.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Your first point of advice should be the person setting the assignment or the module leader. If you need more general support with your studies (e.g. academic writing, referencing, critical thinking) then the Student Learning and Achievement Team can support development of your academic skills.",
+      "context": "",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Your first point of advice should be the person setting the assignment or the module leader. ",
+      "context": "",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "If you need more general support with your studies (e.g. academic writing, referencing, critical thinking) then the Student Learning and Achievement Team can support development of your academic skills.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "This assignment has been designed to provide you with an opportunity to demonstrate your achievement of the following module learning outcomes:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Practicalities: Referencing, presenting and submitting your work",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Please ensure that your work is referenced in Harvard Referencing style. Guidance on using this style correctly is available at https://www.citethemrightonline.com/. Please see your programme handbook for information on the standard referencing style, presentational requirements and process for submitting your work.This assignment should be submitted electronically using the relevant Turnitin submission point in the Submit your work section of your Blackboard module shell.If you do submit your work more than once, your earlier submission will be replaced by the most recent version.Once you have submitted your work, you will receive a digital receipt as proof of submission, which will be sent to your forwarded e-mail address (provided you have set this up). Please keep this receipt for future reference, along with the original electronic copy of your assignment.",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Please ensure that your work is referenced in Harvard Referencing style. Guidance on using this style correctly is available at https://www.citethemrightonline.com/. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Please see your programme handbook for information on the standard referencing style, presentational requirements and process for submitting your work.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "This assignment should be submitted electronically using the relevant Turnitin submission point in the Submit your work section of your Blackboard module shell.",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "If you do submit your work more than once, your earlier submission will be replaced by the most recent version.",
+      "context": "",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Once you have submitted your work, you will receive a digital receipt as proof of submission, which will be sent to your forwarded e-mail address (provided you have set this up). Please keep this receipt for future reference, along with the original electronic copy of your assignment.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "You should maintain and respect confidentiality in relation to the protection of personal, technical and/or commercial information of a sensitive nature in your assessed work. For further information and guidance, please see the University Academic Confidentiality guidance.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "For further information and guidance, please see the University Academic Confidentiality guidance.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Academic integrity",
+      "context": "",
+      "python_prediction": "PROTECTED_SECTION",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Academic integrity ",
+      "context": "",
+      "python_prediction": "PROTECTED_SECTION",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Academic integrity means taking responsibility for your own work and not acting in a way to give you an unfair advantage over another learner. This includes writing in your own words and acknowledging sources you have used. It also covers the appropriate use of Artificial Intelligence. When you submit an assignment, you are making a declaration that it is your own work and that you have acknowledged the contribution of others and their ideas in its development (for example, by referencing them appropriately). For further information, please see the following student facing guidance on the University website:BNU Student Academic Integrity GuidanceBNU Artificial Intelligence Guidance for StudentsThere are also links to resources to support your understanding of Academic Integrity within your Blackboard module sites in the Assessment Information area.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Academic integrity means taking responsibility for your own work and not acting in a way to give you an unfair advantage over another learner. This includes writing in your own words and acknowledging sources you have used. It also covers the appropriate use of Artificial Intelligence. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "When you submit an assignment, you are making a declaration that it is your own work and that you have acknowledged the contribution of others and their ideas in its development (for example, by referencing them appropriately). ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "BNU Student Academic Integrity Guidance",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "There are also links to resources to support your understanding of Academic Integrity within your Blackboard module sites in the Assessment Information area. ",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Categorical Mark and Grade",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass status",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "FailLearning Outcomes have not been met",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Fail",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Learning Outcomes have not been met",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Marginal FailLearning Outcomes have not been met",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Marginal Fail",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass - SatisfactoryLearning Outcomes have been met",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass - Satisfactory",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Learning Outcomes have been met",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass \u2013 Good Learning Outcomes have been exceeded",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass \u2013 Very GoodLearning Outcomes have been exceeded",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass \u2013 Very Good",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Learning Outcomes have been exceeded",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass \u2013 ExcellentLearning Outcomes have been exceeded",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass \u2013 Excellent",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass \u2013 OutstandingLearning Outcomes have been exceeded",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Pass \u2013 Outstanding",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Knowledge and its application ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates insufficient ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a basic ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates an exceptional ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Leadership and self-development",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a limited or no ability to develop lines of argument and make judgements in accordance with basic people management theories and concepts, evidenced by:\u2022 little or no demonstration of an ability to devise and sustain arguments\u2022 little or no demonstration of an ability to describe and comment upon aspects of fundamental people management theories and concepts\u2022 little or no use of relevant and appropriate sources to support arguments.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a limited or no ability to develop lines of argument and make judgements in accordance with basic people management theories and concepts, evidenced by:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "\u2022 little or no demonstration of an ability to describe and comment upon aspects of fundamental people management theories and concepts",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates an insufficient ability to develop lines of argument and make some sound judgements in accordance with basic people management theories and concepts, evidenced by:\u2022 insufficient demonstration of the ability to devise and sustain arguments consistent with the norms of the discipline\u2022 some ability to describe and comment upon aspects of fundamental people management theories and concepts\u2022 there is some limited evidence of the ability to select evaluate and comment on a limited range of relevant and appropriate sources to support arguments.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates an insufficient ability to develop lines of argument and make some sound judgements in accordance with basic people management theories and concepts, evidenced by:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "\u2022 some ability to describe and comment upon aspects of fundamental people management theories and concepts",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a sufficient ability to develop lines of argument and make largely sound judgements in accordance with fundamental people management theories and concepts, evidenced by:\u2022 satisfactory demonstration of the ability to devise and sustain arguments, some of which are consistent with the norms of the discipline\u2022 satisfactory ability to describe and comment upon aspects of fundamental people management theories and concepts\u2022 use of a sufficient range of relevant and appropriate sources to support arguments, some of which are independently selected.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a sufficient ability to develop lines of argument and make largely sound judgements in accordance with fundamental people management theories and concepts, evidenced by:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "\u2022 satisfactory ability to describe and comment upon aspects of fundamental people management theories and concepts",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates well-developed lines of argument and soundjudgements made in accordance with fundamental people management theories and concepts, evidenced by:\u2022 good use of ideas and techniques to devise and sustain arguments most of which are consistent with the norms of the discipline\u2022 good ability to consistently describe and comment upon aspects of fundamental people management theories and concepts\u2022 use of a sound range of relevant and appropriate sources to support arguments some of which independently selected.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "judgements made in accordance with fundamental people management theories and concepts, evidenced by:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "\u2022 good ability to consistently describe and comment upon aspects of fundamental people management theories and concepts",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates well-developed lines of argument and very good judgements made in accordance with fundamental people management theories and concepts, evidenced by:\u2022 very good use of ideas and techniques to devise and sustain arguments which are consistent with the norms of the discipline\u2022 very good ability to describe, synthesise and critique aspects of fundamental people management theories and concepts\u2022 use of a very good range of relevant and appropriate sources to support arguments some of which are independently selected.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates well-developed lines of argument and very good judgements made in accordance with fundamental people management theories and concepts, evidenced by:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "\u2022 very good ability to describe, synthesise and critique aspects of fundamental people management theories and concepts",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates highly accomplished development of lines of argument and independent judgements made in accordance with fundamental people management theories and concepts, evidenced by:\u2022 Excellent use of ideas and techniques to devise and sustain arguments which are consistent with the norms of the discipline and beyond what has been taught\u2022 excellent ability to describe, synthesise and critique all relevant aspects of fundamental people management theories and concepts\u2022 use of a highly accomplished range of relevant and appropriate sources to support arguments many of which are independently selected.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates highly accomplished development of lines of argument and independent judgements made in accordance with fundamental people management theories and concepts, evidenced by:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "\u2022 excellent ability to describe, synthesise and critique all relevant aspects of fundamental people management theories and concepts",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates exceptionally accomplished development of lines of argument as well as outstanding independent judgements made in accordance with fundamental people management theories and concepts, evidenced by:\u2022 Outstanding use of ideas and techniques to devise and sustain arguments which are consistent with the norms of the discipline and well beyond what has been taught\u2022 outstanding ability to describe, synthesise and critique in great depth all relevant aspects of fundamental people management theories and concepts\u2022 use of an exceptional range of relevant and appropriate sources to support arguments many of which are independently selected",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates exceptionally accomplished development of lines of argument as well as outstanding independent judgements made in accordance with fundamental people management theories and concepts, evidenced by:",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "\u2022 outstanding ability to describe, synthesise and critique in great depth all relevant aspects of fundamental people management theories and concepts",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Leadership and self-development(10%)This should include evidence of:- Accurate spelling, punctuation and grammar- Completing all of the assignment requirements- Appropriate use of language- Appropriate report writing conventions including accurate Harvard referencing",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "- Appropriate report writing conventions including accurate Harvard referencing",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates limited or no ability to communicate ideas and information accurately and reliably in written academic English.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates an insufficient ability to communicate ideas and information accurately and reliably in written academic English.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a sufficient ability to communicate ideas and information accurately and reliably in written academic English.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a consistent and confident ability to communicate ideas and information accurately and reliably in written academic English.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a highly proficient ability to communicate ideas and information accurately and reliably in written academic English.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates a highly accomplished ability to communicate ideas and information accurately and reliably in written academic English",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Work demonstrates an exceptional ability to communicate ideas and information accurately and reliably in written academic English.",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781775332396_MG414_CW1_Assignment_Brief_1__1_.docx",
+      "candidate": "Assessment Criteria \u2013 Level 0 to Level 6\t\t\t\t\tAcademic Year 2025-26",
+      "context": "",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.3e-05,
+      "response_time_ms": 545,
+      "token_usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 56,
+        "total_tokens": 119
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "document_id": "1781779380532_Brief_pdf_1382364278.pdf",
+  "total_candidates": 58,
+  "escalated_candidates": 4,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 4,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 4,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781779380532_Brief_pdf_1382364278.pdf",
+      "candidate": "Guided Study Hours",
+      "context": "essment Task \nand Weighting \nCW1 \u2013 Research Proposal \nPresentation \n \n30% \nStudy Hours \n90 Scheduled Teaching Hours \n90 Guided Study Hours \n420 Independent Study Hours \n \nModule Lead \nDr Mariya Rai \n \n \nDate of approval of this \nversion \n31/05/2026 \nLevel (C",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.3e-05,
+      "response_time_ms": 685,
+      "token_usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 23,
+        "total_tokens": 147
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781779380532_Brief_pdf_1382364278.pdf",
+      "candidate": "Module Lead",
+      "context": "l \nPresentation \n \n30% \nStudy Hours \n90 Scheduled Teaching Hours \n90 Guided Study Hours \n420 Independent Study Hours \n \nModule Lead \nDr Mariya Rai \n \n \nDate of approval of this \nversion \n31/05/2026 \nLevel (Credit Value) \nLevel 6 (60 credits) \n \n \nSeme",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.3e-05,
+      "response_time_ms": 685,
+      "token_usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 23,
+        "total_tokens": 147
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781779380532_Brief_pdf_1382364278.pdf",
+      "candidate": "Module Lead",
+      "context": "ort & Resources Available \n \nNeed Help With\u2026 \nContact / Resource \nUnderstanding feedback \n \nBook a 15-min slot with the Module Lead or \nsupport Tutor \nmariya.rai@lcca.ac.uk \nAcademic Appeals \nquality@lcca.ac.uk \nAcademic writing \nstudentsuccess@lcca.a",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.3e-05,
+      "response_time_ms": 685,
+      "token_usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 23,
+        "total_tokens": 147
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781779380532_Brief_pdf_1382364278.pdf",
+      "candidate": "Academic Appeals",
+      "context": "/ Resource \nUnderstanding feedback \n \nBook a 15-min slot with the Module Lead or \nsupport Tutor \nmariya.rai@lcca.ac.uk \nAcademic Appeals \nquality@lcca.ac.uk \nAcademic writing \nstudentsuccess@lcca.ac.uk \n",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.3e-05,
+      "response_time_ms": 685,
+      "token_usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 23,
+        "total_tokens": 147
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    }
+  ]
+}

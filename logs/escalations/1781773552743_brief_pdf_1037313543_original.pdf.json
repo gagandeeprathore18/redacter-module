@@ -1,0 +1,890 @@
+{
+  "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+  "total_candidates": 41,
+  "escalated_candidates": 41,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 6,
+    "CLASSIFIER_CONFLICT": 20,
+    "UNKNOWN_PATTERN": 30,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "candidates": [
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Assessment Brief",
+      "context": "Page 1 of 6 \n \n \nAssessment Brief \nModule code: \nBM304 \nModule title: \nLeading Innovation \nWord count: \n2500 words (+/- 10%) \u2013 excl. references other pre",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Leading Innovation",
+      "context": "Page 1 of 6 \n \n \nAssessment Brief \nModule code: \nBM304 \nModule title: \nLeading Innovation \nWord count: \n2500 words (+/- 10%) \u2013 excl. references other preface pages \nContribution to module mark: 100% \nSubmissio",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Leading Innovation",
+      "context": "he process of implementing an innovative \nidea within an organisational context \nOverview \nThe summative assessment for Leading Innovation (BM304) consists of a single written report \nworth 100% of the module grade. The report requires comprehensive understa",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Academic Integrity Policy",
+      "context": "m, collusion \nor the use of AI-generated content presented as your own \u2014 will be investigated in accordance \nwith NCG's Academic Integrity Policy. \nThe Task \nProduce a written report of 2,500 words (+/- 10%) examining the principles of innovation and \ndeveloping an",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "The Task",
+      "context": "AI-generated content presented as your own \u2014 will be investigated in accordance \nwith NCG's Academic Integrity Policy. \nThe Task \nProduce a written report of 2,500 words (+/- 10%) examining the principles of innovation and \ndeveloping an analysis o",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Reference List",
+      "context": "Page 3 of 6 \n11. Reference List: Reference List: Harvard format. You should ensure there are in-text \ncitations in the body of your work. The reference",
+      "python_prediction": "PROTECTED_SECTION",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Reference List",
+      "context": "Page 3 of 6 \n11. Reference List: Reference List: Harvard format. You should ensure there are in-text \ncitations in the body of your work. The reference list is not inc",
+      "python_prediction": "PROTECTED_SECTION",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Module Guide",
+      "context": "tional information on your summative (final) assessment is available on the \nmodule\u2019s VLE page titled as follows: BM304 Module Guide \no Finally, consult your tutor, the module leader and/or programme leader should you \nwish to clarify any part of your ",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Academic Submission Formatting Requirements",
+      "context": "nsult your tutor, the module leader and/or programme leader should you \nwish to clarify any part of your assessment. \n \nAcademic Submission Formatting Requirements \n\u2022 1.5 line spacing \n\u2022 Font: Arial, 12pt \n\u2022 Sub-headings presented in bold and/or underlined \n\u2022 Page numbers on all pag",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Recommended Reading",
+      "context": "Page numbers on all pages \n\u2022 Text aligned to the left \n\u2022 Reference list in full alphabetical order by author surname \n \nRecommended Reading and Resources \nCore Text \nTidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and \nO",
+      "python_prediction": "PROTECTED_SECTION",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Core Text",
+      "context": "ligned to the left \n\u2022 Reference list in full alphabetical order by author surname \n \nRecommended Reading and Resources \nCore Text \nTidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and \nOrganisational Change. 7th",
+      "python_prediction": "PERSON",
+      "python_confidence": 50,
+      "escalation_reasons": [
+        "LOW_CONFIDENCE"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Managing Innovation",
+      "context": "l alphabetical order by author surname \n \nRecommended Reading and Resources \nCore Text \nTidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and \nOrganisational Change. 7th edn. Hoboken: Wiley. \n \nAdditional Recommended Acade",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Integrating Technological",
+      "context": "by author surname \n \nRecommended Reading and Resources \nCore Text \nTidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and \nOrganisational Change. 7th edn. Hoboken: Wiley. \n \nAdditional Recommended Academic Sources \n\u2022 Chesbrough, ",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Organisational Change",
+      "context": "g and Resources \nCore Text \nTidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and \nOrganisational Change. 7th edn. Hoboken: Wiley. \n \nAdditional Recommended Academic Sources \n\u2022 Chesbrough, H. (2003) Open Innovation: The New ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Additional Recommended Academic Sources",
+      "context": ". (2021) Managing Innovation: Integrating Technological, Market and \nOrganisational Change. 7th edn. Hoboken: Wiley. \n \nAdditional Recommended Academic Sources \n\u2022 Chesbrough, H. (2003) Open Innovation: The New Imperative for Creating and Profiting \nfrom Technology. Boston: Harva",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Open Innovation",
+      "context": "nd \nOrganisational Change. 7th edn. Hoboken: Wiley. \n \nAdditional Recommended Academic Sources \n\u2022 Chesbrough, H. (2003) Open Innovation: The New Imperative for Creating and Profiting \nfrom Technology. Boston: Harvard Business School Press. \n\u2022 Christensen,",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "The New Imperative",
+      "context": "l Change. 7th edn. Hoboken: Wiley. \n \nAdditional Recommended Academic Sources \n\u2022 Chesbrough, H. (2003) Open Innovation: The New Imperative for Creating and Profiting \nfrom Technology. Boston: Harvard Business School Press. \n\u2022 Christensen, C.M. (1997) The Inn",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Technology. Boston",
+      "context": "ommended Academic Sources \n\u2022 Chesbrough, H. (2003) Open Innovation: The New Imperative for Creating and Profiting \nfrom Technology. Boston: Harvard Business School Press. \n\u2022 Christensen, C.M. (1997) The Innovator's Dilemma. Boston: Harvard Business School \nP",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Harvard Business School Press",
+      "context": "urces \n\u2022 Chesbrough, H. (2003) Open Innovation: The New Imperative for Creating and Profiting \nfrom Technology. Boston: Harvard Business School Press. \n\u2022 Christensen, C.M. (1997) The Innovator's Dilemma. Boston: Harvard Business School \nPress. \n\u2022 Drucker, P.F. (1985) I",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "The Innovator",
+      "context": "erative for Creating and Profiting \nfrom Technology. Boston: Harvard Business School Press. \n\u2022 Christensen, C.M. (1997) The Innovator's Dilemma. Boston: Harvard Business School \nPress. \n\u2022 Drucker, P.F. (1985) Innovation and Entrepreneurship: Practice an",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Dilemma. Boston",
+      "context": "ting and Profiting \nfrom Technology. Boston: Harvard Business School Press. \n\u2022 Christensen, C.M. (1997) The Innovator's Dilemma. Boston: Harvard Business School \nPress. \n\u2022 Drucker, P.F. (1985) Innovation and Entrepreneurship: Practice and Principles. Oxfo",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Harvard Business School",
+      "context": "g \nfrom Technology. Boston: Harvard Business School Press. \n\u2022 Christensen, C.M. (1997) The Innovator's Dilemma. Boston: Harvard Business School \nPress. \n\u2022 Drucker, P.F. (1985) Innovation and Entrepreneurship: Practice and Principles. Oxford: \nButterworth-Heineman",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Principles. Oxford",
+      "context": " Dilemma. Boston: Harvard Business School \nPress. \n\u2022 Drucker, P.F. (1985) Innovation and Entrepreneurship: Practice and Principles. Oxford: \nButterworth-Heinemann. \n\u2022 Kotter, J.P. (2012) Leading Change. Rev. edn. Boston: Harvard Business Review Press. \n\u2022 Lew",
+      "python_prediction": "PERSON",
+      "python_confidence": 50,
+      "escalation_reasons": [
+        "LOW_CONFIDENCE"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Butterworth-Heinemann",
+      "context": "vard Business School \nPress. \n\u2022 Drucker, P.F. (1985) Innovation and Entrepreneurship: Practice and Principles. Oxford: \nButterworth-Heinemann. \n\u2022 Kotter, J.P. (2012) Leading Change. Rev. edn. Boston: Harvard Business Review Press. \n\u2022 Lewin, K. (1951) Field Theo",
+      "python_prediction": "PERSON",
+      "python_confidence": 50,
+      "escalation_reasons": [
+        "LOW_CONFIDENCE"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Leading Change",
+      "context": "(1985) Innovation and Entrepreneurship: Practice and Principles. Oxford: \nButterworth-Heinemann. \n\u2022 Kotter, J.P. (2012) Leading Change. Rev. edn. Boston: Harvard Business Review Press. \n\u2022 Lewin, K. (1951) Field Theory in Social Science: Selected Theoreti",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Harvard Business Review Press",
+      "context": "ship: Practice and Principles. Oxford: \nButterworth-Heinemann. \n\u2022 Kotter, J.P. (2012) Leading Change. Rev. edn. Boston: Harvard Business Review Press. \n\u2022 Lewin, K. (1951) Field Theory in Social Science: Selected Theoretical Papers. New York: \nHarper & Row. \n\u2022 OECD/Euro",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Field Theory",
+      "context": "-Heinemann. \n\u2022 Kotter, J.P. (2012) Leading Change. Rev. edn. Boston: Harvard Business Review Press. \n\u2022 Lewin, K. (1951) Field Theory in Social Science: Selected Theoretical Papers. New York: \nHarper & Row. \n\u2022 OECD/Eurostat (2018) Oslo Manual 2018: Guid",
+      "python_prediction": "PERSON",
+      "python_confidence": 50,
+      "escalation_reasons": [
+        "LOW_CONFIDENCE"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Social Science",
+      "context": "otter, J.P. (2012) Leading Change. Rev. edn. Boston: Harvard Business Review Press. \n\u2022 Lewin, K. (1951) Field Theory in Social Science: Selected Theoretical Papers. New York: \nHarper & Row. \n\u2022 OECD/Eurostat (2018) Oslo Manual 2018: Guidelines for Collect",
+      "python_prediction": "PERSON",
+      "python_confidence": 50,
+      "escalation_reasons": [
+        "LOW_CONFIDENCE"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Selected Theoretical Papers",
+      "context": "2) Leading Change. Rev. edn. Boston: Harvard Business Review Press. \n\u2022 Lewin, K. (1951) Field Theory in Social Science: Selected Theoretical Papers. New York: \nHarper & Row. \n\u2022 OECD/Eurostat (2018) Oslo Manual 2018: Guidelines for Collecting, Reporting and Using \nDat",
+      "python_prediction": "PERSON",
+      "python_confidence": 55,
+      "escalation_reasons": [
+        "LOW_CONFIDENCE"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "New York",
+      "context": "Boston: Harvard Business Review Press. \n\u2022 Lewin, K. (1951) Field Theory in Social Science: Selected Theoretical Papers. New York: \nHarper & Row. \n\u2022 OECD/Eurostat (2018) Oslo Manual 2018: Guidelines for Collecting, Reporting and Using \nData on Innov",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Oslo Manual",
+      "context": "K. (1951) Field Theory in Social Science: Selected Theoretical Papers. New York: \nHarper & Row. \n\u2022 OECD/Eurostat (2018) Oslo Manual 2018: Guidelines for Collecting, Reporting and Using \nData on Innovation. 4th edn. Paris: OECD Publishing. \n\u2022 Rogers, E",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "OECD Publishing",
+      "context": "D/Eurostat (2018) Oslo Manual 2018: Guidelines for Collecting, Reporting and Using \nData on Innovation. 4th edn. Paris: OECD Publishing. \n\u2022 Rogers, E.M. (2003) Diffusion of Innovations. 5th edn. New York: Free Press. \n\u2022 Schumpeter, J.A. (1942) Capitalism,",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "New York",
+      "context": "d Using \nData on Innovation. 4th edn. Paris: OECD Publishing. \n\u2022 Rogers, E.M. (2003) Diffusion of Innovations. 5th edn. New York: Free Press. \n\u2022 Schumpeter, J.A. (1942) Capitalism, Socialism and Democracy. New York: Harper & Row. \n\u2022 Tushman, M.L. a",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Free Press",
+      "context": "ata on Innovation. 4th edn. Paris: OECD Publishing. \n\u2022 Rogers, E.M. (2003) Diffusion of Innovations. 5th edn. New York: Free Press. \n\u2022 Schumpeter, J.A. (1942) Capitalism, Socialism and Democracy. New York: Harper & Row. \n\u2022 Tushman, M.L. and O'Reilly,",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Democracy. New York",
+      "context": "M. (2003) Diffusion of Innovations. 5th edn. New York: Free Press. \n\u2022 Schumpeter, J.A. (1942) Capitalism, Socialism and Democracy. New York: Harper & Row. \n\u2022 Tushman, M.L. and O'Reilly, C.A. (1996) 'Ambidextrous Organizations: Managing \nEvolutionary and Revol",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Ambidextrous Organizations",
+      "context": "r, J.A. (1942) Capitalism, Socialism and Democracy. New York: Harper & Row. \n\u2022 Tushman, M.L. and O'Reilly, C.A. (1996) 'Ambidextrous Organizations: Managing \nEvolutionary and Revolutionary Change', California Management Review, 38(4), pp. 8\u2013\n29. \n \nRecommended Acade",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Revolutionary Change",
+      "context": " York: Harper & Row. \n\u2022 Tushman, M.L. and O'Reilly, C.A. (1996) 'Ambidextrous Organizations: Managing \nEvolutionary and Revolutionary Change', California Management Review, 38(4), pp. 8\u2013\n29. \n \nRecommended Academic Journals \n\u2022 Research Policy (Elsevier) \n\u2022 Jou",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "California Management Review",
+      "context": " Tushman, M.L. and O'Reilly, C.A. (1996) 'Ambidextrous Organizations: Managing \nEvolutionary and Revolutionary Change', California Management Review, 38(4), pp. 8\u2013\n29. \n \nRecommended Academic Journals \n\u2022 Research Policy (Elsevier) \n\u2022 Journal of Product Innovation Mana",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Recommended Academic Journals",
+      "context": "ous Organizations: Managing \nEvolutionary and Revolutionary Change', California Management Review, 38(4), pp. 8\u2013\n29. \n \nRecommended Academic Journals \n\u2022 Research Policy (Elsevier) \n\u2022 Journal of Product Innovation Management (Wiley) \n",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Research Policy",
+      "context": "utionary and Revolutionary Change', California Management Review, 38(4), pp. 8\u2013\n29. \n \nRecommended Academic Journals \n\u2022 Research Policy (Elsevier) \n\u2022 Journal of Product Innovation Management (Wiley) \n",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781773552743_brief_pdf_1037313543_original.pdf",
+      "candidate": "Product Innovation Management",
+      "context": "ornia Management Review, 38(4), pp. 8\u2013\n29. \n \nRecommended Academic Journals \n\u2022 Research Policy (Elsevier) \n\u2022 Journal of Product Innovation Management (Wiley) \n",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 349,
+      "token_usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 30,
+        "total_tokens": 143
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    }
+  ]
+}

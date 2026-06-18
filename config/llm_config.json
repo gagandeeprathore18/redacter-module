@@ -1,0 +1,11 @@
+{
+  "model": "gpt-4o-mini",
+  "confidence_threshold": 50.0,
+  "escalation_confidence_threshold": 50.0,
+  "pricing": {
+    "input_cost_per_million": 0.15,
+    "output_cost_per_million": 0.60
+  },
+  "telemetry_log_path": "/home/user/drafter-module/python/llm/telemetry.log",
+  "monthly_stats_path": "/home/user/drafter-module/python/llm/monthly_stats.json"
+}

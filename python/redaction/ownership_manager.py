@@ -98,3 +98,16 @@ def determine_issuing_university(ocr_text: str):
                     return
     except Exception as e:
         print(f"Error loading university db in ownership manager: {e}")
+
+_detected_universities = set()
+
+def clear_detected_universities():
+    global _detected_universities
+    _detected_universities = set()
+
+def register_detected_university(name: str):
+    global _detected_universities
+    _detected_universities.add(name)
+
+def get_detected_universities():
+    return _detected_universities

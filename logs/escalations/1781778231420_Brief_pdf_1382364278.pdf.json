@@ -1,0 +1,1129 @@
+{
+  "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+  "total_candidates": 58,
+  "escalated_candidates": 45,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 27,
+    "UNKNOWN_PATTERN": 40,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 27,
+    "UNKNOWN_PATTERN": 40,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [
+    {
+      "severity": "HIGH",
+      "message": "Escalation limit exceeded."
+    }
+  ],
+  "candidates": [
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "LCCA Assessment Brief Template",
+      "context": "1 \n \nLCCA Assessment Brief Template (T1) \n \n \n \n \n \n \n \n \n \n \n \nContext & Purpose \n \nIn today\u2019s fast-changing business world, small and medium-sized enterp",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Academic Year",
+      "context": "hance your ability to present your ideas clearly and professionally, aligning academic rigour \nwith real-world impact. \nAcademic Year \n2026/27 \nBrief Released \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nAppli",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Brief Released",
+      "context": "esent your ideas clearly and professionally, aligning academic rigour \nwith real-world impact. \nAcademic Year \n2026/27 \nBrief Released \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nApplied Research Project \nFeed",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Module Code",
+      "context": " professionally, aligning academic rigour \nwith real-world impact. \nAcademic Year \n2026/27 \nBrief Released \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nApplied Research Project \nFeedback Release Date \nProvis",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Submission Deadline",
+      "context": "ing academic rigour \nwith real-world impact. \nAcademic Year \n2026/27 \nBrief Released \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nApplied Research Project \nFeedback Release Date \nProvisional results should be \nmade ",
+      "python_prediction": "BUSINESS_FIELD",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Module Title",
+      "context": "act. \nAcademic Year \n2026/27 \nBrief Released \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nApplied Research Project \nFeedback Release Date \nProvisional results should be \nmade to students within 4-6 \nweeks of ",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Applied Research Project",
+      "context": " Year \n2026/27 \nBrief Released \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nApplied Research Project \nFeedback Release Date \nProvisional results should be \nmade to students within 4-6 \nweeks of their assessment \ndeadline",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Feedback Release Date",
+      "context": "ased \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nApplied Research Project \nFeedback Release Date \nProvisional results should be \nmade to students within 4-6 \nweeks of their assessment \ndeadline (excluding vacation \nw",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Assessment Task",
+      "context": "sional results should be \nmade to students within 4-6 \nweeks of their assessment \ndeadline (excluding vacation \nweeks) \nAssessment Task \nand Weighting \nCW1 \u2013 Research Proposal \nPresentation \n \n30% \nStudy Hours \n90 Scheduled Teaching Hours \n90 Guided Study",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Proposal",
+      "context": "ents within 4-6 \nweeks of their assessment \ndeadline (excluding vacation \nweeks) \nAssessment Task \nand Weighting \nCW1 \u2013 Research Proposal \nPresentation \n \n30% \nStudy Hours \n90 Scheduled Teaching Hours \n90 Guided Study Hours \n420 Independent Study Hours \n \nM",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Guided Study Hours",
+      "context": "essment Task \nand Weighting \nCW1 \u2013 Research Proposal \nPresentation \n \n30% \nStudy Hours \n90 Scheduled Teaching Hours \n90 Guided Study Hours \n420 Independent Study Hours \n \nModule Lead \nDr Mariya Rai \n \n \nDate of approval of this \nversion \n31/05/2026 \nLevel (C",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Module Lead",
+      "context": "l \nPresentation \n \n30% \nStudy Hours \n90 Scheduled Teaching Hours \n90 Guided Study Hours \n420 Independent Study Hours \n \nModule Lead \nDr Mariya Rai \n \n \nDate of approval of this \nversion \n31/05/2026 \nLevel (Credit Value) \nLevel 6 (60 credits) \n \n \nSeme",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Use PowerPoint",
+      "context": "5 \n \nRequirements \n\u2022 \nDeliver a 10-minute presentation in class. \n\u2022 \nUse PowerPoint slides. \n\u2022 \nInclude speaker notes within the submitted PowerPoint. \n\u2022 \nThe presentation will be recorded for assessment",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "A Requirement",
+      "context": "lude speaker notes within the submitted PowerPoint. \n\u2022 \nThe presentation will be recorded for assessment purposes. \n \nQ&A Requirement (Live Presentation) \nFollowing the presentation, students will participate in a 5 min Q&A session with the tutor. \nStud",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Questions",
+      "context": "students will participate in a 5 min Q&A session with the tutor. \nStudents should prepare using the provided Bank of 15 Research Questions. \n \n \nOPTION 2 \u2013 Self-Recorded Presentation \nStudents may record their presentation independently at home. \nAccepted Fo",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Accepted Formats",
+      "context": "h Questions. \n \n \nOPTION 2 \u2013 Self-Recorded Presentation \nStudents may record their presentation independently at home. \nAccepted Formats \nStudents may submit either: \n\u2022 \na narrated PowerPoint presentation, OR \n\u2022 \na video recording presenting their slides v",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "A Requirement",
+      "context": "nd narration must be clear and professional. \n\u2022 \nSpeaker notes must still be included in the submitted PowerPoint. \n \nQ&A Requirement (Self-Recorded Presentation) \nBecause there is no live Q&A session, students must include a short reflective Q&A sectio",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Self-Recorded Presentation",
+      "context": "st be clear and professional. \n\u2022 \nSpeaker notes must still be included in the submitted PowerPoint. \n \nQ&A Requirement (Self-Recorded Presentation) \nBecause there is no live Q&A session, students must include a short reflective Q&A section within their \nrecording. \n",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Questions",
+      "context": "\nrecording. \nAfter the main presentation, students must select and answer: \n\u2022 \nat least 4 questions from the Bank of 15 Research Questions. \n\u2022 \nAdd a short 5-minute section at the end of the slides where you verbally answer 4 selected \nquestions. \n \n \nBank o",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Questions",
+      "context": "\nAdd a short 5-minute section at the end of the slides where you verbally answer 4 selected \nquestions. \n \n \nBank of 15 Research Questions \n1. What was the focus of your research project, and why did you choose this topic? \n2. What business problem or issue ",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Ethical Approval Requirement",
+      "context": "7 \n \nEthical Approval Requirement \nAll students who wish to complete primary research at any stage of their degree should seek \nguidance as to whether et",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Ethics",
+      "context": "bmit a Tier 1 checklist. The \nstudents undertaking the research should obtain ethical approval by the end of Term 2. \n \nResearch Ethics: You must adhere to the college's policy on research ethics throughout your \nproject. This typically involves conductin",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Ethics",
+      "context": "ch ethically and responsibly, ensuring it \nrespects privacy and adheres to other ethical considerations. \n \nImportant - Research Ethics: You must understand how the College's ethics policy applies to your \nproject. An ethics release form must be submitted",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Portfolio Component",
+      "context": " form must be submitted with your project outline. For more details see the \nCollege's Policy. \n \n \n \nAssessment \nType \nPortfolio Component \nWeight \nAssesses \nLO \nGeneric Grading Criteria \nComponent \n1 - Individual \nPresentation \nCW1 \u2013 Individual \nResearch Pr",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Generic Grading Criteria",
+      "context": "utline. For more details see the \nCollege's Policy. \n \n \n \nAssessment \nType \nPortfolio Component \nWeight \nAssesses \nLO \nGeneric Grading Criteria \nComponent \n1 - Individual \nPresentation \nCW1 \u2013 Individual \nResearch Proposal \nPresentation \n30% \nLO1, LO2, \nLO3, LO4 \n",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Proposal",
+      "context": "o Component \nWeight \nAssesses \nLO \nGeneric Grading Criteria \nComponent \n1 - Individual \nPresentation \nCW1 \u2013 Individual \nResearch Proposal \nPresentation \n30% \nLO1, LO2, \nLO3, LO4 \nResearch and analysis \nEngaging with practice \nRealisation and communication \n",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Artificial Intelligence",
+      "context": "n \n30% \nLO1, LO2, \nLO3, LO4 \nResearch and analysis \nEngaging with practice \nRealisation and communication \n \n \n \nUse of Artificial Intelligence in This Assessment \n \nWhilst AI tools can be helpful in assisting learning, when it comes to assessment, LCCA\u2019s AI poli",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "This Assessment",
+      "context": " \nResearch and analysis \nEngaging with practice \nRealisation and communication \n \n \n \nUse of Artificial Intelligence in This Assessment \n \nWhilst AI tools can be helpful in assisting learning, when it comes to assessment, LCCA\u2019s AI policy is clear \nthat t",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Whilst AI",
+      "context": "ysis \nEngaging with practice \nRealisation and communication \n \n \n \nUse of Artificial Intelligence in This Assessment \n \nWhilst AI tools can be helpful in assisting learning, when it comes to assessment, LCCA\u2019s AI policy is clear \nthat this should be",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Artificial Intelligence",
+      "context": "people or AI tools.\u202f For this \nassessment, AI is: \n \nPERMITTED (neither prohibited nor required) \nIf you use generative Artificial Intelligence (AI) in the process of completing this assessment you MUST set \nout clearly the following: \n",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "WHICH AI",
+      "context": "8 \n \n\u00b7 WHY you used generative AI \n\u00b7 WHAT it was used for \n\u00b7 WHICH AI was used; and \n\u00b7 If any generated content has been used directly in this submission, if so where. \n \nNote that this dec",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Generic Grading Criteria Level",
+      "context": "cords of your interactions is strongly \nadvised. \n \nAssessment & Feedback \nAssessment and feedback are aligned to UCA\u2019s Generic Grading Criteria Level 6 \nFormative feedback takes place in [Marks are awarded using the CW1 rubric aligned to Level 6 UCA \nGeneric Grading Cr",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Generic Grading Criteria",
+      "context": "ing Criteria Level 6 \nFormative feedback takes place in [Marks are awarded using the CW1 rubric aligned to Level 6 UCA \nGeneric Grading Criteria. Feedback will be provided via Canvas. All marks are provisional until confirmed \nby the Board of Examiners. \n \nYour fi",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Module Lead",
+      "context": "ort & Resources Available \n \nNeed Help With\u2026 \nContact / Resource \nUnderstanding feedback \n \nBook a 15-min slot with the Module Lead or \nsupport Tutor \nmariya.rai@lcca.ac.uk \nAcademic Appeals \nquality@lcca.ac.uk \nAcademic writing \nstudentsuccess@lcca.a",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Academic Appeals",
+      "context": "/ Resource \nUnderstanding feedback \n \nBook a 15-min slot with the Module Lead or \nsupport Tutor \nmariya.rai@lcca.ac.uk \nAcademic Appeals \nquality@lcca.ac.uk \nAcademic writing \nstudentsuccess@lcca.ac.uk \n",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Mitigating Circumstances",
+      "context": "9 \n \nReasonable adjustments (including Disability adjustments) \ndisabilityservice@lcca.ac.uk.ac.uk \n \n \n \nMitigating Circumstances \n \nMitigating Circumstances \n \nStudents with mitigating circumstances should submit their form to extensions@lcca.org.u",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Mitigating Circumstances",
+      "context": "e adjustments (including Disability adjustments) \ndisabilityservice@lcca.ac.uk.ac.uk \n \n \n \nMitigating Circumstances \n \nMitigating Circumstances \n \nStudents with mitigating circumstances should submit their form to extensions@lcca.org.uk by 5pm on the \nassessment ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Methods",
+      "context": "h methods. (Fifth) Oxford: Oxford University Press. \n \nRecommended \n \nGliner, J.A., Morgan, G.A, and Leech, N.L. (2017) Research Methods in Applied Settings: An Integrated Approach to \nDesign and Analysis. New York & London: Routledge \n \nDawson, C. (2019) ",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Applied Settings",
+      "context": "xford: Oxford University Press. \n \nRecommended \n \nGliner, J.A., Morgan, G.A, and Leech, N.L. (2017) Research Methods in Applied Settings: An Integrated Approach to \nDesign and Analysis. New York & London: Routledge \n \nDawson, C. (2019) Introduction to Rese",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "An Integrated Approach",
+      "context": "ersity Press. \n \nRecommended \n \nGliner, J.A., Morgan, G.A, and Leech, N.L. (2017) Research Methods in Applied Settings: An Integrated Approach to \nDesign and Analysis. New York & London: Routledge \n \nDawson, C. (2019) Introduction to Research Methods 5th Edition",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Methods",
+      "context": "ings: An Integrated Approach to \nDesign and Analysis. New York & London: Routledge \n \nDawson, C. (2019) Introduction to Research Methods 5th Edition: A Practical Guide for Anyone Undertaking a \nResearch Project. London: Robinson \n \nMcAvoy, J. and Butler, T",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "A Practical Guide",
+      "context": "o \nDesign and Analysis. New York & London: Routledge \n \nDawson, C. (2019) Introduction to Research Methods 5th Edition: A Practical Guide for Anyone Undertaking a \nResearch Project. London: Robinson \n \nMcAvoy, J. and Butler, T. (2018) 'A critical realist me",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Anyone Undertaking",
+      "context": ". New York & London: Routledge \n \nDawson, C. (2019) Introduction to Research Methods 5th Edition: A Practical Guide for Anyone Undertaking a \nResearch Project. London: Robinson \n \nMcAvoy, J. and Butler, T. (2018) 'A critical realist method for applied busine",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Research Project",
+      "context": "outledge \n \nDawson, C. (2019) Introduction to Research Methods 5th Edition: A Practical Guide for Anyone Undertaking a \nResearch Project. London: Robinson \n \nMcAvoy, J. and Butler, T. (2018) 'A critical realist method for applied business research' In: Jou",
+      "python_prediction": "ACADEMIC_TITLE",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT",
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781778231420_Brief_pdf_1382364278.pdf",
+      "candidate": "Sector Recognised Standards",
+      "context": "Students Sector Recognised Standards",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 2.7e-05,
+      "response_time_ms": 279,
+      "token_usage": {
+        "prompt_tokens": 96,
+        "completion_tokens": 21,
+        "total_tokens": 117
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    }
+  ]
+}

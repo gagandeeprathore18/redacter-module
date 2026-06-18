@@ -3,6 +3,7 @@ import re
 from PIL import Image
 import io
 import os
+import json
 from redact_engine import (
     redact_text, is_logo_match, redact_paragraph_runs,
     DATE_TIME_ONLY_PATTERN, redact_paragraph_runs_with_pattern,
@@ -20,6 +21,7 @@ from redaction.block_redactor import redact_cell
 from redaction.validator import validate_table_redaction
 from redaction.docx_structure_analyzer import analyze_and_redact_runs
 from redaction.header_footer_processor import process_docx_headers_footers
+from redaction.protected_zone_detector import reset_protected_zone, set_protected_zone
 
 NAMESPACES = {
     'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
@@ -105,9 +107,13 @@ def process_table(table):
             if (row_idx, idx) in all_block_coords:
                 continue
 
+            cell_text = "".join(p.text for p in cell.paragraphs).strip()
+            set_protected_zone(cell_text)
+
             # Submission location rows: blank ALL cells entirely (label + value)
             if row_has_location_keyword:
                 for p in cell.paragraphs:
+                    set_protected_zone(p.text)
                     process_paragraph(p, blank_entire=True)
                 for sub_table in cell.tables:
                     process_table(sub_table)
@@ -124,6 +130,7 @@ def process_table(table):
             # Submission date/time value cells: blank entirely for symmetry
             if redact_dates_in_cell and idx not in date_label_cell_indices:
                 for p in cell.paragraphs:
+                    set_protected_zone(p.text)
                     process_paragraph(p, blank_entire=True)
                 for sub_table in cell.tables:
                     process_table(sub_table)
@@ -132,6 +139,7 @@ def process_table(table):
             # Only run redact_all_names if this is NOT the label cell
             redact_names_in_cell = row_has_name_keyword and (idx != label_cell_idx)
             for p in cell.paragraphs:
+                set_protected_zone(p.text)
                 process_paragraph(p, redact_all_dates=redact_dates_in_cell, redact_all_names=redact_names_in_cell)
 
             # Recursively process sub-tables
@@ -190,9 +198,67 @@ def process_docx(input_path: str, output_path: str):
     except Exception as ocr_err:
         print(f"Error during pre-scan: {ocr_err}")
     
+    # 0.5. Scan pass for LLM Escalations
+    from redaction.escalation_manager import clear_cache, register_candidate_scan, run_gpt_review, get_document_metrics
+    from redaction.entity_classifier import classify_entity
+    from redaction.ownership_manager import get_issuing_university
+    
+    clear_cache()
+    reset_protected_zone()
+    
+    def scan_element_text(text, context=""):
+        if not text or not text.strip():
+            return
+        set_protected_zone(text)
+        classification, action, reasons, score = classify_entity(text, context=context)
+        register_candidate_scan(text, context, classification, action, score, reasons)
+
+    # Paragraphs scan
+    for p in doc.paragraphs:
+        set_protected_zone(p.text)
+        scan_element_text(p.text)
+        
+    # Tables scan
+    def scan_table(t):
+        for row in t.rows:
+            for cell in row.cells:
+                cell_text = "".join(p.text for p in cell.paragraphs).strip()
+                scan_element_text(cell_text)
+                for p in cell.paragraphs:
+                    scan_element_text(p.text)
+                for sub_t in cell.tables:
+                    scan_table(sub_t)
+                    
+    for table in doc.tables:
+        scan_table(table)
+        
+    # Headers & Footers scan
+    for section in doc.sections:
+        if section.header:
+            for p in section.header.paragraphs:
+                scan_element_text(p.text)
+            for table in section.header.tables:
+                scan_table(table)
+        if section.footer:
+            for p in section.footer.paragraphs:
+                scan_element_text(p.text)
+            for table in section.footer.tables:
+                scan_table(table)
+                
+    # Run the GPT batch review if there are escalated candidates
+    issuing_univ = get_issuing_university()
+    doc_id = os.path.basename(input_path)
+    run_gpt_review(issuing_university=issuing_univ, doc_id=doc_id)
+    
+    # Log passive telemetry metrics
+    metrics = get_document_metrics(doc_id)
+    print(f"Hybrid classification metrics: {json.dumps(metrics)}")
+    
     # 1. Redact Paragraphs
+    reset_protected_zone()
     in_location_block = False
     for p in doc.paragraphs:
+        set_protected_zone(p.text)
         para_text = p.text.strip()
         if not para_text:
             if in_location_block:

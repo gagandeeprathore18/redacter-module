@@ -1,0 +1,166 @@
+{
+  "document_id": "1781779429368_brief_docx_796560624_-_Google_Docs.pdf",
+  "total_candidates": 33,
+  "escalated_candidates": 6,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 2,
+    "UNKNOWN_PATTERN": 4,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 2,
+    "UNKNOWN_PATTERN": 4,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781779429368_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Academic Year",
+      "context": "\u200bAssignment Brief\u200b\n\u200bAcademic Year 2025-26\u200b\n\u200bModule code &\u200b\n\u200btitle:\u200b\n\u200bBM414 Financial Decision\u200b\n\u200bMaking\u200b\n\u200bModule leader:\u200b\n\u200bClaire Ngo\u200b\n\u200bAssignment\u200b\n\u200bNo. a",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 534,
+      "token_usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 21,
+        "total_tokens": 177
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781779429368_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Financial Decision",
+      "context": "\u200bAssignment Brief\u200b\n\u200bAcademic Year 2025-26\u200b\n\u200bModule code &\u200b\n\u200btitle:\u200b\n\u200bBM414 Financial Decision\u200b\n\u200bMaking\u200b\n\u200bModule leader:\u200b\n\u200bClaire Ngo\u200b\n\u200bAssignment\u200b\n\u200bNo. and type:\u200b\n\u200bCW: Coursework 2,500 words\u200b\n\u200bAssessment\u200b\n\u200bweighti",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 534,
+      "token_usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 21,
+        "total_tokens": 177
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781779429368_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "New Look Retailers Limited",
+      "context": "9\u200b\u200bth\u200b\u200bJune 2026\u200b\n\u200bTarget feedback\u200b\n\u200btime and date:\u200b\n\u200b14:00, 10\u200b\u200bth\u200b\u200bJuly 2026\u200b\n\u200bAssignment task\u200b\n\u200bCompany Background \u2013 New Look Retailers Limited\u200b\n\u200bNew Look Retailers Limited\u200b\u200bis a British fashion retailer\u200b\u200boffering affordable womenswear and menswear.\u200b\n\u200bFounded in ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 534,
+      "token_usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 21,
+        "total_tokens": 177
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781779429368_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "New Look Retailers Limited",
+      "context": "dback\u200b\n\u200btime and date:\u200b\n\u200b14:00, 10\u200b\u200bth\u200b\u200bJuly 2026\u200b\n\u200bAssignment task\u200b\n\u200bCompany Background \u2013 New Look Retailers Limited\u200b\n\u200bNew Look Retailers Limited\u200b\u200bis a British fashion retailer\u200b\u200boffering affordable womenswear and menswear.\u200b\n\u200bFounded in 1969 by\u200b\u200bTom Singh\u200b\u200bin Taunto",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 534,
+      "token_usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 21,
+        "total_tokens": 177
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781779429368_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "My Life My Style My",
+      "context": "nce, Netherlands) and\u200b\u200bAsia\u200b\u200b(Malaysia,\u200b\n\u200bSingapore, Thailand, Indonesia). In\u200b\u200b2017\u200b, New Look\u200b\u200blaunched the campaign\u200b\u200b\"My Life My Style My\u200b\n\u200bLook\"\u200b, featuring\u200b\u200bGeorgie Aldous,\u200b\u200bthe first male beauty\u200b\u200bmodel for Superdrug, New Look, and Primark.\u200b\n\u200bRecently, Ne",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 534,
+      "token_usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 21,
+        "total_tokens": 177
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781779429368_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "BNU Artificial Intelligence Guidance",
+      "context": "please see the following student facing guidance on the University website:\u200b\n\u200bBNU Student Academic Integrity Guidance\u200b\n\u200bBNU Artificial Intelligence Guidance for Students\u200b\n\u200bThere are also links to resources to support your understanding of Academic Integrity within your\u200b\n\u200bBlac",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 534,
+      "token_usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 21,
+        "total_tokens": 177
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    }
+  ]
+}

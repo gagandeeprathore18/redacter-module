@@ -86,8 +86,17 @@ COMBINED_DATETIME_PATTERN = (
 
 # Match dates and times for submission, presentation, or target feedback
 SUBMISSION_FEEDBACK_DATE_PATTERN = re.compile(
+    r'(?:'
     r'\b(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback)'
-    r'(?:\s*(?:and|&|or|,)?\s*(?:date|time|deadline|target|value|slot)){0,3}\s*:?'
+    r'(?:\s*\(.*?\))?'
+    r'(?:\s*(?:and|&|or|,|/)?\s*(?:date|time|deadline|target|value|slot|due|dates|times|day|days)){0,3}'
+    r'|\b(?:date|time|deadline|target|value|slot|due|dates|times|day|days)'
+    r'(?:\s*(?:and|&|or|,|/)?\s*(?:date|time|deadline|target|value|slot|due|dates|times|day|days)){0,2}'
+    r'\s+(?:of|for)\s+'
+    r'(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback)'
+    r'(?:\s*\(.*?\))?'
+    r')'
+    r'\s*:?'
     r'(?:\s*(?:on|by|at|is|of|for|before|after|no\s+later\s+than|not\s+later\s+than'
     r'|monday|tuesday|wednesday|thursday|friday|saturday|sunday'
     r'|mon|tue|wed|thu|fri|sat|sun'
@@ -107,8 +116,16 @@ DATE_TIME_ONLY_PATTERN = re.compile(
 # Keywords indicating a table row contains deadline/submission info
 TABLE_ROW_KEYWORD_PATTERN = re.compile(
     r'(?:'
-    r'^\s*(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback)(?:\s+(?:date|time|deadline|target|value|slot|due))?\s*:?$'
-    r'|\b(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback)\s+(?:date|time|deadline|target|value|slot|due)\b'
+    r'^\s*(?:draft\s+|final\s+|formative\s+|interim\s+|provisional\s+|resit\s+|second\s+|first\s+|main\s+)?'
+    r'(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback)'
+    r'(?:\s*\(.*?\))?'
+    r'(?:\s+(?:and|&|or|/)?\s*(?:date|time|deadline|target|value|slot|due|dates|times|day|days)){0,3}'
+    r'\s*:?$'
+    r'|\b(?:draft\s+|final\s+|formative\s+|interim\s+|provisional\s+|resit\s+|second\s+|first\s+|main\s+)?'
+    r'(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback)'
+    r'\s+(?:and|&|or|/)?\s*(?:date|time|deadline|target|value|slot|due|dates|times|day|days)\b'
+    r'|\b(?:date|time|deadline|target|value|slot|due|dates|times|day|days)\b'
+    r'.*?\b(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback)\b'
     r')',
     re.IGNORECASE
 )

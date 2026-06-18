@@ -3,6 +3,7 @@ import re
 from PIL import Image
 import io
 import os
+import json
 from redact_engine import (
     redact_text, is_logo_match, redact_paragraph_runs,
     DATE_TIME_ONLY_PATTERN, redact_paragraph_runs_with_pattern,
@@ -18,6 +19,7 @@ from redaction.relationship_detector import get_block_coordinates
 from redaction.block_extractor import extract_block_cells
 from redaction.block_redactor import redact_cell
 from redaction.validator import validate_table_redaction
+from redaction.protected_zone_detector import reset_protected_zone, set_protected_zone
 
 def should_stop_pptx_block(text: str) -> bool:
     """Delegates to the shared stop-block checker."""
@@ -35,6 +37,7 @@ def process_shapes(shapes):
         if shape.has_text_frame:
             in_location_block = False
             for p in shape.text_frame.paragraphs:
+                set_protected_zone(p.text)
                 para_text = p.text.strip()
                 if not para_text:
                     if in_location_block:
@@ -109,9 +112,13 @@ def process_shapes(shapes):
                     if (row_idx, idx) in all_block_coords:
                         continue
                     if cell.text_frame:
+                        cell_text = cell.text_frame.text.strip()
+                        set_protected_zone(cell_text)
+
                         # Submission location rows: blank ALL cells entirely
                         if row_has_location_keyword:
                             for p in cell.text_frame.paragraphs:
+                                set_protected_zone(p.text)
                                 for run in p.runs:
                                     run.text = " "
                             continue
@@ -126,12 +133,14 @@ def process_shapes(shapes):
                         # Submission date/time value cells: blank entirely for symmetry
                         if redact_dates_in_cell and idx not in date_label_cell_indices:
                             for p in cell.text_frame.paragraphs:
+                                set_protected_zone(p.text)
                                 for run in p.runs:
                                     run.text = " "
                             continue
 
                         redact_names_in_cell = row_has_name_keyword and (idx != label_cell_idx)
                         for p in cell.text_frame.paragraphs:
+                            set_protected_zone(p.text)
                             redact_paragraph_runs(p.runs, redact_all_dates=redact_dates_in_cell, redact_all_names=redact_names_in_cell)
                                     
         # 3. Group Shapes (recursive)
@@ -238,6 +247,61 @@ def process_pptx(input_path: str, output_path: str):
         for img_hash, occurrences in image_metadata_map.items():
             if is_logo_match(occurrences[0]["bytes"]):
                 images_to_redact.add(img_hash)
+
+    # 2.5. Scan pass for LLM Escalations
+    from redaction.escalation_manager import clear_cache, register_candidate_scan, run_gpt_review, get_document_metrics
+    from redaction.entity_classifier import classify_entity
+    from redaction.ownership_manager import get_issuing_university
+    
+    clear_cache()
+    reset_protected_zone()
+    
+    def scan_element_text(text, context=""):
+        if not text or not text.strip():
+            return
+        set_protected_zone(text)
+        classification, action, reasons, score = classify_entity(text, context=context)
+        register_candidate_scan(text, context, classification, action, score, reasons)
+
+    def scan_shapes(shapes):
+        for shape in shapes:
+            if shape.has_text_frame:
+                for p in shape.text_frame.paragraphs:
+                    set_protected_zone(p.text)
+                    scan_element_text(p.text)
+            if shape.has_table:
+                for row in shape.table.rows:
+                    for cell in row.cells:
+                        if cell.text_frame:
+                            set_protected_zone(cell.text_frame.text)
+                            scan_element_text(cell.text_frame.text)
+                            for p in cell.text_frame.paragraphs:
+                                set_protected_zone(p.text)
+                                scan_element_text(p.text)
+            if hasattr(shape, "shapes"):
+                scan_shapes(shape.shapes)
+
+    # Scan slides
+    for slide in prs.slides:
+        scan_shapes(slide.shapes)
+        if slide.has_notes_slide and slide.notes_slide.notes_text_frame:
+            for p in slide.notes_slide.notes_text_frame.paragraphs:
+                scan_element_text(p.text)
+                
+    # Scan layouts and masters
+    for layout in prs.slide_layouts:
+        scan_shapes(layout.shapes)
+    for master in prs.slide_masters:
+        scan_shapes(master.shapes)
+
+    # Run the GPT batch review if there are escalated candidates
+    issuing_univ = get_issuing_university()
+    doc_id = os.path.basename(input_path)
+    run_gpt_review(issuing_university=issuing_univ, doc_id=doc_id)
+    
+    # Log passive telemetry metrics
+    metrics = get_document_metrics(doc_id)
+    print(f"Hybrid classification metrics: {json.dumps(metrics)}")
 
     # 3. Redact text in all slides (now that ISSUING_UNIVERSITY is determined)
     for slide in prs.slides:
