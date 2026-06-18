@@ -1,0 +1,670 @@
+{
+  "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+  "total_candidates": 256,
+  "escalated_candidates": 27,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 27,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 27,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Canvas",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Sein Tin",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Sein Tin ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Level / Semester",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Level 4, Semester 1",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "BSM22101",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Credit / Weighting",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Date of Issue",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "19th September 2025",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Important: ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "EXPLORE ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Subject Knowledge",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "CREATE ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Analysis and Evaluation",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Collaboration",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Mandatory Employability skills",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Punctuality",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Attendance",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Use of study support",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Fail (30%-0)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Third (40%-49%)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Threshold Level 2:2 (50%-59%)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Analysis and Evaluation (Experimentation)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Multiple Choice Quiz",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Group Presentation",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Reflection on Employability Skills",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx",
+      "candidate": "Canvas ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 321,
+      "token_usage": {
+        "prompt_tokens": 27,
+        "completion_tokens": 21,
+        "total_tokens": 48
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    }
+  ]
+}

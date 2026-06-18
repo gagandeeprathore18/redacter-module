@@ -149,7 +149,9 @@ def process_shapes(shapes):
 
 def process_pptx(input_path: str, output_path: str):
     from redaction.ownership_manager import clear_issuing_university, determine_issuing_university
+    from redaction.redaction_debug_logger import set_document_context
     clear_issuing_university()
+    set_document_context(document=os.path.basename(input_path), source="pptx")
     
     prs = pptx.Presentation(input_path)
     
@@ -208,7 +210,6 @@ def process_pptx(input_path: str, output_path: str):
     images_to_redact = set()
     try:
         import sys
-        import os
         root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         if root_dir not in sys.path:
             sys.path.insert(0, root_dir)

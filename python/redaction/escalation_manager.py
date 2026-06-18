@@ -31,9 +31,17 @@ _filter_report = {
         "MULTI_SENTENCE": 0,
         "STRUCTURAL_CONTENT": 0,
         "INSTRUCTIONAL_CONTENT": 0,
-        "FRAGMENT_CONTENT": 0
+        "FRAGMENT_CONTENT": 0,
+        "HEADING_CONTENT": 0,
     },
     "rejected_candidates": []
+}
+# Phase 5 — per-document candidate rejection counters
+_heading_filter_counts = {
+    "HEADING_CONTENT": 0,
+    "STRUCTURAL_CONTENT": 0,
+    "RUBRIC_CONTENT": 0,
+    "READING_LIST_CONTENT": 0,
 }
 
 def clear_cache():
@@ -62,9 +70,17 @@ def clear_cache():
             "MULTI_SENTENCE": 0,
             "STRUCTURAL_CONTENT": 0,
             "INSTRUCTIONAL_CONTENT": 0,
-            "FRAGMENT_CONTENT": 0
+            "FRAGMENT_CONTENT": 0,
+            "HEADING_CONTENT": 0,
         },
         "rejected_candidates": []
+    }
+    global _heading_filter_counts
+    _heading_filter_counts = {
+        "HEADING_CONTENT": 0,
+        "STRUCTURAL_CONTENT": 0,
+        "RUBRIC_CONTENT": 0,
+        "READING_LIST_CONTENT": 0,
     }
     try:
         from redaction.ownership_manager import clear_detected_universities
@@ -177,17 +193,106 @@ def check_escalation_criteria(text: str, context: str, classification: str, acti
     """
     return len(get_escalation_reasons(text, context, classification, action, score, reasons)) > 0
 
+# ---------------------------------------------------------------------------
+# Phase 4 – Heading Filter Report writer  (logs/heading_filter_report.json)
+# Phase 6 – Auto-promote repeated headings to learned_headings.json
+# ---------------------------------------------------------------------------
+
+_HEADING_REPORT_FILE = os.path.join(LOGS_DIR, "heading_filter_report.json")
+_heading_seen_counts: dict = {}   # track repeat count per heading text
+
+def _write_heading_filter_entry(candidate: str, reason: str, category: str) -> None:
+    """Append one entry to heading_filter_report.json."""
+    os.makedirs(LOGS_DIR, exist_ok=True)
+    entry = {"candidate": candidate, "action": "SKIPPED", "reason": reason, "category": category}
+    try:
+        existing = []
+        if os.path.exists(_HEADING_REPORT_FILE):
+            with open(_HEADING_REPORT_FILE, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+                if not isinstance(existing, list):
+                    existing = []
+        existing.append(entry)
+        with open(_HEADING_REPORT_FILE, "w", encoding="utf-8") as f:
+            json.dump(existing, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"[heading_filter] Failed to write report: {e}")
+
+def _promote_if_repeated(text: str, threshold: int = 3) -> None:
+    """
+    Phase 6 – If a heading text appears >= threshold times across documents,
+    promote it to learned_headings.json so it is caught instantly next time.
+    """
+    key = text.strip().lower()
+    _heading_seen_counts[key] = _heading_seen_counts.get(key, 0) + 1
+    if _heading_seen_counts[key] >= threshold:
+        try:
+            from redaction.heading_detector import promote_to_learned
+            promote_to_learned(text)
+        except Exception:
+            pass
+
+
 def register_candidate_scan(text: str, context: str, classification: str, action: str, score: float, reasons: list):
     """
     Registers a candidate during Stage 1 scan pass. If it requires escalation,
     accumulates it for the batch GPT request.
     """
-    global _candidate_counter, _total_candidates_processed, _filter_report
+    global _candidate_counter, _total_candidates_processed, _filter_report, _heading_filter_counts
     _total_candidates_processed += 1
     
     key = (text, context)
     if key in _gpt_cache:
         return
+
+    # ------------------------------------------------------------------ #
+    # Phase 3 – Hard Heading / Structural Content Rejection Gate           #
+    # Runs BEFORE quality validator and classification.                    #
+    # Headings NEVER reach GPT or the redaction engine.                   #
+    # ------------------------------------------------------------------ #
+    try:
+        from redaction.heading_detector import HeadingDetector
+        from redaction.structural_content_detector import StructuralContentDetector
+
+        _heading_category = HeadingDetector.get_category(text)
+        _structural_category = StructuralContentDetector.get_category(text)
+
+        _reject_reason = None
+        if _heading_category is not None:
+            _reject_reason = "HEADING_CONTENT"
+        elif _structural_category is not None:
+            _reject_reason = "STRUCTURAL_CONTENT"
+
+        if _reject_reason:
+            _filter_report["total_extracted"] += 1
+            _filter_report["filtered_out"] += 1
+            _filter_report["rejection_breakdown"][_reject_reason] = (
+                _filter_report["rejection_breakdown"].get(_reject_reason, 0) + 1
+            )
+            _filter_report["rejected_candidates"].append({
+                "candidate": text,
+                "reason": _reject_reason,
+                "category": _heading_category or _structural_category,
+                "word_count": len(text.split())
+            })
+            # Phase 5 counters
+            _heading_filter_counts[_reject_reason] = _heading_filter_counts.get(_reject_reason, 0) + 1
+
+            # Phase 4 – Write to heading_filter_report.json
+            try:
+                _write_heading_filter_entry(text, _reject_reason, _heading_category or _structural_category)
+            except Exception:
+                pass
+
+            # Phase 6 – Auto-promote repeated headings into learned_headings.json
+            try:
+                _promote_if_repeated(text)
+            except Exception:
+                pass
+
+            return  # Hard stop — do NOT classify, escalate, or redact
+    except Exception:
+        pass  # Never block processing due to detector errors
 
     # Candidate Quality Filter Layer (Phase 1 & 7)
     from redaction.quality_validator import CandidateQualityValidator
@@ -442,7 +547,10 @@ def write_escalation_audit_log(doc_id: str):
                     "request_cost_usd": round(total_cost, 6),
                     "response_time_ms": total_latency,
                     "model": config.get("model", "gpt-4o-mini"),
-                    "warnings": warnings
+                    "warnings": warnings,
+                    # Phase 8: Telemetry counters
+                    "heading_candidates_removed": _heading_filter_counts.get("HEADING_CONTENT", 0),
+                    "structural_candidates_removed": _heading_filter_counts.get("STRUCTURAL_CONTENT", 0),
                 }
                 
                 with open(log_path, 'a') as f:

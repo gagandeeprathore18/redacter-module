@@ -1,0 +1,382 @@
+{
+  "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+  "total_candidates": 33,
+  "escalated_candidates": 15,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 2,
+    "UNKNOWN_PATTERN": 13,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 2,
+    "UNKNOWN_PATTERN": 13,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Academic Year",
+      "context": "\u200bAssignment Brief\u200b\n\u200bAcademic Year 2025-26\u200b\n\u200bModule code &\u200b\n\u200btitle:\u200b\n\u200bBM414 Financial Decision\u200b\n\u200bMaking\u200b\n\u200bModule leader:\u200b\n\u200bClaire Ngo\u200b\n\u200bAssignment\u200b\n\u200bNo. a",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Financial Decision",
+      "context": "\u200bAssignment Brief\u200b\n\u200bAcademic Year 2025-26\u200b\n\u200bModule code &\u200b\n\u200btitle:\u200b\n\u200bBM414 Financial Decision\u200b\n\u200bMaking\u200b\n\u200bModule leader:\u200b\n\u200bClaire Ngo\u200b\n\u200bAssignment\u200b\n\u200bNo. and type:\u200b\n\u200bCW: Coursework 2,500 words\u200b\n\u200bAssessment\u200b\n\u200bweighti",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Company Background",
+      "context": " and date:\u200b\n\u200b14:00, 19\u200b\u200bth\u200b\u200bJune 2026\u200b\n\u200bTarget feedback\u200b\n\u200btime and date:\u200b\n\u200b14:00, 10\u200b\u200bth\u200b\u200bJuly 2026\u200b\n\u200bAssignment task\u200b\n\u200bCompany Background \u2013 New Look Retailers Limited\u200b\n\u200bNew Look Retailers Limited\u200b\u200bis a British fashion retailer\u200b\u200boffering affordable womenswea",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Tom Singh",
+      "context": "ok Retailers Limited\u200b\u200bis a British fashion retailer\u200b\u200boffering affordable womenswear and menswear.\u200b\n\u200bFounded in 1969 by\u200b\u200bTom Singh\u200b\u200bin Taunton, it became\u200b\u200ba private limited company in 1982 and was briefly\u200b\n\u200blisted on the stock market before returning",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "New Look",
+      "context": "pany in 1982 and was briefly\u200b\n\u200blisted on the stock market before returning to private ownership in 2004. In\u200b\u200bMay 2015\u200b, New Look was\u200b\n\u200bacquired by\u200b\u200bBrait SE\u200b\u200bfor\u200b\u200b\u00a3780 million\u200b.\u200b\n\u200bThe company operates internationally across\u200b\u200bEurope\u200b\u200b(Belgium, Franc",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Brait SE",
+      "context": "\u200b\n\u200blisted on the stock market before returning to private ownership in 2004. In\u200b\u200bMay 2015\u200b, New Look was\u200b\n\u200bacquired by\u200b\u200bBrait SE\u200b\u200bfor\u200b\u200b\u00a3780 million\u200b.\u200b\n\u200bThe company operates internationally across\u200b\u200bEurope\u200b\u200b(Belgium, France, Netherlands) and\u200b\u200bAsia\u200b\u200b(",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "New Look",
+      "context": "ally across\u200b\u200bEurope\u200b\u200b(Belgium, France, Netherlands) and\u200b\u200bAsia\u200b\u200b(Malaysia,\u200b\n\u200bSingapore, Thailand, Indonesia). In\u200b\u200b2017\u200b, New Look\u200b\u200blaunched the campaign\u200b\u200b\"My Life My Style My\u200b\n\u200bLook\"\u200b, featuring\u200b\u200bGeorgie Aldous,\u200b\u200bthe first male beauty\u200b\u200bmodel for Sup",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Georgie Aldous",
+      "context": "\u200bSingapore, Thailand, Indonesia). In\u200b\u200b2017\u200b, New Look\u200b\u200blaunched the campaign\u200b\u200b\"My Life My Style My\u200b\n\u200bLook\"\u200b, featuring\u200b\u200bGeorgie Aldous,\u200b\u200bthe first male beauty\u200b\u200bmodel for Superdrug, New Look, and Primark.\u200b\n\u200bRecently, New Look has faced\u200b\u200bfinancial losses\u200b\u200b",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "New Look",
+      "context": "ed the campaign\u200b\u200b\"My Life My Style My\u200b\n\u200bLook\"\u200b, featuring\u200b\u200bGeorgie Aldous,\u200b\u200bthe first male beauty\u200b\u200bmodel for Superdrug, New Look, and Primark.\u200b\n\u200bRecently, New Look has faced\u200b\u200bfinancial losses\u200b\u200bdue\u200b\u200bto\u200b\u200bstore closures\u200b,\u200b\u200btough trading conditions\u200b, a",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "New Look",
+      "context": "My\u200b\n\u200bLook\"\u200b, featuring\u200b\u200bGeorgie Aldous,\u200b\u200bthe first male beauty\u200b\u200bmodel for Superdrug, New Look, and Primark.\u200b\n\u200bRecently, New Look has faced\u200b\u200bfinancial losses\u200b\u200bdue\u200b\u200bto\u200b\u200bstore closures\u200b,\u200b\u200btough trading conditions\u200b, and the\u200b\n\u200bcost-of-living crisis\u200b, wh",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "New Look",
+      "context": "closures\u200b,\u200b\u200btough trading conditions\u200b, and the\u200b\n\u200bcost-of-living crisis\u200b, which have impacted retail\u200b\u200bsales. Assume that New Look decided to revamp its lines\u200b\n\u200band is now planning to launch a new collection in collaboration with a celebrity who advo",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "New Look",
+      "context": "\u200bcompany.\u200b\n\u200bRequired\u200b\n\u200bTASK 1 (1,000 WORDS)\u200b\n\u200bSuppose you have been hired as part of the Accounting and Finance team at New Look in order to help\u200b\n\u200bthe senior management team understand the importance of accounting and finance and to communicate\u200b\n\u200b",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Executive Summary",
+      "context": "\u200bExecutive Summary\u200b\n\u200bIntroduction\u200b\u200band\u200b\u200bConclusion\u200b\u200bsections\u200b\n\u200bMain Body\u200b\u200bwith headings as appropriate including presentation\u200b\u200bof financia",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Main Body",
+      "context": "\u200bExecutive Summary\u200b\n\u200bIntroduction\u200b\u200band\u200b\u200bConclusion\u200b\u200bsections\u200b\n\u200bMain Body\u200b\u200bwith headings as appropriate including presentation\u200b\u200bof financial data and\u200b\n\u200banalysis\u200b\n\u200bList of References\u200b\n\u200bPage numb",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781782966817_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Use Arial",
+      "context": "nts must use acceptable academic sources including peer-reviewed journal articles, Books,\u200b\n\u200bCompany websites etc.\u200b\n\u200b\u25cf\u200b \u200bUse Arial font size 11 or 12 with 1.5 line spacing.\u200b\n\u200b\u25cf\u200b \u200bInsert page numbers at the bottom of each page\u200b\n\u200b\u25cf\u200b \u200bYou must have a co",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.4e-05,
+      "response_time_ms": 383,
+      "token_usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 21,
+        "total_tokens": 157
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    }
+  ]
+}

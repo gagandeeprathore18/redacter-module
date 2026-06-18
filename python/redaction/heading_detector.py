@@ -1,28 +1,366 @@
+"""
+Heading Detector
+================
+Identifies document headings, section titles, and structural labels that
+are NOT redactable entities and must be excluded from the candidate pipeline.
+
+Provides:
+    HeadingDetector.is_heading(text) -> bool
+    HeadingDetector.get_category(text) -> str | None
+
+Detection rules (in priority order):
+    1. Exact match against KNOWN_HEADINGS blacklist
+    2. Exact match against PROTECTED_HEADINGS (preserve, never redact)
+    3. Learned headings from logs/learned_headings.json
+    4. Short (2-4 word) title-case phrase with no digits/email/date/punctuation
+    5. Numbered section pattern (e.g. "1.2 Methodology")
+    6. Document section label list
+"""
+
 import re
+import os
+import json
+import threading
 
-NUMBERED_SECTION_PATTERN = re.compile(r'^\d+(?:\.\d+)*\.?\s+[A-Z]')
+# ---------------------------------------------------------------------------
+# Static heading dictionaries
+# ---------------------------------------------------------------------------
 
-MONTHS = {
-    "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec",
-    "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"
+KNOWN_HEADINGS = {
+    # Assignment / module structure
+    "assignment brief",
+    "your assignment",
+    "the assignment",
+    "module information",
+    "course information",
+    "module overview",
+    "course overview",
+    "module handbook",
+    "programme information",
+    "programme overview",
+    # Navigation labels
+    "getting support",
+    "achievement team",
+    "inclusion services",
+    "student support",
+    "support services",
+    "contact information",
+    "contact details",
+    "further support",
+    "additional support",
+    "useful links",
+    "key contacts",
+    # Document sections
+    "executive summary",
+    "introduction",
+    "conclusion",
+    "conclusions",
+    "background",
+    "overview",
+    "summary",
+    "methodology",
+    "methods",
+    "findings",
+    "results",
+    "discussion",
+    "recommendations",
+    "appendix",
+    "appendices",
+    "glossary",
+    "abstract",
+    "preface",
+    "foreword",
+    "acknowledgements",
+    "acknowledgments",
+    "table of contents",
+    "list of figures",
+    "list of tables",
+    # Reference sections
+    "references",
+    "reference list",
+    "list of references",
+    "bibliography",
+    "recommended reading",
+    "further reading",
+    "reading list",
+    # Academic structure
+    "learning outcomes",
+    "intended learning outcomes",
+    "module aims",
+    "assessment criteria",
+    "grading criteria",
+    "marking criteria",
+    "grade descriptors",
+    "submission guidance",
+    "academic integrity",
+    "academic misconduct",
+    "plagiarism policy",
+    "research ethics",
+    "ethical considerations",
+    "research methodology",
+    "data analysis",
+    "literature review",
+    "theoretical framework",
+    "conceptual framework",
+    # Misc structural labels
+    "table of contents",
+    "contents",
+    "key information",
+    "important information",
+    "general information",
+    "additional information",
 }
 
-def is_numbered_section(text: str) -> bool:
-    if not text:
+# These headings are explicitly protected — they must NEVER be redacted
+PROTECTED_HEADINGS = {
+    "learning outcomes",
+    "academic integrity",
+    "recommended reading",
+    "reference list",
+    "research ethics",
+    "harvard referencing",
+    "grading criteria",
+    "assessment criteria",
+    "marking criteria",
+    "submission guidance",
+    "research methodology",
+    "ethical considerations",
+}
+
+# ---------------------------------------------------------------------------
+# Patterns
+# ---------------------------------------------------------------------------
+
+_NUMBERED_SECTION = re.compile(r'^\d+(?:\.\d+)*\.?\s+[A-Z]')
+_HAS_DIGIT        = re.compile(r'\d')
+_HAS_EMAIL        = re.compile(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}')
+_HAS_DATE         = re.compile(
+    r'\b(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|'
+    r'jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)'
+    r'|\b\d{1,2}[/-]\d{1,2}[/-]\d{2,4}\b',
+    re.IGNORECASE
+)
+_HAS_PUNCT        = re.compile(r'[,;:!?@#$%^&*()_+=\[\]{}|<>/\\]')
+_ALL_CAPS_WORD    = re.compile(r'\b[A-Z]{2,}\b')  # ALL-CAPS words (e.g. acronyms)
+
+# ---------------------------------------------------------------------------
+# Learned headings cache  (logs/learned_headings.json)
+# ---------------------------------------------------------------------------
+
+_LOGS_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+    "logs"
+)
+LEARNED_HEADINGS_FILE = os.path.join(_LOGS_DIR, "learned_headings.json")
+_learned_lock = threading.Lock()
+_learned_headings: dict = {}
+
+
+def _load_learned_headings() -> dict:
+    """Load learned headings from disk."""
+    try:
+        if os.path.exists(LEARNED_HEADINGS_FILE):
+            with open(LEARNED_HEADINGS_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return {}
+
+
+def _save_learned_headings(data: dict) -> None:
+    os.makedirs(_LOGS_DIR, exist_ok=True)
+    try:
+        with open(LEARNED_HEADINGS_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"[heading_detector] Failed to save learned headings: {e}")
+
+
+def reload_learned_headings() -> None:
+    global _learned_headings
+    with _learned_lock:
+        _learned_headings = _load_learned_headings()
+
+
+def promote_to_learned(text: str) -> None:
+    """Promote a heading candidate to the learned headings file."""
+    key = text.strip().lower()
+    with _learned_lock:
+        _learned_headings[key] = True
+        _save_learned_headings(_learned_headings)
+
+
+# Load on module import
+reload_learned_headings()
+
+
+# ---------------------------------------------------------------------------
+# Detection helpers
+# ---------------------------------------------------------------------------
+
+STRUCTURAL_KEYWORDS = {
+    "support", "services", "team", "brief", "assignment", "getting", "achievement", "executive", "summary",
+    "information", "outcomes", "criteria", "guidance", "integrity", "misconduct", "policy", "ethics",
+    "considerations", "methodology", "data", "analysis", "literature", "review", "framework", "reading",
+    "list", "references", "bibliography", "contents", "figures", "tables", "overview", "handbook", "aims",
+    "introduction", "conclusion", "conclusions", "background", "methods", "findings", "results",
+    "discussion", "recommendations", "appendix", "appendices", "glossary", "abstract", "preface",
+    "foreword", "acknowledgements", "acknowledgments", "grade", "descriptors", "marking", "grading",
+    "assessment", "submission", "feedback", "course", "module", "programme", "unit", "contact",
+    "details", "links", "contacts", "guideline", "guidelines", "rubric", "rubrics", "project", "task",
+    "tasks", "activity", "activities", "requirement", "requirements", "instruction", "instructions",
+    "aim", "objective", "objectives", "guide", "briefing", "schedule", "timetable", "deadlines", "deadline",
+    "date", "dates", "time", "times", "descriptor", "descriptors", "grades",
+    "mark", "marks", "weighting", "weightings", "percentage", "percent", "credits", "credit", "level",
+    "head", "director", "manager", "officer", "coordinator", "administrator"
+}
+
+def _is_title_case_heading(text: str) -> bool:
+    """
+    Detect short (2-4 word) title-case phrases that are structural labels.
+    Rules:
+    - 2 to 4 words
+    - Every word starts with uppercase
+    - No digits
+    - No email address
+    - No date
+    - No disqualifying punctuation (commas, colons, etc.)
+    - No ALL-CAPS words (those are acronyms, not headings in this context)
+    - Must contain at least one known structural keyword to avoid false-positive names
+    """
+    words = text.strip().split()
+    if not (2 <= len(words) <= 4):
         return False
-    cleaned = text.strip()
-    match = NUMBERED_SECTION_PATTERN.search(cleaned)
-    if not match:
+    # All words must start uppercase
+    if not all(w and w[0].isupper() for w in words):
         return False
-    # Check if the word following the number prefix is a month name (which indicates it is a date)
-    word_match = re.search(r'[A-Za-z]+', cleaned[match.end() - 1:])
-    if word_match:
-        word = word_match.group(0).lower()
-        if word in MONTHS:
-            return False
+    if _HAS_DIGIT.search(text):
+        return False
+    if _HAS_EMAIL.search(text):
+        return False
+    if _HAS_DATE.search(text):
+        return False
+    if _HAS_PUNCT.search(text):
+        return False
+    # Reject if any word is fully uppercase with 2+ chars (acronym, not a heading word)
+    if any(_ALL_CAPS_WORD.fullmatch(w) for w in words if len(w) > 2):
+        return False
+    # Check if at least one word is a structural keyword
+    if not any(w.lower() in STRUCTURAL_KEYWORDS for w in words):
+        return False
     return True
 
+
+
+def _is_section_label(text: str) -> bool:
+    """
+    Returns True if the text looks like a classic document section heading
+    (single word or known academic section title).
+    """
+    norm = text.strip().lower()
+    single_word_sections = {
+        "introduction", "background", "overview", "summary", "conclusion",
+        "conclusions", "methodology", "methods", "findings", "results",
+        "discussion", "recommendations", "appendix", "appendices", "glossary",
+        "abstract", "preface", "foreword", "acknowledgements", "acknowledgments",
+        "references", "bibliography", "contents",
+    }
+    return norm in single_word_sections
+
+
+def _is_numbered_section(text: str) -> bool:
+    """Detect numbered section titles: '1.2 Methodology', '3. Findings'."""
+    return bool(_NUMBERED_SECTION.match(text.strip()))
+
+
+# ---------------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------------
+
+class HeadingDetector:
+    """
+    Stateless detector for document headings and structural labels.
+    All methods are class-level (no instantiation needed).
+    """
+
+    @classmethod
+    def is_heading(cls, text: str) -> bool:
+        """
+        Returns True if the text is a document heading / structural label
+        and should be SKIPPED from the candidate pipeline entirely.
+        """
+        if not text or not text.strip():
+            return False
+
+        norm = text.strip().lower()
+
+        # Rule 1 – Exact known heading match
+        if norm in KNOWN_HEADINGS:
+            return True
+
+        # Rule 1b – Protected heading (also a heading)
+        if norm in PROTECTED_HEADINGS:
+            return True
+
+        # Rule 2 – Learned headings from file
+        with _learned_lock:
+            if norm in _learned_headings:
+                return True
+
+        # Rule 3 – Single-word academic section label
+        if _is_section_label(text):
+            return True
+
+        # Rule 4 – Short title-case pattern
+        if _is_title_case_heading(text):
+            return True
+
+        # Rule 5 – Numbered section
+        if _is_numbered_section(text):
+            return True
+
+        return False
+
+    @classmethod
+    def is_protected_heading(cls, text: str) -> bool:
+        """
+        Returns True if this is a heading that should be explicitly PRESERVED
+        (never redacted, even if it somehow enters the pipeline).
+        """
+        return text.strip().lower() in PROTECTED_HEADINGS
+
+    @classmethod
+    def get_category(cls, text: str) -> str | None:
+        """
+        Returns the structural category of a heading, or None if not a heading.
+        Used for Phase 5 telemetry.
+        """
+        if not cls.is_heading(text):
+            return None
+        norm = text.strip().lower()
+        if norm in PROTECTED_HEADINGS:
+            return "PROTECTED_ACADEMIC_HEADING"
+        if norm in KNOWN_HEADINGS:
+            return "KNOWN_HEADING"
+        with _learned_lock:
+            if norm in _learned_headings:
+                return "LEARNED_HEADING"
+        if _is_section_label(text):
+            return "SECTION_LABEL"
+        if _is_title_case_heading(text):
+            return "TITLE_CASE_HEADING"
+        if _is_numbered_section(text):
+            return "NUMBERED_SECTION"
+        return "HEADING"
+
+
+# ---------------------------------------------------------------------------
+# Backward-compatible module-level aliases
+# (entity_classifier.py imports these directly)
+# ---------------------------------------------------------------------------
+
 def are_all_words_capitalized(text: str) -> bool:
+    """Legacy helper used by the old heading scoring code."""
     if not text:
         return False
     words = [w for w in re.findall(r'\b[a-zA-Z]+\b', text) if w]
@@ -30,43 +368,31 @@ def are_all_words_capitalized(text: str) -> bool:
         return False
     return all(w[0].isupper() for w in words)
 
-def calculate_heading_score(
-    text: str,
-    is_bold: bool = False,
-    font_size: float = 0.0,
-    is_standalone: bool = False
-) -> float:
-    """
-    Evaluates probability of a string being a section heading:
-    - Standalone Paragraph: +30
-    - Entire Paragraph Bold: +30
-    - Larger Font Size (>12pt): +20
-    - Numbered Section: +40
-    - All Words Capitalized: +20
-    """
-    score = 0
-    if not text:
-        return score
-        
-    if is_standalone:
-        score += 30
-    if is_bold:
-        score += 30
-    if font_size > 12.0:
-        score += 20
-    if is_numbered_section(text):
-        score += 40
-    if are_all_words_capitalized(text):
-        score += 20
-        
-    return score
+
+def is_numbered_section(text: str) -> bool:
+    """Legacy wrapper — delegates to internal _is_numbered_section()."""
+    return _is_numbered_section(text)
+
 
 def is_academic_heading(
     text: str,
     is_bold: bool = False,
     font_size: float = 0.0,
     is_standalone: bool = False,
-    threshold: float = 40.0
+    threshold: float = 40.0,
 ) -> bool:
-    score = calculate_heading_score(text, is_bold, font_size, is_standalone)
+    """Legacy wrapper — delegates to HeadingDetector.is_heading() + original score."""
+    if HeadingDetector.is_heading(text):
+        return True
+    score = 0
+    if is_standalone:
+        score += 30
+    if is_bold:
+        score += 30
+    if font_size > 12.0:
+        score += 20
+    if _is_numbered_section(text):
+        score += 40
+    if are_all_words_capitalized(text):
+        score += 20
     return score >= threshold

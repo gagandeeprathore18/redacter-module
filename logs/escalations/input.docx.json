@@ -1,18 +1,18 @@
 {
   "document_id": "input.docx",
   "total_candidates": 126,
-  "escalated_candidates": 29,
+  "escalated_candidates": 26,
   "escalation_breakdown": {
     "LOW_CONFIDENCE": 0,
     "CLASSIFIER_CONFLICT": 3,
-    "UNKNOWN_PATTERN": 26,
+    "UNKNOWN_PATTERN": 23,
     "HIGH_IMPACT_ACTION": 0,
     "UNIVERSITY_BRANDING_VERIFICATION": 0
   },
   "top_escalation_reasons": {
     "LOW_CONFIDENCE": 0,
     "CLASSIFIER_CONFLICT": 3,
-    "UNKNOWN_PATTERN": 26,
+    "UNKNOWN_PATTERN": 23,
     "HIGH_IMPACT_ACTION": 0,
     "UNIVERSITY_BRANDING_VERIFICATION": 0
   },
@@ -380,54 +380,6 @@
     },
     {
       "document_id": "input.docx",
-      "candidate": "Contact Email",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 20,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Support Phone",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 20,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
       "candidate": "14:00, 19th June 2026",
       "context": "",
       "python_prediction": "UNKNOWN",
@@ -669,30 +621,6 @@
     {
       "document_id": "input.docx",
       "candidate": "Option A: Presentation",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "10 July 2026",
       "context": "",
       "python_prediction": "UNKNOWN",
       "python_confidence": 25,

@@ -1,5 +1,6 @@
 import fitz # PyMuPDF
 import re
+import os
 import json
 from redact_engine import (
     redact_text, is_logo_match, 
@@ -152,7 +153,25 @@ def redact_pdf_table_rows(page):
 
 def process_pdf(input_path: str, output_path: str):
     from redaction.ownership_manager import clear_issuing_university, determine_issuing_university, get_active_patterns
+    from redaction.redaction_debug_logger import set_document_context, log_redaction as _log_redaction
     clear_issuing_university()
+
+    doc_name = os.path.basename(input_path)
+    set_document_context(document=doc_name, source="pdf")
+
+    def _log_pdf(candidate: str, classification: str, page_num: int, rect, block_text: str = ""):
+        """Helper: convert fitz.Rect → bbox list and emit a debug log entry."""
+        try:
+            bbox = [round(rect.x0, 2), round(rect.y0, 2), round(rect.x1, 2), round(rect.y1, 2)]
+        except Exception:
+            bbox = None
+        _log_redaction(
+            candidate=candidate,
+            classification=classification,
+            page=page_num,
+            bbox=bbox,
+            ocr_block_text=block_text,
+        )
     
     doc = fitz.open(input_path)
     
@@ -204,7 +223,6 @@ def process_pdf(input_path: str, output_path: str):
     try:
         # Import branding modules (ensure sys.path includes drafter-module root if needed)
         import sys
-        import os
         root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         if root_dir not in sys.path:
             sys.path.insert(0, root_dir)
@@ -384,10 +402,29 @@ def process_pdf(input_path: str, output_path: str):
 
         # Apply search and redaction annotations for matched strings
         for matched_str, replacement in set(matches_to_redact):
+            # Infer classification from which pattern matched for debug log
+            if STUDENT_ID_PATTERN.fullmatch(matched_str.strip()):
+                _cls = "STUDENT_ID"
+            elif EMAIL_PATTERN.search(matched_str):
+                _cls = "EMAIL"
+            elif PHONE_PATTERN.fullmatch(matched_str.strip()):
+                _cls = "PHONE"
+            elif NAME_PROXIMITY_PATTERN.search(matched_str):
+                _cls = "PERSON"
+            elif SUBMISSION_FEEDBACK_DATE_PATTERN.search(matched_str):
+                _cls = "SUBMISSION_EVENT"
+            elif SUBMISSION_LOCATION_PATTERN.search(matched_str):
+                _cls = "BUSINESS_FIELD"
+            elif DATE_TIME_ONLY_PATTERN.fullmatch(matched_str.strip()):
+                _cls = "SUBMISSION_EVENT"
+            else:
+                _cls = "UNKNOWN"
+
             rects = get_text_match_rects(page, matched_str)
             if not rects:
                 rects = page.search_for(matched_str)
             for rect in rects:
+                _log_pdf(matched_str, _cls, page_num + 1, rect, normalized_text[:500])
                 # Add redaction annotation
                 page.add_redact_annot(rect, text=replacement, fill=(1, 1, 1))
 
@@ -428,6 +465,7 @@ def process_pdf(input_path: str, output_path: str):
                     # Get all rects where this image is placed on the page
                     rects = page.get_image_rects(xref)
                     for rect in rects:
+                        _log_pdf(f"[IMAGE xref={xref}]", "UNIVERSITY_BRANDING", page_num + 1, rect)
                         # Redact the image location by overlaying a white box
                         page.add_redact_annot(rect, fill=(1, 1, 1))
             except Exception:

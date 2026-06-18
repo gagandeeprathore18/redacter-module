@@ -150,10 +150,25 @@ def should_stop_paragraph_block(text: str) -> bool:
     """Delegates to the shared stop-block checker."""
     return should_stop_block(text)
 
+BLOCK_WIPE_LOCATION_PATTERN = re.compile(
+    r'\b(?:'
+    r'submission\s+(?:location|point|portal|platform|link|method|box|folder|area|mode|type|system|channel|url|address|site|page|form)'
+    r'|submit(?:ted)?\s+(?:to|via|through|using|on|at|by|with)'
+    r'|how\s+to\s+submit'
+    r'|where\s+to\s+submit'
+    r'|electronic(?:ally)?\s+submit(?:ted)?'
+    r'|online\s+submission'
+    r'|e-?submission'
+    r'|upload\s+(?:location|link|portal|to)'
+    r'|submission\s+details'
+    r')\b',
+    re.IGNORECASE
+)
+
 def is_paragraph_target(text: str) -> bool:
     if not text:
         return False
-    if SUBMISSION_LOCATION_PATTERN.search(text):
+    if BLOCK_WIPE_LOCATION_PATTERN.search(text):
         return True
     from redaction.target_detector import BUSINESS_REMOVALS
     from redaction.normalizer import normalize_text
@@ -167,6 +182,10 @@ def is_paragraph_target(text: str) -> bool:
 def process_docx(input_path: str, output_path: str):
     doc = docx.Document(input_path)
     
+    # Register document context for the redaction debug logger
+    from redaction.redaction_debug_logger import set_document_context
+    set_document_context(document=os.path.basename(input_path), source="docx")
+
     # 0. Clear and Determine Issuing University first from logos
     from redaction.ownership_manager import clear_issuing_university, determine_issuing_university
     clear_issuing_university()

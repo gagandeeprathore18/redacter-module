@@ -1,0 +1,1400 @@
+[
+  {
+    "candidate": "University Student Profile",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "1. Tidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and Organisational Change. 7th edn. Hoboken: Wiley.",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Tutor Name",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Tutor Name",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "John Smith",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "John Smith",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "1. Tidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and Organisational Change. 7th edn. Hoboken: Wiley.",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Research Methods",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Lead",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "KNOWN_HEADING"
+  },
+  {
+    "candidate": "Company Background",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Executive Summary",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "KNOWN_HEADING"
+  },
+  {
+    "candidate": "Inclusion Services",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "KNOWN_HEADING"
+  },
+  {
+    "candidate": "Getting Support",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "KNOWN_HEADING"
+  },
+  {
+    "candidate": "Your Assignment",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "KNOWN_HEADING"
+  },
+  {
+    "candidate": "Student Learning",
+    "action": "SKIPPED",
+    "reason": "STRUCTURAL_CONTENT",
+    "category": "NAVIGATION_LABEL"
+  },
+  {
+    "candidate": "Achievement Team",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "KNOWN_HEADING"
+  },
+  {
+    "candidate": "Academic Integrity Guidance",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Academic Integrity",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Assessment Information",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Staff",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Staff",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Title",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Title",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Code",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Code",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Leaders",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Leaders",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Learning Outcomes",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assessment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Assessment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Essential Reading List",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Essential Reading List",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "1. Tidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and Organisational Change. 7th edn. Hoboken: Wiley.",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Research Methods",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Lead",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Project Staff",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Staff",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Title",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Title",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Code",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Code",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Leaders",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Leaders",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Learning Outcomes",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assessment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Assessment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Essential Reading List",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Essential Reading List",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "1. Tidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and Organisational Change. 7th edn. Hoboken: Wiley.",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Research Methods",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Lead",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Project Staff",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Staff",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Title",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Title",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Code",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Code",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Leaders",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Leaders",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Learning Outcomes",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assessment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Assessment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Essential Reading List",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Essential Reading List",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "1. Tidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and Organisational Change. 7th edn. Hoboken: Wiley.",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Contact Email",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Support Phone",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Draft Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Formative Submission",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Feedback Date",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "10 July 2026",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "NUMBERED_SECTION"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Location",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Research Methods",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Lead",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Project Staff",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Staff",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Title",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Title",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Code",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Code",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Leaders",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Leaders",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Project Brief",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Module Learning Outcomes",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assessment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Assessment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "PROTECTED_ACADEMIC_HEADING"
+  },
+  {
+    "candidate": "Essential Reading List",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Essential Reading List",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Assignment Criteria",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "TITLE_CASE_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  },
+  {
+    "candidate": "Submission Method",
+    "action": "SKIPPED",
+    "reason": "HEADING_CONTENT",
+    "category": "LEARNED_HEADING"
+  }
+]

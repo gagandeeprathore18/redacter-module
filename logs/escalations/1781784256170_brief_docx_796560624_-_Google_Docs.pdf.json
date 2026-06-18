@@ -1,0 +1,70 @@
+{
+  "document_id": "1781784256170_brief_docx_796560624_-_Google_Docs.pdf",
+  "total_candidates": 33,
+  "escalated_candidates": 2,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 2,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 2,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781784256170_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Academic Year",
+      "context": "\u200bAssignment Brief\u200b\n\u200bAcademic Year 2025-26\u200b\n\u200bModule code &\u200b\n\u200btitle:\u200b\n\u200bBM414 Financial Decision\u200b\n\u200bMaking\u200b\n\u200bModule leader:\u200b\n\u200bClaire Ngo\u200b\n\u200bAssignment\u200b\n\u200bNo. a",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.4e-05,
+      "response_time_ms": 1149,
+      "token_usage": {
+        "prompt_tokens": 186,
+        "completion_tokens": 26,
+        "total_tokens": 212
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781784256170_brief_docx_796560624_-_Google_Docs.pdf",
+      "candidate": "Financial Decision",
+      "context": "\u200bAssignment Brief\u200b\n\u200bAcademic Year 2025-26\u200b\n\u200bModule code &\u200b\n\u200btitle:\u200b\n\u200bBM414 Financial Decision\u200b\n\u200bMaking\u200b\n\u200bModule leader:\u200b\n\u200bClaire Ngo\u200b\n\u200bAssignment\u200b\n\u200bNo. and type:\u200b\n\u200bCW: Coursework 2,500 words\u200b\n\u200bAssessment\u200b\n\u200bweighti",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.4e-05,
+      "response_time_ms": 1149,
+      "token_usage": {
+        "prompt_tokens": 186,
+        "completion_tokens": 26,
+        "total_tokens": 212
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    }
+  ]
+}

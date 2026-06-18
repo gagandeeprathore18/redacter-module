@@ -213,6 +213,20 @@ def classify_entity(
         score = 100 if pres_res["reason"] == "PROTECTED_SECTION" else 0
         return pres_res["reason"], "KEEP", ["preservation_engine_override"], score
 
+    # Heading / Structural pre-gate checks (Phase 3 Integration)
+    try:
+        from redaction.heading_detector import HeadingDetector
+        from redaction.structural_content_detector import StructuralContentDetector
+
+        if HeadingDetector.is_heading(text):
+            return "SECTION_HEADING", "KEEP", ["heading_detector_pregate"], -30
+
+        struct_cat = StructuralContentDetector.get_category(text)
+        if struct_cat:
+            return struct_cat, "KEEP", ["structural_content_detector_pregate"], -30
+    except Exception:
+        pass
+
     # Call original classification
     classification, action, reasons, score = _classify_entity_internal(
         text=text,

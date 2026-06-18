@@ -1,20 +1,22 @@
 {
   "input.docx": {
-    "total_extracted": 111,
-    "filtered_out": 5,
-    "remaining_candidates": 106,
+    "total_extracted": 114,
+    "filtered_out": 29,
+    "remaining_candidates": 85,
     "rejection_breakdown": {
       "PARAGRAPH_CONTENT": 0,
-      "LONG_TEXT": 3,
+      "LONG_TEXT": 2,
       "MULTI_SENTENCE": 1,
       "STRUCTURAL_CONTENT": 0,
       "INSTRUCTIONAL_CONTENT": 1,
-      "FRAGMENT_CONTENT": 0
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 25
     },
     "rejected_candidates": [
       {
         "candidate": "1. Tidd, J. and Bessant, J. (2021) Managing Innovation: Integrating Technological, Market and Organisational Change. 7th edn. Hoboken: Wiley.",
-        "reason": "LONG_TEXT",
+        "reason": "HEADING_CONTENT",
+        "category": "NUMBERED_SECTION",
         "word_count": 19
       },
       {
@@ -23,6 +25,30 @@
         "word_count": 8
       },
       {
+        "candidate": "Contact Email",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Contact Email",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Support Phone",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Support Phone",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
         "candidate": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
         "reason": "LONG_TEXT",
         "word_count": 24
@@ -31,6 +57,126 @@
         "candidate": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
         "reason": "LONG_TEXT",
         "word_count": 24
+      },
+      {
+        "candidate": "Draft Submission",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Draft Submission",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Formative Submission",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Formative Submission",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Location",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Location",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Turnitin Submission Portal",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Turnitin Submission Portal",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Submission Location",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Location",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Feedback Date",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Feedback Date",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "10 July 2026",
+        "reason": "HEADING_CONTENT",
+        "category": "NUMBERED_SECTION",
+        "word_count": 3
+      },
+      {
+        "candidate": "10 July 2026",
+        "reason": "HEADING_CONTENT",
+        "category": "NUMBERED_SECTION",
+        "word_count": 3
+      },
+      {
+        "candidate": "Submission Location",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Location",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Turnitin Submission Portal",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Turnitin Submission Portal",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Submission Location",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Location",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
       },
       {
         "candidate": "Drafted by Harvard Admits. Postcode: SW1A 1AA",
@@ -41,17 +187,31 @@
   },
   "input.pdf": {
     "total_extracted": 18,
-    "filtered_out": 0,
-    "remaining_candidates": 18,
+    "filtered_out": 2,
+    "remaining_candidates": 16,
     "rejection_breakdown": {
       "PARAGRAPH_CONTENT": 0,
       "LONG_TEXT": 0,
       "MULTI_SENTENCE": 0,
       "STRUCTURAL_CONTENT": 0,
       "INSTRUCTIONAL_CONTENT": 0,
-      "FRAGMENT_CONTENT": 0
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 2
     },
-    "rejected_candidates": []
+    "rejected_candidates": [
+      {
+        "candidate": "Research Methods",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Lead",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      }
+    ]
   },
   "input.pptx": {
     "total_extracted": 64,
@@ -63,7 +223,8 @@
       "MULTI_SENTENCE": 0,
       "STRUCTURAL_CONTENT": 0,
       "INSTRUCTIONAL_CONTENT": 0,
-      "FRAGMENT_CONTENT": 0
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 0
     },
     "rejected_candidates": []
   },
@@ -1319,5 +1480,1603 @@
       "FRAGMENT_CONTENT": 0
     },
     "rejected_candidates": []
+  },
+  "1781782966817_brief_docx_796560624_-_Google_Docs.pdf": {
+    "total_extracted": 33,
+    "filtered_out": 0,
+    "remaining_candidates": 33,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0
+    },
+    "rejected_candidates": []
+  },
+  "1781783676067_HSC405_-_F_629083732.pdf": {
+    "total_extracted": 10,
+    "filtered_out": 0,
+    "remaining_candidates": 10,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0
+    },
+    "rejected_candidates": []
+  },
+  "1781784256170_brief_docx_796560624_-_Google_Docs.pdf": {
+    "total_extracted": 33,
+    "filtered_out": 11,
+    "remaining_candidates": 22,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 1,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 10
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Company Background",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Executive Summary",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Inclusion Services",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Getting Support",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Your Assignment",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Student Learning",
+        "reason": "STRUCTURAL_CONTENT",
+        "category": "NAVIGATION_LABEL",
+        "word_count": 2
+      },
+      {
+        "candidate": "Achievement Team",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Integrity Guidance",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Academic Integrity",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment Information",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      }
+    ]
+  },
+  "1781784512514_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx": {
+    "total_extracted": 196,
+    "filtered_out": 67,
+    "remaining_candidates": 129,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 1,
+      "LONG_TEXT": 31,
+      "MULTI_SENTENCE": 9,
+      "STRUCTURAL_CONTENT": 5,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 21
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Staff",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Staff",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Code",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Code",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Leaders",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Leaders",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment 1Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.Learning Outcomes Addressed: LO1Quiz date: Week 7 in Class quizAssessment 2Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, Assessment 3Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.Evidence of key skills from your reflection such as collaboration, communication, punctuality, and independent learning.Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PMImportant: Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.Additional Guidelines: Submission Link: See CanvasSupport: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 459
+      },
+      {
+        "candidate": "Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.",
+        "reason": "LONG_TEXT",
+        "word_count": 48
+      },
+      {
+        "candidate": "Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.",
+        "reason": "LONG_TEXT",
+        "word_count": 79
+      },
+      {
+        "candidate": "Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 16
+      },
+      {
+        "candidate": "Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, ",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 48
+      },
+      {
+        "candidate": "Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:",
+        "reason": "LONG_TEXT",
+        "word_count": 72
+      },
+      {
+        "candidate": "A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PM",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.",
+        "reason": "LONG_TEXT",
+        "word_count": 30
+      },
+      {
+        "candidate": "Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.",
+        "reason": "LONG_TEXT",
+        "word_count": 36
+      },
+      {
+        "candidate": "Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.",
+        "reason": "LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Support: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
+        "reason": "LONG_TEXT",
+        "word_count": 33
+      },
+      {
+        "candidate": "Module Learning Outcomes",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Essential Reading List",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Essential Reading List",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQBMarketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/",
+        "reason": "LONG_TEXT",
+        "word_count": 71
+      },
+      {
+        "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 15
+      },
+      {
+        "candidate": "Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.",
+        "reason": "LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 15
+      },
+      {
+        "candidate": "Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQB",
+        "reason": "LONG_TEXT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Marketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/ ",
+        "reason": "LONG_TEXT",
+        "word_count": 4
+      },
+      {
+        "candidate": "The deadline for submitting the assignment is: To Be ConfirmedStudents will receive feedback and assessment within 20 working days of submission.Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 81
+      },
+      {
+        "candidate": "Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 61
+      },
+      {
+        "candidate": "Assignment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assignment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
+        "reason": "LONG_TEXT",
+        "word_count": 13
+      },
+      {
+        "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
+        "reason": "LONG_TEXT",
+        "word_count": 13
+      },
+      {
+        "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      }
+    ]
+  },
+  "1781784864598_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx": {
+    "total_extracted": 256,
+    "filtered_out": 67,
+    "remaining_candidates": 189,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 1,
+      "LONG_TEXT": 31,
+      "MULTI_SENTENCE": 9,
+      "STRUCTURAL_CONTENT": 5,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 21
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Staff",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Staff",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Code",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Code",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Leaders",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Leaders",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment 1Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.Learning Outcomes Addressed: LO1Quiz date: Week 7 in Class quizAssessment 2Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, Assessment 3Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.Evidence of key skills from your reflection such as collaboration, communication, punctuality, and independent learning.Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PMImportant: Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.Additional Guidelines: Submission Link: See CanvasSupport: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 459
+      },
+      {
+        "candidate": "Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.",
+        "reason": "LONG_TEXT",
+        "word_count": 48
+      },
+      {
+        "candidate": "Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.",
+        "reason": "LONG_TEXT",
+        "word_count": 79
+      },
+      {
+        "candidate": "Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 16
+      },
+      {
+        "candidate": "Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, ",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 48
+      },
+      {
+        "candidate": "Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:",
+        "reason": "LONG_TEXT",
+        "word_count": 72
+      },
+      {
+        "candidate": "A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PM",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.",
+        "reason": "LONG_TEXT",
+        "word_count": 30
+      },
+      {
+        "candidate": "Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.",
+        "reason": "LONG_TEXT",
+        "word_count": 36
+      },
+      {
+        "candidate": "Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.",
+        "reason": "LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Support: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
+        "reason": "LONG_TEXT",
+        "word_count": 33
+      },
+      {
+        "candidate": "Module Learning Outcomes",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Essential Reading List",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Essential Reading List",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQBMarketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/",
+        "reason": "LONG_TEXT",
+        "word_count": 71
+      },
+      {
+        "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 15
+      },
+      {
+        "candidate": "Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.",
+        "reason": "LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 15
+      },
+      {
+        "candidate": "Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQB",
+        "reason": "LONG_TEXT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Marketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/ ",
+        "reason": "LONG_TEXT",
+        "word_count": 4
+      },
+      {
+        "candidate": "The deadline for submitting the assignment is: To Be ConfirmedStudents will receive feedback and assessment within 20 working days of submission.Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 81
+      },
+      {
+        "candidate": "Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 61
+      },
+      {
+        "candidate": "Assignment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assignment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
+        "reason": "LONG_TEXT",
+        "word_count": 13
+      },
+      {
+        "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
+        "reason": "LONG_TEXT",
+        "word_count": 13
+      },
+      {
+        "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      }
+    ]
+  },
+  "1781785022716_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx": {
+    "total_extracted": 256,
+    "filtered_out": 67,
+    "remaining_candidates": 189,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 1,
+      "LONG_TEXT": 31,
+      "MULTI_SENTENCE": 9,
+      "STRUCTURAL_CONTENT": 5,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 21
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Staff",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Staff",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Code",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Code",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Leaders",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Leaders",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment 1Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.Learning Outcomes Addressed: LO1Quiz date: Week 7 in Class quizAssessment 2Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, Assessment 3Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.Evidence of key skills from your reflection such as collaboration, communication, punctuality, and independent learning.Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PMImportant: Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.Additional Guidelines: Submission Link: See CanvasSupport: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 459
+      },
+      {
+        "candidate": "Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.",
+        "reason": "LONG_TEXT",
+        "word_count": 48
+      },
+      {
+        "candidate": "Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.",
+        "reason": "LONG_TEXT",
+        "word_count": 79
+      },
+      {
+        "candidate": "Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 16
+      },
+      {
+        "candidate": "Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, ",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 48
+      },
+      {
+        "candidate": "Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:",
+        "reason": "LONG_TEXT",
+        "word_count": 72
+      },
+      {
+        "candidate": "A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PM",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.",
+        "reason": "LONG_TEXT",
+        "word_count": 30
+      },
+      {
+        "candidate": "Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.",
+        "reason": "LONG_TEXT",
+        "word_count": 36
+      },
+      {
+        "candidate": "Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.",
+        "reason": "LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Support: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
+        "reason": "LONG_TEXT",
+        "word_count": 33
+      },
+      {
+        "candidate": "Module Learning Outcomes",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Essential Reading List",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Essential Reading List",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQBMarketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/",
+        "reason": "LONG_TEXT",
+        "word_count": 71
+      },
+      {
+        "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 15
+      },
+      {
+        "candidate": "Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.",
+        "reason": "LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 15
+      },
+      {
+        "candidate": "Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQB",
+        "reason": "LONG_TEXT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Marketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/ ",
+        "reason": "LONG_TEXT",
+        "word_count": 4
+      },
+      {
+        "candidate": "The deadline for submitting the assignment is: To Be ConfirmedStudents will receive feedback and assessment within 20 working days of submission.Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 81
+      },
+      {
+        "candidate": "Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 61
+      },
+      {
+        "candidate": "Assignment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assignment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
+        "reason": "LONG_TEXT",
+        "word_count": 13
+      },
+      {
+        "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
+        "reason": "LONG_TEXT",
+        "word_count": 13
+      },
+      {
+        "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      }
+    ]
+  },
+  "1781785091596_Principles_of_Marketing-_Project_Brief_-_Feb_2025__2_.docx": {
+    "total_extracted": 256,
+    "filtered_out": 67,
+    "remaining_candidates": 189,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 1,
+      "LONG_TEXT": 31,
+      "MULTI_SENTENCE": 9,
+      "STRUCTURAL_CONTENT": 5,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 21
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+        "reason": "LONG_TEXT",
+        "word_count": 29
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Staff",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Staff",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Code",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Code",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Leaders",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Leaders",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Project Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment 1Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.Learning Outcomes Addressed: LO1Quiz date: Week 7 in Class quizAssessment 2Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, Assessment 3Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.Evidence of key skills from your reflection such as collaboration, communication, punctuality, and independent learning.Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PMImportant: Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.Additional Guidelines: Submission Link: See CanvasSupport: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 459
+      },
+      {
+        "candidate": "Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.",
+        "reason": "LONG_TEXT",
+        "word_count": 48
+      },
+      {
+        "candidate": "Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.",
+        "reason": "LONG_TEXT",
+        "word_count": 79
+      },
+      {
+        "candidate": "Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 16
+      },
+      {
+        "candidate": "Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.",
+        "reason": "LONG_TEXT",
+        "word_count": 22
+      },
+      {
+        "candidate": "Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, ",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 48
+      },
+      {
+        "candidate": "Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:",
+        "reason": "LONG_TEXT",
+        "word_count": 72
+      },
+      {
+        "candidate": "A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PM",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.",
+        "reason": "LONG_TEXT",
+        "word_count": 30
+      },
+      {
+        "candidate": "Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.",
+        "reason": "LONG_TEXT",
+        "word_count": 36
+      },
+      {
+        "candidate": "Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.",
+        "reason": "LONG_TEXT",
+        "word_count": 21
+      },
+      {
+        "candidate": "Support: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
+        "reason": "LONG_TEXT",
+        "word_count": 33
+      },
+      {
+        "candidate": "Module Learning Outcomes",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+        "reason": "LONG_TEXT",
+        "word_count": 20
+      },
+      {
+        "candidate": "Essential Reading List",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Essential Reading List",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQBMarketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/",
+        "reason": "LONG_TEXT",
+        "word_count": 71
+      },
+      {
+        "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 15
+      },
+      {
+        "candidate": "Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.",
+        "reason": "LONG_TEXT",
+        "word_count": 19
+      },
+      {
+        "candidate": "Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 15
+      },
+      {
+        "candidate": "Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQB",
+        "reason": "LONG_TEXT",
+        "word_count": 12
+      },
+      {
+        "candidate": "Marketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/ ",
+        "reason": "LONG_TEXT",
+        "word_count": 4
+      },
+      {
+        "candidate": "The deadline for submitting the assignment is: To Be ConfirmedStudents will receive feedback and assessment within 20 working days of submission.Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 81
+      },
+      {
+        "candidate": "Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
+        "reason": "STRUCTURAL_CONTENT",
+        "word_count": 61
+      },
+      {
+        "candidate": "Assignment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assignment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
+        "reason": "LONG_TEXT",
+        "word_count": 13
+      },
+      {
+        "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
+        "reason": "LONG_TEXT",
+        "word_count": 13
+      },
+      {
+        "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 11
+      },
+      {
+        "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
+        "reason": "LONG_TEXT",
+        "word_count": 14
+      },
+      {
+        "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
+        "reason": "MULTI_SENTENCE",
+        "word_count": 14
+      },
+      {
+        "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
+        "reason": "LONG_TEXT",
+        "word_count": 15
+      },
+      {
+        "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
+        "reason": "LONG_TEXT",
+        "word_count": 17
+      },
+      {
+        "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
+        "reason": "LONG_TEXT",
+        "word_count": 18
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Method",
+        "reason": "HEADING_CONTENT",
+        "category": "LEARNED_HEADING",
+        "word_count": 2
+      }
+    ]
   }
 }
