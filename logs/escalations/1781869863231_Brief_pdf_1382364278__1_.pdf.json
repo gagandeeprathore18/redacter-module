@@ -1,0 +1,99 @@
+{
+  "document_id": "1781869863231_Brief_pdf_1382364278__1_.pdf",
+  "total_candidates": 57,
+  "escalated_candidates": 3,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 3
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 3
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781869863231_Brief_pdf_1382364278__1_.pdf",
+      "candidate": "01/06/2026",
+      "context": " clearly and professionally, aligning academic rigour \nwith real-world impact. \nAcademic Year \n2026/27 \nBrief Released \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nApplied Research Project \nFeedback Release",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 6e-05,
+      "response_time_ms": 1194,
+      "token_usage": {
+        "prompt_tokens": 177,
+        "completion_tokens": 56,
+        "total_tokens": 233
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781869863231_Brief_pdf_1382364278__1_.pdf",
+      "candidate": "07/02/2027 by 5PM",
+      "context": "with real-world impact. \nAcademic Year \n2026/27 \nBrief Released \n01/06/2026 \nModule Code \nBME6002 \nSubmission Deadline \n07/02/2027 by 5PM \nModule Title \nApplied Research Project \nFeedback Release Date \nProvisional results should be \nmade to students within ",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 6e-05,
+      "response_time_ms": 1194,
+      "token_usage": {
+        "prompt_tokens": 177,
+        "completion_tokens": 56,
+        "total_tokens": 233
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781869863231_Brief_pdf_1382364278__1_.pdf",
+      "candidate": "31/05/2026",
+      "context": "0 Guided Study Hours \n420 Independent Study Hours \n \nModule Lead \nDr Mariya Rai \n \n \nDate of approval of this \nversion \n31/05/2026 \nLevel (Credit Value) \nLevel 6 (60 credits) \n \n \nSemester \nTerm 1,2 and 3 (30 teaching \nweeks) \n \n \nAssessment \nBrief \n",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 6e-05,
+      "response_time_ms": 1194,
+      "token_usage": {
+        "prompt_tokens": 177,
+        "completion_tokens": 56,
+        "total_tokens": 233
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

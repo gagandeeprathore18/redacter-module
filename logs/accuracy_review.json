@@ -1,0 +1,8 @@
+[
+  {
+    "candidate": "Nargisa Simansone",
+    "expected": "REDACT",
+    "actual": "PRESERVE",
+    "error_type": "FALSE_NEGATIVE"
+  }
+]

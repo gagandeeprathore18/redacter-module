@@ -1,0 +1,749 @@
+{
+  "document_id": "1781933219399_nwww.docx",
+  "total_candidates": 192,
+  "escalated_candidates": 29,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 29,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 29,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Component 1: ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Disciplinary Procedures",
+      "context": "Student Disciplinary Procedures",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Student Disciplinary Procedures",
+      "context": "duct and students who have been found to commit an offense will be subject to the Academic Misconduct Policy and or the Student Disciplinary Procedures. ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Component Number",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "CW1",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Weighting (%)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Weighting (%)\u00a0",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Length",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Component 1",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Component 1\u00a0\u00a0",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Live Website",
+      "context": "evidencing your live product/platform, marketing materials, and tool use.Project Requirements & MilestonesMilestone 1 \u2013 Live Website or Platform Launch (week 7 Term 1)Task: Launch a live product or service site using WordPress, or another relevant plat",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Platform Launch",
+      "context": "live product/platform, marketing materials, and tool use.Project Requirements & MilestonesMilestone 1 \u2013 Live Website or Platform Launch (week 7 Term 1)Task: Launch a live product or service site using WordPress, or another relevant platform.Evidence: Scre",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Website Optimisation",
+      "context": " forms, product listings).Reflection: Evaluate the platform's suitability for your e-business model. (LO1)Milestone 2 \u2013 Website Optimisation & Initial Content (Week 4 Term 2)Task: Optimise your live platform using SEO tools (e.g., Google Analytics, GTmetrix), ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Initial Content",
+      "context": "s).Reflection: Evaluate the platform's suitability for your e-business model. (LO1)Milestone 2 \u2013 Website Optimisation & Initial Content (Week 4 Term 2)Task: Optimise your live platform using SEO tools (e.g., Google Analytics, GTmetrix), and publish blog p",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "System Integration",
+      "context": "paign calendar screenshots.Reflection: Analyse content strategy in relation to the customer journey. (LO2)Milestone 4 \u2013 System Integration & Performance Management (Week 7 Term 3)Task: Integrate your website with social channels, ecommerce platforms and/or C",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Detailed Description",
+      "context": "g as you go will help you stay on track, reduce workload at the end, and produce a stronger, more insightful submission.Detailed Description of the Assessment Important Instructions:This is an individual assessment and must reflect your own work.The project mu",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Technical ResponsibilityYou",
+      "context": "bSpot, Google, Moz, etc.).Visuals do not require citations unless sourced externally. Annotated images must be your own.Technical ResponsibilityYou are responsible for ensuring your platform, content, and tools used for the project function correctly at the time of s",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Project Requirements & Milestones",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Tools: Canva, CapCut, Planable.",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Important Instructions:",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Technical Responsibility",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Final Report Structure",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Executive Summary: ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Visual Evidence: Annotated Image Portfolio",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Homepage screenshots",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Analytics dashboards",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Personal & Professional Connectivity",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Professional Competencies",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933219399_nwww.docx",
+      "candidate": "Behaviours & Values Setting",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 642,
+      "token_usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 48,
+        "total_tokens": 97
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

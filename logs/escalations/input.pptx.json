@@ -1,20 +1,22 @@
 {
   "document_id": "input.pptx",
-  "total_candidates": 96,
-  "escalated_candidates": 10,
+  "total_candidates": 120,
+  "escalated_candidates": 4,
   "escalation_breakdown": {
     "LOW_CONFIDENCE": 0,
-    "CLASSIFIER_CONFLICT": 3,
-    "UNKNOWN_PATTERN": 7,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 2,
     "HIGH_IMPACT_ACTION": 0,
-    "UNIVERSITY_BRANDING_VERIFICATION": 0
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 2
   },
   "top_escalation_reasons": {
     "LOW_CONFIDENCE": 0,
-    "CLASSIFIER_CONFLICT": 3,
-    "UNKNOWN_PATTERN": 7,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 2,
     "HIGH_IMPACT_ACTION": 0,
-    "UNIVERSITY_BRANDING_VERIFICATION": 0
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 2
   },
   "warnings": [],
   "candidates": [
@@ -40,7 +42,8 @@
         "total_tokens": 0
       },
       "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "action": "PRESERVE",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.pptx",
@@ -64,44 +67,21 @@
         "total_tokens": 0
       },
       "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "action": "PRESERVE",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.pptx",
-      "candidate": "Name/Signed: Nargisa Simansone",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.pptx",
-      "candidate": "Module leader: Adeeba Ahmad",
-      "context": "",
-      "python_prediction": "PERSON",
+      "candidate": "Oct 12, 2025 at 10:00 AM",
+      "context": "Submitted on Oct 12, 2025 at 10:00 AM",
+      "python_prediction": "DATE_CANDIDATE",
       "python_confidence": 100,
       "escalation_reasons": [
-        "CLASSIFIER_CONFLICT"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "CLASSIFIER_CONFLICT",
-      "classifier_1": "PERSON",
-      "classifier_2": "ACADEMIC_TITLE",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
       "gpt_prediction": null,
       "gpt_confidence": null,
       "request_cost_usd": 0.0,
@@ -111,67 +91,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "PERSON",
-      "action": "REDACT"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.pptx",
-      "candidate": "Module lead's name: John Connor",
-      "context": "",
-      "python_prediction": "PERSON",
+      "candidate": "1/27/13",
+      "context": "1/27/13",
+      "python_prediction": "DATE_CANDIDATE",
       "python_confidence": 100,
       "escalation_reasons": [
-        "CLASSIFIER_CONFLICT"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "CLASSIFIER_CONFLICT",
-      "classifier_1": "PERSON",
-      "classifier_2": "ACADEMIC_TITLE",
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "PERSON",
-      "action": "REDACT"
-    },
-    {
-      "document_id": "input.pptx",
-      "candidate": "Module Lead: Sarah Connor",
-      "context": "",
-      "python_prediction": "PERSON",
-      "python_confidence": 100,
-      "escalation_reasons": [
-        "CLASSIFIER_CONFLICT"
-      ],
-      "escalation_reason": "CLASSIFIER_CONFLICT",
-      "classifier_1": "PERSON",
-      "classifier_2": "ACADEMIC_TITLE",
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "PERSON",
-      "action": "REDACT"
-    },
-    {
-      "document_id": "input.pptx",
-      "candidate": "Second level",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 20,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -183,80 +116,9 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.pptx",
-      "candidate": "Third level",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 20,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.pptx",
-      "candidate": "Fourth level",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 20,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.pptx",
-      "candidate": "Fifth level",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 20,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     }
   ]
 }

@@ -1,0 +1,147 @@
+{
+  "document_id": "1781860995401_brief_pdf_39384577_original__1_.pdf",
+  "total_candidates": 41,
+  "escalated_candidates": 5,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 5,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 5,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781860995401_brief_pdf_39384577_original__1_.pdf",
+      "candidate": "Examining Board",
+      "context": "a non-submission \nand will not be marked. The work may be considered as a submission for \nreassessment if offered by an Examining Board or if there is an approved \nextenuating circumstances claim. \nAcademic honesty \n/ referencing: \nAcademic honesty is req",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3e-05,
+      "response_time_ms": 653,
+      "token_usage": {
+        "prompt_tokens": 106,
+        "completion_tokens": 22,
+        "total_tokens": 128
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781860995401_brief_pdf_39384577_original__1_.pdf",
+      "candidate": "Generative AI",
+      "context": "Page 10 of 25 \n \nUse of Generative AI in Assessment \n \n \n \n \n \nModule Learning Outcomes (from module \nsyllabus) \n \nUpon the successful completion of this mod",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3e-05,
+      "response_time_ms": 653,
+      "token_usage": {
+        "prompt_tokens": 106,
+        "completion_tokens": 22,
+        "total_tokens": 128
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781860995401_brief_pdf_39384577_original__1_.pdf",
+      "candidate": "The PowerPoint",
+      "context": "curate spelling, grammar, and logical \nflow. Harvard referencing must be applied consistently and correctly throughout. The PowerPoint presentation \nmust be completed within the 15-minute time limit, with slides that are clearly organised, visually profe",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3e-05,
+      "response_time_ms": 653,
+      "token_usage": {
+        "prompt_tokens": 106,
+        "completion_tokens": 22,
+        "total_tokens": 128
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781860995401_brief_pdf_39384577_original__1_.pdf",
+      "candidate": "Understanding Skills",
+      "context": "ria \nMarks \navailable \nMarks \nawarded \n1. Engagement with Literature Skills \n \n \n \n \n \n \n \n \n \n20 \n \n \n2. Knowledge and Understanding Skills \n \n \n \n \n \n \n \n \n \n20 \n \n \n3. Cognitive and Intellectual Skills \n \n \n",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3e-05,
+      "response_time_ms": 653,
+      "token_usage": {
+        "prompt_tokens": 106,
+        "completion_tokens": 22,
+        "total_tokens": 128
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781860995401_brief_pdf_39384577_original__1_.pdf",
+      "candidate": "Intellectual Skills",
+      "context": "ure Skills \n \n \n \n \n \n \n \n \n \n20 \n \n \n2. Knowledge and Understanding Skills \n \n \n \n \n \n \n \n \n \n20 \n \n \n3. Cognitive and Intellectual Skills \n \n \n",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3e-05,
+      "response_time_ms": 653,
+      "token_usage": {
+        "prompt_tokens": 106,
+        "completion_tokens": 22,
+        "total_tokens": 128
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

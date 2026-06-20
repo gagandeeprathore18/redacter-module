@@ -1,0 +1,3433 @@
+{
+  "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+  "total_candidates": 726,
+  "escalated_candidates": 136,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 136,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 136,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "warnings": [
+    {
+      "severity": "HIGH",
+      "message": "Escalation limit exceeded."
+    },
+    {
+      "severity": "CRITICAL",
+      "message": "GPT is acting as a primary classifier instead of a fallback classifier."
+    }
+  ],
+  "candidates": [
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "GROUP 4",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "ArtBridge",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Community arts gallery concept",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Creative workshop programme",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Mixed-income funding plan",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Partnership and stakeholder plan",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Indicative Pilot Budget",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Disadvantaged young people",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Project team members",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Local councils",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Schools and universities",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Youth organisations and charities",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Community members",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Sponsors and donors",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Local businesses",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Volunteers and mentors",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Venue providers",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Sponsors and Donors",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Local Councils",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Disadvantaged Young People",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Emerging Local Artists",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Volunteers and Mentors",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Youth Organisations",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "General Community Members",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Social Media Followers",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "The Work Breakdown Structure",
+      "context": "The Work Breakdown Structure (WBS) divides the ArtBridge project into smaller, more manageable tasks and activities. This makes the project easier t",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "The WBS",
+      "context": "ect into smaller, more manageable tasks and activities. This makes the project easier to organise, monitor and deliver. The WBS identifies eight main project stages, each containing a set of numbered work packages. Each stage maps directly to a ti",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Project Planning and Organisation",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Funding and Partnership Development",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Workshop and Event Planning",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Event Execution",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "In Scope",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Out of Scope",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Community arts workshops",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Youth mentoring activities",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Local artist exhibitions",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Community events and performances",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Social media promotion",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Partnership development",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "National expansion",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Clinical counselling services",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Housing support services",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Formal education programmes",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Large-scale commercial operations",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Full caf\u00e9/bar operations",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Income Source",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Description",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Stage",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Grants",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Pilot Stage",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Donations",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Sponsorships",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Community Partnerships",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Memberships",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Later Development",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Ticketed Events",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Venue Hire",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Art Sales Commission",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Budget Item",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Notes",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Estimated Cost",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Venue hire",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Facilitator and mentor fees",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Insurance",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Total (estimated)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Stakeholder",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Internal / External",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Interest",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Influence",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Internal",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "High",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "External",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Medium",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Schools and Universities",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Community Members",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Low",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Local Businesses",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Communication Method",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "When / How Often",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Email / Meetings",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Monthly",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Weekly",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Social Media / Posters",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Before events",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Local Artists and Creatives",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Email / Social Media",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Regularly",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Formal Email / Meetings",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "At key stages",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Before community events",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Jan 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Feb 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Mar 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Apr 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "May 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Jun 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Jul 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Aug 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Sep 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Oct 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Nov 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Dec 26",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Category",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Risks identified",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Resource / cost",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Participation",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Delivery",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Likelihood",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Impact",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Low impact",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Medium impact",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "High impact",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "High likelihood",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Medium likelihood",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Low likelihood",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Low risk \u2014 monitor",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Medium risk \u2014 mitigate",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Risk",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Risk level",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Action required",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Insufficient grant funding",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Sponsorship targets not met",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Donations below projections",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Local artists not committing",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Drop-off after early sessions",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Materials cost overrun",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Equipment failure during event",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Adverse weather affecting attendance",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Main Area of Responsibility",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Marian Floarea",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Cristian Dinicuta",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Florina Dinitica",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Andreea Tudorie",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Sorina Bortos",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Sebastian Kiss",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781933526636_ArtBridge_-_A_Social_Enterprise_Gallery_for_Youth_Inclusion.docx",
+      "candidate": "Page 19 of 19",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.2e-05,
+      "response_time_ms": 654,
+      "token_usage": {
+        "prompt_tokens": 30,
+        "completion_tokens": 46,
+        "total_tokens": 76
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

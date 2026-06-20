@@ -5,14 +5,24 @@ import json
 from redact_engine import (
     redact_text, is_logo_match, 
     STUDENT_ID_PATTERN, EMAIL_PATTERN, PHONE_PATTERN, POSTAL_CODE_PATTERN,
-    DOMAIN_PATTERNS, SUBMISSION_FEEDBACK_DATE_PATTERN,
-    DATE_TIME_ONLY_PATTERN, TABLE_ROW_KEYWORD_PATTERN,
+    DOMAIN_PATTERNS,
     NAME_PROXIMITY_PATTERN, NAME_PATTERN, TABLE_ROW_NAME_KEYWORD_PATTERN,
     is_likely_human_name, URL_OR_DOMAIN_PATTERN, EDUCATIONAL_KEYWORDS,
-    TABLE_ROW_LOCATION_KEYWORD_PATTERN, SUBMISSION_LOCATION_PATTERN
+    TABLE_ROW_LOCATION_KEYWORD_PATTERN, SUBMISSION_LOCATION_PATTERN,
+    METADATA_FIELD_PATTERN
 )
 from redaction.stop_patterns import should_stop_block
 from redaction.protected_zone_detector import reset_protected_zone, set_protected_zone
+
+def _is_label_cell(text: str, max_words: int = 8) -> bool:
+    """Helper to check if string looks like a short form label, not prose."""
+    words = text.split()
+    if len(words) > max_words:
+        return False
+    stripped = text.strip().rstrip('.')
+    if re.search(r'\.\s+[A-Z]', stripped):
+        return False
+    return True
 
 def should_stop_location_block(line: str) -> bool:
     """Delegates to the shared stop-block checker."""
@@ -35,34 +45,138 @@ def get_text_match_rects(page, target_text: str):
     for i in range(n_words):
         current_str = ""
         span_rects = []
+        prev_y0 = None
         for j in range(i, min(i + 15, n_words)):
             w = page_words[j]
+            if prev_y0 is not None and abs(w[1] - prev_y0) > 8:
+                break
             word_clean = re.sub(r'[^\w]', '', w[4].lower())
             if not word_clean:
                 continue
             current_str += word_clean
             span_rects.append(fitz.Rect(w[0], w[1], w[2], w[3]))
+            prev_y0 = w[1]
             
             if current_str == target_clean:
+                print(f"DEBUG: matched target_clean={target_clean}, span_rects={span_rects}, w_list={[page_words[k] for k in range(i, j+1)]}")
                 if span_rects:
                     merged_rect = span_rects[0]
                     for r in span_rects[1:]:
                         if abs(r.y0 - merged_rect.y0) < 5:
                             merged_rect = merged_rect | r
                         else:
-                            merged_rect.x0 = max(0, merged_rect.x0 - 8)
-                            merged_rect.x1 = merged_rect.x1 + 8
                             rects.append(merged_rect)
                             merged_rect = r
-                    merged_rect.x0 = max(0, merged_rect.x0 - 8)
-                    merged_rect.x1 = merged_rect.x1 + 8
                     rects.append(merged_rect)
                 break
             elif len(current_str) > len(target_clean):
                 break
     return rects
 
-def redact_pdf_table_rows(page):
+def detect_dominant_page_color(page) -> tuple[float, float, float]:
+    """
+    Renders the page to a pixmap, samples the four corner pixels, and calculates
+    the dominant color. Returns RGB as float tuple in range [0.0, 1.0].
+    """
+    try:
+        pix = page.get_pixmap()
+        width = pix.width
+        height = pix.height
+        
+        offset_x = min(10, max(1, width // 4))
+        offset_y = min(10, max(1, height // 4))
+        coords = [
+            (offset_x, offset_y),
+            (width - offset_x - 1, offset_y),
+            (offset_x, height - offset_y - 1),
+            (width - offset_x - 1, height - offset_y - 1)
+        ]
+        
+        colors = []
+        for x, y in coords:
+            if 0 <= x < width and 0 <= y < height:
+                p = pix.pixel(x, y)
+                colors.append(p[:3])
+                
+        if not colors:
+            return (1.0, 1.0, 1.0)
+            
+        from collections import Counter
+        most_common_color, _ = Counter(colors).most_common(1)[0]
+        return (most_common_color[0] / 255.0, most_common_color[1] / 255.0, most_common_color[2] / 255.0)
+    except Exception as e:
+        print(f"Error detecting page background color: {e}")
+        return (1.0, 1.0, 1.0)
+
+def get_text_style_for_rect(page, rect):
+    # Default fallback style
+    style = {
+        "fontname": "helv",
+        "fontsize": 11,
+        "text_color": (0, 0, 0),
+        "origin": (rect.x0, rect.y1 - 2)
+    }
+    try:
+        text_page = page.get_text("dict")
+        best_overlap = 0.0
+        best_span = None
+        
+        for block in text_page.get("blocks", []):
+            for line in block.get("lines", []):
+                for span in line.get("spans", []):
+                    span_rect = fitz.Rect(span["bbox"])
+                    overlap = (rect & span_rect).get_area()
+                    if overlap > best_overlap:
+                        best_overlap = overlap
+                        best_span = span
+                        
+        if best_span:
+            original_font = best_span.get("font", "").lower()
+            is_bold = "bold" in original_font or "black" in original_font or "heavy" in original_font
+            is_italic = "italic" in original_font or "oblique" in original_font
+            
+            if "times" in original_font:
+                if is_bold and is_italic:
+                    fontname = "timesbi"
+                elif is_bold:
+                    fontname = "timesb"
+                elif is_italic:
+                    fontname = "timesi"
+                else:
+                    fontname = "times"
+            elif "cour" in original_font:
+                if is_bold and is_italic:
+                    fontname = "courbi"
+                elif is_bold:
+                    fontname = "courb"
+                elif is_italic:
+                    fontname = "couri"
+                else:
+                    fontname = "cour"
+            else:
+                if is_bold and is_italic:
+                    fontname = "helvbo"
+                elif is_bold:
+                    fontname = "helvb"
+                elif is_italic:
+                    fontname = "helvo"
+                else:
+                    fontname = "helv"
+                    
+            style["fontname"] = fontname
+            style["fontsize"] = best_span.get("size", 11)
+            style["origin"] = best_span.get("origin", (rect.x0, rect.y1 - 2))
+            
+            color_int = best_span.get("color", 0)
+            r = ((color_int >> 16) & 255) / 255.0
+            g = ((color_int >> 8) & 255) / 255.0
+            b = (color_int & 255) / 255.0
+            style["text_color"] = (r, g, b)
+    except Exception as e:
+        print(f"Error extracting style for rect: {e}")
+    return style
+
+def redact_pdf_table_rows(page, fill_color=(1, 1, 1)):
     """
     Finds labels matching TABLE_ROW_KEYWORD_PATTERN or TABLE_ROW_LOCATION_KEYWORD_PATTERN
     on the page, and redacts the entire value cell area to their right, leaving no traces.
@@ -104,16 +218,19 @@ def redact_pdf_table_rows(page):
             for l in range(min(8, n_words - i), 0, -1):
                 phrase = " ".join(line[i+k][4] for k in range(l))
                 phrase_clean = phrase.strip()
-                if TABLE_ROW_KEYWORD_PATTERN.search(phrase_clean):
-                    matched_len = l
-                    matched_type = "date"
-                    break
-                elif TABLE_ROW_LOCATION_KEYWORD_PATTERN.search(phrase_clean):
+                if TABLE_ROW_LOCATION_KEYWORD_PATTERN.search(phrase_clean):
                     matched_len = l
                     matched_type = "location"
                     break
                     
             if matched_len > 0:
+                phrase = " ".join(line[i+k][4] for k in range(matched_len))
+                # Guard: only treat as a form label if it starts near the beginning of
+                # the line (≤2 preceding words) AND is short enough to be a label.
+                # This prevents firing on academic prose mid-sentence.
+                if i > 2 or not _is_label_cell(phrase):
+                    i += matched_len
+                    continue
                 label_words = line[i:i+matched_len]
                 label_rect = fitz.Rect(
                     label_words[0][0],
@@ -128,8 +245,7 @@ def redact_pdf_table_rows(page):
                     is_next_label = False
                     for l_next in range(1, min(5, n_words - j + 1)):
                         next_phrase = " ".join(line[j+k][4] for k in range(l_next))
-                        if (TABLE_ROW_KEYWORD_PATTERN.search(next_phrase) or 
-                            TABLE_ROW_LOCATION_KEYWORD_PATTERN.search(next_phrase) or
+                        if (TABLE_ROW_LOCATION_KEYWORD_PATTERN.search(next_phrase) or
                             TABLE_ROW_NAME_KEYWORD_PATTERN.search(next_phrase)):
                             is_next_label = True
                             break
@@ -138,20 +254,15 @@ def redact_pdf_table_rows(page):
                         break
                         
                 if next_label_x0 > label_rect.x1 + 10:
-                    # Draw a solid white box over the entire value cell region
-                    value_rect = fitz.Rect(
-                        label_rect.x1 + 2,
-                        label_rect.y0 - 2,
-                        next_label_x0 - 2,
-                        label_rect.y1 + 2
-                    )
-                    page.add_redact_annot(value_rect, fill=(1, 1, 1))
+                    # Geometrical cell-wide redaction disabled to ensure precise text-only redaction bounds.
+                    pass
                     
                 i += matched_len
             else:
                 i += 1
 
 def process_pdf(input_path: str, output_path: str):
+    os.environ["CURRENT_DOCUMENT_ID"] = os.path.basename(input_path)
     from redaction.ownership_manager import clear_issuing_university, determine_issuing_university, get_active_patterns
     from redaction.redaction_debug_logger import set_document_context, log_redaction as _log_redaction
     clear_issuing_university()
@@ -274,9 +385,76 @@ def process_pdf(input_path: str, output_path: str):
     # We scan all page texts for potential human name candidates or other entities
     for page_num in range(len(doc)):
         page = doc[page_num]
-        page_text = page.get_text("text")
-        set_protected_zone(page_text)
-        normalized_text = re.sub(r'[ \t\r\f\v]+', ' ', page_text)
+        page_height = page.rect.y1 - page.rect.y0
+        header_height = page_height * 0.20
+        
+        # Scan only header/footer regions (top 18% and bottom 18%) of page text to find issuing university
+        header_footer_texts = []
+        for block in page.get_text("blocks"):
+            x0, y0, x1, y1, block_text, block_no, block_type = block
+            if y1 < page_height * 0.18 or y0 > page_height * 0.82:
+                header_footer_texts.append(block_text)
+        if header_footer_texts:
+            combined_hf_text = "\n".join(header_footer_texts)
+            norm_hf_text = re.sub(r'[ \t\r\f\v]+', ' ', combined_hf_text)
+            norm_hf_text = re.sub(r'\n+', '\n', norm_hf_text)
+            from redaction.ownership_manager import scan_text_for_universities
+            scan_text_for_universities(norm_hf_text)
+
+        # Step 4: Extract and filter out header contact/address blocks from scan text
+        office_anchors = []
+        postcode_anchors = []
+        for block in page.get_text("blocks"):
+            bx0, by0, bx1, by1, btext, bno, btype = block
+            if btype == 0:
+                text_lower = btext.lower()
+                if any(k in text_lower for k in ["head office", "london office", "registered office", "office address"]):
+                    office_anchors.append(fitz.Rect(bx0, by0, bx1, by1))
+                if POSTAL_CODE_PATTERN.search(btext):
+                    postcode_anchors.append(fitz.Rect(bx0, by0, bx1, by1))
+
+        scan_block_texts = []
+        for block in page.get_text("blocks"):
+            x0, y0, x1, y1, block_text, block_no, block_type = block
+            if block_type == 0:  # text block
+                y_center = (y0 + y1) / 2.0
+                is_contact = any(k in block_text.lower() for k in ["www", "http", "email", "@", "telephone", "tel", "fax", "contact"])
+                has_postcode = bool(POSTAL_CODE_PATTERN.search(block_text))
+                has_keyword = any(k in block_text.lower() for k in ["street", "road", "avenue", "lane", "drive", "building", "house", "campus", "centre", "center", "park", "office", "gate"])
+                is_multiline = "\n" in block_text.strip()
+                
+                is_address = has_postcode and (has_keyword or is_multiline)
+                
+                is_in_office_zone = False
+                for anchor in office_anchors:
+                    zone = fitz.Rect(anchor.x0 - 80, anchor.y1, anchor.x1 + 80, anchor.y1 + 140)
+                    if zone.intersects(fitz.Rect(x0, y0, x1, y1)):
+                        is_in_office_zone = True
+                        break
+                        
+                is_in_postcode_zone = False
+                for anchor in postcode_anchors:
+                    zone = fitz.Rect(anchor.x0 - 80, anchor.y0 - 140, anchor.x1 + 80, anchor.y0)
+                    if zone.intersects(fitz.Rect(x0, y0, x1, y1)):
+                        is_in_postcode_zone = True
+                        break
+                
+                has_explicit_office = any(k in block_text.lower() for k in ["head office", "london office", "registered office", "office address"])
+                is_header_footer_contact = is_contact and (y_center < header_height or y_center > page_height * 0.80)
+                
+                is_keyword_match = any(k in block_text.lower() for k in ["street", "road", "avenue", "lane", "drive", "building", "house", "campus", "centre", "center", "park", "office", "gate", "london", "nottingham", "manchester", "oxford", "bucks", "leeds", "birmingham", "tel", "phone", "email", "@", "www", "http", "contact"]) or has_postcode
+                
+                is_valid_address = is_address or has_explicit_office or ((is_in_office_zone or is_in_postcode_zone) and is_keyword_match)
+                
+                if is_header_footer_contact or is_valid_address:
+                    # Bypasses scan & GPT entirely
+                    continue
+            scan_block_texts.append(block_text)
+            
+        page_text_for_scan = "\n".join(scan_block_texts)
+        set_protected_zone(page_text_for_scan)
+
+        normalized_text = re.sub(r'[ \t\r\f\v]+', ' ', page_text_for_scan)
         normalized_text = re.sub(r'\n+', '\n', normalized_text)
         
         # Scan for Proximity Names
@@ -297,6 +475,22 @@ def process_pdf(input_path: str, output_path: str):
                     classification, action, reasons, score = classify_entity(name_str, context=context)
                     register_candidate_scan(name_str, context, classification, action, score, reasons)
 
+        # Scan for Date Candidates
+        from redaction.date_time_detector import find_date_time_spans
+        for start, end, matched_str, m_type in find_date_time_spans(normalized_text):
+            if m_type == "DATE":
+                matched_str = matched_str.strip()
+                if matched_str and len(matched_str) > 2:
+                    start_idx = max(0, start - 120)
+                    end_idx = min(len(normalized_text), end + 120)
+                    context = normalized_text[start_idx:end_idx]
+                    classification, action, reasons, score = classify_entity(
+                        matched_str, 
+                        context=context, 
+                        source_detector="DATE_CANDIDATE_PATTERN"
+                    )
+                    register_candidate_scan(matched_str, context, classification, action, score, reasons)
+
     # Run the GPT batch review if there are escalated candidates
     issuing_univ = get_issuing_university()
     doc_id = os.path.basename(input_path)
@@ -312,23 +506,101 @@ def process_pdf(input_path: str, output_path: str):
         (EMAIL_PATTERN, " "),
         (PHONE_PATTERN, " "),
         (POSTAL_CODE_PATTERN, " "),
-        (SUBMISSION_FEEDBACK_DATE_PATTERN, " ")
+        (METADATA_FIELD_PATTERN, " ")
     ]
     # Add active patterns of the ISSUING_UNIVERSITY only
     for p in get_active_patterns():
         patterns.append((p, " "))
         
+    # Always include Qualifi/Qualify patterns explicitly
+    from redaction.ownership_manager import compile_flexible_pattern
+    patterns.append((compile_flexible_pattern("Qualifi"), " "))
+    patterns.append((compile_flexible_pattern("Qualify"), " "))
+    patterns.append((re.compile(r'qualifi\.net', re.IGNORECASE), " "))
+        
     reset_protected_zone()
     for page_num in range(len(doc)):
         page = doc[page_num]
         
+        # Detect background color dynamically
+        page_bg_color = detect_dominant_page_color(page)
+        replacements_to_apply = []
+        
         # 1. Redact Text
+        page_height = page.rect.y1 - page.rect.y0
+        header_height = page_height * 0.20
+        
+        # Redact Header/Global Text Blocks (Contact & Address)
+        office_anchors = []
+        postcode_anchors = []
+        for block in page.get_text("blocks"):
+            bx0, by0, bx1, by1, btext, bno, btype = block
+            if btype == 0:
+                text_lower = btext.lower()
+                if any(k in text_lower for k in ["head office", "london office", "registered office", "office address"]):
+                    office_anchors.append(fitz.Rect(bx0, by0, bx1, by1))
+                if POSTAL_CODE_PATTERN.search(btext):
+                    postcode_anchors.append(fitz.Rect(bx0, by0, bx1, by1))
+
+        for block in page.get_text("blocks"):
+            x0, y0, x1, y1, block_text, block_no, block_type = block
+            if block_type == 0:  # text block
+                y_center = (y0 + y1) / 2.0
+                is_contact = any(k in block_text.lower() for k in ["www", "http", "email", "@", "telephone", "tel", "fax", "contact"])
+                has_postcode = bool(POSTAL_CODE_PATTERN.search(block_text))
+                has_keyword = any(k in block_text.lower() for k in ["street", "road", "avenue", "lane", "drive", "building", "house", "campus", "centre", "center", "park", "office", "gate"])
+                is_multiline = "\n" in block_text.strip()
+                
+                is_address = has_postcode and (has_keyword or is_multiline)
+                
+                is_in_office_zone = False
+                for anchor in office_anchors:
+                    zone = fitz.Rect(anchor.x0 - 80, anchor.y1, anchor.x1 + 80, anchor.y1 + 140)
+                    if zone.intersects(fitz.Rect(x0, y0, x1, y1)):
+                        is_in_office_zone = True
+                        break
+                        
+                is_in_postcode_zone = False
+                for anchor in postcode_anchors:
+                    zone = fitz.Rect(anchor.x0 - 80, anchor.y0 - 140, anchor.x1 + 80, anchor.y0)
+                    if zone.intersects(fitz.Rect(x0, y0, x1, y1)):
+                        is_in_postcode_zone = True
+                        break
+                
+                has_explicit_office = any(k in block_text.lower() for k in ["head office", "london office", "registered office", "office address"])
+                is_header_footer_contact = is_contact and (y_center < header_height or y_center > page_height * 0.80)
+                
+                is_keyword_match = any(k in block_text.lower() for k in ["street", "road", "avenue", "lane", "drive", "building", "house", "campus", "centre", "center", "park", "office", "gate", "london", "nottingham", "manchester", "oxford", "bucks", "leeds", "birmingham", "tel", "phone", "email", "@", "www", "http", "contact"]) or has_postcode
+                
+                is_valid_address = is_address or has_explicit_office or ((is_in_office_zone or is_in_postcode_zone) and is_keyword_match)
+                
+                if is_header_footer_contact or is_valid_address:
+                    rect = fitz.Rect(x0, y0, x1, y1)
+                    page.add_redact_annot(rect, fill=page_bg_color)
+                    
+                    cls = "CONTACT_BLOCK" if is_header_footer_contact else "ADDRESS_BLOCK"
+                    # Audit log header block redaction
+                    try:
+                        from redaction.redaction_audit import RedactionAudit
+                        RedactionAudit.log({
+                            "candidate": block_text.strip(),
+                            "stage": "HEADER_REDACTION",
+                            "classification": cls,
+                            "decision": "REDACT",
+                            "page": page_num + 1,
+                            "bbox": [round(x0, 2), round(y0, 2), round(x1, 2), round(y1, 2)],
+                            "bbox_width": round(x1 - x0, 2),
+                            "bbox_height": round(y1 - y0, 2)
+                        })
+                    except Exception:
+                        pass
+
         page_text = page.get_text("text")
         set_protected_zone(page_text)
         # Reconstruct space-normalized text for page, collapsing horizontal spaces but preserving newlines
         normalized_text = re.sub(r'[ \t\r\f\v]+', ' ', page_text)
         normalized_text = re.sub(r'\n+', '\n', normalized_text)
-
+ 
         # Find unique matches in the normalized page text to redact
         matches_to_redact = []
         for pattern, replacement in patterns:
@@ -348,16 +620,12 @@ def process_pdf(input_path: str, output_path: str):
             if belongs_to_issuing:
                 matches_to_redact.append((matched_str, " "))
                 
-        # Apply proximity-based date/time search in normalized text
-        # Use ±300 char window (up from 120) so dates at paragraph ends are caught
-        for match in DATE_TIME_ONLY_PATTERN.finditer(normalized_text):
-            matched_str = match.group(0).strip()
+        # Extract and redact all dates and times using the new detector
+        from redaction.date_time_detector import find_date_time_spans
+        for start, end, matched_str, m_type in find_date_time_spans(normalized_text):
+            matched_str = matched_str.strip()
             if matched_str and len(matched_str) > 2:
-                start_idx = max(0, match.start() - 300)
-                end_idx = min(len(normalized_text), match.end() + 300)
-                context = normalized_text[start_idx:end_idx]
-                if TABLE_ROW_KEYWORD_PATTERN.search(context):
-                    matches_to_redact.append((matched_str, " "))
+                matches_to_redact.append((matched_str, " "))
                     
         # Apply proximity-based name search in normalized text
         has_proximity_match = False
@@ -378,11 +646,11 @@ def process_pdf(input_path: str, output_path: str):
                     if is_likely_human_name(name_str, context=context):
                         if TABLE_ROW_NAME_KEYWORD_PATTERN.search(context):
                             matches_to_redact.append((name_str, " "))
-
+ 
         # Split lines for line-by-line submission location continuation scanning
         lines = page_text.split('\n')
         lines = [line.strip() for line in lines]
-
+ 
         # Apply line-by-line submission location detection — blank the label and ALL
         # continuation lines (Option A, Option B, etc.) that follow until the next
         # non-empty label line (a line with a colon that looks like a new field).
@@ -399,38 +667,111 @@ def process_pdf(input_path: str, output_path: str):
                     in_location_block = False
                 else:
                     matches_to_redact.append((line, " "))
-
+ 
         # Apply search and redaction annotations for matched strings
         for matched_str, replacement in set(matches_to_redact):
-            # Infer classification from which pattern matched for debug log
-            if STUDENT_ID_PATTERN.fullmatch(matched_str.strip()):
-                _cls = "STUDENT_ID"
-            elif EMAIL_PATTERN.search(matched_str):
-                _cls = "EMAIL"
-            elif PHONE_PATTERN.fullmatch(matched_str.strip()):
-                _cls = "PHONE"
-            elif NAME_PROXIMITY_PATTERN.search(matched_str):
-                _cls = "PERSON"
-            elif SUBMISSION_FEEDBACK_DATE_PATTERN.search(matched_str):
-                _cls = "SUBMISSION_EVENT"
-            elif SUBMISSION_LOCATION_PATTERN.search(matched_str):
-                _cls = "BUSINESS_FIELD"
-            elif DATE_TIME_ONLY_PATTERN.fullmatch(matched_str.strip()):
-                _cls = "SUBMISSION_EVENT"
-            else:
-                _cls = "UNKNOWN"
+            # Check if matched_str belongs to active issuing university patterns or contains qualifi
+            is_uni_branding = False
+            for pattern in get_active_patterns():
+                if pattern.search(matched_str):
+                    is_uni_branding = True
+                    break
+            # Also check explicit qualifi/qualify
+            if "qualifi" in matched_str.lower() or "qualify" in matched_str.lower():
+                is_uni_branding = True
 
+            # Infer classification and source detector
+            _src = ""
+            if STUDENT_ID_PATTERN.fullmatch(matched_str.strip()):
+                _cls, _act = "STUDENT_ID", "REDACT"
+            elif EMAIL_PATTERN.search(matched_str):
+                _cls, _act = "EMAIL", "REDACT"
+            elif PHONE_PATTERN.fullmatch(matched_str.strip()):
+                _cls, _act = "PHONE", "REDACT"
+            elif is_uni_branding:
+                _cls, _act = "UNIVERSITY_BRANDING", "REDACT"
+            else:
+                if NAME_PROXIMITY_PATTERN.search(matched_str):
+                    _src = "PERSON_PATTERN"
+                elif SUBMISSION_LOCATION_PATTERN.search(matched_str) or METADATA_FIELD_PATTERN.search(matched_str):
+                    _src = "METADATA_FIELD_PATTERN"
+                else:
+                    from redaction.date_time_detector import find_date_time_spans
+                    spans = find_date_time_spans(matched_str)
+                    if spans:
+                        _, _, _, m_type = spans[0]
+                        _src = "DATE_CANDIDATE_PATTERN" if m_type == "DATE" else "TIME_VAL_PATTERN"
+                
+                from redaction.entity_classifier import classify_entity
+                context_win = normalized_text
+                if _src == "DATE_CANDIDATE_PATTERN":
+                    idx = normalized_text.find(matched_str)
+                    if idx != -1:
+                        context_win = normalized_text[max(0, idx - 120):min(len(normalized_text), idx + len(matched_str) + 120)]
+                _cls, _act, _reasons, _score = classify_entity(
+                    matched_str, 
+                    context=context_win,
+                    source_detector=_src
+                )
+                
+            if _act == "KEEP":
+                continue
+ 
             rects = get_text_match_rects(page, matched_str)
             if not rects:
                 rects = page.search_for(matched_str)
             for rect in rects:
-                _log_pdf(matched_str, _cls, page_num + 1, rect, normalized_text[:500])
-                # Add redaction annotation
-                page.add_redact_annot(rect, text=replacement, fill=(1, 1, 1))
-
+                PAD_X = 2
+                PAD_Y = 1
+                x0, y0, x1, y1 = rect.x0, rect.y0, rect.x1, rect.y1
+                x0 += PAD_X
+                x1 -= PAD_X
+                y0 += PAD_Y
+                y1 -= PAD_Y
+                
+                if x1 > x0 and y1 > y0:
+                    tight_rect = fitz.Rect(x0, y0, x1, y1)
+                else:
+                    tight_rect = rect
+                               
+                _log_pdf(matched_str, _cls, page_num + 1, tight_rect, normalized_text[:500])
+                
+                page.add_redact_annot(tight_rect, text=replacement, fill=page_bg_color)
+  
+                # Phase 7 Log: Final Decision
+                try:
+                    from redaction.redaction_audit import RedactionAudit
+                    RedactionAudit.log({
+                        "candidate": matched_str,
+                        "stage": "FINAL_DECISION",
+                        "classification": _cls,
+                        "decision": _act,
+                        "decision_source": _cls + "_RULE"
+                    })
+                except Exception:
+                    pass
+ 
+                # Phase 8 Log: Redaction Geometry
+                try:
+                    from redaction.redaction_audit import RedactionAudit
+                    bbox = [round(rect.x0, 2), round(rect.y0, 2), round(rect.x1, 2), round(rect.y1, 2)]
+                    bbox_width = round(rect.x1 - rect.x0, 2)
+                    bbox_height = round(rect.y1 - rect.y0, 2)
+                    RedactionAudit.log({
+                        "candidate": matched_str,
+                        "page": page_num + 1,
+                        "stage": "REDACTION_GEOMETRY",
+                        "bbox": bbox,
+                        "bbox_width": bbox_width,
+                        "bbox_height": bbox_height,
+                        "ocr_text_inside_bbox": matched_str
+                    })
+                except Exception:
+                    pass
+ 
         # Blank out date/location table value cells geometrically
-        redact_pdf_table_rows(page)
-
+        redact_pdf_table_rows(page, page_bg_color)
+ 
         # 2. Redact Hyperlinks
         links = page.get_links()
         for link in links:
@@ -438,10 +779,13 @@ def process_pdf(input_path: str, output_path: str):
             if uri:
                 # Check if URI matches any patterns
                 should_redact_link = False
-                for pattern, _ in patterns:
-                    if pattern.search(uri):
-                        should_redact_link = True
-                        break
+                if "qualifi" in uri.lower() or "qualify" in uri.lower():
+                    should_redact_link = True
+                else:
+                    for pattern, _ in patterns:
+                        if pattern.search(uri):
+                            should_redact_link = True
+                            break
                 # Also check educational URL pattern ONLY if it matches ISSUING_UNIVERSITY
                 if not should_redact_link:
                     if URL_OR_DOMAIN_PATTERN.search(uri):
@@ -452,7 +796,11 @@ def process_pdf(input_path: str, output_path: str):
                 if should_redact_link:
                     # Delete the hyperlink
                     page.delete_link(link)
-
+                    # Visually redact the hyperlink text
+                    rect = link.get("from")
+                    if rect:
+                        page.add_redact_annot(rect, fill=page_bg_color)
+ 
         # 3. Redact Logos/Images
         image_list = page.get_images(full=True)
         for img_info in image_list:
@@ -461,13 +809,72 @@ def process_pdf(input_path: str, output_path: str):
                 base_image = doc.extract_image(xref)
                 image_bytes = base_image["image"]
                 img_hash = hash(image_bytes)
-                if img_hash in images_to_redact:
+                
+                # Check if it is inside the header zone
+                rects = page.get_image_rects(xref)
+                is_header_image = False
+                for rect in rects:
+                    y_center = (rect.y0 + rect.y1) / 2.0
+                    if y_center < header_height:
+                        is_header_image = True
+                        break
+                
+                if is_header_image or img_hash in images_to_redact:
                     # Get all rects where this image is placed on the page
                     rects = page.get_image_rects(xref)
                     for rect in rects:
-                        _log_pdf(f"[IMAGE xref={xref}]", "UNIVERSITY_BRANDING", page_num + 1, rect)
-                        # Redact the image location by overlaying a white box
-                        page.add_redact_annot(rect, fill=(1, 1, 1))
+                        # Redact the image location by overlaying a page-colored box
+                        page.add_redact_annot(rect, fill=page_bg_color)
+                        
+                        # Log it
+                        _log_pdf(f"[IMAGE xref={xref}]", "HEADER_IMAGE" if is_header_image else "UNIVERSITY_BRANDING", page_num + 1, rect)
+                        
+                        # Log header image to audit summary
+                        try:
+                            from redaction.redaction_audit import RedactionAudit
+                            RedactionAudit.log({
+                                "candidate": f"[IMAGE xref={xref}]",
+                                "stage": "HEADER_REDACTION" if is_header_image else "FINAL_DECISION",
+                                "classification": "HEADER_IMAGE" if is_header_image else "UNIVERSITY_BRANDING",
+                                "decision": "REDACT",
+                                "page": page_num + 1,
+                                "bbox": [round(rect.x0, 2), round(rect.y0, 2), round(rect.x1, 2), round(rect.y1, 2)],
+                                "bbox_width": round(rect.x1 - rect.x0, 2),
+                                "bbox_height": round(rect.y1 - rect.y0, 2)
+                            })
+                        except Exception:
+                            pass
+ 
+                        # Phase 7 Log: Final Decision
+                        try:
+                            from redaction.redaction_audit import RedactionAudit
+                            RedactionAudit.log({
+                                "candidate": f"[IMAGE xref={xref}]",
+                                "stage": "FINAL_DECISION",
+                                "classification": "UNIVERSITY_BRANDING",
+                                "decision": "REDACT",
+                                "decision_source": "UNIVERSITY_BRANDING"
+                            })
+                        except Exception:
+                            pass
+ 
+                        # Phase 8 Log: Redaction Geometry
+                        try:
+                            from redaction.redaction_audit import RedactionAudit
+                            bbox = [round(rect.x0, 2), round(rect.y0, 2), round(rect.x1, 2), round(rect.y1, 2)]
+                            bbox_width = round(rect.x1 - rect.x0, 2)
+                            bbox_height = round(rect.y1 - rect.y0, 2)
+                            RedactionAudit.log({
+                                "candidate": f"[IMAGE xref={xref}]",
+                                "page": page_num + 1,
+                                "stage": "REDACTION_GEOMETRY",
+                                "bbox": bbox,
+                                "bbox_width": bbox_width,
+                                "bbox_height": bbox_height,
+                                "ocr_text_inside_bbox": f"[IMAGE xref={xref}]"
+                            })
+                        except Exception:
+                            pass
             except Exception:
                 pass
                 
@@ -476,3 +883,15 @@ def process_pdf(input_path: str, output_path: str):
         
     doc.save(output_path, garbage=3, deflate=True)
     doc.close()
+
+    # Write final audit summary report at the very end
+    try:
+        from redaction.redaction_audit import RedactionAudit
+        from redaction.escalation_manager import LOGS_DIR
+        summary = RedactionAudit.generate_summary(doc_id)
+        summary_file = os.path.join(LOGS_DIR, "audit_summary.json")
+        with open(summary_file, "w", encoding="utf-8") as sf:
+            json.dump(summary, sf, indent=2)
+    except Exception as re_err:
+        print(f"Error generating final redaction audit report: {re_err}")
+

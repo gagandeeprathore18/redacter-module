@@ -1,0 +1,70 @@
+{
+  "document_id": "1781848829648_Brief_pdf_1382364278__1_.pdf",
+  "total_candidates": 53,
+  "escalated_candidates": 2,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 2,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 2,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781848829648_Brief_pdf_1382364278__1_.pdf",
+      "candidate": "Guided Study Hours",
+      "context": "essment Task \nand Weighting \nCW1 \u2013 Research Proposal \nPresentation \n \n30% \nStudy Hours \n90 Scheduled Teaching Hours \n90 Guided Study Hours \n420 Independent Study Hours \n \nModule Lead \nDr Mariya Rai \n \n \nDate of approval of this \nversion \n31/05/2026 \nLevel (C",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 1430,
+      "token_usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 25,
+        "total_tokens": 173
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781848829648_Brief_pdf_1382364278__1_.pdf",
+      "candidate": "Academic Appeals",
+      "context": "/ Resource \nUnderstanding feedback \n \nBook a 15-min slot with the Module Lead or \nsupport Tutor \nmariya.rai@lcca.ac.uk \nAcademic Appeals \nquality@lcca.ac.uk \nAcademic writing \nstudentsuccess@lcca.ac.uk \n",
+      "python_prediction": "PERSON",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "CLASSIFIER_CONFLICT"
+      ],
+      "escalation_reason": "CLASSIFIER_CONFLICT",
+      "classifier_1": "PERSON",
+      "classifier_2": "ACADEMIC_TITLE",
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.7e-05,
+      "response_time_ms": 1430,
+      "token_usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 25,
+        "total_tokens": 173
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    }
+  ]
+}

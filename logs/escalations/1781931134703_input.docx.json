@@ -1,0 +1,1004 @@
+{
+  "document_id": "1781931134703_input.docx",
+  "total_candidates": 172,
+  "escalated_candidates": 39,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 26,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 13
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 26,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 13
+  },
+  "warnings": [
+    {
+      "severity": "HIGH",
+      "message": "Escalation limit exceeded."
+    }
+  ],
+  "candidates": [
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "University Student Profile",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "University Student Profile",
+      "context": "University Student Profile",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Student Identification Number: ST12345",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Identification Number",
+      "context": "Student Identification Number",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Student Identification Number",
+      "context": "Student Identification Number: ST12345",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "14:00, 19th June 2026",
+      "context": "Submission time and date: 14:00, 19th June 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "28th October 2026",
+      "context": "Draft Submission (Mandatory): 28th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "31st October 2026",
+      "context": "Date and Time of Submission: 31st October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Name/Signed: Nargisa Simansone",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Option A: Online Upload",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Option B: In-person Hand-in",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Option A: OCR Failure Test",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Layout Type 1 Table",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Layout Type 2 Table",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Layout Type 3 Table",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Layout Type 4 Table",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Field",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Detail",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "14:00, 19th June 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "14:00, 19th June 2026",
+      "context": "14:00, 19th June 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "14:00, 10th July 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ADMINISTRATIVE_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ADMINISTRATIVE_DATE",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "14:00, 10th July 2026",
+      "context": "14:00, 10th July 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ADMINISTRATIVE_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ADMINISTRATIVE_DATE",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Resit date",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "21st August 2026",
+      "context": "21st August 2026 (For both Group presentation and or Individual Reflective statement)",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "1600hrs on 12 June 2026",
+      "context": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ADMINISTRATIVE_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ADMINISTRATIVE_DATE",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "John Smith",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "Programme:",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "25th October 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "25th October 2026",
+      "context": "25th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "26th October 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "26th October 2026",
+      "context": "26th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "27th October 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "27th October 2026",
+      "context": "27th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "29th October 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "29th October 2026",
+      "context": "29th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "30th October 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "30th October 2026",
+      "context": "30th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "10 July 2026",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781931134703_input.docx",
+      "candidate": "10 July 2026",
+      "context": "10 July 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 3.5e-05,
+      "response_time_ms": 640,
+      "token_usage": {
+        "prompt_tokens": 36,
+        "completion_tokens": 48,
+        "total_tokens": 84
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

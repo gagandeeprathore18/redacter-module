@@ -1,129 +1,35 @@
 {
   "document_id": "input.docx",
-  "total_candidates": 126,
-  "escalated_candidates": 26,
+  "total_candidates": 172,
+  "escalated_candidates": 13,
   "escalation_breakdown": {
     "LOW_CONFIDENCE": 0,
-    "CLASSIFIER_CONFLICT": 3,
-    "UNKNOWN_PATTERN": 23,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 0,
     "HIGH_IMPACT_ACTION": 0,
-    "UNIVERSITY_BRANDING_VERIFICATION": 0
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 13
   },
   "top_escalation_reasons": {
     "LOW_CONFIDENCE": 0,
-    "CLASSIFIER_CONFLICT": 3,
-    "UNKNOWN_PATTERN": 23,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 0,
     "HIGH_IMPACT_ACTION": 0,
-    "UNIVERSITY_BRANDING_VERIFICATION": 0
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 13
   },
   "warnings": [],
   "candidates": [
     {
       "document_id": "input.docx",
-      "candidate": "University Student Profile",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Student Identification Number: ST12345",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Registration Code: REG2024001",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Module leader: Adeeba Ahmad",
-      "context": "",
-      "python_prediction": "PERSON",
+      "candidate": "14:00, 19th June 2026",
+      "context": "Submission time and date: 14:00, 19th June 2026",
+      "python_prediction": "DATE_CANDIDATE",
       "python_confidence": 100,
       "escalation_reasons": [
-        "CLASSIFIER_CONFLICT"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "CLASSIFIER_CONFLICT",
-      "classifier_1": "PERSON",
-      "classifier_2": "ACADEMIC_TITLE",
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "PERSON",
-      "action": "REDACT"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Name/Signed: Nargisa Simansone",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -135,21 +41,22 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
-      "candidate": "Module lead's name: John Connor",
-      "context": "",
-      "python_prediction": "PERSON",
+      "candidate": "28th October 2026",
+      "context": "Draft Submission (Mandatory): 28th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
       "python_confidence": 100,
       "escalation_reasons": [
-        "CLASSIFIER_CONFLICT"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "CLASSIFIER_CONFLICT",
-      "classifier_1": "PERSON",
-      "classifier_2": "ACADEMIC_TITLE",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
       "gpt_prediction": null,
       "gpt_confidence": null,
       "request_cost_usd": 0.0,
@@ -159,43 +66,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "PERSON",
-      "action": "REDACT"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
-      "candidate": "Module Lead: Sarah Connor",
-      "context": "",
-      "python_prediction": "PERSON",
+      "candidate": "31st October 2026",
+      "context": "Date and Time of Submission: 31st October 2026",
+      "python_prediction": "DATE_CANDIDATE",
       "python_confidence": 100,
       "escalation_reasons": [
-        "CLASSIFIER_CONFLICT"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "CLASSIFIER_CONFLICT",
-      "classifier_1": "PERSON",
-      "classifier_2": "ACADEMIC_TITLE",
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "PERSON",
-      "action": "REDACT"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Option A: Online Upload",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -207,187 +91,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Option B: In-person Hand-in",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Option A: OCR Failure Test",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Layout Type 1 Table",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Layout Type 2 Table",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Layout Type 3 Table",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Layout Type 4 Table",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Field",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 0,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
       "candidate": "14:00, 19th June 2026",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
+      "context": "14:00, 19th June 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -399,19 +116,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
       "candidate": "14:00, 10th July 2026",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
+      "context": "14:00, 10th July 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -423,19 +141,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
-      "candidate": "Resit date",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 20,
+      "candidate": "21st August 2026",
+      "context": "21st August 2026 (For both Group presentation and or Individual Reflective statement)",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -447,19 +166,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
-      "candidate": "John Smith",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 20,
+      "candidate": "1600hrs on 12 June 2026",
+      "context": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -471,43 +191,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
-    },
-    {
-      "document_id": "input.docx",
-      "candidate": "Programme:",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 0,
-      "escalation_reasons": [
-        "UNKNOWN_PATTERN"
-      ],
-      "escalation_reason": "UNKNOWN_PATTERN",
-      "classifier_1": null,
-      "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
-      "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-      },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
       "candidate": "25th October 2026",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
+      "context": "25th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -519,19 +216,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
       "candidate": "26th October 2026",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
+      "context": "26th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -543,19 +241,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
       "candidate": "27th October 2026",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
+      "context": "27th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -567,19 +266,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
       "candidate": "29th October 2026",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
+      "context": "29th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -591,19 +291,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
       "candidate": "30th October 2026",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
+      "context": "30th October 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -615,19 +316,20 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     },
     {
       "document_id": "input.docx",
-      "candidate": "Option A: Presentation",
-      "context": "",
-      "python_prediction": "UNKNOWN",
-      "python_confidence": 25,
+      "candidate": "10 July 2026",
+      "context": "10 July 2026",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
       "escalation_reasons": [
-        "UNKNOWN_PATTERN"
+        "DATE_CANDIDATE_ESCALATION"
       ],
-      "escalation_reason": "UNKNOWN_PATTERN",
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
       "gpt_prediction": null,
@@ -639,8 +341,9 @@
         "completion_tokens": 0,
         "total_tokens": 0
       },
-      "final_classification": "UNKNOWN",
-      "action": "PRESERVE"
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
     }
   ]
 }

@@ -1,33 +1,51 @@
 [
   {
-    "candidate": "Principles of Marketing Portfolio",
-    "classification": "ACADEMIC_TITLE",
+    "candidate": "Field",
+    "classification": "PROTECTED_SECTION",
     "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Principles of Marketing Portfolio",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Deadline",
-    "classification": "BUSINESS_FIELD",
-    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: submission deadline"
+      "learned_consistency_rule"
     ]
   },
   {
-    "candidate": "Assignment 1 - 7th November 2025 (Friday) before 4PM, \nAssignment 2 - 21st of November 2025 (Friday) before 4PM, \nAssignment 3 - 12th of December 2025 (Friday) before 4PM",
+    "candidate": "Detail",
+    "classification": "PROTECTED_SECTION",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "learned_consistency_rule"
+    ]
+  },
+  {
+    "candidate": "Contact Email",
+    "classification": "SECTION_HEADING",
+    "action": "KEEP",
+    "score": -30,
+    "reasons": [
+      "heading_detector_pregate"
+    ]
+  },
+  {
+    "candidate": "admissions@harvard.edu",
+    "classification": "ACADEMIC_TITLE",
+    "action": "KEEP",
+    "score": -40,
+    "reasons": [
+      "academic_term_detected: harvard"
+    ]
+  },
+  {
+    "candidate": "Support Phone",
+    "classification": "SECTION_HEADING",
+    "action": "KEEP",
+    "score": -30,
+    "reasons": [
+      "heading_detector_pregate"
+    ]
+  },
+  {
+    "candidate": "+1 (123) 456-7890",
     "classification": "UNKNOWN",
     "action": "KEEP",
     "score": 25,
@@ -36,34 +54,88 @@
     ]
   },
   {
-    "candidate": "Submission Method",
-    "classification": "SECTION_HEADING",
+    "candidate": "Submission time and date:",
+    "classification": "ACADEMIC_CONTENT",
     "action": "KEEP",
-    "score": -30,
+    "score": 100,
     "reasons": [
-      "heading_detector_pregate"
+      "academic_scheduling_terms_pregate"
     ]
   },
   {
-    "candidate": "Canvas",
-    "classification": "UNIVERSITY_BRANDING",
-    "action": "REDACT",
+    "candidate": "14:00, 19th June 2026",
+    "classification": "ACADEMIC_DATE",
+    "action": "KEEP",
     "score": 100,
     "reasons": [
       "learned_consistency_rule"
     ]
   },
   {
-    "candidate": "Project Staff",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": -30,
+    "candidate": "Target feedback time and date:",
+    "classification": "METADATA_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
     "reasons": [
-      "heading_detector_pregate"
+      "metadata_field_detector_pregate"
     ]
   },
   {
-    "candidate": "Sein Tin",
+    "candidate": "14:00, 10th July 2026",
+    "classification": "ADMINISTRATIVE_DATE",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "learned_consistency_rule"
+    ]
+  },
+  {
+    "candidate": "Resit date",
+    "classification": "ACADEMIC_DATE",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "learned_consistency_rule"
+    ]
+  },
+  {
+    "candidate": "21st August 2026 (For both Group presentation and or Individual Reflective statement)",
+    "classification": "ACADEMIC_CONTENT",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "academic_concept_pregate"
+    ]
+  },
+  {
+    "candidate": "Submission due dates/time",
+    "classification": "ACADEMIC_CONTENT",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "academic_scheduling_terms_pregate"
+    ]
+  },
+  {
+    "candidate": "Individual group members should submit their Option A Part 2 document via Turnitin on the VLE NOT LATER than 4:00pm/1600hrs on 12 June 2026",
+    "classification": "PARAGRAPH_CONTENT",
+    "action": "KEEP",
+    "score": 0,
+    "reasons": [
+      "paragraph_detector_pregate"
+    ]
+  },
+  {
+    "candidate": "Tutor Name",
+    "classification": "METADATA_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "metadata_field_detector_pregate"
+    ]
+  },
+  {
+    "candidate": "John Smith",
     "classification": "PERSON",
     "action": "REDACT",
     "score": 100,
@@ -72,52 +144,7 @@
     ]
   },
   {
-    "candidate": "Module Title",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": -30,
-    "reasons": [
-      "heading_detector_pregate"
-    ]
-  },
-  {
-    "candidate": "Principles of Marketing",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Level / Semester",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "Level 4, Semester 1",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "Module Code",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": -30,
-    "reasons": [
-      "heading_detector_pregate"
-    ]
-  },
-  {
-    "candidate": "BSM22101",
+    "candidate": "Programme:",
     "classification": "ACADEMIC_CONTENT",
     "action": "KEEP",
     "score": 100,
@@ -126,151 +153,7 @@
     ]
   },
   {
-    "candidate": "Credit / Weighting",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "20 credits",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 20,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Module Leaders",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": -30,
-    "reasons": [
-      "heading_detector_pregate"
-    ]
-  },
-  {
-    "candidate": "Sein Tin",
-    "classification": "PERSON",
-    "action": "REDACT",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "Date of Issue",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "19th September 2025",
-    "classification": "ACADEMIC_CONTENT",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "Project Brief",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": -30,
-    "reasons": [
-      "heading_detector_pregate"
-    ]
-  },
-  {
-    "candidate": "Assessment 1Multiple Choice Quiz - Canvas\nWeighting: 30%\nThis assessment evaluates your understanding of core marketing principles, innovation and the application of marketing theories, fostering your ability to apply these concepts to practical scenarios. The quiz will include questions relevant to the topics covered in class throughout the semester.Learning Outcomes Addressed: LO1Quiz date: Week 7 in Class quizAssessment 2Group Presentation \u2013 Canvas\nWeighting: 50%\nThis assessment requires you to collaborate as a group to propose new or refined marketing strategies for a chosen brand. The presentation should address segmentation, targeting, positioning, the marketing mix (product, price, place, promotion), and ethical, governance, and social considerations. Every member is expected to contribute equitably to the research, analysis, and delivery. Each group member is expected to take on specific responsibilities and contribute equally to the research, analysis, and presentation preparation.Duration: The presentation should be 15 minutes in length, followed by a Q&A session (5 minutes).Visuals: The presentation should be supported by professional-quality visuals, such as slides, videos, or other digital media, to enhance clarity and engagement.Q&A: After the presentation, the group will be required to answer questions from the audience (which may include the lecturer and peers), demonstrating depth of understanding and ability to defend your marketing strategies.\nLearning Outcomes Addressed: LO1, LO2, LO3, LO4\nSubmission: 21st of November 2025 (Friday) before 4PM, Assessment 3Reflection on Employability Skills Log - Canvas\nWeighting: 20%\nThis assessment requires you to document and reflect on your employability skills development throughout the module. You will identify and evaluate key skills such as communication, collaboration, and independent learning, linking these to your future career aspirations. Create a professional log using a medium of your choice \u2013 webpage to showcase evidence of employability skills developed throughout the module. This log should include:A 250-word reflection analysing how you have developed these skills, linking them to the module activities and future career goals.Evidence of key skills from your reflection such as collaboration, communication, punctuality, and independent learning.Learning Outcomes Addressed: LO4\nSubmission: 12th of December 2025 (Friday) before 4PMImportant: Use of AI: Claiming AI generated output as one\u2019s own original work without full and transparent acknowledgement of any instructed contribution from AI technology will be flagged as academic misconduct.Originality: Your ideas, critical thinking, use of primary and secondary sources, and ability to apply theory to practice are important parameters for the assessment of your report. Highly theoretical and generic reports will not be successful.Referencing: Your work should be referenced using the Harvard referencing system. Please also provide a bibliography using the Harvard referencing system.Additional Guidelines: Submission Link: See CanvasSupport: English (K.shand@rave.ac.uk); help with time-management (laa@rave.ac.uk); help with understanding this document and formatting and structuring your work study skills support (studyskills@rave.ac.uk); help with anxiety or stress wellbeing (wellbeing@rave.ac.uk or studentservices@rave.ac.uk or Internationalsupport@rave.ac.uk).",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -50,
-    "reasons": [
-      "academic_exclusion_matched: learning outcomes"
-    ]
-  },
-  {
-    "candidate": "Module Learning OutcomesBy the end of the module, students will be able to:",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": 0,
-    "reasons": [
-      "preservation_engine_override"
-    ]
-  },
-  {
-    "candidate": "Assessment Criteria",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": 0,
-    "reasons": [
-      "preservation_engine_override"
-    ]
-  },
-  {
-    "candidate": "Identify and state core marketing principles as they inform innovative marketing approaches.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -50,
-    "reasons": [
-      "academic_exclusion_matched: contribution"
-    ]
-  },
-  {
-    "candidate": "Assess the effectiveness of creative marketing strategies for a chosen brand.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -50,
-    "reasons": [
-      "academic_exclusion_matched: contribution"
-    ]
-  },
-  {
-    "candidate": "Demonstrate the ability to design/refine ethical and sustainable marketing strategies for a chosen brand.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -50,
-    "reasons": [
-      "academic_exclusion_matched: contribution"
-    ]
-  },
-  {
-    "candidate": "Show evidence of employability skills development.",
+    "candidate": "BSc Health and Social Care",
     "classification": "UNKNOWN",
     "action": "KEEP",
     "score": 25,
@@ -279,16 +162,61 @@
     ]
   },
   {
-    "candidate": "EXPLORE Subject KnowledgeCREATE Analysis and EvaluationEXPLORE Ethical Awareness INTEGRATECollaborationMandatory Employability skillsPunctualityAttendanceContribution CollaborationEffective verbal & written communicationIndependent learningUse of study support",
+    "candidate": "Module name:",
     "classification": "ACADEMIC_TITLE",
     "action": "KEEP",
-    "score": -50,
+    "score": -40,
     "reasons": [
-      "academic_exclusion_matched: contribution"
+      "academic_term_detected: module"
     ]
   },
   {
-    "candidate": "Essential Reading List",
+    "candidate": "Research Methods in Social Sciences",
+    "classification": "ACADEMIC_CONTENT",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "academic_concept_pregate"
+    ]
+  },
+  {
+    "candidate": "Draft Submission",
+    "classification": "ACADEMIC_CONTENT",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "academic_scheduling_terms_pregate"
+    ]
+  },
+  {
+    "candidate": "25th October 2026",
+    "classification": "ACADEMIC_DATE",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "learned_consistency_rule"
+    ]
+  },
+  {
+    "candidate": "Draft Submission (Mandatory)",
+    "classification": "ACADEMIC_CONTENT",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "academic_scheduling_terms_pregate"
+    ]
+  },
+  {
+    "candidate": "26th October 2026",
+    "classification": "ACADEMIC_DATE",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "learned_consistency_rule"
+    ]
+  },
+  {
+    "candidate": "Formative Submission",
     "classification": "SECTION_HEADING",
     "action": "KEEP",
     "score": -30,
@@ -297,44 +225,44 @@
     ]
   },
   {
-    "candidate": "Armstrong, G., Kotler, P. and Opresnik, M.O. (2020). Marketing: an introduction. Upper Saddle River: Pearson.Mcgivern, Y. (2009). The practice of market research: an introduction. Pearson.Kotler, P., Keller, K.L., Goodman, M., Brady, M. and Hansen, T. (2019). Marketing management. 4th ed. Harlow: Pearson Education.Kotler, P., Armstrong, G., & Balasubramanian, S. (2023). Principles of Marketing. Global Ed.  Harlow: Pearson.Kotler and Ketler et al. - Whole textbook in video \u2013 https://www.youtube.com/watch?v=KxwmtRS1wJc&list=PLGqTzAqQhjThXOI1dVaVoStIKiyXFSzX&pp=iAQBMarketing Theories -  https://www.professionalacademy.com/professional-qualifications/cim-marketing-qualifications/marketing-theories/",
-    "classification": "ACADEMIC_CONTENT",
+    "candidate": "27th October 2026",
+    "classification": "ACADEMIC_DATE",
     "action": "KEEP",
-    "score": 0,
+    "score": 100,
     "reasons": [
-      "preservation_engine_override"
+      "learned_consistency_rule"
     ]
   },
   {
-    "candidate": "Assessment and tutor feedback date",
-    "classification": "BUSINESS_FIELD",
+    "candidate": "Date and Time of Submission",
+    "classification": "ACADEMIC_CONTENT",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "academic_scheduling_terms_pregate"
+    ]
+  },
+  {
+    "candidate": "29th October 2026",
+    "classification": "ACADEMIC_DATE",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "learned_consistency_rule"
+    ]
+  },
+  {
+    "candidate": "Submission Date & Time",
+    "classification": "METADATA_FIELD",
     "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: feedback date"
+      "metadata_field_detector_pregate"
     ]
   },
   {
-    "candidate": "The deadline for submitting the assignment is: To Be ConfirmedStudents will receive feedback and assessment within 20 working days of submission.Students who miss the deadline or fail this project may be required to complete a retrieval project which demonstrates that the learning outcomes have been achieved. Students should be aware that retrieval submissions are capped at a bare pass grade, unless the extenuating circumstances panel uphold an evidenced application. The deadline for retrieval submissions will be determined at an Assessment Board.",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": 0,
-    "reasons": [
-      "preservation_engine_override"
-    ]
-  },
-  {
-    "candidate": "Assignment Criteria",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": -30,
-    "reasons": [
-      "heading_detector_pregate"
-    ]
-  },
-  {
-    "candidate": "Fail (30%-0)",
-    "classification": "ACADEMIC_CONTENT",
+    "candidate": "30th October 2026",
+    "classification": "ACADEMIC_DATE",
     "action": "KEEP",
     "score": 100,
     "reasons": [
@@ -342,415 +270,109 @@
     ]
   },
   {
-    "candidate": "Marginal Fail (35%-39%)",
-    "classification": "ACADEMIC_CONTENT",
-    "action": "KEEP",
-    "score": 0,
-    "reasons": [
-      "preservation_engine_override"
-    ]
-  },
-  {
-    "candidate": "Third (40%-49%)",
-    "classification": "ACADEMIC_CONTENT",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "Threshold Level 2:2 (50%-59%)",
-    "classification": "ACADEMIC_CONTENT",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "2:1 (60%-69%)",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "1st (70%-100%)",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Subject Knowledge",
-    "classification": "ACADEMIC_CONTENT",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "Missing, inaccurate or incomplete understanding of core marketing principles. No connection to ongoing debate.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Little to no evidence of understanding or evaluation of key marketing principles.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Some understanding of core marketing principles, but lacks depth or critical reflection.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Clear understanding of core principles, with some evaluation of strengths/weaknesses.",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Strong understanding of core marketing principles with critical evaluation of strengths/weaknesses.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Comprehensive and critical understanding of core marketing principles, with insightful evaluation of strengths/weaknesses.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Analysis and Evaluation (Experimentation)",
-    "classification": "ACADEMIC_CONTENT",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "No evidence of analysis or evaluation using marketing frameworks.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Limited analysis or evaluation, with little reference to key frameworks.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: reference"
-    ]
-  },
-  {
-    "candidate": "Some analysis and evaluation, though not fully developed or relevant to marketing frameworks.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Satisfactory analysis using key marketing frameworks with some evidence of evaluation.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Well-developed analysis, demonstrating strong evaluation using established marketing methods.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Thorough and insightful analysis, providing critical evaluation using advanced marketing methods.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Ethical Awareness",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: ethics"
-    ]
-  },
-  {
-    "candidate": "No consideration of ethics or sustainability in marketing strategies.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Minimal or poorly executed ethical awareness. No clear link to sustainability.",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Some awareness of ethical issues but lacks clear application to marketing strategies.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Demonstrates an understanding of ethical marketing, with some evidence of applying sustainability.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Strong application of ethical considerations in marketing strategies, with some sustainability focus.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Demonstrates deep ethical awareness, applying ethical and sustainable marketing practices effectively in real-world scenarios.",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: marketing"
-    ]
-  },
-  {
-    "candidate": "Collaboration",
-    "classification": "ACADEMIC_CONTENT",
-    "action": "KEEP",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "Limited or no evidence of effective collaboration. Lacks coordination, shared responsibility, or mutual support.",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Collaboration is minimal, with weak planning, unclear roles, and inconsistent communication.",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Basic collaboration demonstrated, with partial planning and uneven coordination. Some effort to communicate and contribute is evident.",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Satisfactory collaboration with clear coordination and mutual support. Communication and shared responsibility are generally effective.",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Strong collaboration with well-managed coordination, active participation, and shared ownership of tasks. Communication is clear and constructive.",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Excellent collaboration characterised by seamless coordination, inclusive participation, and collective ownership of outcomes. Communication is highly effective throughout.",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 25,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Assessment Methods and Tasks",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: assessment"
-    ]
-  },
-  {
-    "candidate": "Assessment tasks",
-    "classification": "ACADEMIC_TITLE",
-    "action": "KEEP",
-    "score": -40,
-    "reasons": [
-      "academic_term_detected: assessment"
-    ]
-  },
-  {
-    "candidate": "Submission Method",
-    "classification": "SECTION_HEADING",
-    "action": "KEEP",
-    "score": -30,
-    "reasons": [
-      "heading_detector_pregate"
-    ]
-  },
-  {
-    "candidate": "Weighting %",
-    "classification": "BUSINESS_FIELD",
+    "candidate": "Submission Location",
+    "classification": "METADATA_FIELD",
     "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "business_removal_field_matched: assessment weighting"
+      "metadata_field_detector_pregate"
     ]
   },
   {
-    "candidate": "Multiple Choice Quiz",
-    "classification": "SUBMISSION_EVENT",
-    "action": "REDACT",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "Canvas",
-    "classification": "UNIVERSITY_BRANDING",
-    "action": "REDACT",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "30%",
-    "classification": "UNKNOWN",
+    "candidate": "Turnitin Submission Portal",
+    "classification": "SECTION_HEADING",
     "action": "KEEP",
-    "score": 0,
+    "score": -30,
     "reasons": [
-      "confidence_score_too_low"
+      "heading_detector_pregate"
     ]
   },
   {
-    "candidate": "Group Presentation",
-    "classification": "SUBMISSION_EVENT",
-    "action": "REDACT",
+    "candidate": "Submission Location",
+    "classification": "METADATA_FIELD",
+    "action": "REMOVE_BLOCK",
     "score": 100,
     "reasons": [
-      "learned_consistency_rule"
+      "metadata_field_detector_pregate"
     ]
   },
   {
-    "candidate": "Canvas",
-    "classification": "UNIVERSITY_BRANDING",
-    "action": "REDACT",
-    "score": 100,
-    "reasons": [
-      "learned_consistency_rule"
-    ]
-  },
-  {
-    "candidate": "50%",
-    "classification": "UNKNOWN",
-    "action": "KEEP",
-    "score": 0,
-    "reasons": [
-      "confidence_score_too_low"
-    ]
-  },
-  {
-    "candidate": "Reflection on Employability Skills",
+    "candidate": "Option A: Presentation",
     "classification": "ACADEMIC_CONTENT",
     "action": "KEEP",
     "score": 100,
     "reasons": [
-      "learned_consistency_rule"
+      "academic_concept_pregate"
     ]
   },
   {
-    "candidate": "Canvas",
-    "classification": "UNIVERSITY_BRANDING",
-    "action": "REDACT",
+    "candidate": "Option B: Turnitin Submission",
+    "classification": "ACADEMIC_CONTENT",
+    "action": "KEEP",
+    "score": 100,
+    "reasons": [
+      "academic_scheduling_terms_pregate"
+    ]
+  },
+  {
+    "candidate": "Feedback Date",
+    "classification": "METADATA_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "metadata_field_detector_pregate"
+    ]
+  },
+  {
+    "candidate": "10 July 2026",
+    "classification": "ACADEMIC_DATE",
+    "action": "KEEP",
     "score": 100,
     "reasons": [
       "learned_consistency_rule"
     ]
   },
   {
-    "candidate": "20%",
+    "candidate": "Submission Location",
+    "classification": "METADATA_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "metadata_field_detector_pregate"
+    ]
+  },
+  {
+    "candidate": "Turnitin Submission Portal",
+    "classification": "SECTION_HEADING",
+    "action": "KEEP",
+    "score": -30,
+    "reasons": [
+      "heading_detector_pregate"
+    ]
+  },
+  {
+    "candidate": "Submission Location",
+    "classification": "METADATA_FIELD",
+    "action": "REMOVE_BLOCK",
+    "score": 100,
+    "reasons": [
+      "metadata_field_detector_pregate"
+    ]
+  },
+  {
+    "candidate": "Option A + Option B + Option C",
     "classification": "UNKNOWN",
     "action": "KEEP",
-    "score": 0,
+    "score": 25,
+    "reasons": [
+      "confidence_score_too_low"
+    ]
+  },
+  {
+    "candidate": "Option A + Option B + Option C",
+    "classification": "UNKNOWN",
+    "action": "KEEP",
+    "score": 25,
     "reasons": [
       "confidence_score_too_low"
     ]

@@ -1,5 +1,13 @@
 {
   "submission location": true,
   "turnitin submission portal": true,
-  "submission method": true
+  "submission method": true,
+  "abstract": true,
+  "discussion": true,
+  "references": true,
+  "learning outcomes addressed": true,
+  "academic misconduct": true,
+  "academic misconduct policy": true,
+  "project team members": true,
+  "2. research and stakeholder engagement": true
 }

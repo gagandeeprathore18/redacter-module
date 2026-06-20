@@ -6,8 +6,8 @@ import os
 import json
 from redact_engine import (
     redact_text, is_logo_match, redact_paragraph_runs,
-    DATE_TIME_ONLY_PATTERN, redact_paragraph_runs_with_pattern,
-    TABLE_ROW_KEYWORD_PATTERN, TABLE_ROW_NAME_KEYWORD_PATTERN,
+    redact_paragraph_runs_with_pattern,
+    TABLE_ROW_NAME_KEYWORD_PATTERN,
     SAFE_COLUMN_HEADER_PATTERN,
     TABLE_ROW_LOCATION_KEYWORD_PATTERN, SUBMISSION_LOCATION_PATTERN
 )
@@ -20,6 +20,69 @@ from redaction.block_extractor import extract_block_cells
 from redaction.block_redactor import redact_cell
 from redaction.validator import validate_table_redaction
 from redaction.protected_zone_detector import reset_protected_zone, set_protected_zone
+
+def process_table(table):
+    grid = normalize_table(table)
+    target_coords = detect_targets(grid)
+    all_block_coords = set()
+    for coord in target_coords:
+        block = get_block_coordinates(grid, coord)
+        all_block_coords.update(block)
+        
+    if all_block_coords:
+        cells_to_redact = extract_block_cells(grid, all_block_coords)
+        for cell in cells_to_redact:
+            redact_cell(cell, is_docx=False)
+        final_grid = normalize_table(table)
+        validate_table_redaction(grid, final_grid, all_block_coords)
+
+    # Get column headers
+    headers = []
+    if len(table.rows) > 0:
+        for cell in table.rows[0].cells:
+            headers.append(cell.text_frame.text.strip() if cell.text_frame else "")
+
+    for row_idx, row in enumerate(table.rows):
+        # Keyword scanning
+        row_has_name_keyword = False
+        row_has_location_keyword = False
+        label_cell_idx = -1
+
+        # Label cell text (first column) for continuation detection
+        label_cell_text = ""
+        if row.cells and row.cells[0].text_frame:
+            label_cell_text = row.cells[0].text_frame.text.strip()
+
+        for idx, cell in enumerate(row.cells):
+            if (row_idx, idx) in all_block_coords:
+                continue
+            if cell.text_frame:
+                cell_text = cell.text_frame.text.strip()
+                if TABLE_ROW_NAME_KEYWORD_PATTERN.search(cell_text):
+                    row_has_name_keyword = True
+                    label_cell_idx = idx
+                if TABLE_ROW_LOCATION_KEYWORD_PATTERN.search(cell_text):
+                    row_has_location_keyword = True
+
+        for idx, cell in enumerate(row.cells):
+            if (row_idx, idx) in all_block_coords:
+                continue
+            if cell.text_frame:
+                cell_text = cell.text_frame.text.strip()
+                set_protected_zone(cell_text)
+
+                # Submission location rows: blank ALL cells entirely
+                if row_has_location_keyword:
+                    for p in cell.text_frame.paragraphs:
+                        set_protected_zone(p.text)
+                        for run in p.runs:
+                            run.text = " "
+                    continue
+
+                redact_names_in_cell = row_has_name_keyword and (idx != label_cell_idx)
+                for p in cell.text_frame.paragraphs:
+                    set_protected_zone(p.text)
+                    redact_paragraph_runs(p.runs, redact_all_names=redact_names_in_cell)
 
 def should_stop_pptx_block(text: str) -> bool:
     """Delegates to the shared stop-block checker."""
@@ -60,94 +123,14 @@ def process_shapes(shapes):
                         
         # 2. Table
         if shape.has_table:
-            # 1. Run Relationship-based Submission Location Redaction Engine
-            grid = normalize_table(shape.table)
-            target_coords = detect_targets(grid)
-            all_block_coords = set()
-            for coord in target_coords:
-                block = get_block_coordinates(grid, coord)
-                all_block_coords.update(block)
-                
-            if all_block_coords:
-                cells_to_redact = extract_block_cells(grid, all_block_coords)
-                for cell in cells_to_redact:
-                    redact_cell(cell, is_docx=False)
-                final_grid = normalize_table(shape.table)
-                validate_table_redaction(grid, final_grid, all_block_coords)
-
-            # Get column headers if available
-            headers = []
-            if len(shape.table.rows) > 0:
-                for cell in shape.table.rows[0].cells:
-                    headers.append(cell.text_frame.text.strip() if cell.text_frame else "")
-
-            for row_idx, row in enumerate(shape.table.rows):
-                # Keyword scanning
-                row_has_keyword = False
-                row_has_name_keyword = False
-                row_has_location_keyword = False
-                label_cell_idx = -1
-                date_label_cell_indices = set()
-
-                # Label cell text (first column) for continuation detection
-                label_cell_text = ""
-                if row.cells and row.cells[0].text_frame:
-                    label_cell_text = row.cells[0].text_frame.text.strip()
-
-                for idx, cell in enumerate(row.cells):
-                    if (row_idx, idx) in all_block_coords:
-                        continue
-                    if cell.text_frame:
-                        cell_text = cell.text_frame.text.strip()
-                        if TABLE_ROW_KEYWORD_PATTERN.search(cell_text):
-                            row_has_keyword = True
-                            date_label_cell_indices.add(idx)
-                        if TABLE_ROW_NAME_KEYWORD_PATTERN.search(cell_text):
-                            row_has_name_keyword = True
-                            label_cell_idx = idx
-                        if TABLE_ROW_LOCATION_KEYWORD_PATTERN.search(cell_text):
-                            row_has_location_keyword = True
-
-                for idx, cell in enumerate(row.cells):
-                    if (row_idx, idx) in all_block_coords:
-                        continue
-                    if cell.text_frame:
-                        cell_text = cell.text_frame.text.strip()
-                        set_protected_zone(cell_text)
-
-                        # Submission location rows: blank ALL cells entirely
-                        if row_has_location_keyword:
-                            for p in cell.text_frame.paragraphs:
-                                set_protected_zone(p.text)
-                                for run in p.runs:
-                                    run.text = " "
-                            continue
-
-                        is_safe_column = False
-                        if idx < len(headers):
-                            if SAFE_COLUMN_HEADER_PATTERN.search(headers[idx]):
-                                is_safe_column = True
-
-                        redact_dates_in_cell = row_has_keyword and not is_safe_column
-
-                        # Submission date/time value cells: blank entirely for symmetry
-                        if redact_dates_in_cell and idx not in date_label_cell_indices:
-                            for p in cell.text_frame.paragraphs:
-                                set_protected_zone(p.text)
-                                for run in p.runs:
-                                    run.text = " "
-                            continue
-
-                        redact_names_in_cell = row_has_name_keyword and (idx != label_cell_idx)
-                        for p in cell.text_frame.paragraphs:
-                            set_protected_zone(p.text)
-                            redact_paragraph_runs(p.runs, redact_all_dates=redact_dates_in_cell, redact_all_names=redact_names_in_cell)
+            process_table(shape.table)
                                     
         # 3. Group Shapes (recursive)
         if hasattr(shape, "shapes"):
             process_shapes(shape.shapes)
 
 def process_pptx(input_path: str, output_path: str):
+    os.environ["CURRENT_DOCUMENT_ID"] = os.path.basename(input_path)
     from redaction.ownership_manager import clear_issuing_university, determine_issuing_university
     from redaction.redaction_debug_logger import set_document_context
     clear_issuing_university()
@@ -257,43 +240,82 @@ def process_pptx(input_path: str, output_path: str):
     clear_cache()
     reset_protected_zone()
     
-    def scan_element_text(text, context=""):
+    def scan_element_text(text, context="", in_table=False, is_template=False):
         if not text or not text.strip():
             return
+        if is_template:
+            from redaction.ownership_manager import scan_text_for_universities
+            scan_text_for_universities(text)
         set_protected_zone(text)
-        classification, action, reasons, score = classify_entity(text, context=context)
+        classification, action, reasons, score = classify_entity(text, context=context, in_table=in_table)
         register_candidate_scan(text, context, classification, action, score, reasons)
 
-    def scan_shapes(shapes):
+        # Scan for Proximity Names
+        from redact_engine import NAME_PROXIMITY_PATTERN, NAME_PATTERN, TABLE_ROW_NAME_KEYWORD_PATTERN
+        for match in NAME_PROXIMITY_PATTERN.finditer(text):
+            name_str = match.group(1).strip()
+            if name_str and len(name_str) > 2:
+                classification, action, reasons, score = classify_entity(name_str, context=match.group(0), in_table=in_table)
+                register_candidate_scan(name_str, match.group(0), classification, action, score, reasons)
+                
+        # Scan for general Names if name keyword exists
+        if TABLE_ROW_NAME_KEYWORD_PATTERN.search(text):
+            for match in NAME_PATTERN.finditer(text):
+                name_str = match.group(0).strip()
+                if name_str and len(name_str) > 2:
+                    start_idx = max(0, match.start() - 120)
+                    end_idx = min(len(text), match.end() + 120)
+                    ctx = text[start_idx:end_idx]
+                    classification, action, reasons, score = classify_entity(name_str, context=ctx, in_table=in_table)
+                    register_candidate_scan(name_str, ctx, classification, action, score, reasons)
+
+        # Scan for Date Candidates
+        from redaction.date_time_detector import find_date_time_spans
+        for start, end, matched_str, m_type in find_date_time_spans(text):
+            if m_type == "DATE":
+                matched_str = matched_str.strip()
+                if matched_str and len(matched_str) > 2:
+                    start_idx = max(0, start - 120)
+                    end_idx = min(len(text), end + 120)
+                    ctx = text[start_idx:end_idx]
+                    classification, action, reasons, score = classify_entity(
+                        matched_str, 
+                        context=ctx, 
+                        source_detector="DATE_CANDIDATE_PATTERN",
+                        in_table=in_table
+                    )
+                    register_candidate_scan(matched_str, ctx, classification, action, score, reasons)
+
+    def scan_shapes(shapes, is_template=False):
         for shape in shapes:
             if shape.has_text_frame:
                 for p in shape.text_frame.paragraphs:
                     set_protected_zone(p.text)
-                    scan_element_text(p.text)
+                    scan_element_text(p.text, is_template=is_template)
             if shape.has_table:
                 for row in shape.table.rows:
                     for cell in row.cells:
                         if cell.text_frame:
                             set_protected_zone(cell.text_frame.text)
-                            scan_element_text(cell.text_frame.text)
+                            scan_element_text(cell.text_frame.text, in_table=True, is_template=is_template)
                             for p in cell.text_frame.paragraphs:
                                 set_protected_zone(p.text)
-                                scan_element_text(p.text)
+                                scan_element_text(p.text, in_table=True, is_template=is_template)
             if hasattr(shape, "shapes"):
-                scan_shapes(shape.shapes)
+                scan_shapes(shape.shapes, is_template=is_template)
 
     # Scan slides
     for slide in prs.slides:
-        scan_shapes(slide.shapes)
+        scan_shapes(slide.shapes, is_template=False)
         if slide.has_notes_slide and slide.notes_slide.notes_text_frame:
             for p in slide.notes_slide.notes_text_frame.paragraphs:
-                scan_element_text(p.text)
+                scan_element_text(p.text, is_template=False)
                 
     # Scan layouts and masters
     for layout in prs.slide_layouts:
-        scan_shapes(layout.shapes)
+        scan_shapes(layout.shapes, is_template=True)
     for master in prs.slide_masters:
-        scan_shapes(master.shapes)
+        scan_shapes(master.shapes, is_template=True)
 
     # Run the GPT batch review if there are escalated candidates
     issuing_univ = get_issuing_university()
@@ -327,7 +349,45 @@ def process_pptx(input_path: str, output_path: str):
                 blob_hash = hash(blob)
                 if blob_hash in images_to_redact or is_logo_match(blob):
                     part._blob = blank_img_bytes
+
+                    # Phase 7 Log: Final Decision
+                    try:
+                        from redaction.redaction_audit import RedactionAudit
+                        RedactionAudit.log({
+                            "candidate": f"[IMAGE hash={blob_hash}]",
+                            "stage": "FINAL_DECISION",
+                            "classification": "UNIVERSITY_BRANDING",
+                            "decision": "REDACT",
+                            "decision_source": "UNIVERSITY_BRANDING"
+                        })
+                    except Exception:
+                        pass
+                    # Phase 8 Log: Redaction Geometry
+                    try:
+                        from redaction.redaction_audit import RedactionAudit
+                        RedactionAudit.log({
+                            "candidate": f"[IMAGE hash={blob_hash}]",
+                            "page": None,
+                            "stage": "REDACTION_GEOMETRY",
+                            "bbox": None,
+                            "bbox_width": None,
+                            "bbox_height": None,
+                            "ocr_text_inside_bbox": f"[IMAGE hash={blob_hash}]"
+                        })
+                    except Exception:
+                        pass
             except Exception:
                 pass
-                
     prs.save(output_path)
+    
+    # Write final audit summary report at the very end
+    try:
+        from redaction.redaction_audit import RedactionAudit
+        from redaction.escalation_manager import LOGS_DIR
+        summary = RedactionAudit.generate_summary(doc_id)
+        summary_file = os.path.join(LOGS_DIR, "audit_summary.json")
+        with open(summary_file, "w", encoding="utf-8") as sf:
+            json.dump(summary, sf, indent=2)
+    except Exception as re_err:
+        print(f"Error generating final redaction audit report: {re_err}")
+

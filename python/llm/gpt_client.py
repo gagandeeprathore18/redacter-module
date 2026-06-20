@@ -116,23 +116,30 @@ def call_gpt_verification(candidates, issuing_university, doc_id="UNKNOWN"):
     chunk_size = 20
     candidate_chunks = [candidates[i:i + chunk_size] for i in range(0, len(candidates), chunk_size)]
     
-    # Phase 5: Ultra-Compact System Prompt
+    # Phase 5: System Prompt for Context-Aware Date and Entity Classification
     system_prompt = (
         "You are an academic document classifier.\n"
-        "Classify each candidate into exactly one:\n"
+        "Classify each candidate into exactly one classification:\n"
         "PERSON\n"
         "ACADEMIC_TITLE\n"
         "SUBMISSION_EVENT\n"
         "PROTECTED_SECTION\n"
         "UNIVERSITY_BRANDING\n"
-        "ACADEMIC_CONTENT\n\n"
+        "ACADEMIC_CONTENT\n"
+        "ADMINISTRATIVE_DATE\n"
+        "ACADEMIC_DATE\n\n"
         "Return JSON format containing a list of objects under key 'candidates'.\n"
         "Each object must have exactly:\n"
         "{\n"
         "  \"id\": int,\n"
-        "  \"classification\": string\n"
+        "  \"date\": string,\n"
+        "  \"classification\": string,\n"
+        "  \"action\": \"REDACT\" | \"PRESERVE\",\n"
+        "  \"reason\": string\n"
         "}\n"
-        "Do not return confidence, explanations or reasoning."
+        "For PERSON, UNIVERSITY_BRANDING, UNIVERSITY_ENTITY, METADATA_FIELD, BUSINESS_FIELD, ADMINISTRATIVE_DATE, action must be REDACT.\n"
+        "For ACADEMIC_TITLE, SUBMISSION_EVENT, PROTECTED_SECTION, ACADEMIC_CONTENT, ACADEMIC_DATE, action must be PRESERVE.\n"
+        "Do not return explanations outside the json."
     )
     
     url = "https://api.openai.com/v1/chat/completions"
@@ -171,6 +178,17 @@ def call_gpt_verification(candidates, issuing_university, doc_id="UNKNOWN"):
             "response_format": {"type": "json_object"}
         }
         
+        # Phase 6 Log: GPT Requests
+        try:
+            from redaction.redaction_audit import RedactionAudit
+            for c in chunk:
+                RedactionAudit.log({
+                    "candidate": c["candidate"],
+                    "stage": "GPT_REQUEST"
+                })
+        except Exception:
+            pass
+
         start_time = time.time()
         try:
             req = urllib.request.Request(
@@ -208,8 +226,32 @@ def call_gpt_verification(candidates, issuing_university, doc_id="UNKNOWN"):
                 for r in items:
                     out_map[r["id"]] = {
                         "classification": r.get("classification"),
-                        "confidence": r.get("confidence", 100)
+                        "confidence": r.get("confidence", 100),
+                        "action": r.get("action"),
+                        "reason": r.get("reason")
                     }
+
+                # Phase 6 Log: GPT Responses
+                try:
+                    from redaction.redaction_audit import RedactionAudit
+                    num_cands = len(chunk)
+                    prompt_tokens_per_cand = prompt_tokens // num_cands if num_cands > 0 else 0
+                    completion_tokens_per_cand = completion_tokens // num_cands if num_cands > 0 else 0
+                    id_to_cand = {c["id"]: c["candidate"] for c in chunk}
+                    
+                    for r in items:
+                        cand_id = r.get("id")
+                        classification = r.get("classification")
+                        if cand_id in id_to_cand:
+                            RedactionAudit.log({
+                                "candidate": id_to_cand[cand_id],
+                                "stage": "GPT_RESPONSE",
+                                "classification": classification,
+                                "prompt_tokens": prompt_tokens_per_cand,
+                                "completion_tokens": completion_tokens_per_cand
+                            })
+                except Exception:
+                    pass
         except Exception as e:
             print(f"Warning: GPT semantic verification request failed for chunk: {e}")
             

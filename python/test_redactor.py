@@ -109,6 +109,9 @@ def create_test_docx(filename: str):
     doc.add_paragraph("Name/Signed: Nargisa Simansone")
     doc.add_paragraph("Module lead's name: John Connor")
     doc.add_paragraph("Module Lead: Sarah Connor")
+    doc.add_paragraph("Academic Year 2025-26")
+    doc.add_paragraph("Module Code: BM414")
+
 
     # Submission location tests
     doc.add_paragraph("Submission location: Turnitin VLE online portal")
@@ -196,6 +199,17 @@ def create_test_pdf(filename: str):
     doc = fitz.open()
     page = doc.new_page()
     
+    # Header Zone elements (Top 20%, y < 168.4)
+    # 1. Header logo
+    logo_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logos", "university_2.png")
+    if os.path.exists(logo_path):
+        page.insert_image(fitz.Rect(450, 10, 550, 45), filename=logo_path)
+        
+    # 2. Header address block (multiline, road keyword, postal code, campus keyword)
+    address_text = "Stanford University Campus\n100 Stanford Road, CA 94305"
+    page.insert_textbox(fitz.Rect(200, 10, 400, 60), address_text, fontsize=10)
+    
+    # 3. Header contact block
     page.insert_text((50, 50), "Office of Admissions - Stanford University", fontsize=16)
     page.insert_text((50, 100), "Applicant Reference ID: APP99881", fontsize=12)
     page.insert_text((50, 130), "Contact us at registry@stanford.edu or call 650-123-4567", fontsize=12)
@@ -213,9 +227,15 @@ def create_test_pdf(filename: str):
     page.insert_text((50, 370), "Module Lead: Sarah Connor", fontsize=10)
     page.insert_text((50, 390), "Submission location: Turnitin VLE online portal", fontsize=10)
     page.insert_text((50, 410), "Submit to: Blackboard submission folder", fontsize=10)
+    page.insert_text((50, 425), "Academic Year 2025-26", fontsize=10)
+    page.insert_text((50, 435), "Module Code: BM414", fontsize=10)
+
+    # 4. Middle of the page office address block (should be globally detected/redacted)
+    office_text = "HEAD OFFICE\n7 Acorn Business Park\nCommercial Gate, Nottingham\nNG18 1EX"
+    page.insert_textbox(fitz.Rect(50, 600, 400, 680), office_text, fontsize=10)
+
 
     # Insert university_2 logo
-    logo_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logos", "university_2.png")
     if os.path.exists(logo_path):
         page.insert_image(fitz.Rect(50, 430, 200, 580), filename=logo_path)
         
@@ -247,6 +267,11 @@ def create_test_pptx(filename: str):
     p.text = "Module lead's name: John Connor"
     p = tf.add_paragraph()
     p.text = "Module Lead: Sarah Connor"
+    p = tf.add_paragraph()
+    p.text = "Academic Year 2025-26"
+    p = tf.add_paragraph()
+    p.text = "Module Code: BM414"
+
     p = tf.add_paragraph()
     p.text = "Submission location: Turnitin VLE online portal"
     p = tf.add_paragraph()
@@ -358,8 +383,12 @@ def run_tests():
     assert "Claire Ngo" not in docx_text, "DOCX: Claire Ngo not redacted"
     assert "Sarah Johnson" not in docx_text, "DOCX: Sarah Johnson not redacted"
     assert "Michael Brown" not in docx_text, "DOCX: Michael Brown not redacted"
+    assert "Academic Year" not in docx_text, "DOCX: Academic Year not redacted"
+    assert "BM414" not in docx_text, "DOCX: BM414 not redacted"
+
 
     print("DOCX Redaction Verification: SUCCESS")
+
     
     # 2. Test PDF
     print("Testing PDF processing...")
@@ -396,6 +425,20 @@ def run_tests():
     assert "Module name" in pdf_text, "PDF: Module name label got redacted"
     assert "Health and Social Care" in pdf_text, "PDF: Programme value got redacted"
     assert "Research Methods" in pdf_text, "PDF: Module name value got redacted"
+    assert "Academic Year" not in pdf_text, "PDF: Academic Year not redacted"
+    assert "BM414" not in pdf_text, "PDF: BM414 not redacted"
+
+    # Assertions for header branding & logo removal metrics
+    from python.redaction.redaction_audit import RedactionAudit
+    pdf_summary = RedactionAudit.generate_summary("input.pdf")
+    assert pdf_summary.get("header_images_removed", 0) > 0, f"Expected header_images_removed > 0, got {pdf_summary.get('header_images_removed')}"
+    assert pdf_summary.get("address_blocks_removed", 0) > 0, f"Expected address_blocks_removed > 0, got {pdf_summary.get('address_blocks_removed')}"
+    assert pdf_summary.get("contact_blocks_removed", 0) > 0, f"Expected contact_blocks_removed > 0, got {pdf_summary.get('contact_blocks_removed')}"
+
+    # Verify global address block is redacted
+    assert "Acorn Business Park" not in pdf_text, "PDF: Global address block was not redacted"
+    assert "NG18 1EX" not in pdf_text, "PDF: Global address postcode was not redacted"
+
 
     print("PDF Redaction Verification: SUCCESS")
     
@@ -423,6 +466,9 @@ def run_tests():
     assert "Sarah Connor" not in pptx_text, "PPTX: Sarah Connor not redacted"
     assert "Turnitin VLE online portal" not in pptx_text, "PPTX: Submission location value not redacted"
     assert "Blackboard submission folder" not in pptx_text, "PPTX: Submit-to value not redacted"
+    assert "Academic Year" not in pptx_text, "PPTX: Academic Year not redacted"
+    assert "BM414" not in pptx_text, "PPTX: BM414 not redacted"
+
     print("PPTX Redaction Verification: SUCCESS")
     
     print("\n--- ALL TESTS COMPLETED SUCCESSFULLY ---")

@@ -44,21 +44,32 @@ _heading_filter_counts = {
     "READING_LIST_CONTENT": 0,
 }
 
+_paragraph_candidates_removed = 0
+_grading_band_matches = 0
+_rubric_matches = 0
+_rubric_sections_preserved = 0
+
 def clear_cache():
     global _escalated_candidates, _candidate_counter, _gpt_cache, _total_candidates_processed
     global _document_id, _audit_records, _escalation_breakdown, _filter_report
+    global _paragraph_candidates_removed, _grading_band_matches, _rubric_matches, _rubric_sections_preserved
     _gpt_cache = {}
     _escalated_candidates = []
     _candidate_counter = 0
     _total_candidates_processed = 0
     _document_id = "UNKNOWN"
     _audit_records = {}
+    _paragraph_candidates_removed = 0
+    _grading_band_matches = 0
+    _rubric_matches = 0
+    _rubric_sections_preserved = 0
     _escalation_breakdown = {
         "LOW_CONFIDENCE": 0,
         "CLASSIFIER_CONFLICT": 0,
         "UNKNOWN_PATTERN": 0,
         "HIGH_IMPACT_ACTION": 0,
-        "UNIVERSITY_BRANDING_VERIFICATION": 0
+        "UNIVERSITY_BRANDING_VERIFICATION": 0,
+        "DATE_CANDIDATE_ESCALATION": 0
     }
     _filter_report = {
         "total_extracted": 0,
@@ -90,6 +101,11 @@ def clear_cache():
     try:
         from redaction.entity_classifier import reload_learned_classifications
         reload_learned_classifications()
+    except Exception:
+        pass
+    try:
+        from redaction.redaction_audit import RedactionAudit
+        RedactionAudit.clear()
     except Exception:
         pass
 
@@ -130,8 +146,12 @@ def get_escalation_reasons(text: str, context: str, classification: str, action:
     threshold = config.get("escalation_confidence_threshold", config.get("confidence_threshold", 50.0))
     esc_reasons = []
 
+    # DATE_CANDIDATE always triggers GPT escalation
+    if classification == "DATE_CANDIDATE":
+        esc_reasons.append("DATE_CANDIDATE_ESCALATION")
+
     # 1. LOW_CONFIDENCE
-    if 0 < score < threshold and classification in ("PERSON", "UNIVERSITY_ENTITY", "BUSINESS_FIELD"):
+    if 0 < score < threshold and classification in ("PERSON", "UNIVERSITY_ENTITY", "BUSINESS_FIELD", "METADATA_FIELD"):
         esc_reasons.append("LOW_CONFIDENCE")
 
     # 2. CLASSIFIER_CONFLICT
@@ -239,11 +259,56 @@ def register_candidate_scan(text: str, context: str, classification: str, action
     accumulates it for the batch GPT request.
     """
     global _candidate_counter, _total_candidates_processed, _filter_report, _heading_filter_counts
+    global _paragraph_candidates_removed, _grading_band_matches, _rubric_matches, _rubric_sections_preserved
+    
+    pregate_reasons = {
+        "paragraph_detector_pregate",
+        "grading_band_detector_pregate",
+        "rubric_detector_pregate",
+        "academic_allowlist_pregate",
+        "assessment_type_pregate",
+        "lms_platform_pregate"
+    }
+    if reasons and any(r in pregate_reasons for r in reasons):
+        if "paragraph_detector_pregate" in reasons:
+            _paragraph_candidates_removed += 1
+            _filter_report["total_extracted"] += 1
+            _filter_report["filtered_out"] += 1
+            _filter_report["rejection_breakdown"]["PARAGRAPH_CONTENT"] = (
+                _filter_report["rejection_breakdown"].get("PARAGRAPH_CONTENT", 0) + 1
+            )
+            _filter_report["rejected_candidates"].append({
+                "candidate": text,
+                "reason": "PARAGRAPH_CONTENT",
+                "word_count": len(text.split())
+            })
+        elif "grading_band_detector_pregate" in reasons:
+            _grading_band_matches += 1
+        elif "rubric_detector_pregate" in reasons:
+            _rubric_matches += 1
+            _rubric_sections_preserved += 1
+            _heading_filter_counts["RUBRIC_CONTENT"] = _heading_filter_counts.get("RUBRIC_CONTENT", 0) + 1
+        return
+
     _total_candidates_processed += 1
     
     key = (text, context)
     if key in _gpt_cache:
         return
+
+    # Phase 2: Log every extracted candidate
+    try:
+        from redaction.redaction_audit import RedactionAudit
+        RedactionAudit.log({
+            "candidate": text,
+            "page": None,
+            "stage": "EXTRACTED",
+            "candidate_length": len(text),
+            "word_count": len(text.split()),
+            "source_detector": classification + "_PATTERN" if classification else "UNKNOWN"
+        })
+    except Exception:
+        pass
 
     # ------------------------------------------------------------------ #
     # Phase 3 – Hard Heading / Structural Content Rejection Gate           #
@@ -278,6 +343,18 @@ def register_candidate_scan(text: str, context: str, classification: str, action
             # Phase 5 counters
             _heading_filter_counts[_reject_reason] = _heading_filter_counts.get(_reject_reason, 0) + 1
 
+            # Log Heading/Structural Filter Decisions
+            try:
+                from redaction.redaction_audit import RedactionAudit
+                RedactionAudit.log({
+                    "candidate": text,
+                    "stage": "HEADING_FILTER" if _reject_reason == "HEADING_CONTENT" else "STRUCTURAL_FILTER",
+                    "decision": "REJECTED",
+                    "reason": _heading_category or _structural_category or _reject_reason
+                })
+            except Exception:
+                pass
+
             # Phase 4 – Write to heading_filter_report.json
             try:
                 _write_heading_filter_entry(text, _reject_reason, _heading_category or _structural_category)
@@ -310,6 +387,19 @@ def register_candidate_scan(text: str, context: str, classification: str, action
             "reason": reason,
             "word_count": val_res["word_count"]
         })
+
+        # Log Quality Filter Reject
+        try:
+            from redaction.redaction_audit import RedactionAudit
+            RedactionAudit.log({
+                "candidate": text,
+                "stage": "QUALITY_FILTER",
+                "decision": "REJECTED",
+                "reason": reason
+            })
+        except Exception:
+            pass
+
         return
 
     _filter_report["remaining_candidates"] += 1
@@ -342,6 +432,19 @@ def register_candidate_scan(text: str, context: str, classification: str, action
 
     esc_reasons = get_escalation_reasons(text, context, classification, action, score, reasons)
     if esc_reasons:
+        # Phase 5 Log: Escalation Decisions
+        try:
+            from redaction.redaction_audit import RedactionAudit
+            RedactionAudit.log({
+                "candidate": text,
+                "stage": "ESCALATION_CHECK",
+                "decision": "ESCALATE",
+                "classification": classification,
+                "reason": esc_reasons[0]
+            })
+        except Exception:
+            pass
+
         _candidate_counter += 1
         _escalated_candidates.append({
             "id": _candidate_counter,
@@ -551,6 +654,10 @@ def write_escalation_audit_log(doc_id: str):
                     # Phase 8: Telemetry counters
                     "heading_candidates_removed": _heading_filter_counts.get("HEADING_CONTENT", 0),
                     "structural_candidates_removed": _heading_filter_counts.get("STRUCTURAL_CONTENT", 0),
+                    "paragraph_candidates_removed": _paragraph_candidates_removed,
+                    "grading_band_matches": _grading_band_matches,
+                    "rubric_matches": _rubric_matches,
+                    "rubric_sections_preserved": _rubric_sections_preserved,
                 }
                 
                 with open(log_path, 'a') as f:
@@ -637,26 +744,25 @@ def run_gpt_review(issuing_university: str, doc_id: str = "UNKNOWN"):
             }
             
             final_class = gpt_pred if gpt_pred else audit["python_prediction"]
-            action = "REDACT" if final_class in ("PERSON", "UNIVERSITY_BRANDING", "SUBMISSION_EVENT") else "PRESERVE"
-            
-            if action == "REDACT":
-                from redaction.sensitivity_score import get_sensitivity_score
-                from redaction.redaction_validator import validate_redaction
-                
-                # Check sensitivity score
-                if get_sensitivity_score(final_class) < 70:
-                    action = "PRESERVE"
-                # Check redaction validator
-                elif not validate_redaction(cand["candidate"], final_class):
-                    action = "PRESERVE"
-                    final_class = "ACADEMIC_CONTENT"
-                    
-            if cand_id in gpt_results and action == "PRESERVE" and gpt_pred in ("PERSON", "UNIVERSITY_BRANDING", "SUBMISSION_EVENT"):
-                gpt_results[cand_id]["classification"] = final_class
-                gpt_results[cand_id]["confidence"] = 0
-                
+
+            # ---------------------------------------------------------------------------
+            # GPT AUTHORITATIVE ACTION MAPPING
+            # GPT's classification is the final word. No Python re-evaluation,
+            # no sensitivity score checks, no validate_redaction overrides.
+            # The action is derived purely from the canonical classification map.
+            # ---------------------------------------------------------------------------
+            action = res.get("action") if (cand_id in gpt_results and res) else None
+            if action not in ("REDACT", "PRESERVE"):
+                _REDACT_CLASSES = {
+                    "PERSON", "UNIVERSITY_BRANDING", "UNIVERSITY_ENTITY",
+                    "METADATA_FIELD", "BUSINESS_FIELD", "DATE_TIME_VALUE",
+                    "DATE_CANDIDATE", "TIME_VALUE", "ADMINISTRATIVE_DATE"
+                }
+                action = "REDACT" if final_class in _REDACT_CLASSES else "PRESERVE"
+
             audit["final_classification"] = final_class
             audit["action"] = action
+            audit["gpt_authoritative"] = gpt_pred is not None
 
     # Update learned classifications json file
     if isinstance(gpt_results, dict) and gpt_results:
@@ -692,6 +798,26 @@ def run_gpt_review(issuing_university: str, doc_id: str = "UNKNOWN"):
                 reload_learned_classifications()
         except Exception as e:
             print(f"Error updating learned classifications: {e}")
+
+    # Phase 9, 10, 11: Generate reports
+    try:
+        from redaction.redaction_audit import RedactionAudit
+        # Ground truth expectations for testing the single instance
+        expected_decisions = {
+            "Research Methods": "PRESERVE",
+            "Claire Ngo": "REDACT",
+            "Nargisa Simansone": "REDACT",
+            "Sarah Johnson": "REDACT"
+        }
+        RedactionAudit.generate_accuracy_review(expected_decisions)
+        
+        # Write summary report
+        summary = RedactionAudit.generate_summary(doc_id)
+        summary_file = os.path.join(LOGS_DIR, "audit_summary.json")
+        with open(summary_file, "w", encoding="utf-8") as sf:
+            json.dump(summary, sf, indent=2)
+    except Exception as re_err:
+        print(f"Error generating redaction audit reports: {re_err}")
 
     write_escalation_audit_log(doc_id)
     

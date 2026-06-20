@@ -30,6 +30,20 @@ PHONE_PATTERN = re.compile(
 URL_PATTERN = re.compile(r'\b(?:https?://|www\.)[a-zA-Z0-9-._~:/?#\[\]@!$&\'()*+,;=]+\b', re.IGNORECASE)
 POSTAL_CODE_PATTERN = re.compile(r'\b\d{5}(?:-\d{4})?\b|\b[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}\b', re.IGNORECASE)
 
+# Metadata Field patterns
+try:
+    from redaction.metadata_field_detector import METADATA_LABELS, METADATA_LABELS_TO_KEEP
+    _redact_labels = METADATA_LABELS - METADATA_LABELS_TO_KEEP
+    _sorted_labels = sorted(list(_redact_labels), key=len, reverse=True)
+    _escaped_labels = [re.escape(label).replace(r'\ ', r'\s+') for label in _sorted_labels]
+    METADATA_FIELD_PATTERN = re.compile(
+        rf'\b(?:{"|".join(_escaped_labels)})\b(?:\s*[:\-–—\s]\s*[^\n]{{0,80}}|[ \t]+[^\n]{{0,80}}|[ \t]*$)',
+        re.IGNORECASE
+    )
+except Exception:
+    METADATA_FIELD_PATTERN = re.compile(r'\b(?:Academic Year|Module Code|Module Lead|Submission Deadline)\b(?:\s*[:\-–—\s]\s*[^\n]{0,80}|[ \t]+[^\n]{0,80}|[ \t]*$)', re.IGNORECASE)
+
+
 # Name patterns
 NAME_KEYWORDS = [
     r'Name/Signed', r'Name\s*/\s*Signed',
@@ -84,58 +98,14 @@ COMBINED_DATETIME_PATTERN = (
     rf'(?:\s*(?:at|on|by|and|,|/)?\s*{DATETIME_COMP_PATTERN})?'
 )
 
-# Match dates and times for submission, presentation, or target feedback
-SUBMISSION_FEEDBACK_DATE_PATTERN = re.compile(
-    r'(?:'
-    r'\b(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback|assignment(?:\s*\d+)?|issue|issued|approved|approval)'
-    r'(?:\s*\(.*?\))?'
-    r'(?:\s*(?:and|&|or|,|/)?\s*(?:date|time|deadline|target|value|slot|due|dates|times|day|days)){0,3}'
-    r'|\b(?:date|time|deadline|target|value|slot|due|dates|times|day|days)'
-    r'(?:\s*(?:and|&|or|,|/)?\s*(?:date|time|deadline|target|value|slot|due|dates|times|day|days)){0,2}'
-    r'\s+(?:of|for)\s+'
-    r'(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback|assignment(?:\s*\d+)?|issue|issued|approved|approval)'
-    r'(?:\s*\(.*?\))?'
-    r')'
-    r'\s*:?'
-    r'(?:\s*(?:on|by|at|is|of|for|before|after|no\s+later\s+than|not\s+later\s+than'
-    r'|monday|tuesday|wednesday|thursday|friday|saturday|sunday'
-    r'|mon|tue|wed|thu|fri|sat|sun'
-    r'|[,.\-]'
-    r'))*'
-    r'\s*'
-    + COMBINED_DATETIME_PATTERN,
-    re.IGNORECASE
-)
-
-# Pattern matching dates and times on their own (for table cell extraction)
-DATE_TIME_ONLY_PATTERN = re.compile(
-    r'\b' + COMBINED_DATETIME_PATTERN,
-    re.IGNORECASE
-)
-
-# Keywords indicating a table row contains deadline/submission info
-TABLE_ROW_KEYWORD_PATTERN = re.compile(
-    r'(?:'
-    r'^\s*(?:draft\s+|final\s+|formative\s+|interim\s+|provisional\s+|resit\s+|second\s+|first\s+|main\s+)?'
-    r'(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback|assignment|issue|issued|approved|approval)'
-    r'(?:\s*\(.*?\))?'
-    r'(?:\s+(?:and|&|or|/)?\s*(?:date|time|deadline|target|value|slot|due|dates|times|day|days)){0,3}'
-    r'\s*:?$'
-    r'|\b(?:draft\s+|final\s+|formative\s+|interim\s+|provisional\s+|resit\s+|second\s+|first\s+|main\s+)?'
-    r'(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback|assignment|issue|issued|approved|approval)'
-    r'\s+(?:and|&|or|/)?\s*(?:date|time|deadline|target|value|slot|due|dates|times|day|days)\b'
-    r'|\b(?:date|time|deadline|target|value|slot|due|dates|times|day|days)\b'
-    r'.*?\b(?:submission|submitted|submit|presentation|present|resit|deadline|deadlines|target\s+feedback|feedback)\b'
-    r')',
-    re.IGNORECASE
-)
-
-# Pattern to match the label part of a submission location field in free-text paragraphs
+# Pattern to match the label part of a submission location field in free-text paragraphs.
 # e.g. "Submission location: Turnitin", "Submit to: VLE", "Where to submit: Online portal"
+# CRITICAL: Must NOT use greedy .* — that eats entire academic sentences.
+# Matches: label keyword + optional colon + value up to 80 chars, no newline crossing.
 SUBMISSION_LOCATION_PATTERN = re.compile(
     r'\b(?:'
     r'submission\s+(?:location|point|portal|platform|link|method|box|folder|area|mode|type|system|channel|url|address|site|page|form)'
-    r'|submit(?:ted)?\s+(?:to|via|through|using|on|at|by|with)'
+    r'|submit(?:ted)?\s+(?:to|via|through|by)'
     r'|how\s+to\s+submit'
     r'|where\s+to\s+submit'
     r'|electronic(?:ally)?\s+submit(?:ted)?'
@@ -143,24 +113,16 @@ SUBMISSION_LOCATION_PATTERN = re.compile(
     r'|e-?submission'
     r'|upload\s+(?:location|link|portal|to)'
     r'|submission\s+details'
-    # Submission Deadline keywords
-    r'|submission\s+deadline'
-    r'|submission\s+due'
-    r'|deadline'
-    # Feedback / Provisional Marks Date keywords
-    r'|feedback\s+date'
-    r'|return\s+date'
-    r'|provisional\s+marks'
-    r'|written\s+feedback'
-    r')\b.*',
+    r')\b\s*:?\s*[^\n]{0,80}',
     re.IGNORECASE
 )
+
 
 # Pattern to identify whether a table row's label cell is about submission location
 TABLE_ROW_LOCATION_KEYWORD_PATTERN = re.compile(
     r'\b(?:'
     r'submission\s+(?:location|point|portal|platform|link|method|box|folder|area|mode|type|system|channel|url|address|site|page|form)'
-    r'|submit(?:ted)?\s+(?:to|via|through|using|on|at|by|with)'
+    r'|submit(?:ted)?\s+(?:to|via|through|by)'
     r'|how\s+to\s+submit'
     r'|where\s+to\s+submit'
     r'|electronic(?:ally)?\s+submit(?:ted)?'
@@ -168,15 +130,6 @@ TABLE_ROW_LOCATION_KEYWORD_PATTERN = re.compile(
     r'|e-?submission'
     r'|upload\s+(?:location|link|portal|to)'
     r'|submission\s+details'
-    # Submission Deadline keywords
-    r'|submission\s+deadline'
-    r'|submission\s+due'
-    r'|deadline'
-    # Feedback / Provisional Marks Date keywords
-    r'|feedback\s+date'
-    r'|return\s+date'
-    r'|provisional\s+marks'
-    r'|written\s+feedback'
     r')\b',
     re.IGNORECASE
 )
@@ -262,8 +215,22 @@ def redact_text(text: str) -> str:
     # Redact Postal Codes
     text = POSTAL_CODE_PATTERN.sub(" ", text)
 
-    # Redact Submission and Target Feedback Dates/Times
-    text = SUBMISSION_FEEDBACK_DATE_PATTERN.sub(" ", text)
+    # Redact Dates/Times using new detector and classifier
+    from redaction.date_time_detector import find_date_time_spans
+    from redaction.entity_classifier import classify_entity
+    spans = find_date_time_spans(text)
+    if spans:
+        # Sort in reverse order of start index to modify from back to front
+        spans.sort(key=lambda x: x[0], reverse=True)
+        for start, end, matched_str, m_type in spans:
+            _src = "DATE_CANDIDATE_PATTERN" if m_type == "DATE" else "TIME_VAL_PATTERN"
+            _cls, _act, _reasons, _score = classify_entity(
+                matched_str, 
+                context=text,
+                source_detector=_src
+            )
+            if _act != "KEEP":
+                text = text[:start] + " " + text[end:]
 
     # Redact Submission Location fields entirely (label + value)
     text = SUBMISSION_LOCATION_PATTERN.sub(" ", text)
@@ -321,7 +288,7 @@ def is_logo_match(image_bytes: bytes, threshold: int = 12) -> bool:
         pass
     return False
 
-def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False, context="") -> None:
+def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False, context="", is_header_footer=False) -> None:
     """
     Smart redaction that handles search patterns split across multiple styled runs (DOCX and PPTX).
     Modifies runs in-place, preserving styling.
@@ -345,17 +312,27 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False, 
         (EMAIL_PATTERN, " ", "EMAIL"),
         (PHONE_PATTERN, " ", "PHONE"),
         (POSTAL_CODE_PATTERN, " ", "POSTAL_CODE"),
-        (SUBMISSION_FEEDBACK_DATE_PATTERN, " ", "SUBMISSION_EVENT"),
         (SUBMISSION_LOCATION_PATTERN, " ", "BUSINESS_FIELD"),
+        (METADATA_FIELD_PATTERN, " ", "METADATA_FIELD"),
     ]
-    if redact_all_dates:
-        patterns.append((DATE_TIME_ONLY_PATTERN, " ", "SUBMISSION_EVENT"))
     
     # all_matches: (start, end, matched_text, replacement, classification)
     all_matches = []
     for pattern, replacement, classification in patterns:
         for m in pattern.finditer(full_text):
-            all_matches.append((m.start(), m.end(), m.group(0), replacement, classification))
+            matched_str = m.group(0)
+            cls = classification
+            if classification == "BUSINESS_FIELD":
+                from redaction.metadata_field_detector import is_metadata_field
+                if is_metadata_field(matched_str):
+                    cls = "METADATA_FIELD"
+            all_matches.append((m.start(), m.end(), matched_str, replacement, cls))
+
+    # Extract date/time values using the new detector
+    from redaction.date_time_detector import find_date_time_spans
+    for start, end, matched_str, m_type in find_date_time_spans(full_text):
+        cls_label = "DATE_CANDIDATE" if m_type == "DATE" else "TIME_VALUE"
+        all_matches.append((start, end, matched_str, " ", cls_label))
 
     # Redact Names via Proximity Pattern
     for m in NAME_PROXIMITY_PATTERN.finditer(full_text):
@@ -417,6 +394,38 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False, 
         _debug_log = None
     
     for start, end, match_text, replacement, classification in merged_matches:
+        # Check preservation-first: if candidate word count > 5, skip redaction (KEEP)
+        if classification in ("PERSON", "UNKNOWN") and len(match_text.split()) > 5:
+            continue
+            
+        if classification in ("STUDENT_ID", "EMAIL", "PHONE", "POSTAL_CODE", "UNIVERSITY_BRANDING"):
+            _act = "REDACT"
+        else:
+            _src = ""
+            if classification == "PERSON":
+                _src = "PERSON_PATTERN"
+            elif classification == "DATE_CANDIDATE":
+                _src = "DATE_CANDIDATE_PATTERN"
+            elif classification == "TIME_VALUE":
+                _src = "TIME_VAL_PATTERN"
+            elif classification in ("BUSINESS_FIELD", "METADATA_FIELD"):
+                _src = "METADATA_FIELD_PATTERN"
+                
+            from redaction.entity_classifier import classify_entity
+            context_win = context or full_text
+            if _src == "DATE_CANDIDATE_PATTERN":
+                idx = full_text.find(match_text)
+                if idx != -1:
+                    context_win = full_text[max(0, idx - 120):min(len(full_text), idx + len(match_text) + 120)]
+            classification, _act, _reasons, _score = classify_entity(
+                match_text,
+                context=context_win,
+                source_detector=_src
+            )
+            
+        if _act == "KEEP":
+            continue
+            
         # Find overlapping runs
         overlapping = []
         for r_start, r_end, run in run_ranges:
@@ -435,6 +444,34 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False, 
                 bbox=None,
                 ocr_block_text=context or full_text,
             )
+
+        # Phase 7 Log: Final Decision
+        try:
+            from redaction.redaction_audit import RedactionAudit
+            RedactionAudit.log({
+                "candidate": match_text,
+                "stage": "FINAL_DECISION",
+                "classification": classification,
+                "decision": _act,
+                "decision_source": classification + "_RULE"
+            })
+        except Exception:
+            pass
+
+        # Phase 8 Log: Redaction Geometry
+        try:
+            from redaction.redaction_audit import RedactionAudit
+            RedactionAudit.log({
+                "candidate": match_text,
+                "page": None,
+                "stage": "REDACTION_GEOMETRY",
+                "bbox": None,
+                "bbox_width": None,
+                "bbox_height": None,
+                "ocr_text_inside_bbox": match_text
+            })
+        except Exception:
+            pass
             
         # Replace overlap in-place
         for i, (r_start, r_end, run) in enumerate(overlapping):

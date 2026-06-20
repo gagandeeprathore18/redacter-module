@@ -162,6 +162,13 @@ class PreservationEngine:
 def is_sensitive_entity(text: str, context: str = "") -> bool:
     if not text:
         return False
+    # Check metadata field label
+    try:
+        from redaction.metadata_field_detector import is_metadata_field
+        if is_metadata_field(text):
+            return True
+    except Exception:
+        pass
     # Check email, phone, student id
     from redact_engine import EMAIL_PATTERN, PHONE_PATTERN, STUDENT_ID_PATTERN
     if EMAIL_PATTERN.search(text) or PHONE_PATTERN.search(text) or STUDENT_ID_PATTERN.search(text):

@@ -127,6 +127,55 @@ PROTECTED_HEADINGS = {
     "ethical considerations",
 }
 
+# Academic section terms that must NEVER be treated as headings.
+# They must pass through to the classification engine so they can be
+# correctly labelled ACADEMIC_CONTENT / ACADEMIC_TITLE and preserved.
+ACADEMIC_HEADINGS = {
+    "research methods",
+    "research proposal",
+    "research ethics",
+    "research questions",
+    "research design",
+    "research and analysis",
+    "learning outcomes",
+    "assessment criteria",
+    "recommended reading",
+    "literature review",
+    "methodology",
+    "findings",
+    "analysis",
+    "discussion",
+    "conclusion",
+    "references",
+    "engaging with practice",
+    "realisation and communication",
+    "independent study hours",
+    "guided study hours",
+    "scheduled teaching hours",
+    "study hours",
+    "generic grading criteria",
+    "grading criteria",
+    "assessment guidance",
+    "ethical considerations",
+    "research methodology",
+    "data collection",
+    "data analysis",
+    "theoretical framework",
+    "conceptual framework",
+    # Submission events — must reach _classify_entity_internal's submission_events check
+    "draft submission",
+    "draft submission (mandatory)",
+    "feedback date",
+    "submission date",
+    "date and time of submission",
+    "target feedback date",
+    "submission due date",
+    "submission date & time",
+    "submission deadline",
+    "feedback release date",
+}
+
+
 # ---------------------------------------------------------------------------
 # Patterns
 # ---------------------------------------------------------------------------
@@ -270,7 +319,10 @@ def _is_section_label(text: str) -> bool:
 
 def _is_numbered_section(text: str) -> bool:
     """Detect numbered section titles: '1.2 Methodology', '3. Findings'."""
-    return bool(_NUMBERED_SECTION.match(text.strip()))
+    cleaned = text.strip()
+    if _HAS_DATE.search(cleaned):
+        return False
+    return bool(_NUMBERED_SECTION.match(cleaned))
 
 
 # ---------------------------------------------------------------------------
@@ -288,19 +340,36 @@ class HeadingDetector:
         """
         Returns True if the text is a document heading / structural label
         and should be SKIPPED from the candidate pipeline entirely.
+
+        IMPORTANT: Terms in ACADEMIC_HEADINGS are never treated as headings.
+        They must pass through to the classification engine for preservation.
         """
         if not text or not text.strip():
             return False
 
         norm = text.strip().lower()
 
+        # Priority 0 – Academic headings must NEVER be filtered here.
+        # They pass through to the classification / preservation engine.
+        if norm in ACADEMIC_HEADINGS:
+            return False
+
+        # Metadata fields are not headings
+        try:
+            from redaction.metadata_field_detector import is_metadata_field
+            if is_metadata_field(text):
+                return False
+        except Exception:
+            pass
+
         # Rule 1 – Exact known heading match
         if norm in KNOWN_HEADINGS:
             return True
 
-        # Rule 1b – Protected heading (also a heading)
+        # Rule 1b – Protected heading: also a heading (pass-through to preserve logic)
+        # We return False so they reach the preservation engine correctly.
         if norm in PROTECTED_HEADINGS:
-            return True
+            return False
 
         # Rule 2 – Learned headings from file
         with _learned_lock:
@@ -320,6 +389,7 @@ class HeadingDetector:
             return True
 
         return False
+
 
     @classmethod
     def is_protected_heading(cls, text: str) -> bool:

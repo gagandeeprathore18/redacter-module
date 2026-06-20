@@ -13,8 +13,26 @@ RUBRIC_KEYWORDS = [
     r'marginal\s+fail',
     r'grade\s+descriptor',
     r'generic\s+grading',
-    r'assessment\s+criteria'
+    r'assessment\s+criteria',
+    r'knowledge\s+and\s+understanding',
+    r'analysis,\s+creativity\s+and\s+problem-solving',
+    r'research/referencing',
+    r'written\s+english',
+    r'presentation\s+and\s+structure',
+    # Priority 5 expanded rubric terms
+    r'learning\s+outcome',
+    r'grading\s+criteria',
+    r'research\s+and\s+analysis',
+    r'engaging\s+with\s+practice',
+    r'realisation\s+and\s+communication',
+    r'grade\s+descriptors',
+    r'marking\s+criteria',
+    r'\bdistinction\b',
+    r'\bmerit\b',
+    r'fail\s+criteria',
+    r'pass\s+criteria',
 ]
+
 
 RUBRIC_PATTERN = re.compile('|'.join(RUBRIC_KEYWORDS), re.IGNORECASE)
 

@@ -35,6 +35,18 @@
     {
       "name": "Regent College London",
       "aliases": ["Regent College", "RCL", "regentcollegelondon.ac.uk", "regentcollegelondon", "regents"]
+    },
+    {
+      "name": "London College of Contemporary Arts",
+      "aliases": ["LCCA", "London College", "lcca.org.uk", "lcca"]
+    },
+    {
+      "name": "Qualifi",
+      "aliases": ["Qualifi Ltd", "qualifi.net"]
+    },
+    {
+      "name": "University for the Creative Arts",
+      "aliases": ["UCA", "Creative Arts", "ucreative.ac.uk", "uca.ac.uk"]
     }
   ]
 }

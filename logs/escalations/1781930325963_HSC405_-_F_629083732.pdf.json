@@ -1,0 +1,124 @@
+{
+  "document_id": "1781930325963_HSC405_-_F_629083732.pdf",
+  "total_candidates": 10,
+  "escalated_candidates": 4,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 4,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 4,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781930325963_HSC405_-_F_629083732.pdf",
+      "candidate": "Centre Specification",
+      "context": "\nPrior to attempting this coursework assignment, Learners must familiarise themselves with the following policies: \n \n\u2022 Centre Specification \no Can be found at https://qualifi.net/qualifi-level-3-diploma-in-business-management/ \n\u2022 Qualifi Quality Assurance Sta",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.3e-05,
+      "response_time_ms": 896,
+      "token_usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 49,
+        "total_tokens": 201
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781930325963_HSC405_-_F_629083732.pdf",
+      "candidate": "Qualifi Quality Assurance Standards",
+      "context": "es: \n \n\u2022 Centre Specification \no Can be found at https://qualifi.net/qualifi-level-3-diploma-in-business-management/ \n\u2022 Qualifi Quality Assurance Standards \n\u2022 Qualifi Quality Policy Statement \n \n \nPlagiarism and Collusion \nIn submitting the assignment Learner\u2019s must complete",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.3e-05,
+      "response_time_ms": 896,
+      "token_usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 49,
+        "total_tokens": 201
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781930325963_HSC405_-_F_629083732.pdf",
+      "candidate": "Writing Skills",
+      "context": "t \n \n \n \n \n 50 \n \n \nApplication of Theory and Literature \n 40 \n \n \nKnowledge and Understanding \n \n 50 \n \n \nPresentation/Writing Skills \n \n 40 \n \n \nReferencing \n \n \n \n 40 \n \n \n \nTotal Score \n \n \n \n220/5 = 44, Basic \n \n",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.3e-05,
+      "response_time_ms": 896,
+      "token_usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 49,
+        "total_tokens": 201
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781930325963_HSC405_-_F_629083732.pdf",
+      "candidate": "Total Score",
+      "context": "\n 40 \n \n \nKnowledge and Understanding \n \n 50 \n \n \nPresentation/Writing Skills \n \n 40 \n \n \nReferencing \n \n \n \n 40 \n \n \n \nTotal Score \n \n \n \n220/5 = 44, Basic \n \n",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.3e-05,
+      "response_time_ms": 896,
+      "token_usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 49,
+        "total_tokens": 201
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

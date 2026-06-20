@@ -1,21 +1,99 @@
 {
   "document_id": "input.pdf",
-  "total_candidates": 18,
-  "escalated_candidates": 0,
+  "total_candidates": 22,
+  "escalated_candidates": 3,
   "escalation_breakdown": {
     "LOW_CONFIDENCE": 0,
     "CLASSIFIER_CONFLICT": 0,
     "UNKNOWN_PATTERN": 0,
     "HIGH_IMPACT_ACTION": 0,
-    "UNIVERSITY_BRANDING_VERIFICATION": 0
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 3
   },
   "top_escalation_reasons": {
     "LOW_CONFIDENCE": 0,
     "CLASSIFIER_CONFLICT": 0,
     "UNKNOWN_PATTERN": 0,
     "HIGH_IMPACT_ACTION": 0,
-    "UNIVERSITY_BRANDING_VERIFICATION": 0
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 3
   },
   "warnings": [],
-  "candidates": []
+  "candidates": [
+    {
+      "document_id": "input.pdf",
+      "candidate": "14:30 on 12 December 2025",
+      "context": " ID: APP99881\nPlease send replies to Stanford, CA 94305, USA\nWebsite: www.stanford.edu/admissions\nTarget feedback time: 14:30 on 12 December 2025\nResit date: 21st August 2026 (For both Group presentation and or Individual Reflective statement)\nSubmission due dates/",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
+    },
+    {
+      "document_id": "input.pdf",
+      "candidate": "21st August 2026",
+      "context": "tanford, CA 94305, USA\nWebsite: www.stanford.edu/admissions\nTarget feedback time: 14:30 on 12 December 2025\nResit date: 21st August 2026 (For both Group presentation and or Individual Reflective statement)\nSubmission due dates/time: Submit document NOT LAT",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
+    },
+    {
+      "document_id": "input.pdf",
+      "candidate": "1600hrs on 12 June 2026",
+      "context": "p presentation and or Individual Reflective statement)\nSubmission due dates/time: Submit document NOT LATER than 4:00pm/1600hrs on 12 June 2026\nName/Signed: Nargisa Simansone\nModule leader: Adeeba Ahmad\nProgramme: BSc Health and Social Care\nModule name: Research ",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": null,
+      "gpt_confidence": null,
+      "request_cost_usd": 0.0,
+      "response_time_ms": 0,
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "final_classification": "DATE_CANDIDATE",
+      "action": "REDACT",
+      "gpt_authoritative": false
+    }
+  ]
 }

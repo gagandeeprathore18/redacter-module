@@ -5648,5 +5648,5167 @@
     "decision": "remove",
     "block_id": "block_1_2",
     "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Detail",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_1",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission time and date:",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_3_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission due dates/time",
+    "start_paragraph": 6,
+    "end_paragraph": 6,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_6_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Option B: Turnitin Submission",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Submission Method",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Module Code",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Date of Issue",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_2",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Some awareness of ethical issues but lacks clear application to marketing strategies.",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Strong application of ethical considerations in marketing strategies, with some sustainability focus.",
+    "start_paragraph": 3,
+    "end_paragraph": 3,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Method",
+    "start_paragraph": 1,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_1_1",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Target feedback time and date:",
+    "start_paragraph": 4,
+    "end_paragraph": 4,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_4_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Tutor Name",
+    "start_paragraph": 7,
+    "end_paragraph": 7,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "blocked"
+  },
+  {
+    "anchor": "Submission Date & Time",
+    "start_paragraph": 14,
+    "end_paragraph": 14,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_14_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
+  },
+  {
+    "anchor": "Feedback Date",
+    "start_paragraph": 2,
+    "end_paragraph": 2,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_2_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 0,
+    "boundary_detected": true,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 1
+  },
+  {
+    "anchor": "Submission Location",
+    "start_paragraph": 0,
+    "end_paragraph": 1,
+    "boundary_detected": false,
+    "protected_sections_encountered": [],
+    "decision": "remove",
+    "block_id": "block_0_0",
+    "paragraphs_removed": 2
   }
 ]

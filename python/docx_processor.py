@@ -6,8 +6,8 @@ import os
 import json
 from redact_engine import (
     redact_text, is_logo_match, redact_paragraph_runs,
-    DATE_TIME_ONLY_PATTERN, redact_paragraph_runs_with_pattern,
-    TABLE_ROW_KEYWORD_PATTERN, TABLE_ROW_NAME_KEYWORD_PATTERN,
+    redact_paragraph_runs_with_pattern,
+    TABLE_ROW_NAME_KEYWORD_PATTERN,
     SAFE_COLUMN_HEADER_PATTERN,
     TABLE_ROW_LOCATION_KEYWORD_PATTERN, SUBMISSION_LOCATION_PATTERN
 )
@@ -28,20 +28,109 @@ NAMESPACES = {
 }
 
 def get_all_paragraph_runs(p):
-    runs = []
-    # Find all w:r elements recursively to capture runs nested in hyperlinks
-    for r_el in p._element.findall('.//w:r', NAMESPACES):
-        runs.append(docx.text.run.Run(r_el, p))
+    """Ensure we capture all runs including those nested inside hyperlinks."""
+    runs = list(p.runs)
+    # Check for hyperlinks
+    for child in p._element:
+        if child.tag.endswith('hyperlink'):
+            from docx.text.run import Run
+            for run_el in child.findall('.//{http://schemas.openxmlformats.org/wordprocessingml/2006/main}r'):
+                runs.append(Run(run_el, p))
     return runs
 
-def get_blank_image_bytes() -> bytes:
-    img = Image.new("RGBA", (1, 1), (255, 255, 255, 0))
+def convert_image_to_png_bytes(image):
     buf = io.BytesIO()
+    img = Image.open(io.BytesIO(image.blob))
     img.save(buf, format="PNG")
     return buf.getvalue()
 
-def process_paragraph(p, redact_all_dates=False, redact_all_names=False, blank_entire=False, context=""):
+def is_contact_or_address_block(text: str, is_header_footer: bool = False) -> tuple[bool, str]:
+    if not text or not text.strip():
+        return False, ""
+        
+    text_lower = text.lower()
+    is_contact = any(k in text_lower for k in ["www", "http", "email", "@", "telephone", "tel", "fax", "contact"])
+    from redact_engine import POSTAL_CODE_PATTERN
+    has_postcode = bool(POSTAL_CODE_PATTERN.search(text))
+    has_keyword = any(k in text_lower for k in ["street", "road", "avenue", "lane", "drive", "building", "house", "campus", "centre", "center", "park", "office", "gate", "london", "nottingham", "manchester", "oxford", "bucks", "leeds", "birmingham", "tel", "phone", "email", "@", "www", "http", "contact"])
+    is_multiline = "\n" in text.strip()
+    
+    is_address = has_postcode and (has_keyword or is_multiline)
+    has_explicit_office = any(k in text_lower for k in ["head office", "london office", "registered office", "office address"])
+    
+    if is_header_footer and is_contact:
+        return True, "CONTACT_BLOCK"
+        
+    if is_address or has_explicit_office:
+        return True, "ADDRESS_BLOCK"
+        
+    return False, ""
+
+def redact_address_and_contact_paragraphs(paragraphs, is_header_footer=False):
+    n = len(paragraphs)
+    i = 0
+    while i < n:
+        matched = False
+        for sz in range(min(5, n - i), 0, -1):
+            window = paragraphs[i:i+sz]
+            window_text = "\n".join(p.text for p in window).strip()
+            
+            should_remove, cls = is_contact_or_address_block(window_text, is_header_footer)
+            if should_remove:
+                for p in window:
+                    for run in get_all_paragraph_runs(p):
+                        run.text = " "
+                try:
+                    from redaction.redaction_audit import RedactionAudit
+                    RedactionAudit.log({
+                        "candidate": window_text,
+                        "stage": "HEADER_REDACTION" if is_header_footer else "FINAL_DECISION",
+                        "classification": cls,
+                        "decision": "REDACT",
+                        "page": None
+                    })
+                except Exception:
+                    pass
+                i += sz
+                matched = True
+                break
+        if not matched:
+            i += 1
+
+def redact_and_remove_hyperlinks(p):
+    """
+    Finds w:hyperlink elements in the paragraph. If the target URL should be redacted,
+    removes the hyperlink element from the paragraph completely.
+    """
+    from redact_engine import redact_text
+    for child in list(p._element):
+        if child.tag.endswith('hyperlink'):
+            rId = child.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
+            if rId and rId in p.part.rels:
+                rel = p.part.rels[rId]
+                target = rel._target
+                
+                should_remove_link = False
+                if "qualifi" in target.lower() or "qualify" in target.lower():
+                    should_remove_link = True
+                else:
+                    from redact_engine import get_active_patterns, URL_OR_DOMAIN_PATTERN
+                    for pattern in get_active_patterns():
+                        if pattern.search(target):
+                            should_remove_link = True
+                            break
+                    if not should_remove_link and URL_OR_DOMAIN_PATTERN.search(target):
+                        for pattern in get_active_patterns():
+                            if pattern.search(target):
+                                should_remove_link = True
+                                break
+                
+                if should_remove_link:
+                    p._element.remove(child)
+
+def process_paragraph(p, redact_all_names=False, blank_entire=False, context="", is_header_footer=False):
     """Process a paragraph's runs. If blank_entire is True, wipe all run text."""
+    redact_and_remove_hyperlinks(p)
     runs = get_all_paragraph_runs(p)
     if not runs:
         return
@@ -50,9 +139,9 @@ def process_paragraph(p, redact_all_dates=False, redact_all_names=False, blank_e
             run.text = " "
         return
     # Run structural run-combining analysis and redaction
-    redact_paragraph_runs(runs, redact_all_dates=redact_all_dates, redact_all_names=redact_all_names, context=context)
+    redact_paragraph_runs(runs, redact_all_names=redact_all_names, context=context, is_header_footer=is_header_footer)
 
-def process_table(table):
+def process_table(table, is_header_footer=False):
     # 1. Run Relationship-based Submission Location Redaction Engine
     grid = normalize_table(table)
     target_coords = detect_targets(grid)
@@ -76,11 +165,9 @@ def process_table(table):
 
     for row_idx, row in enumerate(table.rows):
         # Keyword scanning
-        row_has_keyword = False
         row_has_name_keyword = False
         row_has_location_keyword = False
         label_cell_idx = -1
-        date_label_cell_indices = set()
 
         # The "label" cell is always the first unique cell in column 0.
         label_cell_text = ""
@@ -92,9 +179,6 @@ def process_table(table):
             if (row_idx, idx) in all_block_coords:
                 continue
             cell_text = "".join(p.text for p in cell.paragraphs).strip()
-            if TABLE_ROW_KEYWORD_PATTERN.search(cell_text):
-                row_has_keyword = True
-                date_label_cell_indices.add(idx)
             if TABLE_ROW_NAME_KEYWORD_PATTERN.search(cell_text):
                 row_has_name_keyword = True
                 label_cell_idx = idx
@@ -114,37 +198,23 @@ def process_table(table):
             if row_has_location_keyword:
                 for p in cell.paragraphs:
                     set_protected_zone(p.text)
-                    process_paragraph(p, blank_entire=True)
+                    process_paragraph(p, blank_entire=True, is_header_footer=is_header_footer)
                 for sub_table in cell.tables:
-                    process_table(sub_table)
+                    process_table(sub_table, is_header_footer=is_header_footer)
                 continue
 
-            is_safe_column = False
-            if idx < len(headers):
-                if SAFE_COLUMN_HEADER_PATTERN.search(headers[idx]):
-                    is_safe_column = True
-
-            # Only redact dates if this is NOT a safe column
-            redact_dates_in_cell = row_has_keyword and not is_safe_column
-
-            # Submission date/time value cells: blank entirely for symmetry
-            if redact_dates_in_cell and idx not in date_label_cell_indices:
-                for p in cell.paragraphs:
-                    set_protected_zone(p.text)
-                    process_paragraph(p, blank_entire=True)
-                for sub_table in cell.tables:
-                    process_table(sub_table)
-                continue
+            # Run address and contact detection on cell paragraphs
+            redact_address_and_contact_paragraphs(cell.paragraphs, is_header_footer=is_header_footer)
 
             # Only run redact_all_names if this is NOT the label cell
             redact_names_in_cell = row_has_name_keyword and (idx != label_cell_idx)
             for p in cell.paragraphs:
                 set_protected_zone(p.text)
-                process_paragraph(p, redact_all_dates=redact_dates_in_cell, redact_all_names=redact_names_in_cell, context=label_cell_text if label_cell_text else "Name")
+                process_paragraph(p, redact_all_names=redact_names_in_cell, context=label_cell_text if label_cell_text else "Name", is_header_footer=is_header_footer)
 
             # Recursively process sub-tables
             for sub_table in cell.tables:
-                process_table(sub_table)
+                process_table(sub_table, is_header_footer=is_header_footer)
 
 def should_stop_paragraph_block(text: str) -> bool:
     """Delegates to the shared stop-block checker."""
@@ -153,7 +223,7 @@ def should_stop_paragraph_block(text: str) -> bool:
 BLOCK_WIPE_LOCATION_PATTERN = re.compile(
     r'\b(?:'
     r'submission\s+(?:location|point|portal|platform|link|method|box|folder|area|mode|type|system|channel|url|address|site|page|form)'
-    r'|submit(?:ted)?\s+(?:to|via|through|using|on|at|by|with)'
+    r'|submit(?:ted)?\s+(?:to|via|through|by)'
     r'|how\s+to\s+submit'
     r'|where\s+to\s+submit'
     r'|electronic(?:ally)?\s+submit(?:ted)?'
@@ -168,18 +238,55 @@ BLOCK_WIPE_LOCATION_PATTERN = re.compile(
 def is_paragraph_target(text: str) -> bool:
     if not text:
         return False
+        
+    from redaction.normalizer import normalize_text
+    norm_text = normalize_text(text)
+    
+    # Do not target academic concepts or exclusions
+    MUST_NEVER_BE_BUSINESS_FIELD = {
+        "research",
+        "research proposal",
+        "research project",
+        "research methods",
+        "research skills",
+        "methodology",
+        "literature review",
+        "findings",
+        "analysis",
+        "discussion",
+        "recommendations",
+        "presentation",
+        "dissertation",
+        "coursework",
+        "assessment criteria",
+        "learning outcomes",
+        "recommended reading",
+        "study hours",
+        "guided study hours",
+        "scheduled teaching hours",
+        "assessment brief",
+        "module guide",
+        "reference list",
+        "academic integrity",
+        "confidentiality"
+    }
+    for excl in MUST_NEVER_BE_BUSINESS_FIELD:
+        if excl in norm_text:
+            return False
+
     if BLOCK_WIPE_LOCATION_PATTERN.search(text):
         return True
+        
     from redaction.target_detector import BUSINESS_REMOVALS
-    from redaction.normalizer import normalize_text
+    from redaction.metadata_field_detector import METADATA_LABELS
     from redaction.fuzzy_matcher import is_fuzzy_match
-    norm_text = normalize_text(text)
-    for clean_target in BUSINESS_REMOVALS:
+    for clean_target in list(BUSINESS_REMOVALS) + list(METADATA_LABELS):
         if is_fuzzy_match(norm_text, clean_target, threshold=85.0, partial=True):
             return True
     return False
 
 def process_docx(input_path: str, output_path: str):
+    os.environ["CURRENT_DOCUMENT_ID"] = os.path.basename(input_path)
     doc = docx.Document(input_path)
     
     # Register document context for the redaction debug logger
@@ -212,7 +319,8 @@ def process_docx(input_path: str, output_path: str):
                 # Determine issuing university from logo OCR text
                 determine_issuing_university(ocr_text)
                 
-                if should_remove:
+                is_header_image = (img.get("location") == "header")
+                if should_remove or is_header_image or is_logo_match(img["bytes"]):
                     images_to_remove.append(img)
     except Exception as ocr_err:
         print(f"Error during pre-scan: {ocr_err}")
@@ -225,29 +333,68 @@ def process_docx(input_path: str, output_path: str):
     clear_cache()
     reset_protected_zone()
     
-    def scan_element_text(text, context=""):
+    def scan_element_text(text, context="", in_table=False, is_header_footer=False):
         if not text or not text.strip():
             return
+        if is_header_footer:
+            from redaction.ownership_manager import scan_text_for_universities
+            scan_text_for_universities(text)
         set_protected_zone(text)
-        classification, action, reasons, score = classify_entity(text, context=context)
+        classification, action, reasons, score = classify_entity(text, context=context, in_table=in_table)
         register_candidate_scan(text, context, classification, action, score, reasons)
+
+        # Scan for Proximity Names
+        from redact_engine import NAME_PROXIMITY_PATTERN, NAME_PATTERN, TABLE_ROW_NAME_KEYWORD_PATTERN
+        for match in NAME_PROXIMITY_PATTERN.finditer(text):
+            name_str = match.group(1).strip()
+            if name_str and len(name_str) > 2:
+                classification, action, reasons, score = classify_entity(name_str, context=match.group(0), in_table=in_table)
+                register_candidate_scan(name_str, match.group(0), classification, action, score, reasons)
+                
+        # Scan for general Names if name keyword exists
+        if TABLE_ROW_NAME_KEYWORD_PATTERN.search(text):
+            for match in NAME_PATTERN.finditer(text):
+                name_str = match.group(0).strip()
+                if name_str and len(name_str) > 2:
+                    start_idx = max(0, match.start() - 120)
+                    end_idx = min(len(text), match.end() + 120)
+                    ctx = text[start_idx:end_idx]
+                    classification, action, reasons, score = classify_entity(name_str, context=ctx, in_table=in_table)
+                    register_candidate_scan(name_str, ctx, classification, action, score, reasons)
+
+        # Scan for Date Candidates
+        from redaction.date_time_detector import find_date_time_spans
+        for start, end, matched_str, m_type in find_date_time_spans(text):
+            if m_type == "DATE":
+                matched_str = matched_str.strip()
+                if matched_str and len(matched_str) > 2:
+                    start_idx = max(0, start - 120)
+                    end_idx = min(len(text), end + 120)
+                    ctx = text[start_idx:end_idx]
+                    classification, action, reasons, score = classify_entity(
+                        matched_str, 
+                        context=ctx, 
+                        source_detector="DATE_CANDIDATE_PATTERN",
+                        in_table=in_table
+                    )
+                    register_candidate_scan(matched_str, ctx, classification, action, score, reasons)
 
     # Paragraphs scan
     for p in doc.paragraphs:
         set_protected_zone(p.text)
         scan_element_text(p.text)
-        
+
     # Tables scan
-    def scan_table(t):
+    def scan_table(t, is_header_footer=False):
         for row in t.rows:
             for cell in row.cells:
                 cell_text = "".join(p.text for p in cell.paragraphs).strip()
-                scan_element_text(cell_text)
+                scan_element_text(cell_text, in_table=True, is_header_footer=is_header_footer)
                 for p in cell.paragraphs:
-                    scan_element_text(p.text)
+                    scan_element_text(p.text, in_table=True, is_header_footer=is_header_footer)
                 for sub_t in cell.tables:
-                    scan_table(sub_t)
-                    
+                    scan_table(sub_t, is_header_footer=is_header_footer)
+
     for table in doc.tables:
         scan_table(table)
         
@@ -255,14 +402,14 @@ def process_docx(input_path: str, output_path: str):
     for section in doc.sections:
         if section.header:
             for p in section.header.paragraphs:
-                scan_element_text(p.text)
+                scan_element_text(p.text, is_header_footer=True)
             for table in section.header.tables:
-                scan_table(table)
+                scan_table(table, is_header_footer=True)
         if section.footer:
             for p in section.footer.paragraphs:
-                scan_element_text(p.text)
+                scan_element_text(p.text, is_header_footer=True)
             for table in section.footer.tables:
-                scan_table(table)
+                scan_table(table, is_header_footer=True)
                 
     # Run the GPT batch review if there are escalated candidates
     issuing_univ = get_issuing_university()
@@ -275,33 +422,46 @@ def process_docx(input_path: str, output_path: str):
     
     # 1. Redact Paragraphs
     reset_protected_zone()
+    
+    # Run address and contact detection on all body paragraphs
+    redact_address_and_contact_paragraphs(doc.paragraphs, is_header_footer=False)
+    
+    # Run address and contact detection on all header/footer paragraphs
+    from redaction.header_footer_processor import get_docx_headers_footers
+    for hf in get_docx_headers_footers(doc):
+        redact_address_and_contact_paragraphs(hf.paragraphs, is_header_footer=True)
+        
     in_location_block = False
     for p in doc.paragraphs:
         set_protected_zone(p.text)
         para_text = p.text.strip()
         if not para_text:
             if in_location_block:
-                process_paragraph(p, blank_entire=True)
+                process_paragraph(p, blank_entire=True, is_header_footer=False)
             continue
             
         if is_paragraph_target(para_text):
-            process_paragraph(p, blank_entire=True)
+            process_paragraph(p, blank_entire=True, is_header_footer=False)
             in_location_block = True
         elif in_location_block:
             if should_stop_paragraph_block(para_text):
                 in_location_block = False
-                process_paragraph(p)
+                process_paragraph(p, is_header_footer=False)
             else:
-                process_paragraph(p, blank_entire=True)
+                process_paragraph(p, blank_entire=True, is_header_footer=False)
         else:
-            process_paragraph(p)
+            process_paragraph(p, is_header_footer=False)
         
     # 2. Redact Tables
     for table in doc.tables:
-        process_table(table)
+        process_table(table, is_header_footer=False)
         
-    # 3. Redact Headers and Footers using specialized processor
-    process_docx_headers_footers(doc, process_paragraph, process_table)
+    # 3. Redact Headers and Footers using specialized processor with wrappers
+    process_docx_headers_footers(
+        doc,
+        lambda p: process_paragraph(p, is_header_footer=True),
+        lambda t: process_table(t, is_header_footer=True)
+    )
 
     # 4. Redact Hyperlink URLs
     for rel_id, rel in doc.part.rels.items():
@@ -313,7 +473,48 @@ def process_docx(input_path: str, output_path: str):
     for img in images_to_remove:
         try:
             remove_logo_inplace(img)
+
+            # Phase 7 Log: Final Decision
+            try:
+                from redaction.redaction_audit import RedactionAudit
+                classification = "HEADER_IMAGE" if img.get("location") == "header" else "UNIVERSITY_BRANDING"
+                stage = "HEADER_REDACTION" if img.get("location") == "header" else "FINAL_DECISION"
+                RedactionAudit.log({
+                    "candidate": f"[IMAGE rId={img['rId']}]",
+                    "stage": stage,
+                    "classification": classification,
+                    "decision": "REDACT",
+                    "decision_source": "UNIVERSITY_BRANDING"
+                })
+            except Exception:
+                pass
+            # Phase 8 Log: Redaction Geometry
+            try:
+                from redaction.redaction_audit import RedactionAudit
+                RedactionAudit.log({
+                    "candidate": f"[IMAGE rId={img['rId']}]",
+                    "page": None,
+                    "stage": "REDACTION_GEOMETRY",
+                    "bbox": None,
+                    "bbox_width": None,
+                    "bbox_height": None,
+                    "ocr_text_inside_bbox": f"[IMAGE rId={img['rId']}]"
+                })
+            except Exception:
+                pass
         except Exception as e:
             print(f"Error removing logo image: {e}")
 
     doc.save(output_path)
+
+    # Write final audit summary report at the very end
+    try:
+        from redaction.redaction_audit import RedactionAudit
+        from redaction.escalation_manager import LOGS_DIR
+        summary = RedactionAudit.generate_summary(doc_id)
+        summary_file = os.path.join(LOGS_DIR, "audit_summary.json")
+        with open(summary_file, "w", encoding="utf-8") as sf:
+            json.dump(summary, sf, indent=2)
+    except Exception as re_err:
+        print(f"Error generating final redaction audit report: {re_err}")
+

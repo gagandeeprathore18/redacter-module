@@ -1,0 +1,1399 @@
+{
+  "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+  "total_candidates": 392,
+  "escalated_candidates": 57,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 57,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 57,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0
+  },
+  "warnings": [
+    {
+      "severity": "HIGH",
+      "message": "Escalation limit exceeded."
+    },
+    {
+      "severity": "HIGH",
+      "message": "Escalation volume exceeds optimization target."
+    }
+  ],
+  "candidates": [
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Length",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Structure of the Dissertation",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Title page",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Contents page",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Conclusions and Recommendations ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Title Page",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Title 2 Example:",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Introduction (1,000 words Approx.)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Informed consent form",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Participation information sheet ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PROTECTED_SECTION",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "PROTECTED_SECTION",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Tables of raw data",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Working with your Supervisor",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Allocation of supervisors",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Contingency plans; Ethical considerations",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "To assess your dissertation",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Key Stage Progress Meetings",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Purpose",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Drafts",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Dissertation \u2013 70%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Dissertation \u2013 70% ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Dissertation (8,000 words)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "TBC",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "AI Status",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Application",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Notes",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Category B",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "DISSERTATION TITLE",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "STUDENT\u2019S NAME",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "STUDENT\u2019S NUMBER",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "BAM6001 DISSERTATION",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_TITLE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_TITLE",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Examination Board",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Supervisor:     NAME",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "CHAPTER\t                                                                       Page",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "\tAbstract\t                                                            i",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "\tAcknowledgement\t                                               ii",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "\tGlossary\t                                                             iii",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Relevance ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Knowledge and Understanding",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Analysis, Creativity and Problem-Solving",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Analysis, Creativity and Problem-Solving ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Self-awareness and Reflection",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Self-awareness and Reflection ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Written English",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Written English ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Presentation and Structure",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Class I\n(Exceptional Quality)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Class I\n(Excellent Quality)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Class II/ii\n(Good Quality)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Class III\n(Satisfactory Quality)",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Demonstrates creativity in places. ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Adequately structured.",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "BorderlineFail\n35% - 39%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Borderline",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Fail\n35% - 39%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Demonstrates little creativity. ",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Fail<34%",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    },
+    {
+      "document_id": "1781846466010_BMP6001_AS2_JAN26_SEM2_-_Assessment_Brief_626787.docx",
+      "candidate": "Fail",
+      "context": "",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 0,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 1.7e-05,
+      "response_time_ms": 387,
+      "token_usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 21,
+        "total_tokens": 47
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE"
+    }
+  ]
+}
