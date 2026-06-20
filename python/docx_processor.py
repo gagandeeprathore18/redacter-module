@@ -242,6 +242,10 @@ def is_paragraph_target(text: str) -> bool:
     from redaction.normalizer import normalize_text
     norm_text = normalize_text(text)
     
+    from redaction.metadata_field_detector import is_metadata_field_to_keep
+    if is_metadata_field_to_keep(text):
+        return False
+    
     # Do not target academic concepts or exclusions
     MUST_NEVER_BE_BUSINESS_FIELD = {
         "research",
@@ -298,22 +302,36 @@ def process_docx(input_path: str, output_path: str):
     clear_issuing_university()
     
     images_to_remove = []
+    image_ocr_results = {}
     try:
         from branding.image_extractor import extract_images_from_docx
-        from branding.image_preprocessor import preprocess_image
-        from branding.ocr_detector import OCRDetector
         from branding.branding_decision import BrandingDecisionEngine
+        from image_processing.pipeline import process_raster_image
+        from redaction.redaction_audit import RedactionAudit
         
         extracted_images = extract_images_from_docx(doc)
         if extracted_images:
-            ocr = OCRDetector()
             decision_engine = BrandingDecisionEngine()
             
             for img in extracted_images:
-                preprocessed_bytes = preprocess_image(img["bytes"])
-                ocr_text = ocr.extract_text(preprocessed_bytes)
-                should_remove, score, breakdown = decision_engine.evaluate_image(img, ocr_text)
+                # Advanced Image Processing Pipeline
+                res = process_raster_image(img["bytes"], img.get("location", ""))
+                image_ocr_results[img["hash"]] = res
+                ocr_text = res["ocr_text"]
                 
+                # Log pre-processing metrics
+                RedactionAudit.log({
+                    "candidate": f"[IMAGE rId={img['rId']}]",
+                    "stage": "IMAGE_PRE_PROCESSING",
+                    "classification": "IMAGE",
+                    "decision": "KEEP",
+                    "ocr_words_detected": res["ocr_words_detected"],
+                    "char_map_entries": res["char_map_entries"],
+                    "screenshot_ui_detected": res["screenshot_ui_detected"],
+                    "screenshot_ui_cropped": 1 if res["screenshot_ui_detected"] else 0,
+                })
+                
+                should_remove, score, breakdown = decision_engine.evaluate_image(img, ocr_text)
                 print(f"Evaluated image {img['rId']}: score={score}, ocr='{ocr_text}', decision={'REMOVE' if should_remove else 'KEEP'}, breakdown={breakdown}")
                 
                 # Determine issuing university from logo OCR text
@@ -504,6 +522,83 @@ def process_docx(input_path: str, output_path: str):
                 pass
         except Exception as e:
             print(f"Error removing logo image: {e}")
+
+    # 5.5. Partial / word-level redactions inside screenshots/images in DOCX
+    from PIL import Image
+    from PIL import ImageDraw
+    import io
+    if 'extracted_images' in locals() and extracted_images:
+        for img in extracted_images:
+            img_hash = img["hash"]
+            if img in images_to_remove:
+                continue
+                
+            if 'image_ocr_results' in locals() and img_hash in image_ocr_results:
+                res = image_ocr_results[img_hash]
+                char_mapper = res["char_mapper"]
+                ocr_text = res["ocr_text"]
+                if char_mapper and ocr_text.strip():
+                    # Find all matches in ocr_text
+                    from redact_engine import (
+                        STUDENT_ID_PATTERN, EMAIL_PATTERN, PHONE_PATTERN, POSTAL_CODE_PATTERN,
+                        NAME_PROXIMITY_PATTERN, is_likely_human_name
+                    )
+                    all_matches = []
+                    patterns = [
+                        (STUDENT_ID_PATTERN, "STUDENT_ID"),
+                        (EMAIL_PATTERN, "EMAIL"),
+                        (PHONE_PATTERN, "PHONE"),
+                        (POSTAL_CODE_PATTERN, "POSTAL_CODE"),
+                    ]
+                    for pattern, classification in patterns:
+                        for m in pattern.finditer(ocr_text):
+                            all_matches.append((m.start(), m.end(), m.group(0), classification))
+                            
+                    for m in NAME_PROXIMITY_PATTERN.finditer(ocr_text):
+                        name_str = m.group(1)
+                        if is_likely_human_name(name_str, context=m.group(0)):
+                            all_matches.append((m.start(1), m.end(1), name_str, "PERSON"))
+                            
+                    if all_matches:
+                        try:
+                            pil_img = Image.open(io.BytesIO(img["bytes"]))
+                            draw = ImageDraw.Draw(pil_img)
+                            modified = False
+                            
+                            for start, end, match_text, classification in all_matches:
+                                sub_bbox = char_mapper.get_bbox_for_span(start, end)
+                                if sub_bbox:
+                                    # Apply adaptive padding
+                                    from image_processing.redaction_padding import get_adaptive_padding
+                                    padded_sub_bbox = get_adaptive_padding(sub_bbox, pil_img.size)
+                                    
+                                    # Sample background color
+                                    from image_processing.background_sampler import sample_local_background
+                                    local_bg = sample_local_background(pil_img, sub_bbox)
+                                    
+                                    px, py, pw, ph = padded_sub_bbox
+                                    draw.rectangle([px, py, px + pw, py + ph], fill=local_bg)
+                                    modified = True
+                                    
+                                    # Log the sub-redaction
+                                    from redaction.redaction_audit import RedactionAudit
+                                    RedactionAudit.log({
+                                        "candidate": match_text,
+                                        "stage": "FINAL_DECISION",
+                                        "classification": classification,
+                                        "decision": "REDACT",
+                                        "background_sampled": True,
+                                        "adaptive_padding": True
+                                    })
+                                    
+                            if modified:
+                                out_bytes_io = io.BytesIO()
+                                fmt = pil_img.format if pil_img.format else "PNG"
+                                pil_img.save(out_bytes_io, format=fmt)
+                                img["part"].blob = out_bytes_io.getvalue()
+                                print(f"Redacted sub-entities inside DOCX image rId={img['rId']} successfully")
+                        except Exception as e:
+                            print(f"Error redacting sub-entities inside DOCX image rId={img['rId']}: {e}")
 
     doc.save(output_path)
 

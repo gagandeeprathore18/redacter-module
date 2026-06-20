@@ -1,0 +1,49 @@
+{
+  "document_id": "1781951569059_redacted_HSC405_-_F_629083732__9_.pdf",
+  "total_candidates": 9,
+  "escalated_candidates": 1,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 1,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 1,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781951569059_redacted_HSC405_-_F_629083732__9_.pdf",
+      "candidate": "Quality Assurance Standards",
+      "context": ", Learners must familiarise themselves with the following policies: \n \n\u2022 Centre Specification \no Can be found at \n \n\u2022 \n Quality Assurance Standards \n\u2022 \n Quality Policy Statement \n \n \nPlagiarism and Collusion \nIn submitting the assignment Learner\u2019s must complete a sta",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 8e-05,
+      "response_time_ms": 3291,
+      "token_usage": {
+        "prompt_tokens": 299,
+        "completion_tokens": 59,
+        "total_tokens": 358
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

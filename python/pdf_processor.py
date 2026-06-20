@@ -14,6 +14,10 @@ from redact_engine import (
 from redaction.stop_patterns import should_stop_block
 from redaction.protected_zone_detector import reset_protected_zone, set_protected_zone
 
+def padded_redaction_rect(page, rect, x_pad=0.8, y_pad=1.6):
+    padded = fitz.Rect(rect.x0 - x_pad, rect.y0 - y_pad, rect.x1 + x_pad, rect.y1 + y_pad)
+    return padded & page.rect
+
 def _is_label_cell(text: str, max_words: int = 8) -> bool:
     """Helper to check if string looks like a short form label, not prose."""
     words = text.split()
@@ -106,6 +110,93 @@ def detect_dominant_page_color(page) -> tuple[float, float, float]:
         return (most_common_color[0] / 255.0, most_common_color[1] / 255.0, most_common_color[2] / 255.0)
     except Exception as e:
         print(f"Error detecting page background color: {e}")
+        return (1.0, 1.0, 1.0)
+
+def detect_local_bg_color(page, rect, page_pix=None) -> tuple[float, float, float]:
+    """
+    Detects the background color around a specific rect on the page by sampling
+    pixels from the page pixmap OUTSIDE the rect boundaries.
+    This avoids sampling dark text glyph pixels that bias the result.
+    """
+    if page_pix is None:
+        return (1.0, 1.0, 1.0)
+    try:
+        width = page_pix.width
+        height = page_pix.height
+        page_rect = page.rect
+
+        # Map page coordinates to pixmap pixel coordinates
+        rx0 = int((rect.x0 - page_rect.x0) * (width / page_rect.width))
+        ry0 = int((rect.y0 - page_rect.y0) * (height / page_rect.height))
+        rx1 = int((rect.x1 - page_rect.x0) * (width / page_rect.width))
+        ry1 = int((rect.y1 - page_rect.y0) * (height / page_rect.height))
+
+        # Clamp to pixmap boundaries
+        rx0 = max(0, min(rx0, width - 1))
+        ry0 = max(0, min(ry0, height - 1))
+        rx1 = max(0, min(rx1, width - 1))
+        ry1 = max(0, min(ry1, height - 1))
+
+        colors = []
+        # Margin in pixels to sample OUTSIDE the rect
+        margin = 5
+
+        # Sample pixels along a ring just OUTSIDE the rect boundaries
+        # Top edge (above the rect)
+        sample_y_top = max(0, ry0 - margin)
+        for x in range(rx0, rx1 + 1, max(1, (rx1 - rx0) // 8)):
+            x = min(x, width - 1)
+            if 0 <= x < width and 0 <= sample_y_top < height:
+                colors.append(page_pix.pixel(x, sample_y_top)[:3])
+
+        # Bottom edge (below the rect)
+        sample_y_bot = min(height - 1, ry1 + margin)
+        for x in range(rx0, rx1 + 1, max(1, (rx1 - rx0) // 8)):
+            x = min(x, width - 1)
+            if 0 <= x < width and 0 <= sample_y_bot < height:
+                colors.append(page_pix.pixel(x, sample_y_bot)[:3])
+
+        # Left edge (left of the rect)
+        sample_x_left = max(0, rx0 - margin)
+        for y in range(ry0, ry1 + 1, max(1, (ry1 - ry0) // 4)):
+            y = min(y, height - 1)
+            if 0 <= sample_x_left < width and 0 <= y < height:
+                colors.append(page_pix.pixel(sample_x_left, y)[:3])
+
+        # Right edge (right of the rect)
+        sample_x_right = min(width - 1, rx1 + margin)
+        for y in range(ry0, ry1 + 1, max(1, (ry1 - ry0) // 4)):
+            y = min(y, height - 1)
+            if 0 <= sample_x_right < width and 0 <= y < height:
+                colors.append(page_pix.pixel(sample_x_right, y)[:3])
+
+        # Also sample the four corners just outside the rect
+        corners = [
+            (max(0, rx0 - margin), max(0, ry0 - margin)),
+            (min(width - 1, rx1 + margin), max(0, ry0 - margin)),
+            (max(0, rx0 - margin), min(height - 1, ry1 + margin)),
+            (min(width - 1, rx1 + margin), min(height - 1, ry1 + margin)),
+        ]
+        for cx, cy in corners:
+            if 0 <= cx < width and 0 <= cy < height:
+                colors.append(page_pix.pixel(cx, cy)[:3])
+
+        # Filter out dark pixels (likely text strokes or borders)
+        bg_colors = [c for c in colors if sum(c) > 200]
+        if not bg_colors:
+            # Relax threshold if all samples are dark
+            bg_colors = [c for c in colors if sum(c) > 100]
+        if not bg_colors:
+            bg_colors = colors
+
+        if not bg_colors:
+            return (1.0, 1.0, 1.0)
+
+        from collections import Counter
+        most_common, _ = Counter(bg_colors).most_common(1)[0]
+        return (most_common[0] / 255.0, most_common[1] / 255.0, most_common[2] / 255.0)
+    except Exception as e:
+        print(f"Error detecting local bg color: {e}")
         return (1.0, 1.0, 1.0)
 
 def get_text_style_for_rect(page, rect):
@@ -339,11 +430,12 @@ def process_pdf(input_path: str, output_path: str):
             sys.path.insert(0, root_dir)
             
         from branding.image_preprocessor import preprocess_image
-        from branding.ocr_detector import OCRDetector
         from branding.branding_decision import BrandingDecisionEngine
+        from image_processing.pipeline import process_raster_image
+        from redaction.redaction_audit import RedactionAudit
         
-        ocr = OCRDetector()
         decision_engine = BrandingDecisionEngine()
+        image_ocr_results = {}
         
         for img_hash, occurrences in image_metadata_map.items():
             first_occ = occurrences[0]
@@ -355,9 +447,22 @@ def process_pdf(input_path: str, output_path: str):
                 "repeat_count": image_counts[img_hash]
             }
             
-            # Preprocess image and run OCR
-            preprocessed_bytes = preprocess_image(first_occ["bytes"])
-            ocr_text = ocr.extract_text(preprocessed_bytes)
+            # Advanced Image Processing Pipeline
+            res = process_raster_image(first_occ["bytes"], first_occ["location"])
+            image_ocr_results[img_hash] = res
+            ocr_text = res["ocr_text"]
+            
+            # Log pre-processing metrics
+            RedactionAudit.log({
+                "candidate": f"[IMAGE xref={first_occ['xref']}]",
+                "stage": "IMAGE_PRE_PROCESSING",
+                "classification": "IMAGE",
+                "decision": "KEEP",
+                "ocr_words_detected": res["ocr_words_detected"],
+                "char_map_entries": res["char_map_entries"],
+                "screenshot_ui_detected": res["screenshot_ui_detected"],
+                "screenshot_ui_cropped": 1 if res["screenshot_ui_detected"] else 0,
+            })
             
             should_remove, score, breakdown = decision_engine.evaluate_image(img_meta, ocr_text)
             print(f"PDF Evaluated image {first_occ['xref']}: score={score}, ocr='{ocr_text}', decision={'REMOVE' if should_remove else 'KEEP'}, breakdown={breakdown}")
@@ -522,7 +627,12 @@ def process_pdf(input_path: str, output_path: str):
     for page_num in range(len(doc)):
         page = doc[page_num]
         
-        # Detect background color dynamically
+        # Get page pixmap once for dominant and local color detection
+        try:
+            page_pix = page.get_pixmap()
+        except Exception:
+            page_pix = None
+            
         page_bg_color = detect_dominant_page_color(page)
         replacements_to_apply = []
         
@@ -576,7 +686,9 @@ def process_pdf(input_path: str, output_path: str):
                 
                 if is_header_footer_contact or is_valid_address:
                     rect = fitz.Rect(x0, y0, x1, y1)
-                    page.add_redact_annot(rect, fill=page_bg_color)
+                    padded_rect = padded_redaction_rect(page, rect)
+                    local_bg = detect_local_bg_color(page, padded_rect, page_pix)
+                    page.add_redact_annot(padded_rect, fill=local_bg)
                     
                     cls = "CONTACT_BLOCK" if is_header_footer_contact else "ADDRESS_BLOCK"
                     # Audit log header block redaction
@@ -721,22 +833,12 @@ def process_pdf(input_path: str, output_path: str):
             if not rects:
                 rects = page.search_for(matched_str)
             for rect in rects:
-                PAD_X = 2
-                PAD_Y = 1
-                x0, y0, x1, y1 = rect.x0, rect.y0, rect.x1, rect.y1
-                x0 += PAD_X
-                x1 -= PAD_X
-                y0 += PAD_Y
-                y1 -= PAD_Y
-                
-                if x1 > x0 and y1 > y0:
-                    tight_rect = fitz.Rect(x0, y0, x1, y1)
-                else:
-                    tight_rect = rect
+                padded_rect = padded_redaction_rect(page, rect)
                                
-                _log_pdf(matched_str, _cls, page_num + 1, tight_rect, normalized_text[:500])
+                _log_pdf(matched_str, _cls, page_num + 1, padded_rect, normalized_text[:500])
                 
-                page.add_redact_annot(tight_rect, text=replacement, fill=page_bg_color)
+                local_bg = detect_local_bg_color(page, padded_rect, page_pix)
+                page.add_redact_annot(padded_rect, text=replacement, fill=local_bg)
   
                 # Phase 7 Log: Final Decision
                 try:
@@ -799,7 +901,9 @@ def process_pdf(input_path: str, output_path: str):
                     # Visually redact the hyperlink text
                     rect = link.get("from")
                     if rect:
-                        page.add_redact_annot(rect, fill=page_bg_color)
+                        padded_rect = padded_redaction_rect(page, rect)
+                        local_bg = detect_local_bg_color(page, padded_rect, page_pix)
+                        page.add_redact_annot(padded_rect, fill=local_bg)
  
         # 3. Redact Logos/Images
         image_list = page.get_images(full=True)
@@ -824,7 +928,8 @@ def process_pdf(input_path: str, output_path: str):
                     rects = page.get_image_rects(xref)
                     for rect in rects:
                         # Redact the image location by overlaying a page-colored box
-                        page.add_redact_annot(rect, fill=page_bg_color)
+                        local_bg = detect_local_bg_color(page, rect, page_pix)
+                        page.add_redact_annot(rect, fill=local_bg)
                         
                         # Log it
                         _log_pdf(f"[IMAGE xref={xref}]", "HEADER_IMAGE" if is_header_image else "UNIVERSITY_BRANDING", page_num + 1, rect)
@@ -844,6 +949,80 @@ def process_pdf(input_path: str, output_path: str):
                             })
                         except Exception:
                             pass
+                else:
+                    # Partial / word-level redaction inside the screenshot/image
+                    if 'image_ocr_results' in locals() and img_hash in image_ocr_results:
+                        res = image_ocr_results[img_hash]
+                        char_mapper = res["char_mapper"]
+                        ocr_text = res["ocr_text"]
+                        if char_mapper and ocr_text.strip():
+                            # Find all matches in ocr_text
+                            all_matches = []
+                            patterns = [
+                                (STUDENT_ID_PATTERN, "STUDENT_ID"),
+                                (EMAIL_PATTERN, "EMAIL"),
+                                (PHONE_PATTERN, "PHONE"),
+                                (POSTAL_CODE_PATTERN, "POSTAL_CODE"),
+                            ]
+                            for pattern, classification in patterns:
+                                for m in pattern.finditer(ocr_text):
+                                    all_matches.append((m.start(), m.end(), m.group(0), classification))
+                                    
+                            for m in NAME_PROXIMITY_PATTERN.finditer(ocr_text):
+                                name_str = m.group(1)
+                                if is_likely_human_name(name_str, context=m.group(0)):
+                                    all_matches.append((m.start(1), m.end(1), name_str, "PERSON"))
+                                    
+                            # Determine image coordinates for each match
+                            rects = page.get_image_rects(xref)
+                            for rect in rects:
+                                pw = rect.x1 - rect.x0
+                                ph = rect.y1 - rect.y0
+                                try:
+                                    from PIL import Image
+                                    import io
+                                    pil_img = Image.open(io.BytesIO(base_image["image"]))
+                                    iw_px, ih_px = pil_img.size
+                                except Exception:
+                                    continue
+                                    
+                                x_scale = pw / iw_px
+                                y_scale = ph / ih_px
+                                
+                                for start, end, match_text, classification in all_matches:
+                                    sub_bbox = char_mapper.get_bbox_for_span(start, end)
+                                    if sub_bbox:
+                                        ix, iy, iw, ih = sub_bbox
+                                        page_x0 = rect.x0 + ix * x_scale
+                                        page_y0 = rect.y0 + iy * y_scale
+                                        page_x1 = page_x0 + iw * x_scale
+                                        page_y1 = page_y0 + ih * y_scale
+                                        
+                                        sub_rect = fitz.Rect(page_x0, page_y0, page_x1, page_y1)
+                                        
+                                        # Apply padding
+                                        from image_processing.redaction_padding import get_adaptive_padding
+                                        padded_sub_bbox = get_adaptive_padding([page_x0, page_y0, page_x1 - page_x0, page_y1 - page_y0])
+                                        padded_sub_rect = fitz.Rect(padded_sub_bbox[0], padded_sub_bbox[1], padded_sub_bbox[0] + padded_sub_bbox[2], padded_sub_bbox[1] + padded_sub_bbox[3])
+                                        padded_sub_rect = padded_sub_rect & page.rect
+                                        
+                                        # Sample background color
+                                        from image_processing.background_sampler import sample_local_background
+                                        local_bg = sample_local_background(pil_img, sub_bbox)
+                                        local_bg_float = (local_bg[0]/255.0, local_bg[1]/255.0, local_bg[2]/255.0)
+                                        
+                                        page.add_redact_annot(padded_sub_rect, fill=local_bg_float)
+                                        
+                                        # Log the sub-redaction
+                                        from redaction.redaction_audit import RedactionAudit
+                                        RedactionAudit.log({
+                                            "candidate": match_text,
+                                            "stage": "FINAL_DECISION",
+                                            "classification": classification,
+                                            "decision": "REDACT",
+                                            "background_sampled": True,
+                                            "adaptive_padding": True
+                                        })
  
                         # Phase 7 Log: Final Decision
                         try:

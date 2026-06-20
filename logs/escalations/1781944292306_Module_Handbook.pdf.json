@@ -1,0 +1,124 @@
+{
+  "document_id": "1781944292306_Module_Handbook.pdf",
+  "total_candidates": 38,
+  "escalated_candidates": 4,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 4,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 4,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 0
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781944292306_Module_Handbook.pdf",
+      "candidate": "INDICATIVE CONTENT",
+      "context": " of a project of appropriate complexity within a workplace; \n\u2022 Critically evaluate own ability to manage a project. \n \n INDICATIVE CONTENT \n\u2022 Project sponsors, stakeholders and scope. \n\u2022 Tools & techniques of project management. \n\u2022 Project communication meth",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.6e-05,
+      "response_time_ms": 1273,
+      "token_usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 52,
+        "total_tokens": 214
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781944292306_Module_Handbook.pdf",
+      "candidate": "Transferable Skills",
+      "context": "nitive and Intellectual Skills \n \n20 \n \n \n \n \n \n \n \n \n \n \n4. Practical Application Skills \n \n30 \n \n \n \n \n \n \n \n \n \n \n5. Transferable Skills for Life and Professional Practice \n \n15 \n \n \n \n \n \n \n \n \n \n \n \nAssessment Mark (Assessment marks are subject to ratifi",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.6e-05,
+      "response_time_ms": 1273,
+      "token_usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 52,
+        "total_tokens": 214
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781944292306_Module_Handbook.pdf",
+      "candidate": "Professional Practice",
+      "context": "\n20 \n \n \n \n \n \n \n \n \n \n \n4. Practical Application Skills \n \n30 \n \n \n \n \n \n \n \n \n \n \n5. Transferable Skills for Life and Professional Practice \n \n15 \n \n \n \n \n \n \n \n \n \n \n \nAssessment Mark (Assessment marks are subject to ratification at the \nExam Board. These co",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.6e-05,
+      "response_time_ms": 1273,
+      "token_usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 52,
+        "total_tokens": 214
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781944292306_Module_Handbook.pdf",
+      "candidate": "Exam Board",
+      "context": "rofessional Practice \n \n15 \n \n \n \n \n \n \n \n \n \n \n \nAssessment Mark (Assessment marks are subject to ratification at the \nExam Board. These comments and marks are to give feedback on module work \nand are for guidance only until they are confirmed. ) \nL",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "SUBMISSION_EVENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.6e-05,
+      "response_time_ms": 1273,
+      "token_usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 52,
+        "total_tokens": 214
+      },
+      "final_classification": "SUBMISSION_EVENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

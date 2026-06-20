@@ -197,12 +197,12 @@ def process_pptx(input_path: str, output_path: str):
         if root_dir not in sys.path:
             sys.path.insert(0, root_dir)
             
-        from branding.image_preprocessor import preprocess_image
-        from branding.ocr_detector import OCRDetector
         from branding.branding_decision import BrandingDecisionEngine
+        from image_processing.pipeline import process_raster_image
+        from redaction.redaction_audit import RedactionAudit
         
-        ocr = OCRDetector()
         decision_engine = BrandingDecisionEngine()
+        image_ocr_results = {}
         
         for img_hash, occurrences in image_metadata_map.items():
             first_occ = occurrences[0]
@@ -214,8 +214,22 @@ def process_pptx(input_path: str, output_path: str):
                 "repeat_count": image_counts[img_hash]
             }
             
-            preprocessed_bytes = preprocess_image(first_occ["bytes"])
-            ocr_text = ocr.extract_text(preprocessed_bytes)
+            # Advanced Image Processing Pipeline
+            res = process_raster_image(first_occ["bytes"], first_occ["location"])
+            image_ocr_results[img_hash] = res
+            ocr_text = res["ocr_text"]
+            
+            # Log pre-processing metrics
+            RedactionAudit.log({
+                "candidate": f"[IMAGE hash={img_hash}]",
+                "stage": "IMAGE_PRE_PROCESSING",
+                "classification": "IMAGE",
+                "decision": "KEEP",
+                "ocr_words_detected": res["ocr_words_detected"],
+                "char_map_entries": res["char_map_entries"],
+                "screenshot_ui_detected": res["screenshot_ui_detected"],
+                "screenshot_ui_cropped": 1 if res["screenshot_ui_detected"] else 0,
+            })
             
             should_remove, score, breakdown = decision_engine.evaluate_image(img_meta, ocr_text)
             print(f"PPTX Evaluated image: score={score}, ocr='{ocr_text}', decision={'REMOVE' if should_remove else 'KEEP'}, breakdown={breakdown}")
@@ -362,6 +376,71 @@ def process_pptx(input_path: str, output_path: str):
                         })
                     except Exception:
                         pass
+                else:
+                    # Partial / word-level redactions inside the screenshot/image in PPTX
+                    if 'image_ocr_results' in locals() and blob_hash in image_ocr_results:
+                        res = image_ocr_results[blob_hash]
+                        char_mapper = res["char_mapper"]
+                        ocr_text = res["ocr_text"]
+                        if char_mapper and ocr_text.strip():
+                            from redact_engine import (
+                                STUDENT_ID_PATTERN, EMAIL_PATTERN, PHONE_PATTERN, POSTAL_CODE_PATTERN,
+                                NAME_PROXIMITY_PATTERN, is_likely_human_name
+                            )
+                            all_matches = []
+                            patterns = [
+                                (STUDENT_ID_PATTERN, "STUDENT_ID"),
+                                (EMAIL_PATTERN, "EMAIL"),
+                                (PHONE_PATTERN, "PHONE"),
+                                (POSTAL_CODE_PATTERN, "POSTAL_CODE"),
+                            ]
+                            for pattern, classification in patterns:
+                                for m in pattern.finditer(ocr_text):
+                                    all_matches.append((m.start(), m.end(), m.group(0), classification))
+                                    
+                            for m in NAME_PROXIMITY_PATTERN.finditer(ocr_text):
+                                name_str = m.group(1)
+                                if is_likely_human_name(name_str, context=m.group(0)):
+                                    all_matches.append((m.start(1), m.end(1), name_str, "PERSON"))
+                                    
+                            if all_matches:
+                                try:
+                                    from PIL import Image, ImageDraw
+                                    pil_img = Image.open(io.BytesIO(blob))
+                                    draw = ImageDraw.Draw(pil_img)
+                                    modified = False
+                                    
+                                    for start, end, match_text, classification in all_matches:
+                                        sub_bbox = char_mapper.get_bbox_for_span(start, end)
+                                        if sub_bbox:
+                                            from image_processing.redaction_padding import get_adaptive_padding
+                                            padded_sub_bbox = get_adaptive_padding(sub_bbox, pil_img.size)
+                                            
+                                            from image_processing.background_sampler import sample_local_background
+                                            local_bg = sample_local_background(pil_img, sub_bbox)
+                                            
+                                            px, py, pw, ph = padded_sub_bbox
+                                            draw.rectangle([px, py, px + pw, py + ph], fill=local_bg)
+                                            modified = True
+                                            
+                                            from redaction.redaction_audit import RedactionAudit
+                                            RedactionAudit.log({
+                                                "candidate": match_text,
+                                                "stage": "FINAL_DECISION",
+                                                "classification": classification,
+                                                "decision": "REDACT",
+                                                "background_sampled": True,
+                                                "adaptive_padding": True
+                                            })
+                                            
+                                    if modified:
+                                        out_bytes_io = io.BytesIO()
+                                        fmt = pil_img.format if pil_img.format else "PNG"
+                                        pil_img.save(out_bytes_io, format=fmt)
+                                        part._blob = out_bytes_io.getvalue()
+                                        print(f"Redacted sub-entities inside PPTX image hash={blob_hash} successfully")
+                                except Exception as e:
+                                    print(f"Error redacting sub-entities inside PPTX image hash={blob_hash}: {e}")
                     # Phase 8 Log: Redaction Geometry
                     try:
                         from redaction.redaction_audit import RedactionAudit

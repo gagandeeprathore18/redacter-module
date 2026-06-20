@@ -10955,5 +10955,583 @@
         "word_count": 2
       }
     ]
+  },
+  "1781944292306_Module_Handbook.pdf": {
+    "total_extracted": 38,
+    "filtered_out": 7,
+    "remaining_candidates": 31,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 1,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 6
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Learning Outcomes",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "LEARNING OUTCOMES",
+        "reason": "STRUCTURAL_CONTENT",
+        "category": "ACADEMIC_SECTION",
+        "word_count": 2
+      },
+      {
+        "candidate": "Study Time Allocation",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Generic Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Literature Skills",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Late Submission Penalties",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      }
+    ]
+  },
+  "1781944694835_Module_Handbook.pdf": {
+    "total_extracted": 43,
+    "filtered_out": 7,
+    "remaining_candidates": 36,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 1,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 6
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Learning Outcomes",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "LEARNING OUTCOMES",
+        "reason": "STRUCTURAL_CONTENT",
+        "category": "ACADEMIC_SECTION",
+        "word_count": 2
+      },
+      {
+        "candidate": "Study Time Allocation",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Generic Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Literature Skills",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Late Submission Penalties",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      }
+    ]
+  },
+  "1781945120351_Module_Handbook.pdf": {
+    "total_extracted": 43,
+    "filtered_out": 7,
+    "remaining_candidates": 36,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 1,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 6
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Learning Outcomes",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "LEARNING OUTCOMES",
+        "reason": "STRUCTURAL_CONTENT",
+        "category": "ACADEMIC_SECTION",
+        "word_count": 2
+      },
+      {
+        "candidate": "Study Time Allocation",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Generic Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Literature Skills",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Late Submission Penalties",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      }
+    ]
+  },
+  "1781946617617_HSC405_-_F_629083732.pdf": {
+    "total_extracted": 10,
+    "filtered_out": 5,
+    "remaining_candidates": 5,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 5
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Qualifi Quality Policy Statement",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 4
+      },
+      {
+        "candidate": "Word Count Policy",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Centre Manager",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Programme Director",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Centre Manager",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      }
+    ]
+  },
+  "1781951569059_redacted_HSC405_-_F_629083732__9_.pdf": {
+    "total_extracted": 9,
+    "filtered_out": 5,
+    "remaining_candidates": 4,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 5
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Quality Policy Statement",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Word Count Policy",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Centre Manager",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Programme Director",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Centre Manager",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      }
+    ]
+  },
+  "1781953558881_HSC405_-_F_629083732.pdf": {
+    "total_extracted": 10,
+    "filtered_out": 5,
+    "remaining_candidates": 5,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 0,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 0,
+      "HEADING_CONTENT": 5
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Qualifi Quality Policy Statement",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 4
+      },
+      {
+        "candidate": "Word Count Policy",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Centre Manager",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Programme Director",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Centre Manager",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      }
+    ]
+  },
+  "1781953595539_Module_Handbook.pdf": {
+    "total_extracted": 43,
+    "filtered_out": 8,
+    "remaining_candidates": 35,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 0,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 1,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 1,
+      "HEADING_CONTENT": 6
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Assignment Title",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Module Learning Outcomes",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "TASK DESCRIPTION",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "LEARNING OUTCOMES",
+        "reason": "STRUCTURAL_CONTENT",
+        "category": "ACADEMIC_SECTION",
+        "word_count": 2
+      },
+      {
+        "candidate": "Study Time Allocation",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Generic Assessment Criteria",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Literature Skills",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Late Submission Penalties",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      }
+    ]
+  },
+  "1781953643631_JAN24-BTM5_1124384600.pdf": {
+    "total_extracted": 83,
+    "filtered_out": 32,
+    "remaining_candidates": 51,
+    "rejection_breakdown": {
+      "PARAGRAPH_CONTENT": 4,
+      "LONG_TEXT": 0,
+      "MULTI_SENTENCE": 0,
+      "STRUCTURAL_CONTENT": 1,
+      "INSTRUCTIONAL_CONTENT": 0,
+      "FRAGMENT_CONTENT": 1,
+      "HEADING_CONTENT": 26
+    },
+    "rejected_candidates": [
+      {
+        "candidate": "Module Assignment Brief",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Assignment No",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assignment Type",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Case Study Report",
+        "reason": "FRAGMENT_CONTENT",
+        "word_count": 3
+      },
+      {
+        "candidate": "Assignment Word",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Submission Deadlines",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Summative Deadline",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Late Submission",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "All Grade",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Assignment Requirements",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Integrity",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Research Requirements",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Recommended Reading",
+        "reason": "STRUCTURAL_CONTENT",
+        "category": "REFERENCE_SECTION",
+        "word_count": 2
+      },
+      {
+        "candidate": "The Financial Times",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "Suspected Academic Misconduct",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 3
+      },
+      {
+        "candidate": "The Assignment",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Misconduct",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Integrity",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Misconduct",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Misconduct",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Integrity",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Lecturer. This",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Misconduct. It",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Misconduct",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "At Level",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Fail. The",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Misconduct",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Misconduct. You",
+        "reason": "PARAGRAPH_CONTENT",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Misconduct",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Student Integrity",
+        "reason": "HEADING_CONTENT",
+        "category": "TITLE_CASE_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Misconduct",
+        "reason": "HEADING_CONTENT",
+        "category": "KNOWN_HEADING",
+        "word_count": 2
+      },
+      {
+        "candidate": "Academic Integrity",
+        "reason": "HEADING_CONTENT",
+        "category": "PROTECTED_ACADEMIC_HEADING",
+        "word_count": 2
+      }
+    ]
   }
 }

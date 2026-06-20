@@ -29,10 +29,16 @@ PHONE_PATTERN = re.compile(
 )
 URL_PATTERN = re.compile(r'\b(?:https?://|www\.)[a-zA-Z0-9-._~:/?#\[\]@!$&\'()*+,;=]+\b', re.IGNORECASE)
 POSTAL_CODE_PATTERN = re.compile(r'\b\d{5}(?:-\d{4})?\b|\b[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}\b', re.IGNORECASE)
+GREETINGS_PATTERN = re.compile(r"(?im)^(\s*(?:Dear|Hi|Hello)\s+)([A-Za-z\s\-]{2,50})(?=,|$)")
+AUTHOR_METADATA_PATTERN = re.compile(r"(?i)(\b(?:submitted\s+by|prepared\s+by|written\s+by|author(?:s)?)\s*[:\-]?\s*)([A-Za-z\s\-]{2,50})(?=\n|\r|$)")
+COPYRIGHT_PATTERN = re.compile(r"(?i)copyright\s+(?:©\s+|\(c\)\s+)?\d{4}.*")
 
 # Metadata Field patterns
 try:
-    from redaction.metadata_field_detector import METADATA_LABELS, METADATA_LABELS_TO_KEEP
+    try:
+        from python.redaction.metadata_field_detector import METADATA_LABELS, METADATA_LABELS_TO_KEEP
+    except ImportError:
+        from redaction.metadata_field_detector import METADATA_LABELS, METADATA_LABELS_TO_KEEP
     _redact_labels = METADATA_LABELS - METADATA_LABELS_TO_KEEP
     _sorted_labels = sorted(list(_redact_labels), key=len, reverse=True)
     _escaped_labels = [re.escape(label).replace(r'\ ', r'\s+') for label in _sorted_labels]
@@ -41,7 +47,7 @@ try:
         re.IGNORECASE
     )
 except Exception:
-    METADATA_FIELD_PATTERN = re.compile(r'\b(?:Academic Year|Module Code|Module Lead|Submission Deadline)\b(?:\s*[:\-–—\s]\s*[^\n]{0,80}|[ \t]+[^\n]{0,80}|[ \t]*$)', re.IGNORECASE)
+    METADATA_FIELD_PATTERN = re.compile(r'\b(?:Academic Year|Module Lead|Submission Deadline)\b(?:\s*[:\-–—\s]\s*[^\n]{0,80}|[ \t]+[^\n]{0,80}|[ \t]*$)', re.IGNORECASE)
 
 
 # Name patterns
@@ -333,6 +339,20 @@ def redact_paragraph_runs(runs, redact_all_dates=False, redact_all_names=False, 
     for start, end, matched_str, m_type in find_date_time_spans(full_text):
         cls_label = "DATE_CANDIDATE" if m_type == "DATE" else "TIME_VALUE"
         all_matches.append((start, end, matched_str, " ", cls_label))
+
+    # Greetings & Salutations (matches names)
+    for m in GREETINGS_PATTERN.finditer(full_text):
+        name_str = m.group(2)
+        all_matches.append((m.start(2), m.end(2), name_str, " ", "PERSON"))
+
+    # Author/Prepared By Metadata (matches names)
+    for m in AUTHOR_METADATA_PATTERN.finditer(full_text):
+        name_str = m.group(2)
+        all_matches.append((m.start(2), m.end(2), name_str, " ", "PERSON"))
+
+    # Copyright Blocks
+    for m in COPYRIGHT_PATTERN.finditer(full_text):
+        all_matches.append((m.start(), m.end(), m.group(0), " ", "UNIVERSITY_BRANDING"))
 
     # Redact Names via Proximity Pattern
     for m in NAME_PROXIMITY_PATTERN.finditer(full_text):

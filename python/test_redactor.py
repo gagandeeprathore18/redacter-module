@@ -237,7 +237,7 @@ def create_test_pdf(filename: str):
 
     # Insert university_2 logo
     if os.path.exists(logo_path):
-        page.insert_image(fitz.Rect(50, 430, 200, 580), filename=logo_path)
+        page.insert_image(fitz.Rect(50, 450, 200, 580), filename=logo_path)
         
     doc.save(filename)
     doc.close()
@@ -284,6 +284,50 @@ def create_test_pptx(filename: str):
         
     prs.save(filename)
     print(f"Created test PPTX: {filename}")
+
+def create_test_image(filename: str):
+    from PIL import Image, ImageDraw, ImageFont
+    # Create a 800x600 image with white background
+    img = Image.new("RGB", (800, 600), color=(255, 255, 255))
+    draw = ImageDraw.Draw(img)
+    
+    font_path = "/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf"
+    try:
+        font = ImageFont.truetype(font_path, 20)
+        large_font = ImageFont.truetype(font_path, 26)
+    except Exception:
+        font = ImageFont.load_default()
+        large_font = font
+
+    # Draw simulated top mobile screenshot UI (top 15% is y < 90)
+    # Draw multiple time and battery indicators to ensure EasyOCR detects at least one perfectly
+    draw.text((20, 10), "09:41", fill=(0, 0, 0), font=large_font)
+    draw.text((150, 10), "12:00", fill=(0, 0, 0), font=large_font)
+    draw.text((300, 10), "www.google.com", fill=(0, 0, 0), font=large_font)
+    draw.text((550, 10), "100%", fill=(0, 0, 0), font=large_font)
+    # Draw a line representing status bar boundary
+    draw.line([(0, 38), (800, 38)], fill=(200, 200, 200), width=2)
+    
+    # Draw header branding text inside top 15% zone
+    # Using 'Buckinghamshire New University' to trigger the mock university detection
+    draw.text((50, 50), "Buckinghamshire New University Coursework Handout", fill=(0, 0, 0), font=font)
+    
+    # Body elements
+    # Student ID: ST12345
+    draw.text((50, 120), "Student ID: ST12345", fill=(0, 0, 0), font=font)
+    
+    # Tutor Name
+    draw.text((50, 160), "Tutor Name: Claire Ngo", fill=(0, 0, 0), font=font)
+    
+    # Contact Email (with buckinghamshire domain bucks.ac.uk)
+    draw.text((50, 200), "Email: student@bucks.ac.uk", fill=(0, 0, 0), font=font)
+    
+    # Some academic text that shouldn't be redacted
+    draw.text((50, 240), "Module: Research Methods in Social Sciences", fill=(0, 0, 0), font=font)
+    draw.text((50, 280), "Reference List: Managing Innovation by Tidd & Bessant", fill=(0, 0, 0), font=font)
+    
+    img.save(filename)
+    print(f"Created test Image: {filename}")
  
 def run_tests():
     temp_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "temp_test")
@@ -295,10 +339,13 @@ def run_tests():
     out_pdf = os.path.join(temp_dir, "output.pdf")
     in_pptx = os.path.join(temp_dir, "input.pptx")
     out_pptx = os.path.join(temp_dir, "output.pptx")
+    in_img = os.path.join(temp_dir, "input.png")
+    out_img = os.path.join(temp_dir, "output.png")
     
     create_test_docx(in_docx)
     create_test_pdf(in_pdf)
     create_test_pptx(in_pptx)
+    create_test_image(in_img)
     
     print("\n--- Running Redaction Processes ---")
     
@@ -378,13 +425,13 @@ def run_tests():
     assert "Assessment Brief" in docx_text, "DOCX: 'Assessment Brief' (academic exclusion) was incorrectly redacted"
     assert "Confidentiality" in docx_text, "DOCX: 'Confidentiality' section was incorrectly redacted"
     assert "Academic Integrity" in docx_text, "DOCX: 'Academic Integrity' section was incorrectly redacted"
-
     # Assertions for human names being redacted
     assert "Claire Ngo" not in docx_text, "DOCX: Claire Ngo not redacted"
     assert "Sarah Johnson" not in docx_text, "DOCX: Sarah Johnson not redacted"
     assert "Michael Brown" not in docx_text, "DOCX: Michael Brown not redacted"
     assert "Academic Year" not in docx_text, "DOCX: Academic Year not redacted"
-    assert "BM414" not in docx_text, "DOCX: BM414 not redacted"
+    # Verify Module Code is preserved
+    assert "BM414" in docx_text, "DOCX: BM414 not preserved"
 
 
     print("DOCX Redaction Verification: SUCCESS")
@@ -426,7 +473,8 @@ def run_tests():
     assert "Health and Social Care" in pdf_text, "PDF: Programme value got redacted"
     assert "Research Methods" in pdf_text, "PDF: Module name value got redacted"
     assert "Academic Year" not in pdf_text, "PDF: Academic Year not redacted"
-    assert "BM414" not in pdf_text, "PDF: BM414 not redacted"
+    # Verify Module Code is preserved
+    assert "BM414" in pdf_text, "PDF: BM414 not preserved"
 
     # Assertions for header branding & logo removal metrics
     from python.redaction.redaction_audit import RedactionAudit
@@ -467,9 +515,41 @@ def run_tests():
     assert "Turnitin VLE online portal" not in pptx_text, "PPTX: Submission location value not redacted"
     assert "Blackboard submission folder" not in pptx_text, "PPTX: Submit-to value not redacted"
     assert "Academic Year" not in pptx_text, "PPTX: Academic Year not redacted"
-    assert "BM414" not in pptx_text, "PPTX: BM414 not redacted"
+    # Verify Module Code is preserved
+    assert "BM414" in pptx_text, "PPTX: BM414 not preserved"
 
     print("PPTX Redaction Verification: SUCCESS")
+    
+    # 4. Test Image
+    from PIL import Image as PILImage
+    
+    from python.image_processing.pipeline import process_raster_image
+    with open(in_img, "rb") as f:
+        res = process_raster_image(f.read(), "body")
+    print("OCR Words detected in test:")
+    for w in res["ocr_words"]:
+        print(f"  Word: {repr(w.text)}, bbox: {w.bbox}")
+    print(f"Screenshot UI detected: {res['screenshot_ui_detected']}, crop_top: {res['crop_top']}, crop_bottom: {res['crop_bottom']}")
+        
+    process_image(in_img, out_img)
+    
+    assert os.path.exists(out_img), "Image: Output file was not created"
+    
+    out_pil = PILImage.open(out_img)
+    print(f"Input image size: 800x600, Output image size: {out_pil.size}")
+    assert out_pil.size[1] < 600, f"Expected image height to be cropped due to screenshot UI, but got {out_pil.size[1]}"
+    
+    from python.redaction.redaction_audit import RedactionAudit
+    img_summary = RedactionAudit.generate_summary("input.png")
+    print(f"Image Redaction Audit Summary: {img_summary}")
+    assert img_summary.get("image_documents_processed", 0) > 0, "Expected image_documents_processed > 0"
+    assert img_summary.get("image_redactions_applied", 0) > 0, "Expected image_redactions_applied > 0"
+    assert img_summary.get("screenshot_ui_detected", 0) > 0, "Expected screenshot_ui_detected > 0"
+    assert img_summary.get("screenshot_ui_cropped", 0) > 0, "Expected screenshot_ui_cropped > 0"
+    assert img_summary.get("background_sampled_redactions", 0) > 0, "Expected background_sampled_redactions > 0"
+    assert img_summary.get("adaptive_padding_redactions", 0) > 0, "Expected adaptive_padding_redactions > 0"
+    
+    print("Image Redaction Verification: SUCCESS")
     
     print("\n--- ALL TESTS COMPLETED SUCCESSFULLY ---")
 

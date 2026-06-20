@@ -12,6 +12,7 @@ if root_dir not in sys.path:
 from docx_processor import process_docx
 from pdf_processor import process_pdf
 from pptx_processor import process_pptx
+from image_processor import process_image
 
 def main():
     parser = argparse.ArgumentParser(description="Document Drafting & Redaction Engine - Phase 1 (POC)")
@@ -35,8 +36,10 @@ def main():
             process_pdf(args.input_path, args.output_path)
         elif ext == ".pptx":
             process_pptx(args.input_path, args.output_path)
+        elif ext in (".jpg", ".jpeg", ".png"):
+            process_image(args.input_path, args.output_path)
         else:
-            print(f"Error: Unsupported file format '{ext}'. Supported formats: DOCX, PDF, PPTX.", file=sys.stderr)
+            print(f"Error: Unsupported file format '{ext}'. Supported formats: DOCX, PDF, PPTX, JPG, JPEG, PNG.", file=sys.stderr)
             sys.exit(1)
             
         print("Redaction completed successfully!")

@@ -322,6 +322,15 @@ class RedactionAudit:
         rubric_matches = 0
         rubric_sections_preserved = 0
         
+        ocr_words_detected = 0
+        char_map_entries = 0
+        background_sampled_redactions = 0
+        adaptive_padding_redactions = 0
+        screenshot_ui_detected = 0
+        screenshot_ui_cropped = 0
+        image_documents_processed = 0
+        image_redactions_applied = 0
+        
         header_images_detected = 0
         header_images_removed = 0
         address_blocks_detected = 0
@@ -388,6 +397,19 @@ class RedactionAudit:
                 dates_sent_to_gpt_set.add(cand)
             
             # Count telemetry metrics
+            ocr_words_detected += entry.get("ocr_words_detected", 0)
+            char_map_entries += entry.get("char_map_entries", 0)
+            image_documents_processed += entry.get("image_documents_processed", 0)
+            image_redactions_applied += entry.get("image_redactions_applied", 0)
+            if entry.get("background_sampled", False):
+                background_sampled_redactions += 1
+            if entry.get("adaptive_padding", False):
+                adaptive_padding_redactions += 1
+            if entry.get("screenshot_ui_detected", False):
+                screenshot_ui_detected += 1
+            if entry.get("screenshot_ui_cropped", False):
+                screenshot_ui_cropped += 1
+
             if stage == "PARAGRAPH_FILTER" or reason == "PARAGRAPH_CONTENT":
                 paragraph_candidates_removed += 1
             if stage == "GRADING_BAND_FILTER" or reason == "GRADING_BAND":
@@ -514,6 +536,14 @@ class RedactionAudit:
         
         summary = {
             "document": doc_id,
+            "ocr_words_detected": ocr_words_detected,
+            "char_map_entries": char_map_entries,
+            "background_sampled_redactions": background_sampled_redactions,
+            "adaptive_padding_redactions": adaptive_padding_redactions,
+            "screenshot_ui_detected": screenshot_ui_detected,
+            "screenshot_ui_cropped": screenshot_ui_cropped,
+            "image_documents_processed": image_documents_processed,
+            "image_redactions_applied": image_redactions_applied,
             "header_images_detected": header_images_detected,
             "header_images_removed": header_images_removed,
             "address_blocks_detected": address_blocks_detected,

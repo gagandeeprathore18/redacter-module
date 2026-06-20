@@ -1,0 +1,149 @@
+{
+  "document_id": "1781945120351_Module_Handbook.pdf",
+  "total_candidates": 43,
+  "escalated_candidates": 5,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 5
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 0,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 5
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781945120351_Module_Handbook.pdf",
+      "candidate": "19th June, by 11:59pm",
+      "context": " report & Reflective \nblogs \nWord \ncount \n(or \nequivalent): \n1000 (blogs) \n2000 (report) \nSubmission \ndeadline: \nBlogs: 19th June, by 11:59pm. \nReport: 3rd July, by 11:59pm. \nReturn \ndate \nof \nprovisional marks \n& written feedback: \n \nSubmission \nmethod: \nAll w",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ADMINISTRATIVE_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.5e-05,
+      "response_time_ms": 883,
+      "token_usage": {
+        "prompt_tokens": 143,
+        "completion_tokens": 55,
+        "total_tokens": 198
+      },
+      "final_classification": "ADMINISTRATIVE_DATE",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781945120351_Module_Handbook.pdf",
+      "candidate": "3rd July, by 11:59pm",
+      "context": "d \ncount \n(or \nequivalent): \n1000 (blogs) \n2000 (report) \nSubmission \ndeadline: \nBlogs: 19th June, by 11:59pm. \nReport: 3rd July, by 11:59pm. \nReturn \ndate \nof \nprovisional marks \n& written feedback: \n \nSubmission \nmethod: \nAll written assessments, where pract",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ADMINISTRATIVE_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.5e-05,
+      "response_time_ms": 883,
+      "token_usage": {
+        "prompt_tokens": 143,
+        "completion_tokens": 55,
+        "total_tokens": 198
+      },
+      "final_classification": "ADMINISTRATIVE_DATE",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781945120351_Module_Handbook.pdf",
+      "candidate": "19th June",
+      "context": " sources to underpin your work, and list these in the form of a \nbibliography. Your blogs must be uploaded to Moodle by 19th June. \n",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.5e-05,
+      "response_time_ms": 883,
+      "token_usage": {
+        "prompt_tokens": 143,
+        "completion_tokens": 55,
+        "total_tokens": 198
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781945120351_Module_Handbook.pdf",
+      "candidate": "3rd July",
+      "context": "ct. What went well, \nwhat didn\u2019t go so well? \n\u2022 Your report should cover the entire project lifecycle. \n \n \n \nDeadline: 3rd July. \n \nPresentation \n \nYour project team must deliver a presentation, explaining your project in detail. Between you, your",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.5e-05,
+      "response_time_ms": 883,
+      "token_usage": {
+        "prompt_tokens": 143,
+        "completion_tokens": 55,
+        "total_tokens": 198
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781945120351_Module_Handbook.pdf",
+      "candidate": "29th June",
+      "context": "nsor \u2013 so use this knowledge to deliver a positive, \nengaging presentation. \n \nYou will be delivering this in class the 29th June. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 5.5e-05,
+      "response_time_ms": 883,
+      "token_usage": {
+        "prompt_tokens": 143,
+        "completion_tokens": 55,
+        "total_tokens": 198
+      },
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

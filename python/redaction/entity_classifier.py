@@ -224,6 +224,12 @@ _DETECTOR_CLASSIFICATION_LOCK = {
     "ACADEMIC_TITLE_PATTERN":    ("ACADEMIC_TITLE",    "KEEP"),
     "DATE_CANDIDATE_PATTERN":    ("DATE_CANDIDATE",    "REDACT"),
     "TIME_VAL_PATTERN":          ("TIME_VALUE",        "REDACT"),
+    "EMAIL_PATTERN":             ("EMAIL",             "REDACT"),
+    "STUDENT_ID_PATTERN":        ("STUDENT_ID",        "REDACT"),
+    "PHONE_PATTERN":             ("PHONE",             "REDACT"),
+    "POSTAL_CODE_PATTERN":       ("POSTAL_CODE",       "REDACT"),
+    "UNIVERSITY_BRANDING":       ("UNIVERSITY_BRANDING", "REDACT"),
+    "UNIVERSITY_ENTITY":         ("UNIVERSITY_ENTITY",   "REDACT"),
 }
 
 # Final decision matrix  (Priority 8)
@@ -261,6 +267,26 @@ def classify_entity(
         norm_text = text.lower().strip()
         if "qualifi" in norm_text or "qualify" in norm_text:
             return "UNIVERSITY_BRANDING", "REDACT", ["qualifi_branding_pregate"], 100
+
+        # ---------------------------------------------------------------
+        # URL or Domain Selective Lock
+        # ---------------------------------------------------------------
+        if source_detector == "URL_OR_DOMAIN_PATTERN":
+            from redaction.ownership_manager import get_active_patterns, get_issuing_aliases
+            is_uni_url = False
+            for pattern in get_active_patterns():
+                if pattern.search(text):
+                    is_uni_url = True
+                    break
+            if not is_uni_url:
+                for alias in get_issuing_aliases():
+                    if len(alias) > 3 and alias.lower() in norm_text:
+                        is_uni_url = True
+                        break
+            if is_uni_url:
+                return "UNIVERSITY_BRANDING", "REDACT", ["university_url_lock"], 100
+            else:
+                return "URL_OR_DOMAIN", "KEEP", ["non_university_url_lock"], 100
 
         # ---------------------------------------------------------------
         # Historical Date Filter (Year < 2015)

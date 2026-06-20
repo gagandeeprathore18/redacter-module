@@ -11,17 +11,19 @@ class TestDateTimeDetector(unittest.TestCase):
         self.assertEqual(matches[1][2], "7-2-27")
 
     def test_ordinal_dates(self):
-        text = "Feedback Release Date: 19th June 2026 or 26th June 2026"
+        text = "Feedback Release Date: 19th June 2026 or 26th June 2026 or 19th June"
         matches = find_date_time_spans(text)
-        self.assertEqual(len(matches), 2)
+        self.assertEqual(len(matches), 3)
         self.assertEqual(matches[0][2], "19th June 2026")
         self.assertEqual(matches[1][2], "26th June 2026")
+        self.assertEqual(matches[2][2], "19th June")
 
     def test_month_first_dates(self):
-        text = "UPDATED FEBRUARY 17, 2026"
+        text = "UPDATED FEBRUARY 17, 2026 or February 17"
         matches = find_date_time_spans(text)
-        self.assertEqual(len(matches), 1)
+        self.assertEqual(len(matches), 2)
         self.assertEqual(matches[0][2], "FEBRUARY 17, 2026")
+        self.assertEqual(matches[1][2], "February 17")
 
     def test_times(self):
         text = "Submit before 23:59 or 4pm or 5PM or 1600hours or 2:00 pm"

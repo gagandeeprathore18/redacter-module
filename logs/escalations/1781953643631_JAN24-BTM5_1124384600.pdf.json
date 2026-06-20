@@ -1,0 +1,674 @@
+{
+  "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+  "total_candidates": 79,
+  "escalated_candidates": 26,
+  "escalation_breakdown": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 24,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 2
+  },
+  "top_escalation_reasons": {
+    "LOW_CONFIDENCE": 0,
+    "CLASSIFIER_CONFLICT": 0,
+    "UNKNOWN_PATTERN": 24,
+    "HIGH_IMPACT_ACTION": 0,
+    "UNIVERSITY_BRANDING_VERIFICATION": 0,
+    "DATE_CANDIDATE_ESCALATION": 2
+  },
+  "warnings": [],
+  "candidates": [
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "6th July 2026, 2:00pm",
+      "context": "end of this document in the Table of Penalties. \n \nSubmission Deadlines: (Day: Date & Time) \nSummative Deadline \nMonday 6th July 2026, 2:00pm \nLate Submission \nWednesday 8th July 2026, 2:00pm \nGrade & Feedback \nrelease Dates \nAll Grade and Feeback release dates",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ADMINISTRATIVE_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ADMINISTRATIVE_DATE",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "8th July 2026, 2:00pm",
+      "context": "\nSubmission Deadlines: (Day: Date & Time) \nSummative Deadline \nMonday 6th July 2026, 2:00pm \nLate Submission \nWednesday 8th July 2026, 2:00pm \nGrade & Feedback \nrelease Dates \nAll Grade and Feeback release dates are 21 days after the submission date. If an assi",
+      "python_prediction": "DATE_CANDIDATE",
+      "python_confidence": 100,
+      "escalation_reasons": [
+        "DATE_CANDIDATE_ESCALATION"
+      ],
+      "escalation_reason": "DATE_CANDIDATE_ESCALATION",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ADMINISTRATIVE_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ADMINISTRATIVE_DATE",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "WHAT ARE YOU BEING ASKED TO DO",
+      "context": " \nAssignment \ntask/s to be \ncompleted \nWHAT ARE YOU BEING ASKED TO DO? \n \nYour case study report must address the following core areas, each aligned to the module learning \noutcomes: \n \n1. ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Microsoft Word",
+      "context": "propriately. \n \nAdditional \nInformation \nrequired to \nsupport \ncompleting \nthe tasks \nabove \n\u2022 \nFormat: Submit a single Microsoft Word document formatted as a professional report. A \nclear structure with headings and subheadings is expected. Visual aids ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Random Interviews",
+      "context": " link by the deadline. Late submissions and \nother infractions will be handled in accordance with CCCU regulations. \n\u2022 \nRandom Interviews: Selected students may be required to participate in a random \ninterview to discuss their submission. Further guidance ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Brandon-Jones",
+      "context": "Sources for \nResearch \n\u2022 \nSlack, N., Brandon-Jones, A. and Burgess, N. (2023). Essentials Of Operations \nManagement. 3rd.ed. Harlow: Pearson Education Limited. \n \nRecomme",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Essentials Of Operations",
+      "context": "Sources for \nResearch \n\u2022 \nSlack, N., Brandon-Jones, A. and Burgess, N. (2023). Essentials Of Operations \nManagement. 3rd.ed. Harlow: Pearson Education Limited. \n \nRecommended Reading: \n\u2022 \nSlack, N., Brandon-Jones, A. and Bu",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Pearson Education Limited",
+      "context": "Research \n\u2022 \nSlack, N., Brandon-Jones, A. and Burgess, N. (2023). Essentials Of Operations \nManagement. 3rd.ed. Harlow: Pearson Education Limited. \n \nRecommended Reading: \n\u2022 \nSlack, N., Brandon-Jones, A. and Burgess, N. (2022). Operations Management. 10th \nedition.",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Brandon-Jones",
+      "context": "Essentials Of Operations \nManagement. 3rd.ed. Harlow: Pearson Education Limited. \n \nRecommended Reading: \n\u2022 \nSlack, N., Brandon-Jones, A. and Burgess, N. (2022). Operations Management. 10th \nedition. Harlow: Pearson Education Limited. \n\u2022 \nCamilleri, M. ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "PERSON",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "PERSON",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Pearson Education Limited",
+      "context": "mmended Reading: \n\u2022 \nSlack, N., Brandon-Jones, A. and Burgess, N. (2022). Operations Management. 10th \nedition. Harlow: Pearson Education Limited. \n\u2022 \nCamilleri, M. A. (ed) (2024). Tourism planning and destination marketing. 2nd ed. \nBingley: Emerald Publishing. \n\u2022",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Emerald Publishing",
+      "context": "rson Education Limited. \n\u2022 \nCamilleri, M. A. (ed) (2024). Tourism planning and destination marketing. 2nd ed. \nBingley: Emerald Publishing. \n\u2022 \nJohnston, R., Shulver, M., Slack, N. and Clark, G. (2021). Service Operations Management \n5th ed. Harlow: Pearson ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Pearson Education Limited",
+      "context": "blishing. \n\u2022 \nJohnston, R., Shulver, M., Slack, N. and Clark, G. (2021). Service Operations Management \n5th ed. Harlow: Pearson Education Limited. \n\u2022 \nPaton, S., Clegg, B., Hsuan, J. and Pilkington, A. (2021). Operations management. London: \nMcGraw-Hill. \n \nJournal",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "McGraw-Hill",
+      "context": "arson Education Limited. \n\u2022 \nPaton, S., Clegg, B., Hsuan, J. and Pilkington, A. (2021). Operations management. London: \nMcGraw-Hill. \n \nJournals \n\u2022 \nInternational Journal of Operations & Production Management \n\u2022 \nJournal of Hospitality and Tourism Man",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Sustainable Tourism",
+      "context": "ality and Tourism Management \n\u2022 \nJournal of Operations Management \n\u2022 \nJournal of Strategy and Management \n\u2022 \nJournal of Sustainable Tourism \n\u2022 \nManagement Science \n\u2022 \nOperations Management Research \n\u2022 \nStrategic Management Journal \n \nWebsites, News and Magazi",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Chartered Institute",
+      "context": "gement Science \n\u2022 \nOperations Management Research \n\u2022 \nStrategic Management Journal \n \nWebsites, News and Magazines: \n\u2022 \nChartered Institute of Procurement & Supply (www.cips.org) \n\u2022 \nChartered Institute of Logistics & Transport (ciltuk.org.uk) \n\u2022 \nThe Economi",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Chartered Institute",
+      "context": " Management Journal \n \nWebsites, News and Magazines: \n\u2022 \nChartered Institute of Procurement & Supply (www.cips.org) \n\u2022 \nChartered Institute of Logistics & Transport (ciltuk.org.uk) \n\u2022 \nThe Economist \n\u2022 \nThe Financial Times \n \nFormat of your submission and how",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "The Economist",
+      "context": "d Institute of Procurement & Supply (www.cips.org) \n\u2022 \nChartered Institute of Logistics & Transport (ciltuk.org.uk) \n\u2022 \nThe Economist \n\u2022 \nThe Financial Times \n \nFormat of your submission and how your assignment will be assessed \nThis assignment should b",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "UNIVERSITY_BRANDING",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "UNIVERSITY_BRANDING",
+      "action": "REDACT",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Exceptional Circumstances",
+      "context": "eadline will incur a late penalty as specified in CCCU Academic \nregulations unless prior approval has been granted for Exceptional Circumstances. \n \nYour work will be assessed on the extent to which it demonstrates your achievement of the stated learning \n",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "The Oral",
+      "context": "s not apply. \nFor a presentation assignment that \nrequires oral delivery, and the student \ndoes not present in person. \nThe Oral rubric criteria is not moved, and the oral criteria will remain at zero. \nFor a presentation assignment and the \nstuden",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "To Word File",
+      "context": "the oral criteria will remain at zero. \nFor a presentation assignment and the \nstudent does not upload a converted PPT \nTo Word File with speaker notes. \nThe communication rubric criteria is not moved, and the communication \ncriteria will remain at zer",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 25,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Group Poster",
+      "context": "f a Group Presentation is 12 \nslides a minimum of 3 must be different to \nthe group submission. If the assignment is \na Group Poster with 6 text boxes then a \nminimum of 2 of them must be different \nto the Group Poster. \nhas not changed\u2019. \nWhere a writ",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Group Poster",
+      "context": "bmission. If the assignment is \na Group Poster with 6 text boxes then a \nminimum of 2 of them must be different \nto the Group Poster. \nhas not changed\u2019. \nWhere a written assignment has text that \nis unable to be read by Turnitin because it \nis either a",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Where False",
+      "context": "cturer will grade \nas 1 and written feedback will also show \u2018This assignment has no citations \nand no reference list\u2019. \nWhere False references are included in an \nassignment. \nThis will be referred for Academic Misconduct. \n \nThis assignment will be g",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "English Proficiency",
+      "context": "sis of ideas, discussion or conclusions. \n\u2022 \nThe generation of new findings or creation of graphs, charts or images. \n \nEnglish Proficiency and the use of GenAI. \nStudents can make use of a spelling and grammar checker to correct misspelled words and to corre",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Microsoft Word",
+      "context": "nslation software or third-party translators is a form of academic misconduct. \nProofreading: \nStudents can make use of Microsoft Word\u2019s grammar and spell-checking functions but the use of Grammarly is not allowed as it \nuses AI text generation. If stude",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    },
+    {
+      "document_id": "1781953643631_JAN24-BTM5_1124384600.pdf",
+      "candidate": "Self-Plagiarism",
+      "context": "the student\u2019s own work but was jointly written with somebody \nelse; this is a form of academic misconduct. \nDuplication/Self-Plagiarism: \nThe inclusion in assessments of a significant amount of identical or substantially similar material to that already s",
+      "python_prediction": "UNKNOWN",
+      "python_confidence": 20,
+      "escalation_reasons": [
+        "UNKNOWN_PATTERN"
+      ],
+      "escalation_reason": "UNKNOWN_PATTERN",
+      "classifier_1": null,
+      "classifier_2": null,
+      "gpt_prediction": "ACADEMIC_CONTENT",
+      "gpt_confidence": 100,
+      "request_cost_usd": 4.7e-05,
+      "response_time_ms": 751,
+      "token_usage": {
+        "prompt_tokens": 109,
+        "completion_tokens": 51,
+        "total_tokens": 160
+      },
+      "final_classification": "ACADEMIC_CONTENT",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
+    }
+  ]
+}

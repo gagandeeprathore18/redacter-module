@@ -59,6 +59,10 @@ export async function POST(request: NextRequest) {
         contentType = "application/vnd.openxmlformats-officedocument.presentationml.presentation";
       } else if (fileExt.toLowerCase() === ".pdf") {
         contentType = "application/pdf";
+      } else if (fileExt.toLowerCase() === ".png") {
+        contentType = "image/png";
+      } else if (fileExt.toLowerCase() === ".jpg" || fileExt.toLowerCase() === ".jpeg") {
+        contentType = "image/jpeg";
       }
 
       // Return the file for download

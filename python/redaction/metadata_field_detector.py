@@ -81,7 +81,8 @@ METADATA_LABELS_TO_KEEP = {
     "qualification title",
     "qualification level",
     "awarding body",
-    "brief released"
+    "brief released",
+    "module code"
 }
 
 def is_metadata_field_to_keep(text: str) -> bool:

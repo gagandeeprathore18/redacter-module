@@ -32,18 +32,18 @@
       "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 6.2e-05,
+      "response_time_ms": 1322,
       "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
+        "prompt_tokens": 164,
+        "completion_tokens": 63,
+        "total_tokens": 227
       },
-      "final_classification": "DATE_CANDIDATE",
-      "action": "REDACT",
-      "gpt_authoritative": false
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
     },
     {
       "document_id": "input.pdf",
@@ -57,18 +57,18 @@
       "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 6.2e-05,
+      "response_time_ms": 1322,
       "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
+        "prompt_tokens": 164,
+        "completion_tokens": 63,
+        "total_tokens": 227
       },
-      "final_classification": "DATE_CANDIDATE",
-      "action": "REDACT",
-      "gpt_authoritative": false
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
     },
     {
       "document_id": "input.pdf",
@@ -82,18 +82,18 @@
       "escalation_reason": "DATE_CANDIDATE_ESCALATION",
       "classifier_1": null,
       "classifier_2": null,
-      "gpt_prediction": null,
-      "gpt_confidence": null,
-      "request_cost_usd": 0.0,
-      "response_time_ms": 0,
+      "gpt_prediction": "ACADEMIC_DATE",
+      "gpt_confidence": 100,
+      "request_cost_usd": 6.2e-05,
+      "response_time_ms": 1322,
       "token_usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
+        "prompt_tokens": 164,
+        "completion_tokens": 63,
+        "total_tokens": 227
       },
-      "final_classification": "DATE_CANDIDATE",
-      "action": "REDACT",
-      "gpt_authoritative": false
+      "final_classification": "ACADEMIC_DATE",
+      "action": "PRESERVE",
+      "gpt_authoritative": true
     }
   ]
 }

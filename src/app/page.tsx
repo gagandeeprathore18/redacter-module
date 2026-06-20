@@ -44,7 +44,7 @@ export default function Home() {
   };
 
   const addFiles = (newFiles: File[]) => {
-    const supportedExts = [".docx", ".pdf", ".pptx"];
+    const supportedExts = [".docx", ".pdf", ".pptx", ".jpg", ".jpeg", ".png"];
     
     newFiles.forEach((file) => {
       const ext = file.name.slice(file.name.lastIndexOf(".")).toLowerCase();
@@ -163,7 +163,7 @@ export default function Home() {
               onChange={handleFileChange}
               style={{ display: "none" }}
               multiple
-              accept=".docx,.pdf,.pptx"
+              accept=".docx,.pdf,.pptx,.jpg,.jpeg,.png"
             />
             <div className="upload-icon-wrapper">
               <svg
@@ -184,7 +184,7 @@ export default function Home() {
             <div className="upload-instruction">
               Drag & Drop your document here or <span style={{ color: "var(--color-primary)" }}>Browse</span>
             </div>
-            <div className="upload-formats">Supported formats: DOCX, PDF, PPTX</div>
+            <div className="upload-formats">Supported formats: DOCX, PDF, PPTX, JPG, JPEG, PNG</div>
           </div>
         </section>
 
@@ -212,8 +212,10 @@ export default function Home() {
                             ? "file-icon-docx"
                             : file.ext === ".pdf"
                             ? "file-icon-pdf"
-                            : "file-icon-pptx"
+                            : file.ext === ".pptx"
                             ? "file-icon-pptx"
+                            : [".jpg", ".jpeg", ".png"].includes(file.ext)
+                            ? "file-icon-img"
                             : ""
                         }`}
                       >
